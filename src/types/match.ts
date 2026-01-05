@@ -1,0 +1,42 @@
+export type Sport = 'soccer' | 'baseball' | 'basketball';
+export type MatchType = 'normal' | 'handicap' | 'underover';
+export type MatchStatus = 'open' | 'closed';
+
+export interface Match {
+  id: string;
+  sport: Sport;
+  league: string;
+  homeTeam: string;
+  awayTeam: string;
+  matchType: MatchType;
+  odds: {
+    home: number;
+    draw?: number;  // 축구만
+    away: number;
+  };
+  deadline: Date;
+  status: MatchStatus;
+}
+
+export interface Combination {
+  matches: {
+    match: Match;
+    selected: 'home' | 'draw' | 'away';
+    selectedOdds: number;
+  }[];
+  totalOdds: number;
+  estimatedPayout: number;  // 배팅액 기준 예상 환급금
+}
+
+export interface FilterOptions {
+  targetOdds?: number;  // 목표 배당
+  oddsRange?: {
+    min: number;
+    max: number;
+  };
+  matchCount?: number;  // 몇 폴더
+  betAmount?: number;   // 배팅 금액
+  allowedSports?: Sport[];
+  allowedMatchTypes?: MatchType[];
+  avoidSameLeague?: boolean;
+}
