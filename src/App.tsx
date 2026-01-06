@@ -123,7 +123,7 @@ function App() {
       case 'home':
         return '#4a9eff'; // 파란색
       case 'draw':
-        return '#ffc107'; // 노란색
+        return '#22c55e'; // 초록색
       case 'away':
         return '#ff4444'; // 빨간색
     }
@@ -454,6 +454,9 @@ function App() {
                       <span style={{ fontSize: '1.1rem', fontWeight: '500' }}>
                         {String(item.match.gameNumber).padStart(3, '0')}
                       </span>
+                      <span style={{ fontSize: '1.1rem', fontWeight: '500', color: '#888' }}>
+                        -
+                      </span>
                       <span style={{
                         fontSize: '1.1rem',
                         fontWeight: '600',
@@ -461,7 +464,14 @@ function App() {
                       }}>
                         {getSelectedLabel(item.selected)}
                       </span>
-                      <span style={{ fontSize: '1.1rem', fontWeight: '600' }}>
+                      <span style={{
+                        background: 'rgba(255, 193, 7, 0.2)',
+                        color: '#ffc107',
+                        padding: '4px 10px',
+                        borderRadius: '6px',
+                        fontSize: '1.1rem',
+                        fontWeight: '600'
+                      }}>
                         {item.selectedOdds.toFixed(2)}
                       </span>
                     </div>
