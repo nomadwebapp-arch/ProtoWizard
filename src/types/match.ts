@@ -5,6 +5,8 @@ export type MatchStatus = 'open' | 'closed';
 export interface Match {
   id: string;
   baseMatchId: string;  // 실제 경기 식별자 (동일 경기의 다른 베팅 타입은 같은 baseMatchId)
+  roundNumber: string;  // 회차 번호 (예: "260003" = 26년도 3회차)
+  gameNumber: number;   // 경기 번호 (회차 내 경기 순번)
   sport: Sport;
   league: string;
   homeTeam: string;

@@ -23,8 +23,9 @@ export function generateRandomCombination(
     allowedMatchTypes,
   } = options;
 
-  // 사용 가능한 경기 필터링
-  let availableMatches = matches.filter(m => m.status === 'open');
+  // 사용 가능한 경기 필터링 (마감 시간 체크 추가)
+  const now = new Date();
+  let availableMatches = matches.filter(m => m.status === 'open' && m.deadline > now);
 
   if (allowedSports && allowedSports.length > 0) {
     availableMatches = availableMatches.filter(m => allowedSports.includes(m.sport));
@@ -53,7 +54,7 @@ export function generateRandomCombination(
       betAmount
     );
 
-    if (combination && validateCombination(combination, options)) {
+    if (combination && validateCombination(combination)) {
       return combination;
     }
   }
@@ -105,7 +106,7 @@ function tryGenerateCombination(
   };
 }
 
-function validateCombination(combination: Combination, options: FilterOptions): boolean {
+function validateCombination(combination: Combination): boolean {
   // 0. 동일 경기 중복 체크 (프로토 규칙: 동일 경기의 다른 베팅 타입 조합 불가)
   const baseMatchIds = new Set<string>();
   for (const match of combination.matches) {
@@ -124,20 +125,7 @@ function validateCombination(combination: Combination, options: FilterOptions): 
     }
   }
 
-  // 2. 동일 리그 과다 체크 (같은 리그 3개 이상 금지)
-  if (options.avoidSameLeague) {
-    const leagueCounts = new Map<string, number>();
-    for (const match of combination.matches) {
-      const count = leagueCounts.get(match.match.league) || 0;
-      leagueCounts.set(match.match.league, count + 1);
-
-      if (count + 1 >= 3) {
-        return false;
-      }
-    }
-  }
-
-  // 3. 극단적 고배당 몰림 체크 (5.0 이상 배당이 2개 이상이면 제거)
+  // 2. 극단적 고배당 몰림 체크 (5.0 이상 배당이 2개 이상이면 제거)
   const highOddsCount = combination.matches.filter(m => m.selectedOdds >= 5.0).length;
   if (highOddsCount >= 2) {
     return false;

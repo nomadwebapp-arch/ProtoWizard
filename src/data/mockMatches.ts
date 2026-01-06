@@ -6,6 +6,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M001',
     baseMatchId: 'BM001',
+    roundNumber: '260003',
+    gameNumber: 1,
     sport: 'soccer',
     league: 'EPL',
     homeTeam: 'Arsenal',
@@ -22,6 +24,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M001-H',
     baseMatchId: 'BM001',  // 동일 경기 (Arsenal vs Chelsea)
+    roundNumber: '260003',
+    gameNumber: 1,
     sport: 'soccer',
     league: 'EPL',
     homeTeam: 'Arsenal',
@@ -38,6 +42,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M002',
     baseMatchId: 'BM002',
+    roundNumber: '260003',
+    gameNumber: 2,
     sport: 'soccer',
     league: 'EPL',
     homeTeam: 'Manchester City',
@@ -54,6 +60,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M003',
     baseMatchId: 'BM003',
+    roundNumber: '260003',
+    gameNumber: 3,
     sport: 'soccer',
     league: '분데스리가',
     homeTeam: 'Bayern Munich',
@@ -70,6 +78,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M004',
     baseMatchId: 'BM004',
+    roundNumber: '260003',
+    gameNumber: 4,
     sport: 'soccer',
     league: 'La Liga',
     homeTeam: 'Real Madrid',
@@ -88,6 +98,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M005',
     baseMatchId: 'BM005',
+    roundNumber: '260003',
+    gameNumber: 5,
     sport: 'baseball',
     league: 'MLB',
     homeTeam: 'NY Yankees',
@@ -103,6 +115,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M006',
     baseMatchId: 'BM006',
+    roundNumber: '260003',
+    gameNumber: 6,
     sport: 'baseball',
     league: 'KBO',
     homeTeam: 'LG 트윈스',
@@ -120,6 +134,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M007',
     baseMatchId: 'BM007',
+    roundNumber: '260003',
+    gameNumber: 7,
     sport: 'basketball',
     league: 'NBA',
     homeTeam: 'LA Lakers',
@@ -135,6 +151,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M008',
     baseMatchId: 'BM008',
+    roundNumber: '260003',
+    gameNumber: 8,
     sport: 'basketball',
     league: 'NBA',
     homeTeam: 'Boston Celtics',
@@ -152,6 +170,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M009',
     baseMatchId: 'BM009',
+    roundNumber: '260003',
+    gameNumber: 9,
     sport: 'soccer',
     league: 'Serie A',
     homeTeam: 'Juventus',
@@ -168,6 +188,8 @@ export const mockMatches: Match[] = [
   {
     id: 'M010',
     baseMatchId: 'BM010',
+    roundNumber: '260003',
+    gameNumber: 10,
     sport: 'soccer',
     league: 'Ligue 1',
     homeTeam: 'PSG',
