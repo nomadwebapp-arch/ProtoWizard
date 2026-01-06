@@ -42,4 +42,11 @@ export interface FilterOptions {
   allowedSports?: Sport[];
   allowedMatchTypes?: MatchType[];
   avoidSameLeague?: boolean;
+  // 배당 포함 필터
+  includeRegularOdds?: boolean;  // 정배당 포함
+  regularOddsCount?: number;     // 정배당 개수
+  includeDraws?: boolean;        // 무배당 포함
+  drawCount?: number;            // 무배당 개수
+  includeHighOdds?: boolean;     // 역배당 포함
+  highOddsCount?: number;        // 역배당 개수
 }

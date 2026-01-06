@@ -56,6 +56,13 @@ function App() {
       betAmount,
       allowedSports: allowedSports.length > 0 ? allowedSports as any[] : undefined,
       allowedMatchTypes: allowedMatchTypes.length > 0 ? allowedMatchTypes as any[] : undefined,
+      // 배당 포함 필터
+      includeRegularOdds,
+      regularOddsCount,
+      includeDraws,
+      drawCount,
+      includeHighOdds,
+      highOddsCount,
     };
 
     const result = generateRandomCombination(protoMatches, options);

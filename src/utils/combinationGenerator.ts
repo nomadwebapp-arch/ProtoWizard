@@ -54,7 +54,7 @@ export function generateRandomCombination(
       betAmount
     );
 
-    if (combination && validateCombination(combination)) {
+    if (combination && validateCombination(combination, options)) {
       return combination;
     }
   }
@@ -106,7 +106,7 @@ function tryGenerateCombination(
   };
 }
 
-function validateCombination(combination: Combination): boolean {
+function validateCombination(combination: Combination, options: FilterOptions): boolean {
   // 0. 동일 경기 중복 체크 (프로토 규칙: 동일 경기의 다른 베팅 타입 조합 불가)
   const baseMatchIds = new Set<string>();
   for (const match of combination.matches) {
@@ -129,6 +129,46 @@ function validateCombination(combination: Combination): boolean {
   const highOddsCount = combination.matches.filter(m => m.selectedOdds >= 5.0).length;
   if (highOddsCount >= 2) {
     return false;
+  }
+
+  // 3. 배당 포함 필터 체크
+  if (options.includeRegularOdds || options.includeDraws || options.includeHighOdds) {
+    let regularCount = 0;  // 정배당 개수
+    let drawCount = 0;     // 무배당 개수
+    let highCount = 0;     // 역배당 개수
+
+    for (const match of combination.matches) {
+      const { selected, match: m } = match;
+      const homeOdds = m.odds.home;
+      const awayOdds = m.odds.away;
+
+      // 무배당 체크 (무승부)
+      if (selected === 'draw') {
+        drawCount++;
+      } else {
+        // 정배당/역배당 체크 (홈/원정 중)
+        const lowerOdds = Math.min(homeOdds, awayOdds);
+        const higherOdds = Math.max(homeOdds, awayOdds);
+        const selectedOdds = match.selectedOdds;
+
+        if (selectedOdds === lowerOdds) {
+          regularCount++;  // 정배당 (낮은 배당)
+        } else if (selectedOdds === higherOdds) {
+          highCount++;  // 역배당 (높은 배당)
+        }
+      }
+    }
+
+    // 요구사항 체크
+    if (options.includeRegularOdds && regularCount < (options.regularOddsCount || 0)) {
+      return false;
+    }
+    if (options.includeDraws && drawCount < (options.drawCount || 0)) {
+      return false;
+    }
+    if (options.includeHighOdds && highCount < (options.highOddsCount || 0)) {
+      return false;
+    }
   }
 
   return true;
