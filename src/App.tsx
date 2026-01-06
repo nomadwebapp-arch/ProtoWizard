@@ -118,6 +118,17 @@ function App() {
     return `20${year}년 프로토 ${round}회차`;
   };
 
+  const getSelectionColor = (selected: 'home' | 'draw' | 'away') => {
+    switch (selected) {
+      case 'home':
+        return '#4a9eff'; // 파란색
+      case 'draw':
+        return '#ffc107'; // 노란색
+      case 'away':
+        return '#ff4444'; // 빨간색
+    }
+  };
+
   const toggleSport = (sport: string) => {
     setAllowedSports(prev =>
       prev.includes(sport)
@@ -427,15 +438,6 @@ function App() {
                   <div key={item.match.id} className="match-item">
                     <div className="match-header">
                       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <span style={{
-                          fontSize: '0.75rem',
-                          color: '#888',
-                          background: 'rgba(255, 255, 255, 0.08)',
-                          padding: '2px 8px',
-                          borderRadius: '4px',
-                        }}>
-                          #{item.match.gameNumber}
-                        </span>
                         <span className="match-league">{item.match.league}</span>
                       </div>
                       <div style={{ display: 'flex', gap: '6px' }}>
@@ -448,14 +450,20 @@ function App() {
                     <div className="match-teams">
                       {item.match.homeTeam} vs {item.match.awayTeam}
                     </div>
-                    <div className="match-result">
-                      <span className="match-selected">
+                    <div className="match-result" style={{ color: '#fff' }}>
+                      <span style={{ fontSize: '1.1rem', fontWeight: '500' }}>
+                        {String(item.match.gameNumber).padStart(3, '0')}
+                      </span>
+                      <span style={{
+                        fontSize: '1.1rem',
+                        fontWeight: '600',
+                        color: getSelectionColor(item.selected)
+                      }}>
                         {getSelectedLabel(item.selected)}
                       </span>
-                      <span className="match-odds" style={{ color: '#888' }}>
-                        #{String(item.match.gameNumber).padStart(3, '0')}
+                      <span style={{ fontSize: '1.1rem', fontWeight: '600' }}>
+                        {item.selectedOdds.toFixed(2)}
                       </span>
-                      <span className="match-odds">{item.selectedOdds.toFixed(2)}</span>
                     </div>
                   </div>
                 ))}
