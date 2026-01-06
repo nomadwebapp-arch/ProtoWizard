@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { mockMatches } from './data/mockMatches';
+import { protoMatches } from './data/protoMatches';
 import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
 
@@ -27,7 +27,7 @@ function App() {
   const handleGenerate = () => {
     // 마감 시간 체크 - 사용 가능한 경기 확인
     const now = new Date();
-    const availableMatches = mockMatches.filter(m => m.status === 'open' && m.deadline > now);
+    const availableMatches = protoMatches.filter(m => m.status === 'open' && m.deadline > now);
 
     if (availableMatches.length === 0) {
       alert('현재 배팅 가능한 경기가 없습니다. 모든 경기가 마감되었습니다.');
@@ -58,7 +58,7 @@ function App() {
       allowedMatchTypes: allowedMatchTypes.length > 0 ? allowedMatchTypes as any[] : undefined,
     };
 
-    const result = generateRandomCombination(mockMatches, options);
+    const result = generateRandomCombination(protoMatches, options);
     setCombination(result);
     setClickCount(prev => prev + 1);
 
