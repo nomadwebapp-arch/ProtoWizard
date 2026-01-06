@@ -10,7 +10,7 @@ function App() {
   const [clickCount, setClickCount] = useState(0);
 
   // Filter options state
-  const [targetOdds, setTargetOdds] = useState(20);
+  const [targetOdds, setTargetOdds] = useState(10);
   const [matchCount, setMatchCount] = useState(3);
   const [betAmount, setBetAmount] = useState(10000);
   const [allowedSports, setAllowedSports] = useState<string[]>([]);
@@ -70,7 +70,7 @@ function App() {
 
   const handleReset = () => {
     setCombination(null);
-    setTargetOdds(20);
+    setTargetOdds(10);
     setMatchCount(3);
     setBetAmount(10000);
     setAllowedSports([]);
@@ -167,7 +167,7 @@ function App() {
                   onChange={(e) => setTargetOdds(e.target.value === '' ? 0 : Number(e.target.value))}
                   min={10}
                   max={1000}
-                  placeholder="20"
+                  placeholder="10"
                 />
               </div>
 
