@@ -40,6 +40,24 @@ export const protoMatches: Match[] = [
     deadline: new Date('2026-01-06T17:00:00'),
     status: 'open',
   },
+  // 56번: 멜버시티 vs 브리로어 (A리그, 언더오버)
+  {
+    id: 'M056',
+    baseMatchId: 'BM054',  // 동일 경기
+    roundNumber: '260003',
+    gameNumber: 56,
+    sport: 'soccer',
+    league: 'A리그',
+    homeTeam: '멜버시티',
+    awayTeam: '브리로어',
+    matchType: 'underover',
+    odds: {
+      home: 1.62,  // Under
+      away: 1.88,  // Over
+    },
+    deadline: new Date('2026-01-06T17:00:00'),
+    status: 'open',
+  },
   // 58번: 울산모비스 vs 부산KCC (KBL, 일반)
   {
     id: 'M058',
@@ -77,6 +95,42 @@ export const protoMatches: Match[] = [
     deadline: new Date('2026-01-06T19:00:00'),
     status: 'open',
   },
+  // 60번: 울산모비스 vs 부산KCC (KBL, 핸디캡)
+  {
+    id: 'M060',
+    baseMatchId: 'BM058',  // 동일 경기
+    roundNumber: '260003',
+    gameNumber: 60,
+    sport: 'basketball',
+    league: 'KBL',
+    homeTeam: '울산모비스',
+    awayTeam: '부산KCC',
+    matchType: 'handicap',
+    odds: {
+      home: 1.75,
+      away: 1.73,
+    },
+    deadline: new Date('2026-01-06T19:00:00'),
+    status: 'open',
+  },
+  // 61번: 울산모비스 vs 부산KCC (KBL, 언더오버)
+  {
+    id: 'M061',
+    baseMatchId: 'BM058',  // 동일 경기
+    roundNumber: '260003',
+    gameNumber: 61,
+    sport: 'basketball',
+    league: 'KBL',
+    homeTeam: '울산모비스',
+    awayTeam: '부산KCC',
+    matchType: 'underover',
+    odds: {
+      home: 1.72,  // Under
+      away: 1.76,  // Over
+    },
+    deadline: new Date('2026-01-06T19:00:00'),
+    status: 'open',
+  },
   // 63번: 한국전력 vs OK저축은행 (KOVO남, 일반)
   {
     id: 'M063',
@@ -91,6 +145,42 @@ export const protoMatches: Match[] = [
     odds: {
       home: 1.43,
       away: 2.22,
+    },
+    deadline: new Date('2026-01-06T19:00:00'),
+    status: 'open',
+  },
+  // 64번: 한국전력 vs OK저축은행 (KOVO남, 핸디캡)
+  {
+    id: 'M064',
+    baseMatchId: 'BM063',  // 동일 경기
+    roundNumber: '260003',
+    gameNumber: 64,
+    sport: 'basketball',
+    league: 'KOVO남',
+    homeTeam: '한국전력',
+    awayTeam: 'OK저축은행',
+    matchType: 'handicap',
+    odds: {
+      home: 1.84,
+      away: 1.65,
+    },
+    deadline: new Date('2026-01-06T19:00:00'),
+    status: 'open',
+  },
+  // 65번: 한국전력 vs OK저축은행 (KOVO남, 언더오버)
+  {
+    id: 'M065',
+    baseMatchId: 'BM063',  // 동일 경기
+    roundNumber: '260003',
+    gameNumber: 65,
+    sport: 'basketball',
+    league: 'KOVO남',
+    homeTeam: '한국전력',
+    awayTeam: 'OK저축은행',
+    matchType: 'underover',
+    odds: {
+      home: 1.79,  // Under
+      away: 1.69,  // Over
     },
     deadline: new Date('2026-01-06T19:00:00'),
     status: 'open',

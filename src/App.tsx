@@ -442,13 +442,20 @@ function App() {
                       </div>
                       <div style={{ display: 'flex', gap: '6px' }}>
                         <span className="match-sport-badge">{item.match.sport}</span>
-                        <span className="match-sport-badge" style={{ background: 'rgba(255, 193, 7, 0.2)', color: '#ffc107' }}>
-                          {getMatchTypeLabel(item.match.matchType)}
-                        </span>
                       </div>
                     </div>
-                    <div className="match-teams">
-                      {item.match.homeTeam} vs {item.match.awayTeam}
+                    <div className="match-teams" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      <span style={{
+                        background: 'rgba(255, 193, 7, 0.2)',
+                        color: '#ffc107',
+                        padding: '2px 8px',
+                        borderRadius: '6px',
+                        fontSize: '0.75rem',
+                        fontWeight: '600'
+                      }}>
+                        {getMatchTypeLabel(item.match.matchType)}
+                      </span>
+                      <span>{item.match.homeTeam} vs {item.match.awayTeam}</span>
                     </div>
                     <div className="match-result" style={{ color: '#fff' }}>
                       <span style={{ fontSize: '1.1rem', fontWeight: '500' }}>
