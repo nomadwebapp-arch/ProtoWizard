@@ -452,6 +452,9 @@ function App() {
                       <span className="match-selected">
                         {getSelectedLabel(item.selected)}
                       </span>
+                      <span className="match-odds" style={{ color: '#888' }}>
+                        #{String(item.match.gameNumber).padStart(3, '0')}
+                      </span>
                       <span className="match-odds">{item.selectedOdds.toFixed(2)}</span>
                     </div>
                   </div>
