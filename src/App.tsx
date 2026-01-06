@@ -111,6 +111,13 @@ function App() {
     }
   };
 
+  const formatRoundNumber = (roundNumber: string) => {
+    // "260003" -> "2026년 프로토 3회차"
+    const year = roundNumber.substring(0, 2); // "26"
+    const round = parseInt(roundNumber.substring(2), 10); // "0003" -> 3
+    return `20${year}년 프로토 ${round}회차`;
+  };
+
   const toggleSport = (sport: string) => {
     setAllowedSports(prev =>
       prev.includes(sport)
@@ -407,7 +414,7 @@ function App() {
                   alignItems: 'center',
                 }}>
                   <span style={{ fontSize: '0.9rem', color: '#4a9eff', fontWeight: '600' }}>
-                    📋 프로토 {combination.matches[0].match.roundNumber}회차
+                    📋 {formatRoundNumber(combination.matches[0].match.roundNumber)}
                   </span>
                   <span style={{ fontSize: '0.8rem', color: '#888' }}>
                     {combination.matches.length}경기 조합
@@ -416,7 +423,7 @@ function App() {
               )}
 
               <div className="match-list">
-                {combination.matches.map((item, index) => (
+                {combination.matches.map((item) => (
                   <div key={item.match.id} className="match-item">
                     <div className="match-header">
                       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -439,7 +446,7 @@ function App() {
                       </div>
                     </div>
                     <div className="match-teams">
-                      {index + 1}. {item.match.homeTeam} vs {item.match.awayTeam}
+                      {item.match.homeTeam} vs {item.match.awayTeam}
                     </div>
                     <div className="match-result">
                       <span className="match-selected">
