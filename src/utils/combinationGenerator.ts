@@ -88,8 +88,10 @@ function tryGenerateCombination(
     };
   });
 
-  // 총배당 계산
-  const totalOdds = combinationMatches.reduce((acc, m) => acc * m.selectedOdds, 1);
+  // 총배당 계산 (프로토 규칙: 소수점 셋째 자리 절사 후 둘째 자리 반올림)
+  const rawOdds = combinationMatches.reduce((acc, m) => acc * m.selectedOdds, 1);
+  const truncatedOdds = Math.floor(rawOdds * 1000) / 1000;  // 셋째 자리까지 절사
+  const totalOdds = Math.round(truncatedOdds * 100) / 100;  // 둘째 자리 반올림
 
   // 배당 범위 체크
   if (totalOdds < minOdds || totalOdds > maxOdds) {
@@ -98,12 +100,21 @@ function tryGenerateCombination(
 
   return {
     matches: combinationMatches,
-    totalOdds: Math.round(totalOdds * 100) / 100,
+    totalOdds,
     estimatedPayout: Math.round(betAmount * totalOdds),
   };
 }
 
 function validateCombination(combination: Combination, options: FilterOptions): boolean {
+  // 0. 동일 경기 중복 체크 (프로토 규칙: 동일 경기의 다른 베팅 타입 조합 불가)
+  const baseMatchIds = new Set<string>();
+  for (const match of combination.matches) {
+    if (baseMatchIds.has(match.match.baseMatchId)) {
+      return false;  // 동일 경기가 이미 포함됨
+    }
+    baseMatchIds.add(match.match.baseMatchId);
+  }
+
   // 1. 단일 경기 배당 쏠림 체크 (70% 초과 금지)
   const totalOdds = combination.totalOdds;
   for (const match of combination.matches) {

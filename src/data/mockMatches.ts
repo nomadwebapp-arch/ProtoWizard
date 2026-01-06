@@ -2,9 +2,10 @@ import type { Match } from '../types/match';
 
 // Mock data for testing
 export const mockMatches: Match[] = [
-  // 축구
+  // 축구 - Arsenal vs Chelsea (동일 경기의 다른 베팅 타입)
   {
     id: 'M001',
+    baseMatchId: 'BM001',
     sport: 'soccer',
     league: 'EPL',
     homeTeam: 'Arsenal',
@@ -19,7 +20,24 @@ export const mockMatches: Match[] = [
     status: 'open',
   },
   {
+    id: 'M001-H',
+    baseMatchId: 'BM001',  // 동일 경기 (Arsenal vs Chelsea)
+    sport: 'soccer',
+    league: 'EPL',
+    homeTeam: 'Arsenal',
+    awayTeam: 'Chelsea',
+    matchType: 'handicap',
+    odds: {
+      home: 1.85,
+      draw: 3.40,
+      away: 4.50,
+    },
+    deadline: new Date(Date.now() + 3600000 * 6),
+    status: 'open',
+  },
+  {
     id: 'M002',
+    baseMatchId: 'BM002',
     sport: 'soccer',
     league: 'EPL',
     homeTeam: 'Manchester City',
@@ -35,6 +53,7 @@ export const mockMatches: Match[] = [
   },
   {
     id: 'M003',
+    baseMatchId: 'BM003',
     sport: 'soccer',
     league: '분데스리가',
     homeTeam: 'Bayern Munich',
@@ -50,6 +69,7 @@ export const mockMatches: Match[] = [
   },
   {
     id: 'M004',
+    baseMatchId: 'BM004',
     sport: 'soccer',
     league: 'La Liga',
     homeTeam: 'Real Madrid',
@@ -67,6 +87,7 @@ export const mockMatches: Match[] = [
   // 야구
   {
     id: 'M005',
+    baseMatchId: 'BM005',
     sport: 'baseball',
     league: 'MLB',
     homeTeam: 'NY Yankees',
@@ -81,6 +102,7 @@ export const mockMatches: Match[] = [
   },
   {
     id: 'M006',
+    baseMatchId: 'BM006',
     sport: 'baseball',
     league: 'KBO',
     homeTeam: 'LG 트윈스',
@@ -97,6 +119,7 @@ export const mockMatches: Match[] = [
   // 농구
   {
     id: 'M007',
+    baseMatchId: 'BM007',
     sport: 'basketball',
     league: 'NBA',
     homeTeam: 'LA Lakers',
@@ -111,6 +134,7 @@ export const mockMatches: Match[] = [
   },
   {
     id: 'M008',
+    baseMatchId: 'BM008',
     sport: 'basketball',
     league: 'NBA',
     homeTeam: 'Boston Celtics',
@@ -127,6 +151,7 @@ export const mockMatches: Match[] = [
   // 추가 축구 경기
   {
     id: 'M009',
+    baseMatchId: 'BM009',
     sport: 'soccer',
     league: 'Serie A',
     homeTeam: 'Juventus',
@@ -142,6 +167,7 @@ export const mockMatches: Match[] = [
   },
   {
     id: 'M010',
+    baseMatchId: 'BM010',
     sport: 'soccer',
     league: 'Ligue 1',
     homeTeam: 'PSG',

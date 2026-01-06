@@ -4,6 +4,7 @@ export type MatchStatus = 'open' | 'closed';
 
 export interface Match {
   id: string;
+  baseMatchId: string;  // 실제 경기 식별자 (동일 경기의 다른 베팅 타입은 같은 baseMatchId)
   sport: Sport;
   league: string;
   homeTeam: string;

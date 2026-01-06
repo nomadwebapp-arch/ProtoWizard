@@ -56,6 +56,19 @@ function App() {
     }
   };
 
+  const getMatchTypeLabel = (matchType: string) => {
+    switch (matchType) {
+      case 'normal':
+        return '일반';
+      case 'handicap':
+        return '핸디캡';
+      case 'underover':
+        return '언더오버';
+      default:
+        return matchType;
+    }
+  };
+
   return (
     <div className="app">
       <header className="app-header">
@@ -74,8 +87,8 @@ function App() {
                 <input
                   type="number"
                   className="setting-input"
-                  value={targetOdds}
-                  onChange={(e) => setTargetOdds(Number(e.target.value))}
+                  value={targetOdds || ''}
+                  onChange={(e) => setTargetOdds(e.target.value === '' ? 0 : Number(e.target.value))}
                   min={10}
                   max={1000}
                   placeholder="100"
@@ -87,9 +100,9 @@ function App() {
                 <input
                   type="number"
                   className="setting-input"
-                  value={matchCount}
-                  onChange={(e) => setMatchCount(Number(e.target.value))}
-                  min={3}
+                  value={matchCount || ''}
+                  onChange={(e) => setMatchCount(e.target.value === '' ? 0 : Number(e.target.value))}
+                  min={2}
                   max={10}
                   placeholder="5"
                 />
@@ -100,8 +113,8 @@ function App() {
                 <input
                   type="number"
                   className="setting-input"
-                  value={betAmount}
-                  onChange={(e) => setBetAmount(Number(e.target.value))}
+                  value={betAmount || ''}
+                  onChange={(e) => setBetAmount(e.target.value === '' ? 0 : Number(e.target.value))}
                   min={1000}
                   step={1000}
                   placeholder="10000"
@@ -132,7 +145,12 @@ function App() {
                   <div key={item.match.id} className="match-item">
                     <div className="match-header">
                       <span className="match-league">{item.match.league}</span>
-                      <span className="match-sport-badge">{item.match.sport}</span>
+                      <div style={{ display: 'flex', gap: '6px' }}>
+                        <span className="match-sport-badge">{item.match.sport}</span>
+                        <span className="match-sport-badge" style={{ background: 'rgba(255, 193, 7, 0.2)', color: '#ffc107' }}>
+                          {getMatchTypeLabel(item.match.matchType)}
+                        </span>
+                      </div>
                     </div>
                     <div className="match-teams">
                       {index + 1}. {item.match.homeTeam} vs {item.match.awayTeam}
