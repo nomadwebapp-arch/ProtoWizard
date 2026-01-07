@@ -142,6 +142,10 @@ async function fetchBetmanData(roundNumber = null) {
           const matchSeq = row.getAttribute('data-matchseq');
           const gameNumber = parseInt(matchSeq);
 
+          // 종목 (아이콘 텍스트에서 추출)
+          const sportIconEl = row.querySelector('.icoGame');
+          const sportText = sportIconEl?.textContent?.trim() || '';
+
           // 리그/대회
           const leagueEl = row.querySelector('.fs11');
           const league = leagueEl?.textContent?.trim() || '';
@@ -214,6 +218,7 @@ async function fetchBetmanData(roundNumber = null) {
           // 디버깅 정보 저장
           debugList.push({
             gameNumber,
+            sportText,
             homeTeam,
             awayTeam,
             matchType,
@@ -228,6 +233,7 @@ async function fetchBetmanData(roundNumber = null) {
             matchList.push({
               gameNumber,
               league,
+              sportText,  // 베트맨에서 직접 추출한 종목 정보
               matchType,
               homeTeam,
               awayTeam,
@@ -270,7 +276,7 @@ async function fetchBetmanData(roundNumber = null) {
     console.log('🔍 디버깅 정보:\n');
     debug.forEach((d, i) => {
       console.log(`[${i + 1}] 경기 ${d.gameNumber}: ${d.homeTeam} vs ${d.awayTeam}`);
-      console.log(`    타입: ${d.matchType}, 배당 개수: ${d.oddsCount}`);
+      console.log(`    종목: ${d.sportText || '미정'}, 타입: ${d.matchType}, 배당 개수: ${d.oddsCount}`);
       console.log(`    배당:`, d.odds);
       console.log(`    싱글: ${d.isSingle ? 'S ✅' : '❌'}, 전반: ${d.isHalfTime ? '✅' : '❌'}`);
       console.log(`    통과: ${d.passed ? '✅' : '❌'}\n`);

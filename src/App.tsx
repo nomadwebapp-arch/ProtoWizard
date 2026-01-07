@@ -293,6 +293,16 @@ function App() {
     return `20${year}년 프로토 ${round}회차`;
   };
 
+  const getSportLabel = (sport: string) => {
+    const sportMap: { [key: string]: string } = {
+      'soccer': '⚽ 축구',
+      'basketball': '🏀 농구',
+      'volleyball': '🏐 배구',
+      'baseball': '⚾ 야구',
+    };
+    return sportMap[sport] || sport;
+  };
+
   const getSelectionColor = (selected: 'home' | 'draw' | 'away') => {
     switch (selected) {
       case 'home':
@@ -388,7 +398,6 @@ function App() {
                     { value: 'soccer', label: '⚽ 축구' },
                     { value: 'basketball', label: '🏀 농구' },
                     { value: 'volleyball', label: '🏐 배구' },
-                    { value: 'handball', label: '🤾 핸드볼' },
                     { value: 'baseball', label: '⚾ 야구' },
                   ].map((sport) => (
                     <button
@@ -421,9 +430,9 @@ function App() {
                 <label className="setting-label">경기 타입</label>
                 <div style={{ display: 'flex', gap: '6px', marginTop: '8px', flexWrap: 'wrap' }}>
                   {[
-                    { value: 'normal', label: '일반' },
-                    { value: 'handicap', label: '핸디캡' },
-                    { value: 'underover', label: '언더오버' },
+                    { value: 'normal', label: '일반', color: { bg: 'rgba(33, 150, 243, 0.2)', border: 'rgba(33, 150, 243, 0.5)', text: '#2196f3' } },
+                    { value: 'handicap', label: '핸디캡', color: { bg: 'rgba(255, 152, 0, 0.2)', border: 'rgba(255, 152, 0, 0.5)', text: '#ff9800' } },
+                    { value: 'underover', label: '언더오버', color: { bg: 'rgba(76, 175, 80, 0.2)', border: 'rgba(76, 175, 80, 0.5)', text: '#4caf50' } },
                   ].map((type) => (
                     <button
                       key={type.value}
@@ -433,13 +442,13 @@ function App() {
                         padding: '8px 12px',
                         fontSize: '0.85rem',
                         background: allowedMatchTypes.includes(type.value)
-                          ? 'rgba(74, 158, 255, 0.3)'
+                          ? type.color.bg
                           : 'rgba(255, 255, 255, 0.08)',
                         border: allowedMatchTypes.includes(type.value)
-                          ? '1px solid rgba(74, 158, 255, 0.5)'
+                          ? `1px solid ${type.color.border}`
                           : '1px solid rgba(255, 255, 255, 0.15)',
                         borderRadius: '8px',
-                        color: '#fff',
+                        color: allowedMatchTypes.includes(type.value) ? type.color.text : '#fff',
                         cursor: 'pointer',
                         transition: 'all 0.2s',
                       }}
@@ -623,7 +632,7 @@ function App() {
                         </span>
                       </div>
                       <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-                        <span className="match-sport-badge">{item.match.sport}</span>
+                        <span className="match-sport-badge">{getSportLabel(item.match.sport)}</span>
                       </div>
                     </div>
                     <div className="match-teams" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
