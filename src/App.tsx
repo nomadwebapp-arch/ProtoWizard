@@ -83,7 +83,6 @@ function App() {
     }
 
     setCombination(result);
-    setClickCount(prev => prev + 1);
   };
 
   const handleReset = () => {
