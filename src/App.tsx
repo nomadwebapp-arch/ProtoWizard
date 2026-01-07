@@ -9,7 +9,6 @@ import { usePopAds } from './hooks/usePopAds';
 
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
-  const [showSettings, setShowSettings] = useState(true);
   const [showShareModal, setShowShareModal] = useState(false);
   const combinationRef = useRef<HTMLDivElement>(null);
 
@@ -330,8 +329,7 @@ function App() {
 
       <main className="app-main">
         {/* Settings Panel */}
-        {showSettings && (
-          <div className="settings-panel">
+        <div className="settings-panel">
             <h2 className="settings-title">조합 생성 조건 설정</h2>
             <div className="settings-grid">
               <div className="setting-item">
@@ -581,8 +579,7 @@ function App() {
                 })()}
               </div>
             </div>
-          </div>
-        )}
+        </div>
 
         {/* Combination Display */}
         <div className="combination-card" ref={combinationRef}>
@@ -732,27 +729,24 @@ function App() {
 
         {/* Action Buttons */}
         <div className="button-group">
-          <button className="btn btn-primary" onClick={handleGenerate}>
-            {combination ? '새로운 조합 생성' : '조합 생성'}
-          </button>
-          {combination && (
-            <button
-              className="btn btn-primary"
-              onClick={() => setShowShareModal(true)}
-              style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}
-            >
-              📤 공유하기
-            </button>
-          )}
-          <button
-            className="btn btn-secondary"
-            onClick={() => setShowSettings(!showSettings)}
-          >
-            {showSettings ? '설정 숨기기' : '설정 보기'}
-          </button>
-          {combination && (
-            <button className="btn btn-secondary" onClick={handleReset}>
-              초기화
+          {combination ? (
+            <>
+              <button
+                className="btn btn-primary"
+                onClick={() => setShowShareModal(true)}
+              >
+                📤 공유하기
+              </button>
+              <button className="btn btn-secondary" onClick={handleReset}>
+                초기화
+              </button>
+              <button className="btn btn-primary" onClick={handleGenerate}>
+                다시 하기
+              </button>
+            </>
+          ) : (
+            <button className="btn btn-primary" onClick={handleGenerate}>
+              조합 생성
             </button>
           )}
         </div>
