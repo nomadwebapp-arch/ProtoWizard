@@ -4,7 +4,7 @@ import { protoMatches } from './data/protoMatches';
 import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
 import html2canvas from 'html2canvas';
-import PropellerBanner from './components/PropellerBanner';
+// import PropellerBanner from './components/PropellerBanner'; // 임시 비활성화 - Banner 승인 대기 중
 import { usePopAds } from './hooks/usePopAds';
 
 function App() {
@@ -951,8 +951,8 @@ function App() {
         </div>
       </main>
 
-      {/* PropellerAds 배너 광고 (하단 고정) */}
-      <PropellerBanner />
+      {/* PropellerAds 배너 광고 (하단 고정) - 임시 비활성화 */}
+      {/* <PropellerBanner /> */}
     </div>
   );
 }
