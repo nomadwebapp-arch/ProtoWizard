@@ -7,32 +7,71 @@ import fs from 'fs';
 // betman-data.json 읽기
 const betmanData = JSON.parse(fs.readFileSync('./betman-data.json', 'utf-8'));
 
-// Sport 결정 함수 (리그명 기반)
-function determineSport(league) {
-  const leagueLower = league.toLowerCase();
+// Sport 결정 함수 (팀명 기반)
+function determineSport(homeTeam, awayTeam) {
+  const teams = `${homeTeam} ${awayTeam}`.toLowerCase();
 
-  // 축구
-  if (leagueLower.includes('epl') ||
-      leagueLower.includes('라리가') ||
-      leagueLower.includes('분데스') ||
-      leagueLower.includes('세리에') ||
-      leagueLower.includes('리그1') ||
-      leagueLower.includes('a리그') ||
-      leagueLower.includes('아시아') ||
-      leagueLower.includes('월드컵') ||
-      leagueLower.includes('챔피언스') ||
-      leagueLower.includes('유로파')) {
+  // 배구 (V리그 팀)
+  if (teams.includes('삼성화재') || teams.includes('kb손보') ||
+      teams.includes('도로공사') || teams.includes('현대건설') ||
+      teams.includes('페퍼저축') || teams.includes('흥국생명') ||
+      teams.includes('한국전력') || teams.includes('현대캐피')) {
+    return 'volleyball';
+  }
+
+  // 농구 (KBL, NBA 팀)
+  if (teams.includes('lg') || teams.includes('삼성') || teams.includes('sk') ||
+      teams.includes('kcc') || teams.includes('kt') || teams.includes('db') ||
+      teams.includes('셀틱') || teams.includes('레이커') || teams.includes('워리') ||
+      teams.includes('클리퍼') || teams.includes('76s') || teams.includes('닉스') ||
+      teams.includes('랩터') || teams.includes('호네') || teams.includes('피스') ||
+      teams.includes('불스') || teams.includes('위저') || teams.includes('호크') ||
+      teams.includes('펠리') || teams.includes('매직') || teams.includes('네츠') ||
+      teams.includes('그리') || teams.includes('선즈') || teams.includes('썬더') ||
+      teams.includes('재즈') || teams.includes('스퍼') || teams.includes('벅스') ||
+      teams.includes('로케') || teams.includes('트레')) {
+    return 'basketball';
+  }
+
+  // 축구 (국가대표팀, 유럽 클럽)
+  if (teams.includes('한국') || teams.includes('일본') || teams.includes('이란') ||
+      teams.includes('시리아') || teams.includes('우즈베키') || teams.includes('레바논') ||
+      teams.includes('카타르') || teams.includes('아랍') || teams.includes('사우디') ||
+      teams.includes('바르셀로') || teams.includes('레알') || teams.includes('맨체스') ||
+      teams.includes('리버풀') || teams.includes('첼시') || teams.includes('아스널') ||
+      teams.includes('토트넘') || teams.includes('인테르') || teams.includes('밀란') ||
+      teams.includes('나폴리') || teams.includes('아탈란타') || teams.includes('라치오') ||
+      teams.includes('볼로냐') || teams.includes('파르마') || teams.includes('토리노') ||
+      teams.includes('프랑크푸') || teams.includes('도르트문') || teams.includes('psg') ||
+      teams.includes('마르세유') || teams.includes('빌바오') || teams.includes('본머스') ||
+      teams.includes('브렌트퍼') || teams.includes('크리스털') || teams.includes('에버턴') ||
+      teams.includes('풀럼') || teams.includes('울버햄프') || teams.includes('브라이턴') ||
+      teams.includes('뉴캐슬') || teams.includes('번리') || teams.includes('선덜랜드') ||
+      teams.includes('a빌라') || teams.includes('엘라스') || teams.includes('피오렌티') ||
+      teams.includes('우디네세') || teams.includes('제노아') || teams.includes('칼리아리') ||
+      teams.includes('크레모네') || teams.includes('헤타페') || teams.includes('소시에다') ||
+      teams.includes('네이메헌') || teams.includes('위트레흐') || teams.includes('호주') ||
+      teams.includes('태국') || teams.includes('중국') || teams.includes('이라크') ||
+      teams.includes('베트남') || teams.includes('키르기스') || teams.includes('말리') ||
+      teams.includes('세네갈') || teams.includes('요르단') || teams.includes('카메룬') ||
+      teams.includes('모로코') || teams.includes('오클fc') || teams.includes('브리로어') ||
+      teams.includes('리즈') || teams.includes('노팅엄포') || teams.includes('렉섬')) {
     return 'soccer';
   }
 
   // 야구
-  if (leagueLower.includes('mlb') ||
-      leagueLower.includes('kbo') ||
-      leagueLower.includes('npb')) {
+  if (teams.includes('mlb') || teams.includes('kbo') || teams.includes('npb') ||
+      teams.includes('양키스') || teams.includes('다저스')) {
     return 'baseball';
   }
 
-  // 농구 (NBA, KBL, KOVO 등)
+  // 기타 핸드볼
+  if (teams.includes('이스') || teams.includes('안양') || teams.includes('울산') ||
+      teams.includes('ok저축') || teams.includes('모비')) {
+    return 'handball';
+  }
+
+  // 기본값: 농구
   return 'basketball';
 }
 
@@ -87,7 +126,7 @@ function generateTypeScriptCode(matches, roundNumber) {
   code += `export const protoMatches: Match[] = [\n`;
 
   for (const match of processedMatches) {
-    const sport = determineSport(match.league);
+    const sport = determineSport(match.homeTeam, match.awayTeam);
     const deadline = parseDeadline(match.deadlineText, roundNumber);
 
     code += `  {\n`;

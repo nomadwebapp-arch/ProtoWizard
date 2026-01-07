@@ -386,8 +386,10 @@ function App() {
                 <div style={{ display: 'flex', gap: '6px', marginTop: '8px', flexWrap: 'wrap' }}>
                   {[
                     { value: 'soccer', label: '⚽ 축구' },
-                    { value: 'baseball', label: '⚾ 야구' },
                     { value: 'basketball', label: '🏀 농구' },
+                    { value: 'volleyball', label: '🏐 배구' },
+                    { value: 'handball', label: '🤾 핸드볼' },
+                    { value: 'baseball', label: '⚾ 야구' },
                   ].map((sport) => (
                     <button
                       key={sport.value}
@@ -626,8 +628,27 @@ function App() {
                     </div>
                     <div className="match-teams" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                       <span style={{
-                        background: 'rgba(255, 193, 7, 0.2)',
-                        color: '#ffc107',
+                        background: item.match.matchType === 'handicap'
+                          ? 'rgba(255, 152, 0, 0.2)'  // 주황색 (핸디캡)
+                          : item.match.matchType === 'underover'
+                          ? 'rgba(76, 175, 80, 0.2)'  // 초록색 (언더오버)
+                          : item.match.matchType === 'sum'
+                          ? 'rgba(255, 193, 7, 0.2)'  // 노란색 (SUM)
+                          : 'rgba(33, 150, 243, 0.2)', // 파란색 (일반)
+                        border: item.match.matchType === 'handicap'
+                          ? '1px solid rgba(255, 152, 0, 0.5)'
+                          : item.match.matchType === 'underover'
+                          ? '1px solid rgba(76, 175, 80, 0.5)'
+                          : item.match.matchType === 'sum'
+                          ? '1px solid rgba(255, 193, 7, 0.5)'
+                          : '1px solid rgba(33, 150, 243, 0.5)',
+                        color: item.match.matchType === 'handicap'
+                          ? '#ff9800'  // 주황색
+                          : item.match.matchType === 'underover'
+                          ? '#4caf50'  // 초록색
+                          : item.match.matchType === 'sum'
+                          ? '#ffc107'  // 노란색
+                          : '#2196f3',  // 파란색
                         padding: '2px 8px',
                         borderRadius: '6px',
                         fontSize: '0.75rem',
