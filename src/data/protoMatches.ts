@@ -48,6 +48,7 @@ export const protoMatches: Match[] = [
     homeTeam: '창원LG',
     awayTeam: '서울삼성',
     matchType: 'handicap',
+    handicapValue: 'H -9.5',
     isSingle: true,
     odds: {
       home: 1.72,
@@ -195,6 +196,7 @@ export const protoMatches: Match[] = [
     homeTeam: '도로공사',
     awayTeam: '현대건설',
     matchType: 'handicap',
+    handicapValue: 'H -1.5',
     isSingle: true,
     odds: {
       home: 2.13,
@@ -269,6 +271,7 @@ export const protoMatches: Match[] = [
     homeTeam: '일본',
     awayTeam: '시리아',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 1.91,
@@ -288,6 +291,7 @@ export const protoMatches: Match[] = [
     homeTeam: '일본',
     awayTeam: '시리아',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 3.55,
@@ -307,6 +311,7 @@ export const protoMatches: Match[] = [
     homeTeam: '일본',
     awayTeam: '시리아',
     matchType: 'handicap',
+    handicapValue: 'H -3.5',
     isSingle: true,
     odds: {
       home: 6.28,
@@ -381,6 +386,7 @@ export const protoMatches: Match[] = [
     homeTeam: '한국',
     awayTeam: '이란',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 3.9,
@@ -400,6 +406,7 @@ export const protoMatches: Match[] = [
     homeTeam: '한국',
     awayTeam: '이란',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 9,
@@ -545,6 +552,7 @@ export const protoMatches: Match[] = [
     homeTeam: '우즈베키',
     awayTeam: '레바논',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 1.79,
@@ -564,6 +572,7 @@ export const protoMatches: Match[] = [
     homeTeam: '우즈베키',
     awayTeam: '레바논',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 3.05,
@@ -583,6 +592,7 @@ export const protoMatches: Match[] = [
     homeTeam: '우즈베키',
     awayTeam: '레바논',
     matchType: 'handicap',
+    handicapValue: 'H -3.5',
     isSingle: true,
     odds: {
       home: 4.85,
@@ -657,6 +667,7 @@ export const protoMatches: Match[] = [
     homeTeam: '카타르',
     awayTeam: '아랍에미',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 4.4,
@@ -828,6 +839,7 @@ export const protoMatches: Match[] = [
     homeTeam: '나폴리',
     awayTeam: '엘라스',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 1.98,
@@ -847,6 +859,7 @@ export const protoMatches: Match[] = [
     homeTeam: '나폴리',
     awayTeam: '엘라스',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 3.75,
@@ -866,6 +879,7 @@ export const protoMatches: Match[] = [
     homeTeam: '나폴리',
     awayTeam: '엘라스',
     matchType: 'handicap',
+    handicapValue: 'H -3.5',
     isSingle: true,
     odds: {
       home: 6.28,
@@ -940,6 +954,7 @@ export const protoMatches: Match[] = [
     homeTeam: '바르셀로',
     awayTeam: '빌바오',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 2.05,
@@ -1015,6 +1030,7 @@ export const protoMatches: Match[] = [
     homeTeam: '본머스',
     awayTeam: '토트넘',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 3.65,
@@ -1034,6 +1050,7 @@ export const protoMatches: Match[] = [
     homeTeam: '본머스',
     awayTeam: '토트넘',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 8.4,
@@ -1109,6 +1126,7 @@ export const protoMatches: Match[] = [
     homeTeam: '브렌트퍼',
     awayTeam: '선덜랜드',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 3.1,
@@ -1128,6 +1146,7 @@ export const protoMatches: Match[] = [
     homeTeam: '브렌트퍼',
     awayTeam: '선덜랜드',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 6.7,
@@ -1299,6 +1318,7 @@ export const protoMatches: Match[] = [
     homeTeam: '에버턴',
     awayTeam: '울버햄프',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 3,
@@ -1318,6 +1338,7 @@ export const protoMatches: Match[] = [
     homeTeam: '에버턴',
     awayTeam: '울버햄프',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 6.5,
@@ -1489,6 +1510,7 @@ export const protoMatches: Match[] = [
     homeTeam: '맨체스C',
     awayTeam: '브라이턴',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 1.94,
@@ -1508,6 +1530,7 @@ export const protoMatches: Match[] = [
     homeTeam: '맨체스C',
     awayTeam: '브라이턴',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 3.15,
@@ -1527,6 +1550,7 @@ export const protoMatches: Match[] = [
     homeTeam: '맨체스C',
     awayTeam: '브라이턴',
     matchType: 'handicap',
+    handicapValue: 'H -3.5',
     isSingle: true,
     odds: {
       home: 4.65,
@@ -1601,6 +1625,7 @@ export const protoMatches: Match[] = [
     homeTeam: '라치오',
     awayTeam: '피오렌티',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 4.6,
@@ -1620,6 +1645,7 @@ export const protoMatches: Match[] = [
     homeTeam: '라치오',
     awayTeam: '피오렌티',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 12,
@@ -1810,6 +1836,7 @@ export const protoMatches: Match[] = [
     homeTeam: '토리노',
     awayTeam: '우디네세',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 4.6,
@@ -1829,6 +1856,7 @@ export const protoMatches: Match[] = [
     homeTeam: '토리노',
     awayTeam: '우디네세',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 12.5,
@@ -2000,6 +2028,7 @@ export const protoMatches: Match[] = [
     homeTeam: '뉴캐슬U',
     awayTeam: '리즈U',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 2.6,
@@ -2019,6 +2048,7 @@ export const protoMatches: Match[] = [
     homeTeam: '뉴캐슬U',
     awayTeam: '리즈U',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 5.3,
@@ -2162,6 +2192,7 @@ export const protoMatches: Match[] = [
     homeTeam: '디트피스',
     awayTeam: '시카불스',
     matchType: 'handicap',
+    handicapValue: 'H -10.5',
     odds: {
       home: 1.74,
       away: 1.74,
@@ -2231,6 +2262,7 @@ export const protoMatches: Match[] = [
     homeTeam: '필라76s',
     awayTeam: '워싱위저',
     matchType: 'handicap',
+    handicapValue: 'H -11.5',
     odds: {
       home: 1.72,
       away: 1.76,
@@ -2300,6 +2332,7 @@ export const protoMatches: Match[] = [
     homeTeam: '보스셀틱',
     awayTeam: '덴버너게',
     matchType: 'handicap',
+    handicapValue: 'H -9.5',
     odds: {
       home: 1.74,
       away: 1.74,
@@ -2369,6 +2402,7 @@ export const protoMatches: Match[] = [
     homeTeam: '애틀호크',
     awayTeam: '뉴올펠리',
     matchType: 'handicap',
+    handicapValue: 'H -9.5',
     odds: {
       home: 1.74,
       away: 1.74,
@@ -2508,6 +2542,7 @@ export const protoMatches: Match[] = [
     homeTeam: '뉴욕닉스',
     awayTeam: 'LA클리퍼',
     matchType: 'handicap',
+    handicapValue: 'H -5.5',
     odds: {
       home: 1.77,
       away: 1.71,
@@ -2647,6 +2682,7 @@ export const protoMatches: Match[] = [
     homeTeam: '오클썬더',
     awayTeam: '유타재즈',
     matchType: 'handicap',
+    handicapValue: 'H -18.5',
     odds: {
       home: 1.72,
       away: 1.76,
@@ -2716,6 +2752,7 @@ export const protoMatches: Match[] = [
     homeTeam: '샌안스퍼',
     awayTeam: 'LA레이커',
     matchType: 'handicap',
+    handicapValue: 'H -6.5',
     odds: {
       home: 1.68,
       away: 1.8,
@@ -2786,6 +2823,7 @@ export const protoMatches: Match[] = [
     homeTeam: '골든워리',
     awayTeam: '밀워벅스',
     matchType: 'handicap',
+    handicapValue: 'H -6.5',
     isSingle: true,
     odds: {
       home: 1.68,
@@ -2930,6 +2968,7 @@ export const protoMatches: Match[] = [
     homeTeam: '호주',
     awayTeam: '태국',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 1.81,
@@ -2949,6 +2988,7 @@ export const protoMatches: Match[] = [
     homeTeam: '호주',
     awayTeam: '태국',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 3.05,
@@ -2968,6 +3008,7 @@ export const protoMatches: Match[] = [
     homeTeam: '호주',
     awayTeam: '태국',
     matchType: 'handicap',
+    handicapValue: 'H -3.5',
     isSingle: true,
     odds: {
       home: 4.85,
@@ -3042,6 +3083,7 @@ export const protoMatches: Match[] = [
     homeTeam: '이라크',
     awayTeam: '중국',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 4.75,
@@ -3117,6 +3159,7 @@ export const protoMatches: Match[] = [
     homeTeam: '크레모네',
     awayTeam: '칼리아리',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 4.75,
@@ -3136,6 +3179,7 @@ export const protoMatches: Match[] = [
     homeTeam: '크레모네',
     awayTeam: '칼리아리',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 13,
@@ -3210,6 +3254,7 @@ export const protoMatches: Match[] = [
     homeTeam: 'PSG',
     awayTeam: '마르세유',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     odds: {
       home: 2.26,
       draw: 3.4,
@@ -3358,6 +3403,7 @@ export const protoMatches: Match[] = [
     homeTeam: 'AC밀란',
     awayTeam: '제노아',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 2.07,
@@ -3377,6 +3423,7 @@ export const protoMatches: Match[] = [
     homeTeam: 'AC밀란',
     awayTeam: '제노아',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 3.75,
@@ -3396,6 +3443,7 @@ export const protoMatches: Match[] = [
     homeTeam: 'AC밀란',
     awayTeam: '제노아',
     matchType: 'handicap',
+    handicapValue: 'H -3.5',
     isSingle: true,
     odds: {
       home: 6.28,
@@ -3470,6 +3518,7 @@ export const protoMatches: Match[] = [
     homeTeam: '아스널',
     awayTeam: '리버풀',
     matchType: 'handicap',
+    handicapValue: 'H -1.0',
     isSingle: true,
     odds: {
       home: 2.4,
@@ -3489,6 +3538,7 @@ export const protoMatches: Match[] = [
     homeTeam: '아스널',
     awayTeam: '리버풀',
     matchType: 'handicap',
+    handicapValue: 'H -2.0',
     isSingle: true,
     odds: {
       home: 4.65,

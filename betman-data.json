@@ -39,7 +39,7 @@
       "matchType": "handicap",
       "homeTeam": "창원LG",
       "awayTeam": "서울삼성",
-      "handicapValue": null,
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.72,
@@ -167,7 +167,7 @@
       "matchType": "handicap",
       "homeTeam": "도로공사",
       "awayTeam": "현대건설",
-      "handicapValue": null,
+      "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
         "home": 2.13,
@@ -232,7 +232,7 @@
       "matchType": "handicap",
       "homeTeam": "일본",
       "awayTeam": "시리아",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 1.91,
@@ -249,7 +249,7 @@
       "matchType": "handicap",
       "homeTeam": "일본",
       "awayTeam": "시리아",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 3.55,
@@ -266,7 +266,7 @@
       "matchType": "handicap",
       "homeTeam": "일본",
       "awayTeam": "시리아",
-      "handicapValue": null,
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 6.28,
@@ -331,7 +331,7 @@
       "matchType": "handicap",
       "homeTeam": "한국",
       "awayTeam": "이란",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 3.9,
@@ -348,7 +348,7 @@
       "matchType": "handicap",
       "homeTeam": "한국",
       "awayTeam": "이란",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 9,
@@ -478,7 +478,7 @@
       "matchType": "handicap",
       "homeTeam": "우즈베키",
       "awayTeam": "레바논",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 1.79,
@@ -495,7 +495,7 @@
       "matchType": "handicap",
       "homeTeam": "우즈베키",
       "awayTeam": "레바논",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 3.05,
@@ -512,7 +512,7 @@
       "matchType": "handicap",
       "homeTeam": "우즈베키",
       "awayTeam": "레바논",
-      "handicapValue": null,
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 4.85,
@@ -577,7 +577,7 @@
       "matchType": "handicap",
       "homeTeam": "카타르",
       "awayTeam": "아랍에미",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 4.4,
@@ -726,7 +726,7 @@
       "matchType": "handicap",
       "homeTeam": "나폴리",
       "awayTeam": "엘라스",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 1.98,
@@ -743,7 +743,7 @@
       "matchType": "handicap",
       "homeTeam": "나폴리",
       "awayTeam": "엘라스",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 3.75,
@@ -760,7 +760,7 @@
       "matchType": "handicap",
       "homeTeam": "나폴리",
       "awayTeam": "엘라스",
-      "handicapValue": null,
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 6.28,
@@ -825,7 +825,7 @@
       "matchType": "handicap",
       "homeTeam": "바르셀로",
       "awayTeam": "빌바오",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 2.05,
@@ -891,7 +891,7 @@
       "matchType": "handicap",
       "homeTeam": "본머스",
       "awayTeam": "토트넘",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 3.65,
@@ -908,7 +908,7 @@
       "matchType": "handicap",
       "homeTeam": "본머스",
       "awayTeam": "토트넘",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 8.4,
@@ -974,7 +974,7 @@
       "matchType": "handicap",
       "homeTeam": "브렌트퍼",
       "awayTeam": "선덜랜드",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 3.1,
@@ -991,7 +991,7 @@
       "matchType": "handicap",
       "homeTeam": "브렌트퍼",
       "awayTeam": "선덜랜드",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 6.7,
@@ -1140,7 +1140,7 @@
       "matchType": "handicap",
       "homeTeam": "에버턴",
       "awayTeam": "울버햄프",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 3,
@@ -1157,7 +1157,7 @@
       "matchType": "handicap",
       "homeTeam": "에버턴",
       "awayTeam": "울버햄프",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 6.5,
@@ -1306,7 +1306,7 @@
       "matchType": "handicap",
       "homeTeam": "맨체스C",
       "awayTeam": "브라이턴",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 1.94,
@@ -1323,7 +1323,7 @@
       "matchType": "handicap",
       "homeTeam": "맨체스C",
       "awayTeam": "브라이턴",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 3.15,
@@ -1340,7 +1340,7 @@
       "matchType": "handicap",
       "homeTeam": "맨체스C",
       "awayTeam": "브라이턴",
-      "handicapValue": null,
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 4.65,
@@ -1405,7 +1405,7 @@
       "matchType": "handicap",
       "homeTeam": "라치오",
       "awayTeam": "피오렌티",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 4.6,
@@ -1422,7 +1422,7 @@
       "matchType": "handicap",
       "homeTeam": "라치오",
       "awayTeam": "피오렌티",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 12,
@@ -1587,7 +1587,7 @@
       "matchType": "handicap",
       "homeTeam": "토리노",
       "awayTeam": "우디네세",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 4.6,
@@ -1604,7 +1604,7 @@
       "matchType": "handicap",
       "homeTeam": "토리노",
       "awayTeam": "우디네세",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 12.5,
@@ -1753,7 +1753,7 @@
       "matchType": "handicap",
       "homeTeam": "뉴캐슬U",
       "awayTeam": "리즈U",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 2.6,
@@ -1770,7 +1770,7 @@
       "matchType": "handicap",
       "homeTeam": "뉴캐슬U",
       "awayTeam": "리즈U",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 5.3,
@@ -1899,7 +1899,7 @@
       "matchType": "handicap",
       "homeTeam": "디트피스",
       "awayTeam": "시카불스",
-      "handicapValue": null,
+      "handicapValue": "H -10.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -1963,7 +1963,7 @@
       "matchType": "handicap",
       "homeTeam": "필라76s",
       "awayTeam": "워싱위저",
-      "handicapValue": null,
+      "handicapValue": "H -11.5",
       "underOverValue": null,
       "odds": {
         "home": 1.72,
@@ -2027,7 +2027,7 @@
       "matchType": "handicap",
       "homeTeam": "보스셀틱",
       "awayTeam": "덴버너게",
-      "handicapValue": null,
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -2091,7 +2091,7 @@
       "matchType": "handicap",
       "homeTeam": "애틀호크",
       "awayTeam": "뉴올펠리",
-      "handicapValue": null,
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -2219,7 +2219,7 @@
       "matchType": "handicap",
       "homeTeam": "뉴욕닉스",
       "awayTeam": "LA클리퍼",
-      "handicapValue": null,
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
         "home": 1.77,
@@ -2347,7 +2347,7 @@
       "matchType": "handicap",
       "homeTeam": "오클썬더",
       "awayTeam": "유타재즈",
-      "handicapValue": null,
+      "handicapValue": "H -18.5",
       "underOverValue": null,
       "odds": {
         "home": 1.72,
@@ -2411,7 +2411,7 @@
       "matchType": "handicap",
       "homeTeam": "샌안스퍼",
       "awayTeam": "LA레이커",
-      "handicapValue": null,
+      "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.68,
@@ -2475,7 +2475,7 @@
       "matchType": "handicap",
       "homeTeam": "골든워리",
       "awayTeam": "밀워벅스",
-      "handicapValue": null,
+      "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.68,
@@ -2604,7 +2604,7 @@
       "matchType": "handicap",
       "homeTeam": "호주",
       "awayTeam": "태국",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 1.81,
@@ -2621,7 +2621,7 @@
       "matchType": "handicap",
       "homeTeam": "호주",
       "awayTeam": "태국",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 3.05,
@@ -2638,7 +2638,7 @@
       "matchType": "handicap",
       "homeTeam": "호주",
       "awayTeam": "태국",
-      "handicapValue": null,
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 4.85,
@@ -2703,7 +2703,7 @@
       "matchType": "handicap",
       "homeTeam": "이라크",
       "awayTeam": "중국",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 4.75,
@@ -2769,7 +2769,7 @@
       "matchType": "handicap",
       "homeTeam": "크레모네",
       "awayTeam": "칼리아리",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 4.75,
@@ -2786,7 +2786,7 @@
       "matchType": "handicap",
       "homeTeam": "크레모네",
       "awayTeam": "칼리아리",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 13,
@@ -2852,7 +2852,7 @@
       "matchType": "handicap",
       "homeTeam": "PSG",
       "awayTeam": "마르세유",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 2.26,
@@ -2984,7 +2984,7 @@
       "matchType": "handicap",
       "homeTeam": "AC밀란",
       "awayTeam": "제노아",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 2.07,
@@ -3001,7 +3001,7 @@
       "matchType": "handicap",
       "homeTeam": "AC밀란",
       "awayTeam": "제노아",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 3.75,
@@ -3018,7 +3018,7 @@
       "matchType": "handicap",
       "homeTeam": "AC밀란",
       "awayTeam": "제노아",
-      "handicapValue": null,
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 6.28,
@@ -3083,7 +3083,7 @@
       "matchType": "handicap",
       "homeTeam": "아스널",
       "awayTeam": "리버풀",
-      "handicapValue": null,
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
         "home": 2.4,
@@ -3100,7 +3100,7 @@
       "matchType": "handicap",
       "homeTeam": "아스널",
       "awayTeam": "리버풀",
-      "handicapValue": null,
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
         "home": 4.65,

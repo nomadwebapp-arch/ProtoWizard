@@ -170,8 +170,8 @@ async function fetchBetmanData(roundNumber = null) {
           const homeTeam = teamCells?.[0]?.querySelector('span')?.textContent?.trim() || '';
           const awayTeam = teamCells?.[1]?.querySelector('span')?.textContent?.trim() || '';
 
-          // 핸디캡 값 (있는 경우)
-          const handicapEl = row.querySelector('.udPoint.fcOrange');
+          // 핸디캡 값 (있는 경우) - 축구(fcOrange), 농구(fcBlue3) 모두 지원
+          const handicapEl = row.querySelector('.udPoint.fcOrange, .udPoint.fcBlue3');
           const handicapValue = handicapEl?.textContent?.trim() || null;
 
           // 언더오버 값 (있는 경우)
