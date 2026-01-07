@@ -311,22 +311,106 @@ async function fetchBetmanData(roundNumber = null) {
   }
 }
 
+/**
+ * 다음 회차 번호 계산
+ */
+function getNextRound(currentRound) {
+  const year = currentRound.substring(0, 2); // "26"
+  const round = parseInt(currentRound.substring(2), 10); // "0004" -> 4
+  const nextRound = round + 1;
+  return `${year}${String(nextRound).padStart(4, '0')}`; // "260005"
+}
+
+/**
+ * 모든 경기가 마감되었는지 체크
+ */
+function areAllMatchesClosed(matches) {
+  if (matches.length === 0) {
+    return true; // 경기가 없으면 마감된 것으로 간주
+  }
+
+  const now = new Date();
+
+  // 모든 경기의 마감 시간을 파싱해서 체크
+  // betman의 deadlineText 형식: "01/07 18:00" 등
+  for (const match of matches) {
+    if (!match.deadlineText) continue;
+
+    try {
+      // "01/07 18:00" -> Date 객체로 변환
+      const [datePart, timePart] = match.deadlineText.split(' ');
+      const [month, day] = datePart.split('/').map(Number);
+      const [hours, minutes] = timePart.split(':').map(Number);
+
+      const deadline = new Date();
+      deadline.setMonth(month - 1);
+      deadline.setDate(day);
+      deadline.setHours(hours);
+      deadline.setMinutes(minutes);
+      deadline.setSeconds(0);
+
+      // 아직 마감 안 된 경기가 하나라도 있으면 false
+      if (deadline > now) {
+        return false;
+      }
+    } catch (error) {
+      console.error('마감 시간 파싱 오류:', error);
+    }
+  }
+
+  return true; // 모든 경기가 마감됨
+}
+
 // 실행
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const roundNumber = process.argv[2]; // 파라미터 없으면 자동 감지
+  (async () => {
+    try {
+      // 1. current-round.json에서 현재 회차 읽기
+      let currentRoundData;
+      try {
+        currentRoundData = JSON.parse(fs.readFileSync('./current-round.json', 'utf-8'));
+      } catch (error) {
+        console.log('⚠️ current-round.json 없음, 기본값 260004 사용');
+        currentRoundData = { roundNumber: '260004' };
+        fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
+      }
 
-  fetchBetmanData(roundNumber)
-    .then((data) => {
+      let roundNumber = currentRoundData.roundNumber;
+      console.log(`📌 현재 설정된 회차: ${roundNumber}\n`);
+
+      // 2. 현재 회차 데이터 가져오기
+      let data = await fetchBetmanData(roundNumber);
+
+      // 3. 모든 경기가 마감되었는지 체크
+      if (areAllMatchesClosed(data.matches)) {
+        console.log(`\n🔄 모든 경기가 마감되었습니다. 다음 회차로 전환합니다...\n`);
+
+        // 4. 다음 회차로 전환
+        const nextRound = getNextRound(roundNumber);
+        console.log(`📌 새로운 회차: ${nextRound}\n`);
+
+        // 5. current-round.json 업데이트
+        currentRoundData.roundNumber = nextRound;
+        fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
+        console.log(`✅ current-round.json 업데이트 완료!\n`);
+
+        // 6. 다음 회차 데이터 가져오기
+        data = await fetchBetmanData(nextRound);
+      } else {
+        console.log(`\n✅ 아직 진행 중인 경기가 있습니다. 현재 회차 유지: ${roundNumber}\n`);
+      }
+
       console.log(`\n✨ 완료! 총 ${data.matches.length}개 경기`);
 
-      // JSON 파일로 저장
+      // 7. JSON 파일로 저장
       fs.writeFileSync('./betman-data.json', JSON.stringify(data, null, 2));
       console.log('💾 betman-data.json 저장 완료!');
-    })
-    .catch((error) => {
+
+    } catch (error) {
       console.error('\n💥 실패:', error);
       process.exit(1);
-    });
+    }
+  })();
 }
 
 export default fetchBetmanData;

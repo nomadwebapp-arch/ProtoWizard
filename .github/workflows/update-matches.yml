@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch Betman data (260004회차 - 수동 업데이트 필요)
-        run: node scripts/fetchBetmanData.js 260004
+      - name: Fetch Betman data (자동 회차 전환)
+        run: node scripts/fetchBetmanData.js
 
       - name: Convert to TypeScript
         run: node scripts/convertToProtoMatches.js
@@ -42,6 +42,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add src/data/protoMatches.ts betman-data.json
+          git add src/data/protoMatches.ts betman-data.json current-round.json
           git commit -m "Auto-update: Betman matches data ($(date +'%Y-%m-%d %H:%M KST'))"
           git push
