@@ -1,4 +1,4 @@
-export type Sport = 'soccer' | 'baseball' | 'basketball';
+export type Sport = 'soccer' | 'baseball' | 'basketball' | 'volleyball';
 export type MatchType = 'normal' | 'handicap' | 'underover' | 'sum';
 export type MatchStatus = 'open' | 'closed';
 
