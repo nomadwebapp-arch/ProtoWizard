@@ -1,12 +1,11 @@
 name: Update Matches Data
 
 on:
-  # 자동 실행 비활성화 (수동으로만 관리)
-  # schedule:
-  #   # 30분마다 실행 (KST 기준으로 회차가 바뀌어도 자동으로 최신 회차 감지)
-  #   - cron: '*/30 * * * *'
+  # 30분마다 자동 업데이트 (끝난 경기 자동 제거)
+  schedule:
+    - cron: '*/30 * * * *'  # 30분마다 실행
 
-  # 수동 실행만 가능
+  # 수동 실행도 가능
   workflow_dispatch:
 
 jobs:

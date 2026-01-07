@@ -110,9 +110,11 @@ async function fetchBetmanData(roundNumber = null) {
     console.log('✅ 테이블 로드 완료! 데이터 추출 중...\n');
 
     // HTML에서 경기 데이터 및 회차 정보 추출
-    const { matches, debug, detectedRound } = await page.evaluate(() => {
+    const { matches, debug, detectedRound, finishedMatches, lastMatchNumber } = await page.evaluate(() => {
       const matchList = [];
+      const finishedMatchList = []; // 결과발표된 경기 목록
       const debugList = []; // 디버깅용
+      let maxMatchNumber = 0; // 전체 경기 중 가장 큰 번호
 
       // 회차 정보 추출 (페이지 타이틀이나 특정 요소에서)
       let roundNumber = null;
@@ -142,6 +144,11 @@ async function fetchBetmanData(roundNumber = null) {
           const matchSeq = row.getAttribute('data-matchseq');
           const gameNumber = parseInt(matchSeq);
 
+          // 전체 경기 중 가장 큰 번호 추적
+          if (gameNumber > maxMatchNumber) {
+            maxMatchNumber = gameNumber;
+          }
+
           // 종목 (아이콘 텍스트에서 추출)
           const sportIconEl = row.querySelector('.icoGame');
           const sportText = sportIconEl?.textContent?.trim() || '';
@@ -150,9 +157,25 @@ async function fetchBetmanData(roundNumber = null) {
           const leagueEl = row.querySelector('.fs11');
           const league = leagueEl?.textContent?.trim() || '';
 
-          // 게임 타입 (일반, 핸디캡, 언더오버, SUM)
+          // 게임 타입 (일반, 핸디캡, 언더오버, SUM) 및 경기 상태 체크
           const badgeEl = row.querySelector('.badge');
           const matchTypeKorean = badgeEl?.textContent?.trim() || '일반';
+
+          // 경기가 종료되어 결과가 발표된 경우 건너뛰기
+          if (matchTypeKorean === '결과발표') {
+            finishedMatchList.push({
+              gameNumber,
+              sportText,
+              league,
+              status: '결과발표'
+            });
+            debugList.push({
+              gameNumber,
+              status: '결과발표 (종료된 경기)',
+              passed: false
+            });
+            return; // 이 경기는 matchList에 추가하지 않음
+          }
 
           // 한글 → 영문 변환
           const matchTypeMap = {
@@ -250,7 +273,13 @@ async function fetchBetmanData(roundNumber = null) {
         }
       });
 
-      return { matches: matchList, debug: debugList, detectedRound: roundNumber };
+      return {
+        matches: matchList,
+        debug: debugList,
+        detectedRound: roundNumber,
+        finishedMatches: finishedMatchList,
+        lastMatchNumber: maxMatchNumber
+      };
     });
 
     // 감지된 회차 정보 사용
@@ -304,9 +333,23 @@ async function fetchBetmanData(roundNumber = null) {
       });
     }
 
+    // 종료된 경기 정보 출력
+    if (finishedMatches && finishedMatches.length > 0) {
+      console.log(`\n📊 결과발표된 경기: ${finishedMatches.length}개`);
+      console.log(`🏁 마지막 경기 번호: ${lastMatchNumber}\n`);
+
+      // 마지막 경기가 종료되었는지 체크
+      const lastMatchFinished = finishedMatches.some(m => m.gameNumber === lastMatchNumber);
+      if (lastMatchFinished) {
+        console.log('✅ 마지막 경기가 종료되었습니다! (회차 전환 가능)\n');
+      }
+    }
+
     return {
       roundNumber,
       matches,
+      finishedMatches: finishedMatches || [],
+      lastMatchNumber: lastMatchNumber || 0,
     };
 
   } catch (error) {
@@ -328,43 +371,18 @@ function getNextRound(currentRound) {
 }
 
 /**
- * 모든 경기가 마감되었는지 체크
+ * 마지막 경기가 종료되었는지 체크 (회차 전환 조건)
+ * @param {Array} finishedMatches - 결과발표된 경기 목록
+ * @param {number} lastMatchNumber - 전체 경기 중 가장 큰 번호
+ * @returns {boolean} 마지막 경기가 종료되었으면 true
  */
-function areAllMatchesClosed(matches) {
-  if (matches.length === 0) {
-    return true; // 경기가 없으면 마감된 것으로 간주
+function isLastMatchFinished(finishedMatches, lastMatchNumber) {
+  if (!finishedMatches || finishedMatches.length === 0 || !lastMatchNumber) {
+    return false;
   }
 
-  const now = new Date();
-
-  // 모든 경기의 마감 시간을 파싱해서 체크
-  // betman의 deadlineText 형식: "01/07 18:00" 등
-  for (const match of matches) {
-    if (!match.deadlineText) continue;
-
-    try {
-      // "01/07 18:00" -> Date 객체로 변환
-      const [datePart, timePart] = match.deadlineText.split(' ');
-      const [month, day] = datePart.split('/').map(Number);
-      const [hours, minutes] = timePart.split(':').map(Number);
-
-      const deadline = new Date();
-      deadline.setMonth(month - 1);
-      deadline.setDate(day);
-      deadline.setHours(hours);
-      deadline.setMinutes(minutes);
-      deadline.setSeconds(0);
-
-      // 아직 마감 안 된 경기가 하나라도 있으면 false
-      if (deadline > now) {
-        return false;
-      }
-    } catch (error) {
-      console.error('마감 시간 파싱 오류:', error);
-    }
-  }
-
-  return true; // 모든 경기가 마감됨
+  // 마지막 경기 번호가 종료된 경기 목록에 있는지 체크
+  return finishedMatches.some(m => m.gameNumber === lastMatchNumber);
 }
 
 // 실행
@@ -387,24 +405,25 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       // 2. 현재 회차 데이터 가져오기
       let data = await fetchBetmanData(roundNumber);
 
-      // 3. 모든 경기가 마감되었는지 체크 (임시 비활성화 - 수동으로 관리)
-      // if (areAllMatchesClosed(data.matches)) {
-      //   console.log(`\n🔄 모든 경기가 마감되었습니다. 다음 회차로 전환합니다...\n`);
+      // 3. 마지막 경기가 종료되었는지 체크 (회차 전환 조건)
+      if (isLastMatchFinished(data.finishedMatches, data.lastMatchNumber)) {
+        console.log(`\n🔄 마지막 경기가 종료되었습니다! 다음 회차로 전환합니다...\n`);
 
-      //   // 4. 다음 회차로 전환
-      //   const nextRound = getNextRound(roundNumber);
-      //   console.log(`📌 새로운 회차: ${nextRound}\n`);
+        // 4. 다음 회차로 전환
+        const nextRound = getNextRound(roundNumber);
+        console.log(`📌 새로운 회차: ${nextRound}\n`);
 
-      //   // 5. current-round.json 업데이트
-      //   currentRoundData.roundNumber = nextRound;
-      //   fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
-      //   console.log(`✅ current-round.json 업데이트 완료!\n`);
+        // 5. current-round.json 업데이트
+        currentRoundData.roundNumber = nextRound;
+        fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
+        console.log(`✅ current-round.json 업데이트 완료!\n`);
 
-      //   // 6. 다음 회차 데이터 가져오기
-      //   data = await fetchBetmanData(nextRound);
-      // } else {
+        // 6. 다음 회차 데이터 가져오기
+        data = await fetchBetmanData(nextRound);
+        roundNumber = nextRound;
+      } else {
         console.log(`\n✅ 현재 회차 유지: ${roundNumber}\n`);
-      // }
+      }
 
       console.log(`\n✨ 완료! 총 ${data.matches.length}개 경기`);
 
