@@ -732,7 +732,7 @@ function App() {
           {combination ? (
             <>
               <button
-                className="btn btn-primary"
+                className="btn btn-secondary"
                 onClick={() => setShowShareModal(true)}
               >
                 📤 공유하기
