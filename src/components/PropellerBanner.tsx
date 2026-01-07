@@ -9,8 +9,8 @@ import { useEffect } from 'react';
  * 3. 받은 코드의 zoneId를 PROPELLER_ZONE_ID에 입력
  */
 
-// TODO: PropellerAds 가입 후 실제 Zone ID로 교체
-const PROPELLER_ZONE_ID = 'YOUR_ZONE_ID_HERE';
+// PropellerAds Zone ID
+const PROPELLER_ZONE_ID = '10429778';
 
 export default function PropellerBanner() {
   useEffect(() => {
