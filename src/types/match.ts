@@ -1,5 +1,5 @@
 export type Sport = 'soccer' | 'baseball' | 'basketball';
-export type MatchType = 'normal' | 'handicap' | 'underover';
+export type MatchType = 'normal' | 'handicap' | 'underover' | 'sum';
 export type MatchStatus = 'open' | 'closed';
 
 export interface Match {
@@ -19,6 +19,10 @@ export interface Match {
   };
   deadline: Date;
   status: MatchStatus;
+  handicapValue?: string;   // 핸디캡 기준점 (예: "H +2.5", "H -1.0")
+  underOverValue?: string;  // 언더오버 기준점 (예: "U/O 160.5", "U/O 2.5")
+  isSingle?: boolean;       // 싱글 베팅 가능 여부 (S 표시)
+  isHalfTime?: boolean;     // 전반전 결과 예측 (전반 표시)
 }
 
 export interface Combination {

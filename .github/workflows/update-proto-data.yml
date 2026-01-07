@@ -1,0 +1,82 @@
+name: 프로토 데이터 자동 업데이트
+
+on:
+  # 스케줄: 영업시간(오전 7시~밤 11시) 동안 30분마다 실행
+  schedule:
+    - cron: '0,30 7-23 * * *'  # 7:00, 7:30, 8:00, ... 23:00, 23:30
+
+  # 수동 실행 가능
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 코드 체크아웃
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Node.js 설정
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 의존성 설치
+        run: npm ci
+
+      - name: Puppeteer 종속성 설치 (Linux)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            chromium-browser \
+            fonts-nanum \
+            fonts-nanum-coding
+
+      - name: 프로토 데이터 업데이트
+        env:
+          AUTO_COMMIT: 'false'  # 아직 커밋하지 않음
+        run: node scripts/updateMatches.js
+
+      - name: 변경사항 확인
+        id: check-changes
+        run: |
+          if git diff --quiet src/data/protoMatches.ts; then
+            echo "변경사항 없음"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "변경사항 발견!"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Git 설정
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: 변경사항 커밋 & 푸시
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git add src/data/protoMatches.ts
+          git commit -m "chore: 프로토 경기 데이터 자동 업데이트 📊
+
+          - 업데이트 시간: $(date '+%Y-%m-%d %H:%M:%S KST')
+          - 자동 업데이트 by GitHub Actions
+          "
+          git push
+
+      - name: 완료 알림
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          echo "✅ 프로토 데이터 업데이트 완료!"
+          echo "📊 protoMatches.ts 파일이 업데이트되었습니다."
+          echo "🚀 Vercel이 자동으로 배포합니다."
+
+      - name: 변경사항 없음
+        if: steps.check-changes.outputs.changed == 'false'
+        run: |
+          echo "ℹ️ 프로토 데이터에 변경사항이 없습니다."
+          echo "📅 다음 업데이트를 기다립니다."

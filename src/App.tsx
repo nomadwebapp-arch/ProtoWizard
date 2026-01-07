@@ -1,13 +1,21 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './App.css';
 import { protoMatches } from './data/protoMatches';
 import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
+import html2canvas from 'html2canvas';
+import PropellerBanner from './components/PropellerBanner';
+import { usePopAds } from './hooks/usePopAds';
 
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
   const [showSettings, setShowSettings] = useState(true);
   const [clickCount, setClickCount] = useState(0);
+  const [showShareModal, setShowShareModal] = useState(false);
+  const combinationRef = useRef<HTMLDivElement>(null);
+
+  // PopAds 팝업 광고 훅 (5회마다 팝업)
+  const { trackClick, getRemainingClicks } = usePopAds();
 
   // Filter options state
   const [targetOdds, setTargetOdds] = useState(10);
@@ -25,6 +33,9 @@ function App() {
   const [highOddsCount, setHighOddsCount] = useState(1);
 
   const handleGenerate = () => {
+    // 광고 클릭 카운트 추적 (5회마다 팝업)
+    trackClick();
+
     // 마감 시간 체크 - 사용 가능한 경기 확인
     const now = new Date();
     const availableMatches = protoMatches.filter(m => m.status === 'open' && m.deadline > now);
@@ -66,13 +77,14 @@ function App() {
     };
 
     const result = generateRandomCombination(protoMatches, options);
+
+    if (!result) {
+      alert('조건에 맞는 조합을 찾을 수 없습니다. 필터 조건을 완화해보세요.');
+      return;
+    }
+
     setCombination(result);
     setClickCount(prev => prev + 1);
-
-    // TODO: Ad logic - show ad every 5 clicks
-    if (clickCount > 0 && clickCount % 5 === 0) {
-      console.log('Show ad here (click count:', clickCount, ')');
-    }
   };
 
   const handleReset = () => {
@@ -90,32 +102,191 @@ function App() {
     setHighOddsCount(1);
   };
 
+  const generateImage = async () => {
+    if (!combinationRef.current) return null;
+
+    try {
+      const canvas = await html2canvas(combinationRef.current, {
+        backgroundColor: '#0a0a0a',
+        scale: 2,
+        logging: false,
+      });
+
+      // 워터마크 추가 (흰색, 크게, 그림자 효과)
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
+        // 캔버스 중앙 하단 (총배당/배팅금액 영역)에 워터마크
+        ctx.save();
+
+        // 대각선으로 회전
+        ctx.translate(canvas.width / 2, canvas.height - 400);
+        ctx.rotate(-15 * Math.PI / 180);
+
+        // 작고 은은한 흰색 텍스트 (테두리 + 채우기)
+        ctx.font = 'bold 40px Arial';
+        ctx.textAlign = 'center';
+
+        // 테두리 (연하게)
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
+        ctx.lineWidth = 1;
+        ctx.strokeText('ProtoWizard', 0, 0);
+
+        // 채우기 (연하게)
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
+        ctx.fillText('ProtoWizard', 0, 0);
+
+        ctx.restore();
+      }
+
+      return canvas;
+    } catch (error) {
+      console.error('이미지 생성 실패:', error);
+      return null;
+    }
+  };
+
+  const handleShareImage = async () => {
+    const canvas = await generateImage();
+    if (!canvas) return;
+
+    canvas.toBlob((blob) => {
+      if (!blob) return;
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.download = `proto-combination-${Date.now()}.png`;
+      link.href = url;
+      link.click();
+      URL.revokeObjectURL(url);
+      setShowShareModal(false);
+    });
+  };
+
+  const handleShareKakao = async () => {
+    const canvas = await generateImage();
+    if (!canvas) return;
+
+    canvas.toBlob(async (blob) => {
+      if (!blob) return;
+
+      const file = new File([blob], 'proto-combination.png', { type: 'image/png' });
+
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: 'ProtoWizard 조합',
+            text: `총 배당: ${combination?.totalOdds.toFixed(2)}배`,
+            files: [file],
+          });
+          setShowShareModal(false);
+        } catch (error) {
+          console.error('공유 실패:', error);
+        }
+      } else {
+        alert('이 브라우저는 공유 기능을 지원하지 않습니다.');
+      }
+    });
+  };
+
+  const handleShareSMS = async () => {
+    const canvas = await generateImage();
+    if (!canvas) return;
+
+    canvas.toBlob(async (blob) => {
+      if (!blob) return;
+
+      const file = new File([blob], 'proto-combination.png', { type: 'image/png' });
+
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: 'ProtoWizard 조합',
+            text: `총 배당: ${combination?.totalOdds.toFixed(2)}배\n예상 환급: ${formatNumber(combination?.estimatedPayout || 0)}원`,
+            files: [file],
+          });
+          setShowShareModal(false);
+        } catch (error) {
+          console.error('공유 실패:', error);
+          // Web Share API 실패 시 텍스트만 SMS로 전송
+          if (combination) {
+            const message = `ProtoWizard 조합\n총 배당: ${combination.totalOdds.toFixed(2)}배\n예상 환급: ${formatNumber(combination.estimatedPayout)}원`;
+            const smsUrl = `sms:?body=${encodeURIComponent(message)}`;
+            window.location.href = smsUrl;
+            setShowShareModal(false);
+          }
+        }
+      } else {
+        // Web Share API 미지원 시 텍스트만 SMS로 전송
+        if (combination) {
+          const message = `ProtoWizard 조합\n총 배당: ${combination.totalOdds.toFixed(2)}배\n예상 환급: ${formatNumber(combination.estimatedPayout)}원`;
+          const smsUrl = `sms:?body=${encodeURIComponent(message)}`;
+          window.location.href = smsUrl;
+          setShowShareModal(false);
+        }
+      }
+    });
+  };
+
   const formatNumber = (num: number) => {
     return num.toLocaleString('ko-KR');
   };
 
-  const getSelectedLabel = (selected: 'home' | 'draw' | 'away') => {
+  const getSelectedLabel = (selected: 'home' | 'draw' | 'away', matchType: string) => {
+    // 언더오버
+    if (matchType === 'underover') {
+      switch (selected) {
+        case 'home':
+          return 'U (언더)';
+        case 'away':
+          return 'O (오버)';
+        default:
+          return '-';
+      }
+    }
+
+    // SUM (홀/짝)
+    if (matchType === 'sum') {
+      switch (selected) {
+        case 'home':
+          return '홀';
+        case 'away':
+          return '짝';
+        default:
+          return '-';
+      }
+    }
+
+    // 일반, 핸디캡 (승/무/패)
     switch (selected) {
       case 'home':
-        return '홈 승';
+        return '승';
       case 'draw':
-        return '무승부';
+        return '무';
       case 'away':
-        return '원정 승';
+        return '패';
     }
   };
 
-  const getMatchTypeLabel = (matchType: string) => {
+  const getMatchTypeLabel = (matchType: string, handicapValue?: string, underOverValue?: string) => {
     switch (matchType) {
       case 'normal':
         return '일반';
       case 'handicap':
-        return '핸디캡';
+        return `핸디캡 ${handicapValue || ''}`;
       case 'underover':
-        return '언더오버';
+        return `언더오버 ${underOverValue || ''}`;
+      case 'sum':
+        return 'SUM (홀/짝)';
       default:
         return matchType;
     }
+  };
+
+  const formatDeadline = (deadline: Date) => {
+    const month = String(deadline.getMonth() + 1).padStart(2, '0');
+    const day = String(deadline.getDate()).padStart(2, '0');
+    const hours = String(deadline.getHours()).padStart(2, '0');
+    const minutes = String(deadline.getMinutes()).padStart(2, '0');
+    return `${month}/${day} ${hours}:${minutes}`;
   };
 
   const formatRoundNumber = (roundNumber: string) => {
@@ -416,7 +587,7 @@ function App() {
         )}
 
         {/* Combination Display */}
-        <div className="combination-card">
+        <div className="combination-card" ref={combinationRef}>
           {combination ? (
             <>
               {/* 회차 정보 표시 */}
@@ -446,8 +617,15 @@ function App() {
                     <div className="match-header">
                       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                         <span className="match-league">{item.match.league}</span>
+                        <span style={{
+                          fontSize: '0.8rem',
+                          color: '#888',
+                          fontWeight: '500'
+                        }}>
+                          ⏰ {formatDeadline(item.match.deadline)}
+                        </span>
                       </div>
-                      <div style={{ display: 'flex', gap: '6px' }}>
+                      <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
                         <span className="match-sport-badge">{item.match.sport}</span>
                       </div>
                     </div>
@@ -460,14 +638,45 @@ function App() {
                         fontSize: '0.75rem',
                         fontWeight: '600'
                       }}>
-                        {getMatchTypeLabel(item.match.matchType)}
+                        {getMatchTypeLabel(item.match.matchType, item.match.handicapValue, item.match.underOverValue)}
                       </span>
                       <span>{item.match.homeTeam} vs {item.match.awayTeam}</span>
                     </div>
                     <div className="match-result" style={{ color: '#fff' }}>
-                      <span style={{ fontSize: '1.1rem', fontWeight: '500' }}>
-                        {String(item.match.gameNumber).padStart(3, '0')}
-                      </span>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <span style={{ fontSize: '1.1rem', fontWeight: '500' }}>
+                          {String(item.match.gameNumber).padStart(3, '0')}
+                        </span>
+                        {item.match.isSingle && (
+                          <span style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            width: '20px',
+                            height: '20px',
+                            borderRadius: '50%',
+                            border: '1.5px solid #4a9eff',
+                            color: '#4a9eff',
+                            fontSize: '0.7rem',
+                            fontWeight: '700'
+                          }}>
+                            S
+                          </span>
+                        )}
+                        {item.match.isHalfTime && (
+                          <span style={{
+                            padding: '2px 6px',
+                            borderRadius: '4px',
+                            background: 'rgba(255, 152, 0, 0.2)',
+                            border: '1px solid rgba(255, 152, 0, 0.5)',
+                            color: '#ff9800',
+                            fontSize: '0.7rem',
+                            fontWeight: '600'
+                          }}>
+                            전반
+                          </span>
+                        )}
+                      </div>
                       <span style={{ fontSize: '1.1rem', fontWeight: '500', color: '#888' }}>
                         -
                       </span>
@@ -476,7 +685,7 @@ function App() {
                         fontWeight: '600',
                         color: getSelectionColor(item.selected)
                       }}>
-                        {getSelectedLabel(item.selected)}
+                        {getSelectedLabel(item.selected, item.match.matchType)}
                       </span>
                       <span style={{
                         background: 'rgba(255, 193, 7, 0.2)',
@@ -528,6 +737,15 @@ function App() {
           <button className="btn btn-primary" onClick={handleGenerate}>
             {combination ? '새로운 조합 생성' : '조합 생성'}
           </button>
+          {combination && (
+            <button
+              className="btn btn-primary"
+              onClick={() => setShowShareModal(true)}
+              style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}
+            >
+              📤 공유하기
+            </button>
+          )}
           <button
             className="btn btn-secondary"
             onClick={() => setShowSettings(!showSettings)}
@@ -541,9 +759,147 @@ function App() {
           )}
         </div>
 
+        {/* Share Modal */}
+        {showShareModal && (
+          <div
+            style={{
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'rgba(0, 0, 0, 0.8)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              zIndex: 1000,
+            }}
+            onClick={() => setShowShareModal(false)}
+          >
+            <div
+              style={{
+                background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
+                padding: '32px',
+                borderRadius: '16px',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                maxWidth: '400px',
+                width: '90%',
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <h3
+                style={{
+                  color: '#fff',
+                  fontSize: '1.5rem',
+                  marginBottom: '24px',
+                  textAlign: 'center',
+                }}
+              >
+                조합 공유하기
+              </h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <button
+                  onClick={handleShareImage}
+                  style={{
+                    padding: '16px',
+                    background: 'rgba(74, 158, 255, 0.2)',
+                    border: '1px solid rgba(74, 158, 255, 0.5)',
+                    borderRadius: '12px',
+                    color: '#fff',
+                    fontSize: '1rem',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '8px',
+                    transition: 'all 0.2s',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = 'rgba(74, 158, 255, 0.3)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'rgba(74, 158, 255, 0.2)';
+                  }}
+                >
+                  📷 이미지로 저장
+                </button>
+                <button
+                  onClick={handleShareKakao}
+                  style={{
+                    padding: '16px',
+                    background: 'rgba(255, 235, 59, 0.2)',
+                    border: '1px solid rgba(255, 235, 59, 0.5)',
+                    borderRadius: '12px',
+                    color: '#fff',
+                    fontSize: '1rem',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '8px',
+                    transition: 'all 0.2s',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 235, 59, 0.3)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 235, 59, 0.2)';
+                  }}
+                >
+                  💬 카카오톡 공유
+                </button>
+                <button
+                  onClick={handleShareSMS}
+                  style={{
+                    padding: '16px',
+                    background: 'rgba(76, 175, 80, 0.2)',
+                    border: '1px solid rgba(76, 175, 80, 0.5)',
+                    borderRadius: '12px',
+                    color: '#fff',
+                    fontSize: '1rem',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '8px',
+                    transition: 'all 0.2s',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = 'rgba(76, 175, 80, 0.3)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'rgba(76, 175, 80, 0.2)';
+                  }}
+                >
+                  📱 문자 메시지
+                </button>
+                <button
+                  onClick={() => setShowShareModal(false)}
+                  style={{
+                    padding: '12px',
+                    background: 'transparent',
+                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                    borderRadius: '12px',
+                    color: '#888',
+                    fontSize: '0.9rem',
+                    cursor: 'pointer',
+                    marginTop: '8px',
+                  }}
+                >
+                  취소
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Warning Notice */}
         <div style={{
           marginTop: '24px',
+          marginBottom: '80px', // 배너 광고 공간 확보
           padding: '16px',
           background: 'rgba(255, 193, 7, 0.1)',
           border: '1px solid rgba(255, 193, 7, 0.3)',
@@ -551,10 +907,30 @@ function App() {
           fontSize: '0.8rem',
           color: '#ffc107',
           textAlign: 'center',
+          lineHeight: '1.6',
         }}>
           ⚠️ 본 서비스는 랜덤 시뮬레이션 도구입니다. 실제 배팅을 권장하거나 예측하지 않습니다.
+          <br />
+          또한 배팅 결과와 관련해서는 아무런 책임이 없음을 다시 한번 안내드립니다.
+        </div>
+
+        {/* 광고 안내 */}
+        <div style={{
+          marginBottom: '80px',
+          padding: '12px',
+          background: 'rgba(102, 126, 234, 0.1)',
+          border: '1px solid rgba(102, 126, 234, 0.3)',
+          borderRadius: '8px',
+          fontSize: '0.75rem',
+          color: '#667eea',
+          textAlign: 'center',
+        }}>
+          💡 다음 팝업 광고까지: <strong>{getRemainingClicks()}회</strong> 남음
         </div>
       </main>
+
+      {/* PropellerAds 배너 광고 (하단 고정) */}
+      <PropellerBanner />
     </div>
   );
 }

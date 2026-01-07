@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Development files
+page.html
+pdf-full-text.txt
+matches.json
+downloads/
+*.pdf

@@ -1,0 +1,47 @@
+name: Update Matches Data
+
+on:
+  schedule:
+    # 30분마다 실행 (KST 기준으로 회차가 바뀌어도 자동으로 최신 회차 감지)
+    - cron: '*/30 * * * *'
+
+  # 수동 실행도 가능
+  workflow_dispatch:
+
+jobs:
+  update-matches:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch Betman data (auto-detect current round)
+        run: node scripts/fetchBetmanData.js
+
+      - name: Convert to TypeScript
+        run: node scripts/convertToProtoMatches.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code src/data/protoMatches.ts || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/protoMatches.ts betman-data.json
+          git commit -m "Auto-update: Betman matches data ($(date +'%Y-%m-%d %H:%M KST'))"
+          git push

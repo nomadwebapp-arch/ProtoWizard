@@ -7,9 +7,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update:proto": "node scripts/updateMatches.js",
+    "download:pdf": "node scripts/downloadPDF.js",
+    "parse:pdf": "node scripts/parsePDF.js"
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
@@ -23,6 +27,9 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^2.4.5",
+    "puppeteer": "^24.34.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
