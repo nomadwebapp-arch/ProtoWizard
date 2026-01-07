@@ -10,7 +10,6 @@ import { usePopAds } from './hooks/usePopAds';
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
   const [showSettings, setShowSettings] = useState(true);
-  const [clickCount, setClickCount] = useState(0);
   const [showShareModal, setShowShareModal] = useState(false);
   const combinationRef = useRef<HTMLDivElement>(null);
 
