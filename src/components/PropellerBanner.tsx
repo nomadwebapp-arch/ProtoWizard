@@ -1,57 +1,36 @@
 import { useEffect } from 'react';
 
 /**
- * PropellerAds 배너 광고 컴포넌트
+ * PropellerAds Multitag 광고 컴포넌트
  *
- * 사용법:
- * 1. PropellerAds 가입: https://propellerads.com
- * 2. 배너 광고 생성 (320x50 모바일 또는 728x90 데스크탑)
- * 3. 받은 코드의 zoneId를 PROPELLER_ZONE_ID에 입력
+ * Multitag은 자동으로 최적화된 광고를 표시합니다:
+ * - 배너, 팝언더, 인터스티셜 등 여러 형식
+ * - 가장 높은 수익률
+ * - 모든 디바이스 지원
  */
 
-// PropellerAds Zone ID
-const PROPELLER_ZONE_ID = '10429778';
+// PropellerAds Multitag Zone ID
+const PROPELLER_ZONE_ID = '199774';
 
 export default function PropellerBanner() {
   useEffect(() => {
-    // PropellerAds 스크립트 로드
+    // PropellerAds Multitag 스크립트 로드
     const script = document.createElement('script');
+    script.src = 'https://quge5.com/88/tag.min.js';
+    script.setAttribute('data-zone', PROPELLER_ZONE_ID);
     script.async = true;
     script.setAttribute('data-cfasync', 'false');
-    script.src = `//thubanoa.com/${PROPELLER_ZONE_ID}/invoke.js`;
 
-    const container = document.getElementById('propeller-banner-container');
-    if (container) {
-      container.appendChild(script);
-    }
+    document.body.appendChild(script);
 
     return () => {
       // Cleanup
-      if (container && script.parentNode) {
-        container.removeChild(script);
+      if (script.parentNode) {
+        document.body.removeChild(script);
       }
     };
   }, []);
 
-  return (
-    <div style={{
-      position: 'fixed',
-      bottom: 0,
-      left: 0,
-      right: 0,
-      zIndex: 999,
-      background: '#000',
-      borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-    }}>
-      <div
-        id="propeller-banner-container"
-        style={{
-          minHeight: '50px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-      />
-    </div>
-  );
+  // Multitag은 자동으로 광고를 표시하므로 별도의 컨테이너 불필요
+  return null;
 }
