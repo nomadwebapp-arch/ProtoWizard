@@ -14,49 +14,24 @@ const PROPELLER_ZONE_ID = '10429778';
 
 export default function PropellerBanner() {
   useEffect(() => {
-    // PropellerAds 스크립트가 이미 로드되어 있으면 광고 표시
-    if (PROPELLER_ZONE_ID !== 'YOUR_ZONE_ID_HERE') {
-      const script = document.createElement('script');
-      script.async = true;
-      script.setAttribute('data-cfasync', 'false');
-      script.src = `//thubanoa.com/${PROPELLER_ZONE_ID}/invoke.js`;
+    // PropellerAds 스크립트 로드
+    const script = document.createElement('script');
+    script.async = true;
+    script.setAttribute('data-cfasync', 'false');
+    script.src = `//thubanoa.com/${PROPELLER_ZONE_ID}/invoke.js`;
 
-      const container = document.getElementById('propeller-banner-container');
-      if (container) {
-        container.appendChild(script);
-      }
-
-      return () => {
-        // Cleanup
-        if (container && script.parentNode) {
-          container.removeChild(script);
-        }
-      };
+    const container = document.getElementById('propeller-banner-container');
+    if (container) {
+      container.appendChild(script);
     }
-  }, []);
 
-  // 실제 Zone ID가 없으면 개발용 플레이스홀더 표시
-  if (PROPELLER_ZONE_ID === 'YOUR_ZONE_ID_HERE') {
-    return (
-      <div style={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        height: '60px',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        color: '#fff',
-        fontSize: '0.85rem',
-        zIndex: 999,
-        borderTop: '1px solid rgba(255, 255, 255, 0.2)',
-      }}>
-        📢 PropellerAds 배너 광고 영역 (Zone ID 설정 필요)
-      </div>
-    );
-  }
+    return () => {
+      // Cleanup
+      if (container && script.parentNode) {
+        container.removeChild(script);
+      }
+    };
+  }, []);
 
   return (
     <div style={{
