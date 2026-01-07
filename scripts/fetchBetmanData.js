@@ -10,19 +10,33 @@ async function getCurrentRound(browser) {
   try {
     console.log('🔍 현재 활성화된 회차 확인 중...\n');
 
-    // betman 메인 페이지 접속
-    await page.goto('https://www.betman.co.kr/main/main.do', {
+    // betman 프로토 승부식 페이지 접속 (gmTs 없이)
+    await page.goto('https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101', {
       waitUntil: 'networkidle2',
       timeout: 30000,
     });
 
-    // 현재 회차 추출 (프로토 승부식 영역)
+    // 페이지 대기
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    // URL에서 gmTs 파라미터 추출 (리다이렉트된 URL에 포함됨)
+    const currentUrl = page.url();
+    const urlMatch = currentUrl.match(/gmTs=(\d+)/);
+
+    if (urlMatch) {
+      const currentRound = urlMatch[1];
+      await page.close();
+      console.log(`✅ 현재 회차: ${currentRound}\n`);
+      return currentRound;
+    }
+
+    // URL에서 못 찾았으면 페이지 HTML에서 추출
     const currentRound = await page.evaluate(() => {
-      // 프로토 승부식 게임 링크에서 gmTs 파라미터 추출
-      const protoLink = document.querySelector('a[href*="gmId=G101"]');
-      if (protoLink) {
-        const href = protoLink.getAttribute('href');
-        const match = href.match(/gmTs=(\d+)/);
+      // 회차 정보가 표시된 요소 찾기
+      const roundElements = document.querySelectorAll('.mgb10, .fs16, .txt_round');
+      for (const el of roundElements) {
+        const text = el.textContent;
+        const match = text.match(/(\d{6})/);
         if (match) {
           return match[1];
         }
@@ -41,7 +55,7 @@ async function getCurrentRound(browser) {
     }
   } catch (error) {
     console.error('❌ 현재 회차 확인 실패:', error.message);
-    await page.close();
+    if (page) await page.close();
     return null;
   }
 }
@@ -92,27 +106,30 @@ async function fetchBetmanData(roundNumber = null) {
     // 테이블이 로드될 때까지 대기
     await page.waitForSelector('#tbd_gmBuySlipList tr[data-matchseq]', { timeout: 10000 });
 
-    // 페이지 끝까지 스크롤해서 모든 경기 로드
+    // 페이지 끝까지 스크롤해서 모든 경기 로드 (여러 번 반복)
     console.log('📜 페이지 스크롤하여 모든 경기 로드 중...\n');
-    await page.evaluate(async () => {
-      await new Promise((resolve) => {
-        let totalHeight = 0;
-        const distance = 100;
-        const timer = setInterval(() => {
-          const scrollHeight = document.body.scrollHeight;
-          window.scrollBy(0, distance);
-          totalHeight += distance;
+    for (let i = 0; i < 3; i++) {
+      await page.evaluate(async () => {
+        await new Promise((resolve) => {
+          let totalHeight = 0;
+          const distance = 200;
+          const timer = setInterval(() => {
+            const scrollHeight = document.body.scrollHeight;
+            window.scrollBy(0, distance);
+            totalHeight += distance;
 
-          if (totalHeight >= scrollHeight) {
-            clearInterval(timer);
-            resolve();
-          }
-        }, 100);
+            if (totalHeight >= scrollHeight) {
+              clearInterval(timer);
+              resolve();
+            }
+          }, 150);
+        });
       });
-    });
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
 
     // 스크롤 후 추가 대기
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
     console.log('✅ 테이블 로드 완료! 데이터 추출 중...\n');
 
