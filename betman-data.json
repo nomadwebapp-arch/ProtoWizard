@@ -198,8 +198,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 182.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "01.07 (수)19:00 마감",
       "isSingle": true,
@@ -1125,9 +1125,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.51,
-        "draw": 3.8,
-        "away": 4.2
+        "home": 1.56,
+        "draw": 3.65,
+        "away": 4.05
       },
       "deadlineText": "01.07 (수)23:00 마감",
       "isSingle": true,
