@@ -387,24 +387,24 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       // 2. 현재 회차 데이터 가져오기
       let data = await fetchBetmanData(roundNumber);
 
-      // 3. 모든 경기가 마감되었는지 체크
-      if (areAllMatchesClosed(data.matches)) {
-        console.log(`\n🔄 모든 경기가 마감되었습니다. 다음 회차로 전환합니다...\n`);
+      // 3. 모든 경기가 마감되었는지 체크 (임시 비활성화 - 수동으로 관리)
+      // if (areAllMatchesClosed(data.matches)) {
+      //   console.log(`\n🔄 모든 경기가 마감되었습니다. 다음 회차로 전환합니다...\n`);
 
-        // 4. 다음 회차로 전환
-        const nextRound = getNextRound(roundNumber);
-        console.log(`📌 새로운 회차: ${nextRound}\n`);
+      //   // 4. 다음 회차로 전환
+      //   const nextRound = getNextRound(roundNumber);
+      //   console.log(`📌 새로운 회차: ${nextRound}\n`);
 
-        // 5. current-round.json 업데이트
-        currentRoundData.roundNumber = nextRound;
-        fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
-        console.log(`✅ current-round.json 업데이트 완료!\n`);
+      //   // 5. current-round.json 업데이트
+      //   currentRoundData.roundNumber = nextRound;
+      //   fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
+      //   console.log(`✅ current-round.json 업데이트 완료!\n`);
 
-        // 6. 다음 회차 데이터 가져오기
-        data = await fetchBetmanData(nextRound);
-      } else {
-        console.log(`\n✅ 아직 진행 중인 경기가 있습니다. 현재 회차 유지: ${roundNumber}\n`);
-      }
+      //   // 6. 다음 회차 데이터 가져오기
+      //   data = await fetchBetmanData(nextRound);
+      // } else {
+        console.log(`\n✅ 현재 회차 유지: ${roundNumber}\n`);
+      // }
 
       console.log(`\n✨ 완료! 총 ${data.matches.length}개 경기`);
 
