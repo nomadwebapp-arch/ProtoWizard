@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch Betman data (auto-detect current round)
-        run: node scripts/fetchBetmanData.js
+      - name: Fetch Betman data (260004회차 - 수동 업데이트 필요)
+        run: node scripts/fetchBetmanData.js 260004
 
       - name: Convert to TypeScript
         run: node scripts/convertToProtoMatches.js

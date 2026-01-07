@@ -10,47 +10,29 @@ async function getCurrentRound(browser) {
   try {
     console.log('🔍 현재 활성화된 회차 확인 중...\n');
 
-    // betman 프로토 승부식 페이지 접속 (gmTs 없이)
+    // betman 프로토 승부식 페이지 접속 (gmTs 없이 → 자동으로 최신 회차로 리다이렉트됨)
     await page.goto('https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101', {
-      waitUntil: 'networkidle2',
+      waitUntil: 'domcontentloaded',
       timeout: 30000,
     });
 
-    // 페이지 대기
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    // 리다이렉트 대기
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
-    // URL에서 gmTs 파라미터 추출 (리다이렉트된 URL에 포함됨)
+    // 리다이렉트된 URL에서 gmTs 추출
     const currentUrl = page.url();
+    console.log(`📍 리다이렉트된 URL: ${currentUrl}\n`);
+
     const urlMatch = currentUrl.match(/gmTs=(\d+)/);
-
-    if (urlMatch) {
-      const currentRound = urlMatch[1];
-      await page.close();
-      console.log(`✅ 현재 회차: ${currentRound}\n`);
-      return currentRound;
-    }
-
-    // URL에서 못 찾았으면 페이지 HTML에서 추출
-    const currentRound = await page.evaluate(() => {
-      // 회차 정보가 표시된 요소 찾기
-      const roundElements = document.querySelectorAll('.mgb10, .fs16, .txt_round');
-      for (const el of roundElements) {
-        const text = el.textContent;
-        const match = text.match(/(\d{6})/);
-        if (match) {
-          return match[1];
-        }
-      }
-      return null;
-    });
 
     await page.close();
 
-    if (currentRound) {
-      console.log(`✅ 현재 회차: ${currentRound}\n`);
+    if (urlMatch) {
+      const currentRound = urlMatch[1];
+      console.log(`✅ 자동 감지된 현재 회차: ${currentRound}\n`);
       return currentRound;
     } else {
-      console.log('⚠️ 현재 회차를 찾을 수 없습니다. 기본값 사용.\n');
+      console.log('⚠️ URL에서 회차를 찾을 수 없습니다.\n');
       return null;
     }
   } catch (error) {
@@ -70,25 +52,19 @@ async function fetchBetmanData(roundNumber = null) {
   });
 
   try {
-    // 회차 번호가 없으면 현재 회차 자동 감지
-    if (!roundNumber) {
-      roundNumber = await getCurrentRound(browser);
-      if (!roundNumber) {
-        // 현재 회차를 찾지 못하면 오늘 날짜 기반으로 추정
-        const now = new Date();
-        const year = now.getFullYear().toString().slice(2); // "26"
-        const weekOfYear = Math.ceil((now - new Date(now.getFullYear(), 0, 1)) / (7 * 24 * 60 * 60 * 1000));
-        roundNumber = `${year}${String(weekOfYear).padStart(4, '0')}`;
-        console.log(`📅 추정 회차: ${roundNumber}\n`);
-      }
-    }
-
-    console.log(`🚀 betman.co.kr 데이터 가져오기 (회차: ${roundNumber})\n`);
-
     const page = await browser.newPage();
 
     // betman.co.kr 게임 슬립 페이지
-    const url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=${roundNumber}`;
+    let url;
+    if (roundNumber) {
+      // 회차 번호가 지정되면 해당 회차
+      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=${roundNumber}`;
+      console.log(`🚀 betman.co.kr 데이터 가져오기 (지정 회차: ${roundNumber})\n`);
+    } else {
+      // 회차 번호가 없으면 gmTs 없이 → 자동으로 최신 회차 데이터
+      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101`;
+      console.log(`🚀 betman.co.kr 데이터 가져오기 (자동: 최신 회차)\n`);
+    }
 
     console.log(`📄 페이지 접속 중: ${url}`);
     await page.goto(url, {
@@ -133,10 +109,29 @@ async function fetchBetmanData(roundNumber = null) {
 
     console.log('✅ 테이블 로드 완료! 데이터 추출 중...\n');
 
-    // HTML에서 경기 데이터 추출
-    const { matches, debug } = await page.evaluate(() => {
+    // HTML에서 경기 데이터 및 회차 정보 추출
+    const { matches, debug, detectedRound } = await page.evaluate(() => {
       const matchList = [];
       const debugList = []; // 디버깅용
+
+      // 회차 정보 추출 (페이지 타이틀이나 특정 요소에서)
+      let roundNumber = null;
+
+      // 방법 1: URL 파라미터에서
+      const urlParams = new URLSearchParams(window.location.search);
+      roundNumber = urlParams.get('gmTs');
+
+      // 방법 2: 페이지 내 요소에서 (필요시)
+      if (!roundNumber) {
+        const titleElements = document.querySelectorAll('h1, h2, .title, .gmTs');
+        for (const el of titleElements) {
+          const match = el.textContent.match(/(\d{6})/);
+          if (match) {
+            roundNumber = match[1];
+            break;
+          }
+        }
+      }
 
       // 실제 경기 테이블 행들 찾기
       const rows = document.querySelectorAll('#tbd_gmBuySlipList tr[data-matchseq]');
@@ -249,8 +244,25 @@ async function fetchBetmanData(roundNumber = null) {
         }
       });
 
-      return { matches: matchList, debug: debugList };
+      return { matches: matchList, debug: debugList, detectedRound: roundNumber };
     });
+
+    // 감지된 회차 정보 사용
+    if (detectedRound && !roundNumber) {
+      roundNumber = detectedRound;
+      console.log(`✅ 페이지에서 회차 감지: ${roundNumber}\n`);
+    } else if (detectedRound) {
+      console.log(`✅ 감지된 회차 확인: ${detectedRound} (지정 회차: ${roundNumber})\n`);
+    }
+
+    // 회차가 여전히 없으면 기본값
+    if (!roundNumber) {
+      const now = new Date();
+      const year = now.getFullYear().toString().slice(2);
+      const weekOfYear = Math.ceil((now - new Date(now.getFullYear(), 0, 1)) / (7 * 24 * 60 * 60 * 1000));
+      roundNumber = `${year}${String(weekOfYear).padStart(4, '0')}`;
+      console.log(`⚠️ 회차 감지 실패, 추정값 사용: ${roundNumber}\n`);
+    }
 
     console.log(`✅ ${matches.length}개 경기 데이터 추출 완료!\n`);
 
