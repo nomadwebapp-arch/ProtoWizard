@@ -39,9 +39,9 @@ export function usePopAds() {
     script.type = 'text/javascript';
     script.setAttribute('data-cfasync', 'false');
 
-    // PopAds 제공 스크립트 (popundersPerIP를 1로 설정하여 팝업 활성화)
+    // PopAds 제공 스크립트 (올바른 siteId 5267420, popundersPerIP 0 = 무제한)
     script.innerHTML = `
-(function(){var m=window,x="dbad321b985cef11468eb20fab1ff519",c=[["siteId",5267166],["minBid",0],["popundersPerIP","1"],["delayBetween",0],["default",true],["defaultPerDay",0],["topmostLayer","auto"]],o=["d3d3LmRpc3BsYXl2ZXJ0aXNpbmcuY29tL29HL3pwNS5taW4uanM=","ZDNtem9rdHk5NTFjNXcuY2xvdWRmcm9udC5uZXQvQXJoc1IvZVhlcXQvanZleC5taW4uY3Nz"],d=-1,j,v,f=function(){clearTimeout(v);d++;if(o[d]&&!(1793760412000<(new Date).getTime()&&1<d)){j=m.document.createElement("script");j.type="text/javascript";j.async=!0;var b=m.document.getElementsByTagName("script")[0];j.src="https://"+atob(o[d]);j.crossOrigin="anonymous";j.onerror=f;j.onload=function(){clearTimeout(v);m[x.slice(0,16)+x.slice(0,16)]||f()};v=setTimeout(f,5E3);b.parentNode.insertBefore(j,b)}};if(!m[x]){try{Object.freeze(m[x]=c)}catch(e){}f()}})();
+(function(){var m=window,x="dbad321b985cef11468eb20fab1ff519",c=[["siteId",5267420],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",true],["defaultPerDay",0],["topmostLayer","auto"]],o=["d3d3LmRpc3BsYXl2ZXJ0aXNpbmcuY29tL29HL3pwNS5taW4uanM=","ZDNtem9rdHk5NTFjNXcuY2xvdWRmcm9udC5uZXQvQXJoc1IvZVhlcXQvanZleC5taW4uY3Nz"],d=-1,j,v,f=function(){clearTimeout(v);d++;if(o[d]&&!(1793760412000<(new Date).getTime()&&1<d)){j=m.document.createElement("script");j.type="text/javascript";j.async=!0;var b=m.document.getElementsByTagName("script")[0];j.src="https://"+atob(o[d]);j.crossOrigin="anonymous";j.onerror=f;j.onload=function(){clearTimeout(v);m[x.slice(0,16)+x.slice(0,16)]||f()};v=setTimeout(f,5E3);b.parentNode.insertBefore(j,b)}};if(!m[x]){try{Object.freeze(m[x]=c)}catch(e){}f()}})();
     `;
 
     document.head.appendChild(script);
