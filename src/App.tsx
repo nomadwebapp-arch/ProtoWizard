@@ -5,6 +5,7 @@ import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
 import html2canvas from 'html2canvas';
 import AdBanner from './components/AdBanner';
+import VisitorCounter from './components/VisitorCounter';
 import { usePopAds } from './hooks/usePopAds';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   const combinationRef = useRef<HTMLDivElement>(null);
 
   // PopAds 팝업 광고 훅 (5회마다 팝업)
-  const { trackClick, getRemainingClicks } = usePopAds();
+  const { trackClick } = usePopAds();
 
   // Filter options state
   const [targetOdds, setTargetOdds] = useState(10);
@@ -936,19 +937,8 @@ function App() {
           또한 배팅 결과와 관련해서는 아무런 책임이 없음을 다시 한번 안내드립니다.
         </div>
 
-        {/* 광고 안내 */}
-        <div style={{
-          marginBottom: '80px',
-          padding: '12px',
-          background: 'rgba(102, 126, 234, 0.1)',
-          border: '1px solid rgba(102, 126, 234, 0.3)',
-          borderRadius: '8px',
-          fontSize: '0.75rem',
-          color: '#667eea',
-          textAlign: 'center',
-        }}>
-          💡 다음 팝업 광고까지: <strong>{getRemainingClicks()}회</strong> 남음
-        </div>
+        {/* 방문자 수 카운터 */}
+        <VisitorCounter />
       </main>
 
       {/* 배너 광고 (하단 고정) */}
