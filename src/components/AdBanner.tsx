@@ -33,8 +33,27 @@ export default function AdBanner() {
   }, []);
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 flex justify-center bg-gray-900 py-2">
-      {/* 광고 스크립트가 자동으로 이 영역에 광고를 삽입합니다 */}
+    <div
+      className="fixed bottom-0 left-0 right-0 z-50 bg-gray-900 py-2"
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        overflow: 'hidden',
+      }}
+    >
+      <div
+        id="ad-banner-container"
+        style={{
+          width: '320px',
+          height: '50px',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        {/* 광고 스크립트가 자동으로 이 영역에 광고를 삽입합니다 */}
+      </div>
     </div>
   );
 }
