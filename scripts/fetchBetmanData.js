@@ -201,11 +201,23 @@ async function fetchBetmanData(roundNumber = null) {
 
           // 핸디캡 값 (있는 경우) - 축구(fcOrange), 농구(fcBlue3) 모두 지원
           const handicapEl = row.querySelector('.udPoint.fcOrange, .udPoint.fcBlue3');
-          const handicapValue = handicapEl?.textContent?.trim() || null;
+          let handicapValue = handicapEl?.textContent?.trim() || null;
+
+          // 핸디캡 값에서 "사전조건 변경" 제거
+          if (handicapValue && handicapValue.includes('사전조건 변경')) {
+            isConditionChanged = true;
+            handicapValue = handicapValue.replace('사전조건 변경', '').trim();
+          }
 
           // 언더오버 값 (있는 경우)
           const underOverEl = row.querySelector('.udPoint.fcGreen');
-          const underOverValue = underOverEl?.textContent?.trim() || null;
+          let underOverValue = underOverEl?.textContent?.trim() || null;
+
+          // 언더오버 값에서 "사전조건 변경" 제거
+          if (underOverValue && underOverValue.includes('사전조건 변경')) {
+            isConditionChanged = true;
+            underOverValue = underOverValue.replace('사전조건 변경', '').trim();
+          }
 
           // 싱글 가능 여부 (S 표시)
           const singleBadge = row.querySelector('.badge_type[title="한경기구매"]');

@@ -67,8 +67,9 @@ export const protoMatches: Match[] = [
     homeTeam: '원주DB',
     awayTeam: 'KT소닉붐',
     matchType: 'underover',
-    underOverValue: 'U/O 155.5사전조건 변경',
+    underOverValue: 'U/O 155.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,

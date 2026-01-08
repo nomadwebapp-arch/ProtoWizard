@@ -63,7 +63,7 @@
       "homeTeam": "원주DB",
       "awayTeam": "KT소닉붐",
       "handicapValue": null,
-      "underOverValue": "U/O 155.5사전조건 변경",
+      "underOverValue": "U/O 155.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -71,7 +71,7 @@
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 163,
