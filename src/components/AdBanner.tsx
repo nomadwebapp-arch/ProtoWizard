@@ -16,17 +16,22 @@ export default function AdBanner() {
       'params': {}
     };
 
-    // 광고 스크립트 로드
+    // 광고 스크립트 로드 - 컨테이너에 직접 삽입
     const script = document.createElement('script');
     script.src = 'https://www.highperformanceformat.com/27962193cce570f154eb49076e3f268a/invoke.js';
     script.async = true;
 
-    document.body.appendChild(script);
+    const container = document.getElementById('ad-banner-container');
+    if (container) {
+      container.appendChild(script);
+    } else {
+      document.body.appendChild(script);
+    }
 
     return () => {
       // Cleanup
       if (script.parentNode) {
-        document.body.removeChild(script);
+        script.parentNode.removeChild(script);
       }
       delete (window as any).atOptions;
     };
