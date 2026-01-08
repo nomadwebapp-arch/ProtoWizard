@@ -104,6 +104,11 @@ function generateTypeScriptCode(matches, roundNumber) {
       code += `    isHalfTime: true,\n`;
     }
 
+    // 사전조건 변경 여부
+    if (match.isConditionChanged) {
+      code += `    isConditionChanged: true,\n`;
+    }
+
     // 배당
     code += `    odds: {\n`;
     code += `      home: ${match.odds.home},\n`;

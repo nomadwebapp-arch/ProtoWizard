@@ -5,8 +5,8 @@ import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
 import html2canvas from 'html2canvas';
 import AdBanner from './components/AdBanner';
-import VisitorCounter from './components/VisitorCounter';
 import { usePopAds } from './hooks/usePopAds';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
@@ -666,6 +666,19 @@ function App() {
                       }}>
                         {getMatchTypeLabel(item.match.matchType, item.match.handicapValue, item.match.underOverValue)}
                       </span>
+                      {item.match.isConditionChanged && (
+                        <span style={{
+                          padding: '2px 8px',
+                          borderRadius: '6px',
+                          background: 'rgba(255, 87, 51, 0.2)',
+                          border: '1px solid rgba(255, 87, 51, 0.5)',
+                          color: '#ff5733',
+                          fontSize: '0.7rem',
+                          fontWeight: '600'
+                        }}>
+                          사전조건 변경
+                        </span>
+                      )}
                       <span>{item.match.homeTeam} vs {item.match.awayTeam}</span>
                     </div>
                     <div className="match-result" style={{ color: '#fff' }}>
@@ -936,13 +949,13 @@ function App() {
           <br />
           또한 배팅 결과와 관련해서는 아무런 책임이 없음을 다시 한번 안내드립니다.
         </div>
-
-        {/* 방문자 수 카운터 */}
-        <VisitorCounter />
       </main>
 
       {/* 배너 광고 (하단 고정) */}
       <AdBanner />
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }

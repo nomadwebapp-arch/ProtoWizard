@@ -153,9 +153,16 @@ async function fetchBetmanData(roundNumber = null) {
           const sportIconEl = row.querySelector('.icoGame');
           const sportText = sportIconEl?.textContent?.trim() || '';
 
-          // 리그/대회
+          // 리그/대회 (사전조건 변경 텍스트 분리)
           const leagueEl = row.querySelector('.fs11');
-          const league = leagueEl?.textContent?.trim() || '';
+          let league = leagueEl?.textContent?.trim() || '';
+          let isConditionChanged = false;
+
+          // "사전조건 변경" 텍스트 감지 및 제거
+          if (league.includes('사전조건 변경')) {
+            isConditionChanged = true;
+            league = league.replace('사전조건 변경', '').trim();
+          }
 
           // 게임 타입 (일반, 핸디캡, 언더오버, SUM) 및 경기 상태 체크
           const badgeEl = row.querySelector('.badge');
@@ -266,6 +273,7 @@ async function fetchBetmanData(roundNumber = null) {
               deadlineText,
               isSingle,
               isHalfTime,
+              isConditionChanged,  // 사전조건 변경 여부
             });
           }
         } catch (error) {

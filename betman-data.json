@@ -16,7 +16,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 160,
@@ -33,7 +34,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 161,
@@ -50,7 +52,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 162,
@@ -67,7 +70,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 163,
@@ -84,7 +88,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 164,
@@ -101,7 +106,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 165,
@@ -118,7 +124,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 166,
@@ -135,7 +142,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 167,
@@ -152,7 +160,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 168,
@@ -169,7 +178,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 169,
@@ -186,7 +196,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 170,
@@ -203,7 +214,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 171,
@@ -220,7 +232,8 @@
       },
       "deadlineText": "01.08 (목)19:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 172,
@@ -238,7 +251,8 @@
       },
       "deadlineText": "01.08 (목)20:30 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 173,
@@ -256,7 +270,8 @@
       },
       "deadlineText": "01.08 (목)20:30 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 174,
@@ -274,7 +289,8 @@
       },
       "deadlineText": "01.08 (목)20:30 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 175,
@@ -291,7 +307,8 @@
       },
       "deadlineText": "01.08 (목)20:30 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 176,
@@ -308,7 +325,8 @@
       },
       "deadlineText": "01.08 (목)20:30 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 177,
@@ -325,7 +343,8 @@
       },
       "deadlineText": "01.08 (목)20:30 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 178,
@@ -343,7 +362,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 179,
@@ -361,7 +381,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 180,
@@ -378,7 +399,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 181,
@@ -395,7 +417,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 182,
@@ -413,7 +436,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 183,
@@ -431,7 +455,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 184,
@@ -449,7 +474,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 185,
@@ -466,7 +492,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 186,
@@ -483,7 +510,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 187,
@@ -501,7 +529,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": false,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 188,
@@ -519,7 +548,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": false,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 189,
@@ -536,7 +566,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": false,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 190,
@@ -553,7 +584,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": false,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 191,
@@ -571,7 +603,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 192,
@@ -589,7 +622,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 193,
@@ -606,7 +640,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 194,
@@ -623,7 +658,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 195,
@@ -641,7 +677,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 196,
@@ -659,7 +696,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 197,
@@ -677,7 +715,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 198,
@@ -694,7 +733,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 199,
@@ -711,7 +751,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 200,
@@ -728,7 +769,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 201,
@@ -746,7 +788,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 202,
@@ -764,7 +807,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 203,
@@ -782,7 +826,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 204,
@@ -799,7 +844,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     },
     {
       "gameNumber": 205,
@@ -816,7 +862,8 @@
       },
       "deadlineText": "01.08 (목)23:00 마감",
       "isSingle": true,
-      "isHalfTime": false
+      "isHalfTime": false,
+      "isConditionChanged": false
     }
   ],
   "finishedMatches": [],
