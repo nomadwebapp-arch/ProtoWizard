@@ -5,16 +5,12 @@ import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
 import html2canvas from 'html2canvas';
 import AdBanner from './components/AdBanner';
-import { usePopAds } from './hooks/usePopAds';
 import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
   const [showShareModal, setShowShareModal] = useState(false);
   const combinationRef = useRef<HTMLDivElement>(null);
-
-  // PopAds 팝업 광고 훅 (5회마다 팝업)
-  const { trackClick } = usePopAds();
 
   // Filter options state
   const [targetOdds, setTargetOdds] = useState(10);
@@ -32,9 +28,6 @@ function App() {
   const [highOddsCount, setHighOddsCount] = useState(1);
 
   const handleGenerate = () => {
-    // 광고 클릭 카운트 추적 (5회마다 팝업)
-    trackClick();
-
     // 마감 시간 체크 - 사용 가능한 경기 확인
     const now = new Date();
     const availableMatches = protoMatches.filter(m => m.status === 'open' && m.deadline > now);
