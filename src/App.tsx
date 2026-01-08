@@ -4,7 +4,6 @@ import { protoMatches } from './data/protoMatches';
 import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
 import html2canvas from 'html2canvas';
-import AdBanner from './components/AdBanner';
 import { Analytics } from '@vercel/analytics/react';
 
 function App() {
@@ -928,7 +927,7 @@ function App() {
         {/* Warning Notice */}
         <div style={{
           marginTop: '24px',
-          marginBottom: '80px', // 배너 광고 공간 확보
+          marginBottom: '24px',
           padding: '16px',
           background: 'rgba(255, 193, 7, 0.1)',
           border: '1px solid rgba(255, 193, 7, 0.3)',
@@ -943,9 +942,6 @@ function App() {
           또한 배팅 결과와 관련해서는 아무런 책임이 없음을 다시 한번 안내드립니다.
         </div>
       </main>
-
-      {/* 배너 광고 (하단 고정) */}
-      <AdBanner />
 
       {/* Vercel Analytics */}
       <Analytics />
