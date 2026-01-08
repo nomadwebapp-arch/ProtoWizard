@@ -3,19 +3,13 @@ import { useEffect, useRef } from 'react';
 /**
  * PopAds 팝업 광고 훅
  *
- * 사용법:
- * 1. PopAds 가입: https://popads.net
- * 2. 팝업 광고 생성
- * 3. 받은 코드의 zoneId를 POPADS_ZONE_ID에 입력
- *
  * 기능:
- * - 5회 클릭마다 팝업 광고 표시
+ * - 5회 클릭마다 정확히 한 번씩 팝업 광고 표시
  * - LocalStorage로 클릭 카운트 저장
  */
 
-// TODO: PopAds 가입 후 실제 Zone ID로 교체
-const POPADS_ZONE_ID = 'YOUR_POPADS_ZONE_ID';
 const CLICKS_PER_POPUP = 5; // 5회마다 팝업
+let popupScriptLoaded = false; // 팝업 스크립트 중복 실행 방지
 
 export function usePopAds() {
   const clickCountRef = useRef(0);
@@ -37,30 +31,45 @@ export function usePopAds() {
   };
 
   const showPopAd = () => {
-    // 실제 Zone ID가 설정되어 있으면 PopAds 팝업 실행
-    if (POPADS_ZONE_ID !== 'YOUR_POPADS_ZONE_ID') {
-      // PopAds 팝업 스크립트 실행
-      const script = document.createElement('script');
-      script.async = true;
-      script.setAttribute('data-cfasync', 'false');
-      script.src = `//c1.popads.net/pop.js`;
-      script.onload = () => {
-        // @ts-ignore - PopAds 글로벌 변수
-        if (window.pop_config) {
-          // @ts-ignore
-          window.pop_config.zone_id = POPADS_ZONE_ID;
-        }
-      };
-      document.body.appendChild(script);
-
-      setTimeout(() => {
-        document.body.removeChild(script);
-      }, 1000);
-    } else {
-      // 개발 모드: 콘솔에만 표시
-      console.log(`🎉 팝업 광고 표시! (${clickCountRef.current}회 클릭)`);
-      alert(`🎉 팝업 광고가 표시됩니다!\n(${clickCountRef.current}회 클릭)`);
+    // 중복 실행 방지
+    if (popupScriptLoaded) {
+      console.log('팝업 스크립트가 이미 로드 중입니다.');
+      return;
     }
+
+    console.log(`🎉 팝업 광고 표시! (${clickCountRef.current}회 클릭)`);
+    popupScriptLoaded = true;
+
+    // PopAds 팝업 스크립트 일시적으로 추가
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.setAttribute('data-cfasync', 'false');
+
+    // PopAds 제공 스크립트
+    script.innerHTML = `
+(function(){var m=window,x="dbad321b985cef11468eb20fab1ff519",c=[["siteId",5267166],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],o=["d3d3LmRpc3BsYXl2ZXJ0aXNpbmcuY29tL29HL3pwNS5taW4uanM=","ZDNtem9rdHk5NTFjNXcuY2xvdWRmcm9udC5uZXQvQXJoc1IvZVhlcXQvanZleC5taW4uY3Nz"],d=-1,j,v,f=function(){clearTimeout(v);d++;if(o[d]&&!(1793760412000<(new Date).getTime()&&1<d)){j=m.document.createElement("script");j.type="text/javascript";j.async=!0;var b=m.document.getElementsByTagName("script")[0];j.src="https://"+atob(o[d]);j.crossOrigin="anonymous";j.onerror=f;j.onload=function(){clearTimeout(v);m[x.slice(0,16)+x.slice(0,16)]||f()};v=setTimeout(f,5E3);b.parentNode.insertBefore(j,b)}};if(!m[x]){try{Object.freeze(m[x]=c)}catch(e){}f()}})();
+    `;
+
+    document.body.appendChild(script);
+
+    // 팝업 트리거를 위한 클릭 이벤트 생성
+    setTimeout(() => {
+      const clickEvent = new MouseEvent('click', {
+        view: window,
+        bubbles: true,
+        cancelable: true,
+      });
+      document.body.dispatchEvent(clickEvent);
+
+      // 스크립트 제거 (3초 후, 다음 5번째 클릭까지 팝업 방지)
+      setTimeout(() => {
+        if (script.parentNode) {
+          document.body.removeChild(script);
+        }
+        popupScriptLoaded = false;
+        console.log('팝업 스크립트 제거 완료');
+      }, 3000);
+    }, 100);
   };
 
   const getClickCount = () => clickCountRef.current;
