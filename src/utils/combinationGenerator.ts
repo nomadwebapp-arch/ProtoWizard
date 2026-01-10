@@ -17,11 +17,18 @@ export function generateRandomCombination(
 ): Combination | null {
   const {
     targetOdds = 100,
-    matchCount = 5,
+    matchCount: inputMatchCount = 5,
     betAmount = 1000,
     allowedSports,
     allowedMatchTypes,
+    allowedDates,
+    isFullRandom = false,
   } = options;
+
+  // 완전 랜덤 모드: 경기 수 2~10 사이 랜덤
+  const matchCount = isFullRandom || inputMatchCount === 0
+    ? Math.floor(Math.random() * 9) + 2  // 2~10
+    : inputMatchCount;
 
   // 사용 가능한 경기 필터링 (마감 시간 체크 추가)
   const now = new Date();
@@ -35,14 +42,25 @@ export function generateRandomCombination(
     availableMatches = availableMatches.filter(m => allowedMatchTypes.includes(m.matchType));
   }
 
+  // 날짜 필터 적용
+  if (allowedDates && allowedDates.length > 0) {
+    availableMatches = availableMatches.filter(m => {
+      // deadline에서 날짜 추출 (MM.DD 형식)
+      const month = String(m.deadline.getMonth() + 1).padStart(2, '0');
+      const day = String(m.deadline.getDate()).padStart(2, '0');
+      const dateStr = `${month}.${day}`;
+      return allowedDates.includes(dateStr);
+    });
+  }
+
   // 경기가 충분하지 않으면 null 반환
   if (availableMatches.length < matchCount) {
     return null;
   }
 
-  // 목표 배당 범위
-  const minOdds = targetOdds * 0.5;
-  const maxOdds = targetOdds * 2;
+  // 완전 랜덤 모드: 배당 제한 없음
+  const minOdds = isFullRandom || targetOdds === 0 ? 0 : targetOdds * 0.5;
+  const maxOdds = isFullRandom || targetOdds === 0 ? Infinity : targetOdds * 2;
 
   // 여러 번 시도
   for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {

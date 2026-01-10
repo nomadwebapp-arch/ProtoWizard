@@ -26,45 +26,81 @@ function App() {
   const [includeHighOdds, setIncludeHighOdds] = useState(false);
   const [highOddsCount, setHighOddsCount] = useState(1);
 
+  // 날짜 필터 - 데이터에서 고유한 날짜 추출
+  const availableDates = (() => {
+    const now = new Date();
+    const dates = new Set<string>();
+    protoMatches
+      .filter(m => m.status === 'open' && m.deadline > now)
+      .forEach(m => {
+        const month = String(m.deadline.getMonth() + 1).padStart(2, '0');
+        const day = String(m.deadline.getDate()).padStart(2, '0');
+        const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][m.deadline.getDay()];
+        dates.add(`${month}.${day}|${dayOfWeek}`);
+      });
+    return Array.from(dates).sort();
+  })();
+
+  const [selectedDates, setSelectedDates] = useState<string[]>(
+    availableDates.map(d => d.split('|')[0])
+  );
+
   const handleGenerate = () => {
+    // 완전 랜덤 모드 체크
+    const isFullRandom = targetOdds === 0 && matchCount === 0;
+    const actualMatchCount = isFullRandom ? Math.floor(Math.random() * 9) + 2 : (matchCount || 3);
+
     // 마감 시간 체크 - 사용 가능한 경기 확인
     const now = new Date();
-    const availableMatches = protoMatches.filter(m => m.status === 'open' && m.deadline > now);
+    let availableMatches = protoMatches.filter(m => m.status === 'open' && m.deadline > now);
+
+    // 날짜 필터 적용
+    if (selectedDates.length > 0 && selectedDates.length < availableDates.length) {
+      availableMatches = availableMatches.filter(m => {
+        const month = String(m.deadline.getMonth() + 1).padStart(2, '0');
+        const day = String(m.deadline.getDate()).padStart(2, '0');
+        return selectedDates.includes(`${month}.${day}`);
+      });
+    }
 
     if (availableMatches.length === 0) {
-      alert('현재 배팅 가능한 경기가 없습니다. 모든 경기가 마감되었습니다.');
+      alert('현재 배팅 가능한 경기가 없습니다. 모든 경기가 마감되었거나 선택한 날짜에 경기가 없습니다.');
       return;
     }
 
-    if (availableMatches.length < matchCount) {
+    if (!isFullRandom && availableMatches.length < actualMatchCount) {
       alert(`배팅 가능한 경기가 ${availableMatches.length}개 뿐입니다. 조합 경기 수를 줄여주세요.`);
       return;
     }
 
-    // 배당 포함 개수 검증
-    const totalOddsCount =
-      (includeRegularOdds ? regularOddsCount : 0) +
-      (includeDraws ? drawCount : 0) +
-      (includeHighOdds ? highOddsCount : 0);
+    // 배당 포함 개수 검증 (완전 랜덤이 아닐 때만)
+    if (!isFullRandom) {
+      const totalOddsCount =
+        (includeRegularOdds ? regularOddsCount : 0) +
+        (includeDraws ? drawCount : 0) +
+        (includeHighOdds ? highOddsCount : 0);
 
-    if (totalOddsCount > matchCount) {
-      alert(`배당 포함 개수 합계(${totalOddsCount}개)가 조합 경기 수(${matchCount}개)를 초과할 수 없습니다!`);
-      return;
+      if (totalOddsCount > actualMatchCount) {
+        alert(`배당 포함 개수 합계(${totalOddsCount}개)가 조합 경기 수(${actualMatchCount}개)를 초과할 수 없습니다!`);
+        return;
+      }
     }
 
     const options: FilterOptions = {
-      targetOdds,
-      matchCount,
+      targetOdds: targetOdds || 0,
+      matchCount: matchCount || 0,
       betAmount,
       allowedSports: allowedSports.length > 0 ? allowedSports as any[] : undefined,
       allowedMatchTypes: allowedMatchTypes.length > 0 ? allowedMatchTypes as any[] : undefined,
+      allowedDates: selectedDates.length > 0 && selectedDates.length < availableDates.length ? selectedDates : undefined,
       // 배당 포함 필터
-      includeRegularOdds,
+      includeRegularOdds: isFullRandom ? false : includeRegularOdds,
       regularOddsCount,
-      includeDraws,
+      includeDraws: isFullRandom ? false : includeDraws,
       drawCount,
-      includeHighOdds,
+      includeHighOdds: isFullRandom ? false : includeHighOdds,
       highOddsCount,
+      isFullRandom,
     };
 
     const result = generateRandomCombination(protoMatches, options);
@@ -90,6 +126,23 @@ function App() {
     setDrawCount(1);
     setIncludeHighOdds(false);
     setHighOddsCount(1);
+    setSelectedDates(availableDates.map(d => d.split('|')[0]));
+  };
+
+  const toggleDate = (dateStr: string) => {
+    setSelectedDates(prev =>
+      prev.includes(dateStr)
+        ? prev.filter(d => d !== dateStr)
+        : [...prev, dateStr]
+    );
+  };
+
+  // Input 커서를 끝으로 이동하는 핸들러
+  const handleInputFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+    const input = e.target;
+    setTimeout(() => {
+      input.setSelectionRange(input.value.length, input.value.length);
+    }, 0);
   };
 
   const generateImage = async () => {
@@ -341,28 +394,30 @@ function App() {
             <h2 className="settings-title">조합 생성 조건 설정</h2>
             <div className="settings-grid">
               <div className="setting-item">
-                <label className="setting-label">목표 배당</label>
+                <label className="setting-label">목표 배당 (비우면 랜덤)</label>
                 <input
                   type="number"
                   className="setting-input"
                   value={targetOdds || ''}
                   onChange={(e) => setTargetOdds(e.target.value === '' ? 0 : Number(e.target.value))}
+                  onFocus={handleInputFocus}
                   min={10}
                   max={1000}
-                  placeholder="10"
+                  placeholder="미입력시 랜덤"
                 />
               </div>
 
               <div className="setting-item">
-                <label className="setting-label">조합 경기 수</label>
+                <label className="setting-label">조합 경기 수 (비우면 2~10)</label>
                 <input
                   type="number"
                   className="setting-input"
                   value={matchCount || ''}
                   onChange={(e) => setMatchCount(e.target.value === '' ? 0 : Number(e.target.value))}
+                  onFocus={handleInputFocus}
                   min={2}
                   max={10}
-                  placeholder="3"
+                  placeholder="미입력시 2~10"
                 />
               </div>
 
@@ -587,6 +642,42 @@ function App() {
                   return null;
                 })()}
               </div>
+
+              {/* 날짜 필터 */}
+              {availableDates.length > 0 && (
+                <div className="setting-item">
+                  <label className="setting-label">경기 날짜</label>
+                  <div style={{ display: 'flex', gap: '8px', marginTop: '8px', flexWrap: 'wrap' }}>
+                    {availableDates.map((dateInfo) => {
+                      const [dateStr, dayOfWeek] = dateInfo.split('|');
+                      const isSelected = selectedDates.includes(dateStr);
+                      return (
+                        <button
+                          key={dateStr}
+                          type="button"
+                          onClick={() => toggleDate(dateStr)}
+                          style={{
+                            padding: '8px 12px',
+                            fontSize: '0.85rem',
+                            background: isSelected
+                              ? 'rgba(156, 39, 176, 0.3)'
+                              : 'rgba(255, 255, 255, 0.08)',
+                            border: isSelected
+                              ? '1px solid rgba(156, 39, 176, 0.5)'
+                              : '1px solid rgba(255, 255, 255, 0.15)',
+                            borderRadius: '8px',
+                            color: isSelected ? '#ce93d8' : '#fff',
+                            cursor: 'pointer',
+                            transition: 'all 0.2s',
+                          }}
+                        >
+                          {dateStr.replace('.', '/')} ({dayOfWeek})
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
         </div>
 

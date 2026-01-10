@@ -37,15 +37,16 @@ export interface Combination {
 }
 
 export interface FilterOptions {
-  targetOdds?: number;  // 목표 배당
+  targetOdds?: number;  // 목표 배당 (0이면 제한 없음)
   oddsRange?: {
     min: number;
     max: number;
   };
-  matchCount?: number;  // 몇 폴더
+  matchCount?: number;  // 몇 폴더 (0이면 2~10 랜덤)
   betAmount?: number;   // 배팅 금액
   allowedSports?: Sport[];
   allowedMatchTypes?: MatchType[];
+  allowedDates?: string[];  // 허용할 날짜들 (예: ["01.10", "01.11"])
   avoidSameLeague?: boolean;
   // 배당 포함 필터
   includeRegularOdds?: boolean;  // 정배당 포함
@@ -54,4 +55,5 @@ export interface FilterOptions {
   drawCount?: number;            // 무배당 개수
   includeHighOdds?: boolean;     // 역배당 포함
   highOddsCount?: number;        // 역배당 개수
+  isFullRandom?: boolean;        // 완전 랜덤 모드
 }
