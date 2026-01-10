@@ -9,6 +9,7 @@ import { Analytics } from '@vercel/analytics/react';
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
   const [showShareModal, setShowShareModal] = useState(false);
+  const [showMatchesModal, setShowMatchesModal] = useState(false);
   const combinationRef = useRef<HTMLDivElement>(null);
 
   // Filter options state
@@ -41,9 +42,7 @@ function App() {
     return Array.from(dates).sort();
   })();
 
-  const [selectedDates, setSelectedDates] = useState<string[]>(
-    availableDates.map(d => d.split('|')[0])
-  );
+  const [selectedDates, setSelectedDates] = useState<string[]>([]);
 
   const handleGenerate = () => {
     // 완전 랜덤 모드 체크
@@ -54,8 +53,8 @@ function App() {
     const now = new Date();
     let availableMatches = protoMatches.filter(m => m.status === 'open' && m.deadline > now);
 
-    // 날짜 필터 적용
-    if (selectedDates.length > 0 && selectedDates.length < availableDates.length) {
+    // 날짜 필터 적용 (선택된 날짜가 있을 때만)
+    if (selectedDates.length > 0) {
       availableMatches = availableMatches.filter(m => {
         const month = String(m.deadline.getMonth() + 1).padStart(2, '0');
         const day = String(m.deadline.getDate()).padStart(2, '0');
@@ -92,7 +91,7 @@ function App() {
       betAmount,
       allowedSports: allowedSports.length > 0 ? allowedSports as any[] : undefined,
       allowedMatchTypes: allowedMatchTypes.length > 0 ? allowedMatchTypes as any[] : undefined,
-      allowedDates: selectedDates.length > 0 && selectedDates.length < availableDates.length ? selectedDates : undefined,
+      allowedDates: selectedDates.length > 0 ? selectedDates : undefined,
       // 배당 포함 필터
       includeRegularOdds: isFullRandom ? false : includeRegularOdds,
       regularOddsCount,
@@ -126,7 +125,7 @@ function App() {
     setDrawCount(1);
     setIncludeHighOdds(false);
     setHighOddsCount(1);
-    setSelectedDates(availableDates.map(d => d.split('|')[0]));
+    setSelectedDates([]);
   };
 
   const toggleDate = (dateStr: string) => {
@@ -646,8 +645,8 @@ function App() {
               {/* 날짜 필터 */}
               {availableDates.length > 0 && (
                 <div className="setting-item">
-                  <label className="setting-label">경기 날짜</label>
-                  <div style={{ display: 'flex', gap: '8px', marginTop: '8px', flexWrap: 'wrap' }}>
+                  <label className="setting-label">경기 날짜 (미선택시 전체)</label>
+                  <div style={{ display: 'flex', gap: '8px', marginTop: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
                     {availableDates.map((dateInfo) => {
                       const [dateStr, dayOfWeek] = dateInfo.split('|');
                       const isSelected = selectedDates.includes(dateStr);
@@ -675,6 +674,23 @@ function App() {
                         </button>
                       );
                     })}
+                    <button
+                      type="button"
+                      onClick={() => setShowMatchesModal(true)}
+                      style={{
+                        padding: '8px 12px',
+                        fontSize: '0.85rem',
+                        background: 'rgba(74, 158, 255, 0.2)',
+                        border: '1px solid rgba(74, 158, 255, 0.5)',
+                        borderRadius: '8px',
+                        color: '#4a9eff',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s',
+                        marginLeft: '8px',
+                      }}
+                    >
+                      📋 발매중인 정보
+                    </button>
                   </div>
                 </div>
               )}
@@ -1016,6 +1032,126 @@ function App() {
                   취소
                 </button>
               </div>
+            </div>
+          </div>
+        )}
+
+        {/* Matches Info Modal */}
+        {showMatchesModal && (
+          <div
+            style={{
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'rgba(0, 0, 0, 0.9)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              zIndex: 1000,
+            }}
+            onClick={() => setShowMatchesModal(false)}
+          >
+            <div
+              style={{
+                background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
+                padding: '24px',
+                borderRadius: '16px',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                maxWidth: '800px',
+                width: '95%',
+                maxHeight: '80vh',
+                overflow: 'hidden',
+                display: 'flex',
+                flexDirection: 'column',
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+                <h3 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>
+                  📋 발매중인 경기 정보
+                </h3>
+                <span style={{ color: '#888', fontSize: '0.85rem' }}>
+                  {(() => {
+                    const now = new Date();
+                    return protoMatches.filter(m => m.status === 'open' && m.deadline > now).length;
+                  })()}개 경기
+                </span>
+              </div>
+              <div style={{ overflowY: 'auto', flex: 1 }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.8rem' }}>
+                  <thead>
+                    <tr style={{ background: 'rgba(255, 255, 255, 0.05)', position: 'sticky', top: 0 }}>
+                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>번호</th>
+                      <th style={{ padding: '10px 8px', textAlign: 'left', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>경기</th>
+                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>타입</th>
+                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#4a9eff', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>승</th>
+                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#22c55e', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>무</th>
+                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#ff4444', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>패</th>
+                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>마감</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {(() => {
+                      const now = new Date();
+                      return protoMatches
+                        .filter(m => m.status === 'open' && m.deadline > now)
+                        .sort((a, b) => a.gameNumber - b.gameNumber)
+                        .map((match) => (
+                          <tr key={match.id} style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+                            <td style={{ padding: '8px', textAlign: 'center', color: '#fff', fontWeight: '600' }}>
+                              {String(match.gameNumber).padStart(3, '0')}
+                              {match.isSingle && <span style={{ color: '#4a9eff', marginLeft: '4px', fontSize: '0.7rem' }}>S</span>}
+                            </td>
+                            <td style={{ padding: '8px', color: '#ccc' }}>
+                              <div style={{ fontSize: '0.75rem', color: '#888' }}>{getSportLabel(match.sport)}</div>
+                              {match.homeTeam} vs {match.awayTeam}
+                            </td>
+                            <td style={{ padding: '8px', textAlign: 'center' }}>
+                              <span style={{
+                                padding: '2px 6px',
+                                borderRadius: '4px',
+                                fontSize: '0.7rem',
+                                background: match.matchType === 'handicap' ? 'rgba(255,152,0,0.2)' : match.matchType === 'underover' ? 'rgba(76,175,80,0.2)' : 'rgba(33,150,243,0.2)',
+                                color: match.matchType === 'handicap' ? '#ff9800' : match.matchType === 'underover' ? '#4caf50' : '#2196f3',
+                              }}>
+                                {match.matchType === 'normal' ? '일반' : match.matchType === 'handicap' ? `핸디 ${match.handicapValue || ''}` : match.matchType === 'underover' ? `U/O ${match.underOverValue || ''}` : 'SUM'}
+                              </span>
+                            </td>
+                            <td style={{ padding: '8px', textAlign: 'center', color: '#4a9eff', fontWeight: '500' }}>
+                              {match.matchType === 'underover' ? 'U' : match.matchType === 'sum' ? '홀' : ''} {match.odds.home.toFixed(2)}
+                            </td>
+                            <td style={{ padding: '8px', textAlign: 'center', color: '#22c55e', fontWeight: '500' }}>
+                              {match.odds.draw ? match.odds.draw.toFixed(2) : '-'}
+                            </td>
+                            <td style={{ padding: '8px', textAlign: 'center', color: '#ff4444', fontWeight: '500' }}>
+                              {match.matchType === 'underover' ? 'O' : match.matchType === 'sum' ? '짝' : ''} {match.odds.away.toFixed(2)}
+                            </td>
+                            <td style={{ padding: '8px', textAlign: 'center', color: '#888', fontSize: '0.75rem' }}>
+                              {formatDeadline(match.deadline)}
+                            </td>
+                          </tr>
+                        ));
+                    })()}
+                  </tbody>
+                </table>
+              </div>
+              <button
+                onClick={() => setShowMatchesModal(false)}
+                style={{
+                  marginTop: '16px',
+                  padding: '12px',
+                  background: 'transparent',
+                  border: '1px solid rgba(255, 255, 255, 0.2)',
+                  borderRadius: '8px',
+                  color: '#888',
+                  fontSize: '0.9rem',
+                  cursor: 'pointer',
+                }}
+              >
+                닫기
+              </button>
             </div>
           </div>
         )}
