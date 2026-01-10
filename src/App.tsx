@@ -3,6 +3,7 @@ import './App.css';
 import { protoMatches } from './data/protoMatches';
 import { generateRandomCombination } from './utils/combinationGenerator';
 import type { Combination, FilterOptions } from './types/match';
+import type { GenerationResult } from './utils/combinationGenerator';
 import html2canvas from 'html2canvas';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -49,29 +50,6 @@ function App() {
     const isFullRandom = targetOdds === 0 && matchCount === 0;
     const actualMatchCount = isFullRandom ? Math.floor(Math.random() * 9) + 2 : (matchCount || 3);
 
-    // 마감 시간 체크 - 사용 가능한 경기 확인
-    const now = new Date();
-    let availableMatches = protoMatches.filter(m => m.status === 'open' && m.deadline > now);
-
-    // 날짜 필터 적용 (선택된 날짜가 있을 때만)
-    if (selectedDates.length > 0) {
-      availableMatches = availableMatches.filter(m => {
-        const month = String(m.deadline.getMonth() + 1).padStart(2, '0');
-        const day = String(m.deadline.getDate()).padStart(2, '0');
-        return selectedDates.includes(`${month}.${day}`);
-      });
-    }
-
-    if (availableMatches.length === 0) {
-      alert('현재 배팅 가능한 경기가 없습니다. 모든 경기가 마감되었거나 선택한 날짜에 경기가 없습니다.');
-      return;
-    }
-
-    if (!isFullRandom && availableMatches.length < actualMatchCount) {
-      alert(`배팅 가능한 경기가 ${availableMatches.length}개 뿐입니다. 조합 경기 수를 줄여주세요.`);
-      return;
-    }
-
     // 배당 포함 개수 검증 (완전 랜덤이 아닐 때만)
     if (!isFullRandom) {
       const totalOddsCount =
@@ -102,14 +80,14 @@ function App() {
       isFullRandom,
     };
 
-    const result = generateRandomCombination(protoMatches, options);
+    const result: GenerationResult = generateRandomCombination(protoMatches, options);
 
-    if (!result) {
-      alert('조건에 맞는 조합을 찾을 수 없습니다. 필터 조건을 완화해보세요.');
+    if (!result.success) {
+      alert(result.error?.message || '조건에 맞는 조합을 찾을 수 없습니다.');
       return;
     }
 
-    setCombination(result);
+    setCombination(result.combination!);
   };
 
   const handleReset = () => {
@@ -136,12 +114,23 @@ function App() {
     );
   };
 
-  // Input 커서를 끝으로 이동하는 핸들러
+  // Input 커서를 끝으로 이동하는 핸들러 (PC/모바일 모두)
   const handleInputFocus = (e: React.FocusEvent<HTMLInputElement>) => {
     const input = e.target;
-    setTimeout(() => {
-      input.setSelectionRange(input.value.length, input.value.length);
-    }, 0);
+    // 모바일에서도 동작하도록 약간의 딜레이 후 커서 이동
+    requestAnimationFrame(() => {
+      const len = input.value.length;
+      input.setSelectionRange(len, len);
+    });
+  };
+
+  // 클릭시에도 커서를 끝으로 이동
+  const handleInputClick = (e: React.MouseEvent<HTMLInputElement>) => {
+    const input = e.target as HTMLInputElement;
+    requestAnimationFrame(() => {
+      const len = input.value.length;
+      input.setSelectionRange(len, len);
+    });
   };
 
   const generateImage = async () => {
@@ -401,6 +390,7 @@ function App() {
                   value={targetOdds || ''}
                   onChange={(e) => setTargetOdds(e.target.value === '' ? 0 : Number(e.target.value))}
                   onFocus={handleInputFocus}
+                  onClick={handleInputClick}
                   min={10}
                   max={1000}
                   placeholder="미입력시 랜덤"
@@ -415,6 +405,7 @@ function App() {
                   value={matchCount || ''}
                   onChange={(e) => setMatchCount(e.target.value === '' ? 0 : Number(e.target.value))}
                   onFocus={handleInputFocus}
+                  onClick={handleInputClick}
                   min={2}
                   max={10}
                   placeholder="미입력시 2~10"
@@ -431,6 +422,8 @@ function App() {
                     const value = e.target.value.replace(/,/g, '');
                     setBetAmount(value === '' ? 0 : Number(value));
                   }}
+                  onFocus={handleInputFocus}
+                  onClick={handleInputClick}
                   placeholder="10,000"
                 />
               </div>
@@ -463,19 +456,20 @@ function App() {
               {/* 종목 선택 */}
               <div className="setting-item">
                 <label className="setting-label">종목 (미선택시 전체)</label>
-                <div className="filter-buttons">
+                <div className="filter-buttons" style={{ display: 'flex', gap: '4px' }}>
                   {[
                     { value: 'soccer', label: '⚽축구' },
+                    { value: 'baseball', label: '⚾야구' },
                     { value: 'basketball', label: '🏀농구' },
                     { value: 'volleyball', label: '🏐배구' },
-                    { value: 'baseball', label: '⚾야구' },
                   ].map((sport) => (
                     <button
                       key={sport.value}
                       type="button"
                       onClick={() => toggleSport(sport.value)}
                       style={{
-                        padding: '6px 8px',
+                        flex: 1,
+                        padding: '10px 4px',
                         fontSize: '0.75rem',
                         background: allowedSports.includes(sport.value)
                           ? 'rgba(74, 158, 255, 0.3)'
@@ -499,7 +493,7 @@ function App() {
               {/* 경기 타입 */}
               <div className="setting-item">
                 <label className="setting-label">경기 타입</label>
-                <div className="filter-buttons">
+                <div className="filter-buttons" style={{ display: 'flex', gap: '4px' }}>
                   {[
                     { value: 'normal', label: '일반', color: { bg: 'rgba(33, 150, 243, 0.2)', border: 'rgba(33, 150, 243, 0.5)', text: '#2196f3' } },
                     { value: 'handicap', label: '핸디', color: { bg: 'rgba(255, 152, 0, 0.2)', border: 'rgba(255, 152, 0, 0.5)', text: '#ff9800' } },
@@ -511,7 +505,8 @@ function App() {
                       type="button"
                       onClick={() => toggleMatchType(type.value)}
                       style={{
-                        padding: '6px 8px',
+                        flex: 1,
+                        padding: '10px 4px',
                         fontSize: '0.75rem',
                         background: allowedMatchTypes.includes(type.value)
                           ? type.color.bg
@@ -535,18 +530,19 @@ function App() {
               {/* 정배당/무배당/역배당 */}
               <div className="setting-item">
                 <label className="setting-label">배당 포함</label>
-                <div className="filter-buttons" style={{ alignItems: 'center' }}>
+                <div className="filter-buttons" style={{ display: 'flex', gap: '4px', alignItems: 'center' }}>
                   {[
                     { key: 'regular', label: '정배당', active: includeRegularOdds, setActive: setIncludeRegularOdds, count: regularOddsCount, setCount: setRegularOddsCount, color: { bg: 'rgba(74, 158, 255, 0.2)', border: 'rgba(74, 158, 255, 0.5)', text: '#4a9eff' } },
                     { key: 'draw', label: '무배당', active: includeDraws, setActive: setIncludeDraws, count: drawCount, setCount: setDrawCount, color: { bg: 'rgba(34, 197, 94, 0.2)', border: 'rgba(34, 197, 94, 0.5)', text: '#22c55e' } },
                     { key: 'high', label: '역배당', active: includeHighOdds, setActive: setIncludeHighOdds, count: highOddsCount, setCount: setHighOddsCount, color: { bg: 'rgba(255, 68, 68, 0.2)', border: 'rgba(255, 68, 68, 0.5)', text: '#ff4444' } },
                   ].map((item) => (
-                    <div key={item.key} style={{ display: 'flex', alignItems: 'center', gap: '2px' }}>
+                    <div key={item.key} style={{ display: 'flex', alignItems: 'center', gap: '2px', flex: 1 }}>
                       <button
                         type="button"
                         onClick={() => item.setActive(!item.active)}
                         style={{
-                          padding: '6px 8px',
+                          flex: 1,
+                          padding: '10px 4px',
                           fontSize: '0.75rem',
                           background: item.active ? item.color.bg : 'rgba(255, 255, 255, 0.08)',
                           border: item.active ? `1px solid ${item.color.border}` : '1px solid rgba(255, 255, 255, 0.15)',
@@ -566,8 +562,10 @@ function App() {
                           max={10}
                           value={item.count}
                           onChange={(e) => item.setCount(Number(e.target.value))}
+                          onFocus={handleInputFocus}
+                          onClick={handleInputClick}
                           style={{
-                            width: '36px',
+                            width: '32px',
                             padding: '4px',
                             background: 'rgba(255, 255, 255, 0.08)',
                             border: '1px solid rgba(255, 255, 255, 0.15)',
@@ -586,7 +584,7 @@ function App() {
               {/* 날짜 필터 */}
               <div className="setting-item">
                 <label className="setting-label">경기 날짜 (미선택시 전체)</label>
-                <div className="filter-buttons">
+                <div className="filter-buttons" style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
                   {availableDates.map((dateInfo) => {
                     const [dateStr, dayOfWeek] = dateInfo.split('|');
                     const isSelected = selectedDates.includes(dateStr);
@@ -596,7 +594,7 @@ function App() {
                         type="button"
                         onClick={() => toggleDate(dateStr)}
                         style={{
-                          padding: '6px 10px',
+                          padding: '10px 12px',
                           fontSize: '0.75rem',
                           background: isSelected
                             ? 'rgba(156, 39, 176, 0.3)'
@@ -962,57 +960,35 @@ function App() {
         {/* Matches Info Modal */}
         {showMatchesModal && (
           <div
-            style={{
-              position: 'fixed',
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              background: 'rgba(0, 0, 0, 0.9)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              zIndex: 1000,
-            }}
+            className="match-modal-overlay"
             onClick={() => setShowMatchesModal(false)}
           >
             <div
-              style={{
-                background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
-                padding: '24px',
-                borderRadius: '16px',
-                border: '1px solid rgba(255, 255, 255, 0.1)',
-                maxWidth: '800px',
-                width: '95%',
-                maxHeight: '80vh',
-                overflow: 'hidden',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
+              className="match-modal-content"
               onClick={(e) => e.stopPropagation()}
             >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-                <h3 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>
-                  📋 발매중인 경기 정보
+              <div className="match-modal-header">
+                <h3 className="match-modal-title">
+                  발매중인 경기 정보
                 </h3>
-                <span style={{ color: '#888', fontSize: '0.85rem' }}>
+                <span className="match-modal-count">
                   {(() => {
                     const now = new Date();
                     return protoMatches.filter(m => m.status === 'open' && m.deadline > now).length;
                   })()}개 경기
                 </span>
               </div>
-              <div style={{ overflowY: 'auto', flex: 1 }}>
-                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.8rem' }}>
+              <div className="match-modal-table-wrapper">
+                <table className="match-modal-table">
                   <thead>
-                    <tr style={{ background: '#1a1a1a', position: 'sticky', top: 0, zIndex: 1 }}>
-                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>번호</th>
-                      <th style={{ padding: '10px 8px', textAlign: 'left', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>경기</th>
-                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>타입</th>
-                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#4a9eff', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>승</th>
-                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#22c55e', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>무</th>
-                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#ff4444', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>패</th>
-                      <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>마감</th>
+                    <tr>
+                      <th>번호</th>
+                      <th className="text-left">경기</th>
+                      <th>타입</th>
+                      <th className="col-win">승</th>
+                      <th className="col-draw">무</th>
+                      <th className="col-lose">패</th>
+                      <th>마감</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -1022,36 +998,36 @@ function App() {
                         .filter(m => m.status === 'open' && m.deadline > now)
                         .sort((a, b) => a.gameNumber - b.gameNumber)
                         .map((match) => (
-                          <tr key={match.id} style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                            <td style={{ padding: '8px', textAlign: 'center', color: '#fff', fontWeight: '600' }}>
+                          <tr key={match.id}>
+                            <td className="text-center" style={{ color: '#fff', fontWeight: '600' }}>
                               {String(match.gameNumber).padStart(3, '0')}
-                              {match.isSingle && <span style={{ color: '#4a9eff', marginLeft: '4px', fontSize: '0.7rem' }}>S</span>}
+                              {match.isSingle && <span style={{ color: '#4a9eff', marginLeft: '4px', fontSize: '0.7em' }}>S</span>}
                             </td>
-                            <td style={{ padding: '8px', color: '#ccc' }}>
-                              <div style={{ fontSize: '0.75rem', color: '#888' }}>{getSportLabel(match.sport)}</div>
+                            <td style={{ color: '#ccc' }}>
+                              <div style={{ fontSize: '0.9em', color: '#888' }}>{getSportLabel(match.sport)}</div>
                               {match.homeTeam} vs {match.awayTeam}
                             </td>
-                            <td style={{ padding: '8px', textAlign: 'center' }}>
+                            <td className="text-center">
                               <span style={{
                                 padding: '2px 6px',
                                 borderRadius: '4px',
-                                fontSize: '0.7rem',
-                                background: match.matchType === 'handicap' ? 'rgba(255,152,0,0.2)' : match.matchType === 'underover' ? 'rgba(76,175,80,0.2)' : 'rgba(33,150,243,0.2)',
-                                color: match.matchType === 'handicap' ? '#ff9800' : match.matchType === 'underover' ? '#4caf50' : '#2196f3',
+                                fontSize: '0.85em',
+                                background: match.matchType === 'handicap' ? 'rgba(255,152,0,0.2)' : match.matchType === 'underover' ? 'rgba(76,175,80,0.2)' : match.matchType === 'sum' ? 'rgba(255,193,7,0.2)' : 'rgba(33,150,243,0.2)',
+                                color: match.matchType === 'handicap' ? '#ff9800' : match.matchType === 'underover' ? '#4caf50' : match.matchType === 'sum' ? '#ffc107' : '#2196f3',
                               }}>
                                 {match.matchType === 'normal' ? '일반' : match.matchType === 'handicap' ? `핸디 ${match.handicapValue || ''}` : match.matchType === 'underover' ? `U/O ${match.underOverValue || ''}` : 'SUM'}
                               </span>
                             </td>
-                            <td style={{ padding: '8px', textAlign: 'center', color: '#4a9eff', fontWeight: '500' }}>
+                            <td className="text-center" style={{ color: '#4a9eff', fontWeight: '500' }}>
                               {match.matchType === 'underover' ? 'U' : match.matchType === 'sum' ? '홀' : ''} {match.odds.home.toFixed(2)}
                             </td>
-                            <td style={{ padding: '8px', textAlign: 'center', color: '#22c55e', fontWeight: '500' }}>
+                            <td className="text-center" style={{ color: '#22c55e', fontWeight: '500' }}>
                               {match.odds.draw ? match.odds.draw.toFixed(2) : '-'}
                             </td>
-                            <td style={{ padding: '8px', textAlign: 'center', color: '#ff4444', fontWeight: '500' }}>
+                            <td className="text-center" style={{ color: '#ff4444', fontWeight: '500' }}>
                               {match.matchType === 'underover' ? 'O' : match.matchType === 'sum' ? '짝' : ''} {match.odds.away.toFixed(2)}
                             </td>
-                            <td style={{ padding: '8px', textAlign: 'center', color: '#888', fontSize: '0.75rem' }}>
+                            <td className="text-center" style={{ color: '#888', fontSize: '0.9em' }}>
                               {formatDeadline(match.deadline)}
                             </td>
                           </tr>
@@ -1061,17 +1037,8 @@ function App() {
                 </table>
               </div>
               <button
+                className="match-modal-close"
                 onClick={() => setShowMatchesModal(false)}
-                style={{
-                  marginTop: '16px',
-                  padding: '12px',
-                  background: 'transparent',
-                  border: '1px solid rgba(255, 255, 255, 0.2)',
-                  borderRadius: '8px',
-                  color: '#888',
-                  fontSize: '0.9rem',
-                  cursor: 'pointer',
-                }}
               >
                 닫기
               </button>
