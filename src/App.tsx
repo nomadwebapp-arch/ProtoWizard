@@ -457,7 +457,7 @@ function App() {
                     gap: '6px',
                   }}
                 >
-                  📋 경기 정보 보기
+                  경기 정보 보기
                 </button>
               </div>
             </div>
@@ -544,132 +544,52 @@ function App() {
               {/* 정배당/무배당/역배당 */}
               <div className="setting-item">
                 <label className="setting-label">배당 포함</label>
-                <div style={{ display: 'flex', gap: '12px', marginTop: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
-                  {/* 정배당 */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <label style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer' }}>
-                      <input
-                        type="checkbox"
-                        checked={includeRegularOdds}
-                        onChange={(e) => setIncludeRegularOdds(e.target.checked)}
-                        style={{ cursor: 'pointer' }}
-                      />
-                      <span style={{ fontSize: '0.85rem', color: '#aaa' }}>정배당</span>
-                    </label>
-                    {includeRegularOdds && (
-                      <>
+                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap', alignItems: 'center' }}>
+                  {[
+                    { key: 'regular', label: '정배', active: includeRegularOdds, setActive: setIncludeRegularOdds, count: regularOddsCount, setCount: setRegularOddsCount, color: { bg: 'rgba(74, 158, 255, 0.2)', border: 'rgba(74, 158, 255, 0.5)', text: '#4a9eff' } },
+                    { key: 'draw', label: '무', active: includeDraws, setActive: setIncludeDraws, count: drawCount, setCount: setDrawCount, color: { bg: 'rgba(34, 197, 94, 0.2)', border: 'rgba(34, 197, 94, 0.5)', text: '#22c55e' } },
+                    { key: 'high', label: '역배', active: includeHighOdds, setActive: setIncludeHighOdds, count: highOddsCount, setCount: setHighOddsCount, color: { bg: 'rgba(255, 68, 68, 0.2)', border: 'rgba(255, 68, 68, 0.5)', text: '#ff4444' } },
+                  ].map((item) => (
+                    <div key={item.key} style={{ display: 'flex', alignItems: 'center', gap: '2px' }}>
+                      <button
+                        type="button"
+                        onClick={() => item.setActive(!item.active)}
+                        style={{
+                          padding: '6px 8px',
+                          fontSize: '0.75rem',
+                          background: item.active ? item.color.bg : 'rgba(255, 255, 255, 0.08)',
+                          border: item.active ? `1px solid ${item.color.border}` : '1px solid rgba(255, 255, 255, 0.15)',
+                          borderRadius: '6px',
+                          color: item.active ? item.color.text : '#fff',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s',
+                          whiteSpace: 'nowrap',
+                        }}
+                      >
+                        {item.label}
+                      </button>
+                      {item.active && (
                         <input
                           type="number"
                           min={1}
                           max={10}
-                          value={regularOddsCount}
-                          onChange={(e) => setRegularOddsCount(Number(e.target.value))}
+                          value={item.count}
+                          onChange={(e) => item.setCount(Number(e.target.value))}
                           style={{
-                            width: '50px',
-                            padding: '4px 8px',
+                            width: '36px',
+                            padding: '4px',
                             background: 'rgba(255, 255, 255, 0.08)',
                             border: '1px solid rgba(255, 255, 255, 0.15)',
-                            borderRadius: '6px',
+                            borderRadius: '4px',
                             color: '#fff',
-                            fontSize: '0.85rem',
+                            fontSize: '0.75rem',
+                            textAlign: 'center',
                           }}
                         />
-                        <span style={{ fontSize: '0.8rem', color: '#888' }}>개</span>
-                      </>
-                    )}
-                  </div>
-
-                  {/* 무배당 */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <label style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer' }}>
-                      <input
-                        type="checkbox"
-                        checked={includeDraws}
-                        onChange={(e) => setIncludeDraws(e.target.checked)}
-                        style={{ cursor: 'pointer' }}
-                      />
-                      <span style={{ fontSize: '0.85rem', color: '#aaa' }}>무배당</span>
-                    </label>
-                    {includeDraws && (
-                      <>
-                        <input
-                          type="number"
-                          min={1}
-                          max={10}
-                          value={drawCount}
-                          onChange={(e) => setDrawCount(Number(e.target.value))}
-                          style={{
-                            width: '50px',
-                            padding: '4px 8px',
-                            background: 'rgba(255, 255, 255, 0.08)',
-                            border: '1px solid rgba(255, 255, 255, 0.15)',
-                            borderRadius: '6px',
-                            color: '#fff',
-                            fontSize: '0.85rem',
-                          }}
-                        />
-                        <span style={{ fontSize: '0.8rem', color: '#888' }}>개</span>
-                      </>
-                    )}
-                  </div>
-
-                  {/* 역배당 */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <label style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer' }}>
-                      <input
-                        type="checkbox"
-                        checked={includeHighOdds}
-                        onChange={(e) => setIncludeHighOdds(e.target.checked)}
-                        style={{ cursor: 'pointer' }}
-                      />
-                      <span style={{ fontSize: '0.85rem', color: '#aaa' }}>역배당</span>
-                    </label>
-                    {includeHighOdds && (
-                      <>
-                        <input
-                          type="number"
-                          min={1}
-                          max={10}
-                          value={highOddsCount}
-                          onChange={(e) => setHighOddsCount(Number(e.target.value))}
-                          style={{
-                            width: '50px',
-                            padding: '4px 8px',
-                            background: 'rgba(255, 255, 255, 0.08)',
-                            border: '1px solid rgba(255, 255, 255, 0.15)',
-                            borderRadius: '6px',
-                            color: '#fff',
-                            fontSize: '0.85rem',
-                          }}
-                        />
-                        <span style={{ fontSize: '0.8rem', color: '#888' }}>개</span>
-                      </>
-                    )}
-                  </div>
+                      )}
+                    </div>
+                  ))}
                 </div>
-                {/* 배당 포함 개수 합계 표시 */}
-                {(() => {
-                  const total =
-                    (includeRegularOdds ? regularOddsCount : 0) +
-                    (includeDraws ? drawCount : 0) +
-                    (includeHighOdds ? highOddsCount : 0);
-                  if (total > 0) {
-                    const isExceeded = total > matchCount;
-                    return (
-                      <div style={{
-                        marginTop: '8px',
-                        fontSize: '0.75rem',
-                        color: isExceeded ? '#ff4444' : '#888',
-                        fontWeight: isExceeded ? '600' : '400',
-                      }}>
-                        {isExceeded && '⚠️ '}
-                        배당 포함 합계: {total}개 / 조합 경기 수: {matchCount}개
-                        {isExceeded && ' (초과!)'}
-                      </div>
-                    );
-                  }
-                  return null;
-                })()}
               </div>
 
               {/* 날짜 필터 */}
