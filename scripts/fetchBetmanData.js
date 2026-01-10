@@ -74,38 +74,53 @@ async function fetchBetmanData(roundNumber = null) {
 
     console.log('✅ 페이지 로딩 완료!\n');
 
-    // 페이지 대기
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    // 페이지 대기 (더 긴 시간)
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
     console.log('🔍 경기 리스트 테이블 대기 중...\n');
 
     // 테이블이 로드될 때까지 대기
-    await page.waitForSelector('#tbd_gmBuySlipList tr[data-matchseq]', { timeout: 10000 });
+    await page.waitForSelector('#tbd_gmBuySlipList tr[data-matchseq]', { timeout: 30000 });
 
-    // 페이지 끝까지 스크롤해서 모든 경기 로드 (여러 번 반복)
+    // 페이지 끝까지 스크롤해서 모든 경기 로드 (더 많이 반복)
     console.log('📜 페이지 스크롤하여 모든 경기 로드 중...\n');
-    for (let i = 0; i < 3; i++) {
-      await page.evaluate(async () => {
-        await new Promise((resolve) => {
-          let totalHeight = 0;
-          const distance = 200;
-          const timer = setInterval(() => {
-            const scrollHeight = document.body.scrollHeight;
-            window.scrollBy(0, distance);
-            totalHeight += distance;
 
-            if (totalHeight >= scrollHeight) {
-              clearInterval(timer);
-              resolve();
-            }
-          }, 150);
-        });
+    let previousMatchCount = 0;
+    let stableCount = 0;
+
+    // 경기 수가 안정될 때까지 스크롤 (최대 20회)
+    for (let i = 0; i < 20; i++) {
+      // 스크롤 다운
+      await page.evaluate(async () => {
+        window.scrollTo(0, document.body.scrollHeight);
       });
-      await new Promise(resolve => setTimeout(resolve, 1000));
+
+      await new Promise(resolve => setTimeout(resolve, 1500));
+
+      // 현재 로드된 경기 수 확인
+      const currentMatchCount = await page.evaluate(() => {
+        return document.querySelectorAll('#tbd_gmBuySlipList tr[data-matchseq]').length;
+      });
+
+      console.log(`  스크롤 ${i + 1}: ${currentMatchCount}개 경기 로드됨`);
+
+      // 경기 수가 변하지 않으면 카운트 증가
+      if (currentMatchCount === previousMatchCount) {
+        stableCount++;
+        // 3번 연속 같으면 완료
+        if (stableCount >= 3) {
+          console.log(`  ✅ 모든 경기 로드 완료! (${currentMatchCount}개)\n`);
+          break;
+        }
+      } else {
+        stableCount = 0;
+      }
+
+      previousMatchCount = currentMatchCount;
     }
 
     // 스크롤 후 추가 대기
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
     console.log('✅ 테이블 로드 완료! 데이터 추출 중...\n');
 
