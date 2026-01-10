@@ -62,6 +62,9 @@ async function fetchBetmanData(roundNumber = null) {
   try {
     const page = await browser.newPage();
 
+    // 한국 타임존으로 설정 (베트맨이 브라우저 타임존 기준으로 시간 표시)
+    await page.emulateTimezone('Asia/Seoul');
+
     // 캐시 비활성화
     await page.setCacheEnabled(false);
 
