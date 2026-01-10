@@ -58,8 +58,9 @@ async function fetchBetmanData(roundNumber = null) {
     let url;
     if (roundNumber) {
       // 회차 번호가 지정되면 해당 회차
-      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=${roundNumber}`;
-      console.log(`🚀 betman.co.kr 데이터 가져오기 (지정 회차: ${roundNumber})\n`);
+      const year = `20${roundNumber.substring(0, 2)}`; // 260005 -> 2026
+      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&year=${year}&gmTs=${roundNumber}`;
+      console.log(`🚀 betman.co.kr 데이터 가져오기 (지정 회차: ${roundNumber}, 연도: ${year})\n`);
     } else {
       // 회차 번호가 없으면 gmTs 없이 → 자동으로 최신 회차 데이터
       url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101`;
