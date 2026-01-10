@@ -48,23 +48,42 @@ async function getCurrentRound(browser) {
 async function fetchBetmanData(roundNumber = null) {
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    userDataDir: './puppeteer-data',  // 권한 문제 해결
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-cache',
+      '--disable-application-cache',
+      '--disable-offline-load-stale-cache',
+      '--disk-cache-size=0',
+    ],
+    // userDataDir 제거 - 캐시 문제 해결
   });
 
   try {
     const page = await browser.newPage();
 
+    // 캐시 비활성화
+    await page.setCacheEnabled(false);
+
+    // 캐시 방지 헤더 설정
+    await page.setExtraHTTPHeaders({
+      'Cache-Control': 'no-cache, no-store, must-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0',
+    });
+
     // betman.co.kr 게임 슬립 페이지
+    // 캐시 방지를 위해 타임스탬프 추가
+    const cacheBuster = `_t=${Date.now()}`;
     let url;
     if (roundNumber) {
       // 회차 번호가 지정되면 해당 회차
       const year = `20${roundNumber.substring(0, 2)}`; // 260005 -> 2026
-      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&year=${year}&gmTs=${roundNumber}`;
+      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&year=${year}&gmTs=${roundNumber}&${cacheBuster}`;
       console.log(`🚀 betman.co.kr 데이터 가져오기 (지정 회차: ${roundNumber}, 연도: ${year})\n`);
     } else {
       // 회차 번호가 없으면 gmTs 없이 → 자동으로 최신 회차 데이터
-      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101`;
+      url = `https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&${cacheBuster}`;
       console.log(`🚀 betman.co.kr 데이터 가져오기 (자동: 최신 회차)\n`);
     }
 
