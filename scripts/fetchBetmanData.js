@@ -84,20 +84,26 @@ async function fetchBetmanData(roundNumber = null) {
     // 테이블이 로드될 때까지 대기
     await page.waitForSelector('#tbd_gmBuySlipList tr[data-matchseq]', { timeout: 30000 });
 
-    // 페이지 끝까지 스크롤해서 모든 경기 로드 (더 많이 반복)
+    // 페이지 끝까지 스크롤해서 모든 경기 로드 (충분히 반복)
     console.log('📜 페이지 스크롤하여 모든 경기 로드 중...\n');
 
     let previousMatchCount = 0;
     let stableCount = 0;
 
-    // 경기 수가 안정될 때까지 스크롤 (최대 20회)
-    for (let i = 0; i < 20; i++) {
-      // 스크롤 다운
+    // 경기 수가 안정될 때까지 스크롤 (최대 50회 - 450개 이상 경기 대응)
+    for (let i = 0; i < 50; i++) {
+      // 스크롤 다운 (더 확실하게)
       await page.evaluate(async () => {
+        // 페이지 끝까지 스크롤
         window.scrollTo(0, document.body.scrollHeight);
+        // 추가로 테이블 컨테이너도 스크롤
+        const tableContainer = document.querySelector('#tbd_gmBuySlipList')?.parentElement;
+        if (tableContainer) {
+          tableContainer.scrollTop = tableContainer.scrollHeight;
+        }
       });
 
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      await new Promise(resolve => setTimeout(resolve, 2000));
 
       // 현재 로드된 경기 수 확인
       const currentMatchCount = await page.evaluate(() => {
@@ -109,8 +115,8 @@ async function fetchBetmanData(roundNumber = null) {
       // 경기 수가 변하지 않으면 카운트 증가
       if (currentMatchCount === previousMatchCount) {
         stableCount++;
-        // 3번 연속 같으면 완료
-        if (stableCount >= 3) {
+        // 5번 연속 같으면 완료 (더 확실하게)
+        if (stableCount >= 5) {
           console.log(`  ✅ 모든 경기 로드 완료! (${currentMatchCount}개)\n`);
           break;
         }
