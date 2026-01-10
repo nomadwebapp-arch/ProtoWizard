@@ -537,9 +537,9 @@ function App() {
                 <label className="setting-label">배당 포함</label>
                 <div className="filter-buttons" style={{ alignItems: 'center' }}>
                   {[
-                    { key: 'regular', label: '정배', active: includeRegularOdds, setActive: setIncludeRegularOdds, count: regularOddsCount, setCount: setRegularOddsCount, color: { bg: 'rgba(74, 158, 255, 0.2)', border: 'rgba(74, 158, 255, 0.5)', text: '#4a9eff' } },
-                    { key: 'draw', label: '무', active: includeDraws, setActive: setIncludeDraws, count: drawCount, setCount: setDrawCount, color: { bg: 'rgba(34, 197, 94, 0.2)', border: 'rgba(34, 197, 94, 0.5)', text: '#22c55e' } },
-                    { key: 'high', label: '역배', active: includeHighOdds, setActive: setIncludeHighOdds, count: highOddsCount, setCount: setHighOddsCount, color: { bg: 'rgba(255, 68, 68, 0.2)', border: 'rgba(255, 68, 68, 0.5)', text: '#ff4444' } },
+                    { key: 'regular', label: '정배당', active: includeRegularOdds, setActive: setIncludeRegularOdds, count: regularOddsCount, setCount: setRegularOddsCount, color: { bg: 'rgba(74, 158, 255, 0.2)', border: 'rgba(74, 158, 255, 0.5)', text: '#4a9eff' } },
+                    { key: 'draw', label: '무배당', active: includeDraws, setActive: setIncludeDraws, count: drawCount, setCount: setDrawCount, color: { bg: 'rgba(34, 197, 94, 0.2)', border: 'rgba(34, 197, 94, 0.5)', text: '#22c55e' } },
+                    { key: 'high', label: '역배당', active: includeHighOdds, setActive: setIncludeHighOdds, count: highOddsCount, setCount: setHighOddsCount, color: { bg: 'rgba(255, 68, 68, 0.2)', border: 'rgba(255, 68, 68, 0.5)', text: '#ff4444' } },
                   ].map((item) => (
                     <div key={item.key} style={{ display: 'flex', alignItems: 'center', gap: '2px' }}>
                       <button
