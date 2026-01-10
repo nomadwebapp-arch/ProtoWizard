@@ -49,6 +49,7 @@ async function fetchBetmanData(roundNumber = null) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    userDataDir: './puppeteer-data',  // 권한 문제 해결
   });
 
   try {
