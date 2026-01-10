@@ -53,5 +53,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add src/data/protoMatches.ts betman-data.json current-round.json
-          git commit -m "Auto-update: Betman matches data ($(date +'%Y-%m-%d %H:%M KST'))"
+          git commit -m "Auto-update: Betman matches data ($(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST'))"
           git push
