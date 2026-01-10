@@ -7,27 +7,29 @@ import type { GenerationResult } from './utils/combinationGenerator';
 import html2canvas from 'html2canvas';
 import { Analytics } from '@vercel/analytics/react';
 
-// KST 기준으로 날짜/시간 정보 추출
-const getKSTDateParts = (date: Date) => {
-  const formatter = new Intl.DateTimeFormat('ko-KR', {
-    timeZone: 'Asia/Seoul',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false,
-    weekday: 'short',
-  });
+// UTC에서 KST(UTC+9)로 직접 계산 - 브라우저 타임존 무관
+const getKSTFromUTC = (date: Date) => {
+  // UTC 밀리초에 9시간 더하기
+  const kstTimestamp = date.getTime() + (9 * 60 * 60 * 1000);
+  const kstDate = new Date(kstTimestamp);
 
-  const parts = formatter.formatToParts(date);
+  // getUTC* 메서드 사용 (브라우저 타임존 영향 없음)
+  const year = kstDate.getUTCFullYear();
+  const month = kstDate.getUTCMonth() + 1;
+  const day = kstDate.getUTCDate();
+  const hours = kstDate.getUTCHours();
+  const minutes = kstDate.getUTCMinutes();
+  const dayOfWeek = kstDate.getUTCDay(); // 0=일, 1=월, ...
+
+  const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
+
   return {
-    year: parts.find(p => p.type === 'year')?.value || '2026',
-    month: parts.find(p => p.type === 'month')?.value || '01',
-    day: parts.find(p => p.type === 'day')?.value || '01',
-    hour: parts.find(p => p.type === 'hour')?.value || '00',
-    minute: parts.find(p => p.type === 'minute')?.value || '00',
-    weekday: parts.find(p => p.type === 'weekday')?.value || '월',
+    year: String(year),
+    month: String(month).padStart(2, '0'),
+    day: String(day).padStart(2, '0'),
+    hour: String(hours).padStart(2, '0'),
+    minute: String(minutes).padStart(2, '0'),
+    weekday: weekdays[dayOfWeek],
   };
 };
 
@@ -59,7 +61,7 @@ function App() {
     protoMatches
       .filter(m => m.status === 'open' && m.deadline > now)
       .forEach(m => {
-        const kst = getKSTDateParts(m.deadline);
+        const kst = getKSTFromUTC(m.deadline);
         dates.add(`${kst.month}.${kst.day}|${kst.weekday}`);
       });
     return Array.from(dates).sort();
@@ -335,8 +337,8 @@ function App() {
   };
 
   const formatDeadline = (deadline: Date) => {
-    // KST 기준으로 표시 (Intl.DateTimeFormat 사용)
-    const kst = getKSTDateParts(deadline);
+    // KST 기준으로 표시 (UTC+9 직접 계산)
+    const kst = getKSTFromUTC(deadline);
     return `${kst.month}/${kst.day} ${kst.hour}:${kst.minute}`;
   };
 

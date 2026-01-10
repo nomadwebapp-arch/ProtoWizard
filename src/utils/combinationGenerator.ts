@@ -8,17 +8,13 @@ import type { Match, Combination, FilterOptions } from '../types/match';
  * 3) 배당 포함 필터 (정배당/무배당/역배당 개수 보장)
  */
 
-// KST 기준으로 날짜 정보 추출 (Intl.DateTimeFormat 사용)
-const getKSTDateParts = (date: Date) => {
-  const formatter = new Intl.DateTimeFormat('ko-KR', {
-    timeZone: 'Asia/Seoul',
-    month: '2-digit',
-    day: '2-digit',
-  });
-  const parts = formatter.formatToParts(date);
+// UTC에서 KST(UTC+9)로 직접 계산 - 브라우저 타임존 무관
+const getKSTFromUTC = (date: Date) => {
+  const kstTimestamp = date.getTime() + (9 * 60 * 60 * 1000);
+  const kstDate = new Date(kstTimestamp);
   return {
-    month: parts.find(p => p.type === 'month')?.value || '01',
-    day: parts.find(p => p.type === 'day')?.value || '01',
+    month: String(kstDate.getUTCMonth() + 1).padStart(2, '0'),
+    day: String(kstDate.getUTCDate()).padStart(2, '0'),
   };
 };
 
@@ -78,8 +74,8 @@ export function generateRandomCombination(
 
   if (allowedDates && allowedDates.length > 0) {
     availableMatches = availableMatches.filter(m => {
-      // KST 기준으로 날짜 추출 (Intl.DateTimeFormat 사용)
-      const kst = getKSTDateParts(m.deadline);
+      // KST 기준으로 날짜 추출 (UTC+9 직접 계산)
+      const kst = getKSTFromUTC(m.deadline);
       const dateStr = `${kst.month}.${kst.day}`;
       return allowedDates.includes(dateStr);
     });
