@@ -326,7 +326,13 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1 className="app-title">프로토 조합 생성기</h1>
+        <h1
+          className="app-title"
+          onClick={() => window.location.href = '/'}
+          style={{ cursor: 'pointer' }}
+        >
+          프로토 조합 생성기
+        </h1>
       </header>
 
       <main className="app-main">
