@@ -7,6 +7,11 @@ import type { GenerationResult } from './utils/combinationGenerator';
 import html2canvas from 'html2canvas';
 import { Analytics } from '@vercel/analytics/react';
 
+// UTC Date를 한국시간(KST) 기준 Date 객체로 변환
+const toKST = (date: Date): Date => {
+  return new Date(date.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
+};
+
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
   const [showShareModal, setShowShareModal] = useState(false);
@@ -28,16 +33,17 @@ function App() {
   const [includeHighOdds, setIncludeHighOdds] = useState(false);
   const [highOddsCount, setHighOddsCount] = useState(1);
 
-  // 날짜 필터 - 데이터에서 고유한 날짜 추출
+  // 날짜 필터 - 데이터에서 고유한 날짜 추출 (KST 기준)
   const availableDates = (() => {
     const now = new Date();
     const dates = new Set<string>();
     protoMatches
       .filter(m => m.status === 'open' && m.deadline > now)
       .forEach(m => {
-        const month = String(m.deadline.getMonth() + 1).padStart(2, '0');
-        const day = String(m.deadline.getDate()).padStart(2, '0');
-        const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][m.deadline.getDay()];
+        const kstDeadline = toKST(m.deadline);
+        const month = String(kstDeadline.getMonth() + 1).padStart(2, '0');
+        const day = String(kstDeadline.getDate()).padStart(2, '0');
+        const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][kstDeadline.getDay()];
         dates.add(`${month}.${day}|${dayOfWeek}`);
       });
     return Array.from(dates).sort();
@@ -313,10 +319,12 @@ function App() {
   };
 
   const formatDeadline = (deadline: Date) => {
-    const month = String(deadline.getMonth() + 1).padStart(2, '0');
-    const day = String(deadline.getDate()).padStart(2, '0');
-    const hours = String(deadline.getHours()).padStart(2, '0');
-    const minutes = String(deadline.getMinutes()).padStart(2, '0');
+    // KST 기준으로 표시
+    const kstDate = toKST(deadline);
+    const month = String(kstDate.getMonth() + 1).padStart(2, '0');
+    const day = String(kstDate.getDate()).padStart(2, '0');
+    const hours = String(kstDate.getHours()).padStart(2, '0');
+    const minutes = String(kstDate.getMinutes()).padStart(2, '0');
     return `${month}/${day} ${hours}:${minutes}`;
   };
 

@@ -8,6 +8,11 @@ import type { Match, Combination, FilterOptions } from '../types/match';
  * 3) 배당 포함 필터 (정배당/무배당/역배당 개수 보장)
  */
 
+// UTC Date를 한국시간(KST) 기준 Date 객체로 변환
+const toKST = (date: Date): Date => {
+  return new Date(date.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
+};
+
 const MAX_ATTEMPTS = 100;
 
 export interface GenerationError {
@@ -64,8 +69,10 @@ export function generateRandomCombination(
 
   if (allowedDates && allowedDates.length > 0) {
     availableMatches = availableMatches.filter(m => {
-      const month = String(m.deadline.getMonth() + 1).padStart(2, '0');
-      const day = String(m.deadline.getDate()).padStart(2, '0');
+      // KST 기준으로 날짜 추출
+      const kstDeadline = toKST(m.deadline);
+      const month = String(kstDeadline.getMonth() + 1).padStart(2, '0');
+      const day = String(kstDeadline.getDate()).padStart(2, '0');
       const dateStr = `${month}.${day}`;
       return allowedDates.includes(dateStr);
     });
