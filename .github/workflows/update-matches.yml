@@ -12,6 +12,9 @@ on:
   # 수동 실행도 가능
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-matches:
     runs-on: ubuntu-latest
