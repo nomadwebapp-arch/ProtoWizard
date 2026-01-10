@@ -392,11 +392,7 @@ function App() {
         <div className="settings-panel">
             <h2 className="settings-title">조합 생성 조건 설정</h2>
             {/* 윗줄: 목표배당 | 조합경기수 | 베팅금액 | 발매중인 정보 */}
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(4, 1fr)',
-              gap: '16px',
-            }}>
+            <div className="grid-4">
               <div className="setting-item">
                 <label className="setting-label">목표 배당 (비우면 랜덤)</label>
                 <input
@@ -463,16 +459,11 @@ function App() {
             </div>
 
             {/* 아랫줄: 종목 | 경기타입 | 배당포함 | 경기날짜 */}
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(4, 1fr)',
-              gap: '16px',
-              marginTop: '16px',
-            }}>
+            <div className="grid-4 grid-4-margin">
               {/* 종목 선택 */}
               <div className="setting-item">
                 <label className="setting-label">종목 (미선택시 전체)</label>
-                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap' }}>
+                <div className="filter-buttons">
                   {[
                     { value: 'soccer', label: '⚽축구' },
                     { value: 'basketball', label: '🏀농구' },
@@ -508,7 +499,7 @@ function App() {
               {/* 경기 타입 */}
               <div className="setting-item">
                 <label className="setting-label">경기 타입</label>
-                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap' }}>
+                <div className="filter-buttons">
                   {[
                     { value: 'normal', label: '일반', color: { bg: 'rgba(33, 150, 243, 0.2)', border: 'rgba(33, 150, 243, 0.5)', text: '#2196f3' } },
                     { value: 'handicap', label: '핸디', color: { bg: 'rgba(255, 152, 0, 0.2)', border: 'rgba(255, 152, 0, 0.5)', text: '#ff9800' } },
@@ -544,7 +535,7 @@ function App() {
               {/* 정배당/무배당/역배당 */}
               <div className="setting-item">
                 <label className="setting-label">배당 포함</label>
-                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap', alignItems: 'center' }}>
+                <div className="filter-buttons" style={{ alignItems: 'center' }}>
                   {[
                     { key: 'regular', label: '정배', active: includeRegularOdds, setActive: setIncludeRegularOdds, count: regularOddsCount, setCount: setRegularOddsCount, color: { bg: 'rgba(74, 158, 255, 0.2)', border: 'rgba(74, 158, 255, 0.5)', text: '#4a9eff' } },
                     { key: 'draw', label: '무', active: includeDraws, setActive: setIncludeDraws, count: drawCount, setCount: setDrawCount, color: { bg: 'rgba(34, 197, 94, 0.2)', border: 'rgba(34, 197, 94, 0.5)', text: '#22c55e' } },
@@ -595,7 +586,7 @@ function App() {
               {/* 날짜 필터 */}
               <div className="setting-item">
                 <label className="setting-label">경기 날짜 (미선택시 전체)</label>
-                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap' }}>
+                <div className="filter-buttons">
                   {availableDates.map((dateInfo) => {
                     const [dateStr, dayOfWeek] = dateInfo.split('|');
                     const isSelected = selectedDates.includes(dateStr);

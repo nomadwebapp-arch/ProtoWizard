@@ -296,7 +296,32 @@
   cursor: not-allowed;
 }
 
+/* 4-Column Grid */
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.grid-4-margin {
+  margin-top: 16px;
+}
+
+/* Filter Buttons Container */
+.filter-buttons {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
 /* Responsive */
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .app {
     padding: 12px;
@@ -307,15 +332,20 @@
   }
 
   .settings-panel {
-    padding: 20px;
+    padding: 16px;
   }
 
   .settings-grid {
     grid-template-columns: 1fr;
   }
 
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
   .combination-card {
-    padding: 20px;
+    padding: 16px;
   }
 
   .button-group {
@@ -324,6 +354,19 @@
 
   .btn {
     width: 100%;
+  }
+
+  .filter-buttons {
+    flex-wrap: wrap;
+  }
+
+  .setting-label {
+    font-size: 0.8rem;
+  }
+
+  .setting-input {
+    padding: 10px 12px;
+    font-size: 0.85rem;
   }
 }
 
@@ -337,10 +380,28 @@
   }
 
   .settings-panel {
-    padding: 16px;
+    padding: 12px;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 
   .match-item {
     padding: 12px;
+  }
+
+  .match-teams {
+    font-size: 0.9rem;
+  }
+
+  .match-result {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .summary-value.highlight {
+    font-size: 1.2rem;
   }
 }
