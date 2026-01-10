@@ -7,9 +7,28 @@ import type { GenerationResult } from './utils/combinationGenerator';
 import html2canvas from 'html2canvas';
 import { Analytics } from '@vercel/analytics/react';
 
-// UTC Date를 한국시간(KST) 기준 Date 객체로 변환
-const toKST = (date: Date): Date => {
-  return new Date(date.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
+// KST 기준으로 날짜/시간 정보 추출
+const getKSTDateParts = (date: Date) => {
+  const formatter = new Intl.DateTimeFormat('ko-KR', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+    weekday: 'short',
+  });
+
+  const parts = formatter.formatToParts(date);
+  return {
+    year: parts.find(p => p.type === 'year')?.value || '2026',
+    month: parts.find(p => p.type === 'month')?.value || '01',
+    day: parts.find(p => p.type === 'day')?.value || '01',
+    hour: parts.find(p => p.type === 'hour')?.value || '00',
+    minute: parts.find(p => p.type === 'minute')?.value || '00',
+    weekday: parts.find(p => p.type === 'weekday')?.value || '월',
+  };
 };
 
 function App() {
@@ -40,11 +59,8 @@ function App() {
     protoMatches
       .filter(m => m.status === 'open' && m.deadline > now)
       .forEach(m => {
-        const kstDeadline = toKST(m.deadline);
-        const month = String(kstDeadline.getMonth() + 1).padStart(2, '0');
-        const day = String(kstDeadline.getDate()).padStart(2, '0');
-        const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][kstDeadline.getDay()];
-        dates.add(`${month}.${day}|${dayOfWeek}`);
+        const kst = getKSTDateParts(m.deadline);
+        dates.add(`${kst.month}.${kst.day}|${kst.weekday}`);
       });
     return Array.from(dates).sort();
   })();
@@ -319,13 +335,9 @@ function App() {
   };
 
   const formatDeadline = (deadline: Date) => {
-    // KST 기준으로 표시
-    const kstDate = toKST(deadline);
-    const month = String(kstDate.getMonth() + 1).padStart(2, '0');
-    const day = String(kstDate.getDate()).padStart(2, '0');
-    const hours = String(kstDate.getHours()).padStart(2, '0');
-    const minutes = String(kstDate.getMinutes()).padStart(2, '0');
-    return `${month}/${day} ${hours}:${minutes}`;
+    // KST 기준으로 표시 (Intl.DateTimeFormat 사용)
+    const kst = getKSTDateParts(deadline);
+    return `${kst.month}/${kst.day} ${kst.hour}:${kst.minute}`;
   };
 
   const formatRoundNumber = (roundNumber: string) => {

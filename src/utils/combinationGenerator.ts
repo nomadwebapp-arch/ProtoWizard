@@ -8,9 +8,18 @@ import type { Match, Combination, FilterOptions } from '../types/match';
  * 3) 배당 포함 필터 (정배당/무배당/역배당 개수 보장)
  */
 
-// UTC Date를 한국시간(KST) 기준 Date 객체로 변환
-const toKST = (date: Date): Date => {
-  return new Date(date.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
+// KST 기준으로 날짜 정보 추출 (Intl.DateTimeFormat 사용)
+const getKSTDateParts = (date: Date) => {
+  const formatter = new Intl.DateTimeFormat('ko-KR', {
+    timeZone: 'Asia/Seoul',
+    month: '2-digit',
+    day: '2-digit',
+  });
+  const parts = formatter.formatToParts(date);
+  return {
+    month: parts.find(p => p.type === 'month')?.value || '01',
+    day: parts.find(p => p.type === 'day')?.value || '01',
+  };
 };
 
 const MAX_ATTEMPTS = 100;
@@ -69,11 +78,9 @@ export function generateRandomCombination(
 
   if (allowedDates && allowedDates.length > 0) {
     availableMatches = availableMatches.filter(m => {
-      // KST 기준으로 날짜 추출
-      const kstDeadline = toKST(m.deadline);
-      const month = String(kstDeadline.getMonth() + 1).padStart(2, '0');
-      const day = String(kstDeadline.getDate()).padStart(2, '0');
-      const dateStr = `${month}.${day}`;
+      // KST 기준으로 날짜 추출 (Intl.DateTimeFormat 사용)
+      const kst = getKSTDateParts(m.deadline);
+      const dateStr = `${kst.month}.${kst.day}`;
       return allowedDates.includes(dateStr);
     });
   }
