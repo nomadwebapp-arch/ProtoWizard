@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.16,
-        "away": 1.2
+        "home": 2.97,
+        "away": 1.23
       },
       "deadlineText": "01.11 (일)09:00 마감",
       "isSingle": false,
@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.48,
-        "away": 2.11
+        "home": 1.64,
+        "away": 1.85
       },
       "deadlineText": "01.11 (일)09:30 마감",
       "isSingle": false,
@@ -98,11 +98,11 @@
       "matchType": "handicap",
       "homeTeam": "디트피스",
       "awayTeam": "LA클리퍼",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "01.11 (일)09:30 마감",
       "isSingle": false,
@@ -407,10 +407,10 @@
       "homeTeam": "유타재즈",
       "awayTeam": "샬럿호네",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.11 (일)11:30 마감",
       "isSingle": true,
