@@ -13,8 +13,8 @@ function App() {
   const combinationRef = useRef<HTMLDivElement>(null);
 
   // Filter options state
-  const [targetOdds, setTargetOdds] = useState(10);
-  const [matchCount, setMatchCount] = useState(3);
+  const [targetOdds, setTargetOdds] = useState(0);
+  const [matchCount, setMatchCount] = useState(0);
   const [betAmount, setBetAmount] = useState(10000);
   const [allowedSports, setAllowedSports] = useState<string[]>([]);
   const [allowedMatchTypes, setAllowedMatchTypes] = useState<string[]>([]);
@@ -114,8 +114,8 @@ function App() {
 
   const handleReset = () => {
     setCombination(null);
-    setTargetOdds(10);
-    setMatchCount(3);
+    setTargetOdds(0);
+    setMatchCount(0);
     setBetAmount(10000);
     setAllowedSports([]);
     setAllowedMatchTypes([]);
@@ -391,7 +391,12 @@ function App() {
         {/* Settings Panel */}
         <div className="settings-panel">
             <h2 className="settings-title">조합 생성 조건 설정</h2>
-            <div className="settings-grid">
+            {/* 윗줄: 목표배당 | 조합경기수 | 베팅금액 | 발매중인 정보 */}
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(4, 1fr)',
+              gap: '16px',
+            }}>
               <div className="setting-item">
                 <label className="setting-label">목표 배당 (비우면 랜덤)</label>
                 <input
@@ -433,42 +438,65 @@ function App() {
                   placeholder="10,000"
                 />
               </div>
+
+              <div className="setting-item">
+                <label className="setting-label">발매중인 경기</label>
+                <button
+                  type="button"
+                  onClick={() => setShowMatchesModal(true)}
+                  className="setting-input"
+                  style={{
+                    background: 'rgba(74, 158, 255, 0.15)',
+                    border: '1px solid rgba(74, 158, 255, 0.4)',
+                    color: '#4a9eff',
+                    cursor: 'pointer',
+                    fontWeight: '600',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '6px',
+                  }}
+                >
+                  📋 경기 정보 보기
+                </button>
+              </div>
             </div>
 
-            {/* 필터 섹션 - 구역별 분리 */}
+            {/* 아랫줄: 종목 | 경기타입 | 배당포함 | 경기날짜 */}
             <div style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+              gridTemplateColumns: 'repeat(4, 1fr)',
               gap: '16px',
               marginTop: '16px',
             }}>
               {/* 종목 선택 */}
               <div className="setting-item">
                 <label className="setting-label">종목 (미선택시 전체)</label>
-                <div style={{ display: 'flex', gap: '6px', marginTop: '8px', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap' }}>
                   {[
-                    { value: 'soccer', label: '⚽ 축구' },
-                    { value: 'basketball', label: '🏀 농구' },
-                    { value: 'volleyball', label: '🏐 배구' },
-                    { value: 'baseball', label: '⚾ 야구' },
+                    { value: 'soccer', label: '⚽축구' },
+                    { value: 'basketball', label: '🏀농구' },
+                    { value: 'volleyball', label: '🏐배구' },
+                    { value: 'baseball', label: '⚾야구' },
                   ].map((sport) => (
                     <button
                       key={sport.value}
                       type="button"
                       onClick={() => toggleSport(sport.value)}
                       style={{
-                        padding: '8px 14px',
-                        fontSize: '0.85rem',
+                        padding: '6px 8px',
+                        fontSize: '0.75rem',
                         background: allowedSports.includes(sport.value)
                           ? 'rgba(74, 158, 255, 0.3)'
                           : 'rgba(255, 255, 255, 0.08)',
                         border: allowedSports.includes(sport.value)
                           ? '1px solid rgba(74, 158, 255, 0.5)'
                           : '1px solid rgba(255, 255, 255, 0.15)',
-                        borderRadius: '8px',
+                        borderRadius: '6px',
                         color: '#fff',
                         cursor: 'pointer',
                         transition: 'all 0.2s',
+                        whiteSpace: 'nowrap',
                       }}
                     >
                       {sport.label}
@@ -480,29 +508,31 @@ function App() {
               {/* 경기 타입 */}
               <div className="setting-item">
                 <label className="setting-label">경기 타입</label>
-                <div style={{ display: 'flex', gap: '6px', marginTop: '8px', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap' }}>
                   {[
                     { value: 'normal', label: '일반', color: { bg: 'rgba(33, 150, 243, 0.2)', border: 'rgba(33, 150, 243, 0.5)', text: '#2196f3' } },
-                    { value: 'handicap', label: '핸디캡', color: { bg: 'rgba(255, 152, 0, 0.2)', border: 'rgba(255, 152, 0, 0.5)', text: '#ff9800' } },
-                    { value: 'underover', label: '언더오버', color: { bg: 'rgba(76, 175, 80, 0.2)', border: 'rgba(76, 175, 80, 0.5)', text: '#4caf50' } },
+                    { value: 'handicap', label: '핸디', color: { bg: 'rgba(255, 152, 0, 0.2)', border: 'rgba(255, 152, 0, 0.5)', text: '#ff9800' } },
+                    { value: 'underover', label: 'U/O', color: { bg: 'rgba(76, 175, 80, 0.2)', border: 'rgba(76, 175, 80, 0.5)', text: '#4caf50' } },
+                    { value: 'sum', label: '홀짝', color: { bg: 'rgba(255, 193, 7, 0.2)', border: 'rgba(255, 193, 7, 0.5)', text: '#ffc107' } },
                   ].map((type) => (
                     <button
                       key={type.value}
                       type="button"
                       onClick={() => toggleMatchType(type.value)}
                       style={{
-                        padding: '8px 12px',
-                        fontSize: '0.85rem',
+                        padding: '6px 8px',
+                        fontSize: '0.75rem',
                         background: allowedMatchTypes.includes(type.value)
                           ? type.color.bg
                           : 'rgba(255, 255, 255, 0.08)',
                         border: allowedMatchTypes.includes(type.value)
                           ? `1px solid ${type.color.border}`
                           : '1px solid rgba(255, 255, 255, 0.15)',
-                        borderRadius: '8px',
+                        borderRadius: '6px',
                         color: allowedMatchTypes.includes(type.value) ? type.color.text : '#fff',
                         cursor: 'pointer',
                         transition: 'all 0.2s',
+                        whiteSpace: 'nowrap',
                       }}
                     >
                       {type.label}
@@ -643,57 +673,39 @@ function App() {
               </div>
 
               {/* 날짜 필터 */}
-              {availableDates.length > 0 && (
-                <div className="setting-item">
-                  <label className="setting-label">경기 날짜 (미선택시 전체)</label>
-                  <div style={{ display: 'flex', gap: '8px', marginTop: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
-                    {availableDates.map((dateInfo) => {
-                      const [dateStr, dayOfWeek] = dateInfo.split('|');
-                      const isSelected = selectedDates.includes(dateStr);
-                      return (
-                        <button
-                          key={dateStr}
-                          type="button"
-                          onClick={() => toggleDate(dateStr)}
-                          style={{
-                            padding: '8px 12px',
-                            fontSize: '0.85rem',
-                            background: isSelected
-                              ? 'rgba(156, 39, 176, 0.3)'
-                              : 'rgba(255, 255, 255, 0.08)',
-                            border: isSelected
-                              ? '1px solid rgba(156, 39, 176, 0.5)'
-                              : '1px solid rgba(255, 255, 255, 0.15)',
-                            borderRadius: '8px',
-                            color: isSelected ? '#ce93d8' : '#fff',
-                            cursor: 'pointer',
-                            transition: 'all 0.2s',
-                          }}
-                        >
-                          {dateStr.replace('.', '/')} ({dayOfWeek})
-                        </button>
-                      );
-                    })}
-                    <button
-                      type="button"
-                      onClick={() => setShowMatchesModal(true)}
-                      style={{
-                        padding: '8px 12px',
-                        fontSize: '0.85rem',
-                        background: 'rgba(74, 158, 255, 0.2)',
-                        border: '1px solid rgba(74, 158, 255, 0.5)',
-                        borderRadius: '8px',
-                        color: '#4a9eff',
-                        cursor: 'pointer',
-                        transition: 'all 0.2s',
-                        marginLeft: '8px',
-                      }}
-                    >
-                      📋 발매중인 정보
-                    </button>
-                  </div>
+              <div className="setting-item">
+                <label className="setting-label">경기 날짜 (미선택시 전체)</label>
+                <div style={{ display: 'flex', gap: '4px', marginTop: '8px', flexWrap: 'nowrap' }}>
+                  {availableDates.map((dateInfo) => {
+                    const [dateStr, dayOfWeek] = dateInfo.split('|');
+                    const isSelected = selectedDates.includes(dateStr);
+                    return (
+                      <button
+                        key={dateStr}
+                        type="button"
+                        onClick={() => toggleDate(dateStr)}
+                        style={{
+                          padding: '6px 10px',
+                          fontSize: '0.75rem',
+                          background: isSelected
+                            ? 'rgba(156, 39, 176, 0.3)'
+                            : 'rgba(255, 255, 255, 0.08)',
+                          border: isSelected
+                            ? '1px solid rgba(156, 39, 176, 0.5)'
+                            : '1px solid rgba(255, 255, 255, 0.15)',
+                          borderRadius: '6px',
+                          color: isSelected ? '#ce93d8' : '#fff',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s',
+                          whiteSpace: 'nowrap',
+                        }}
+                      >
+                        {dateStr.replace('.', '/')}({dayOfWeek})
+                      </button>
+                    );
+                  })}
                 </div>
-              )}
+              </div>
             </div>
         </div>
 
@@ -1082,7 +1094,7 @@ function App() {
               <div style={{ overflowY: 'auto', flex: 1 }}>
                 <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.8rem' }}>
                   <thead>
-                    <tr style={{ background: 'rgba(255, 255, 255, 0.05)', position: 'sticky', top: 0 }}>
+                    <tr style={{ background: '#1a1a1a', position: 'sticky', top: 0, zIndex: 1 }}>
                       <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>번호</th>
                       <th style={{ padding: '10px 8px', textAlign: 'left', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>경기</th>
                       <th style={{ padding: '10px 8px', textAlign: 'center', color: '#888', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>타입</th>
