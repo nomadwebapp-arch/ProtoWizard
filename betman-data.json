@@ -2,242 +2,6 @@
   "roundNumber": "260005",
   "matches": [
     {
-      "gameNumber": 334,
-      "league": "01.11 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "멜버시티",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.65,
-        "draw": 3.6,
-        "away": 3.6
-      },
-      "deadlineText": "01.11 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 335,
-      "league": "01.11 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "멜버시티",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.65,
-        "draw": 3.55,
-        "away": 1.98
-      },
-      "deadlineText": "01.11 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 336,
-      "league": "01.11 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "멜버시티",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.51,
-        "away": 2.05
-      },
-      "deadlineText": "01.11 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 337,
-      "league": "01.11 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "멜버시티",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.11 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 338,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "삼성생명",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.39,
-        "away": 1.17
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 339,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "삼성생명",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 6.5,
-        "away": 1.48
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 340,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "삼성생명",
-      "awayTeam": "KB스타즈",
-      "handicapValue": "H +7.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 341,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "삼성생명",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": "U/O 128.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 342,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "삼성생명",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 343,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "IBK기업",
-      "awayTeam": "현대건설",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.05,
-        "away": 1.51
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 344,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "IBK기업",
-      "awayTeam": "현대건설",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.57,
-        "away": 1.95
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 345,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "IBK기업",
-      "awayTeam": "현대건설",
-      "handicapValue": null,
-      "underOverValue": "U/O 183.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 346,
-      "league": "01.11 (일)16:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "IBK기업",
-      "awayTeam": "현대건설",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.11 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 347,
       "league": "01.11 (일)16:30 마감",
       "sportText": "농구",
@@ -485,8 +249,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.38,
-        "draw": 2.85,
+        "home": 2.5,
+        "draw": 2.7,
         "away": 2.55
       },
       "deadlineText": "01.11 (일)20:30 마감",
@@ -578,9 +342,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.95,
+        "home": 2.04,
         "draw": 3.1,
-        "away": 3.05
+        "away": 2.85
       },
       "deadlineText": "01.11 (일)21:00 마감",
       "isSingle": false,
@@ -855,9 +619,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.75,
-        "draw": 3.1,
-        "away": 1.59
+        "home": 3.65,
+        "draw": 3,
+        "away": 1.8
       },
       "deadlineText": "01.11 (일)23:00 마감",
       "isSingle": true,
@@ -874,9 +638,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.04,
-        "draw": 3,
-        "away": 2.95
+        "home": 1.86,
+        "draw": 3.2,
+        "away": 3.2
       },
       "deadlineText": "01.11 (일)23:00 마감",
       "isSingle": true,
@@ -1041,9 +805,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.9,
-        "draw": 3.5,
-        "away": 1.61
+        "home": 4.45,
+        "draw": 3.7,
+        "away": 1.5
       },
       "deadlineText": "01.11 (일)23:00 마감",
       "isSingle": false,
@@ -1060,9 +824,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.08,
+        "home": 2.24,
         "draw": 3.55,
-        "away": 2.5
+        "away": 2.3
       },
       "deadlineText": "01.11 (일)23:00 마감",
       "isSingle": false,
