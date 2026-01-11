@@ -45,7 +45,7 @@
       "homeTeam": "미네울브",
       "awayTeam": "샌안스퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 234.5",
       "odds": {
         "home": 1.73,
         "away": 1.75
@@ -53,7 +53,7 @@
       "deadlineText": "01.12 (월)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 470,
@@ -98,7 +98,7 @@
       "matchType": "handicap",
       "homeTeam": "오클썬더",
       "awayTeam": "마이히트",
-      "handicapValue": "H -13.5",
+      "handicapValue": "H -14.5",
       "underOverValue": null,
       "odds": {
         "home": 1.75,
@@ -107,7 +107,7 @@
       "deadlineText": "01.12 (월)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 473,
@@ -189,7 +189,7 @@
       "homeTeam": "덴버너게",
       "awayTeam": "밀워벅스",
       "handicapValue": null,
-      "underOverValue": "U/O 224.5",
+      "underOverValue": "U/O 222.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -197,7 +197,7 @@
       "deadlineText": "01.12 (월)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 478,
@@ -333,7 +333,7 @@
       "homeTeam": "골든워리",
       "awayTeam": "애틀호크",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -341,7 +341,7 @@
       "deadlineText": "01.12 (월)10:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 486,
