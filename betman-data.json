@@ -2,96 +2,6 @@
   "roundNumber": "260005",
   "matches": [
     {
-      "gameNumber": 347,
-      "league": "01.11 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울SK",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.17,
-        "away": 3.39
-      },
-      "deadlineText": "01.11 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 348,
-      "league": "01.11 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울SK",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.48,
-        "away": 6.3
-      },
-      "deadlineText": "01.11 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 349,
-      "league": "01.11 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "서울SK",
-      "awayTeam": "서울삼성",
-      "handicapValue": "H -7.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.69,
-        "away": 1.79
-      },
-      "deadlineText": "01.11 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 350,
-      "league": "01.11 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "서울SK",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": "U/O 155.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.11 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 351,
-      "league": "01.11 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "서울SK",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.11 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 352,
       "league": "01.11 (일)20:15 마감",
       "sportText": "축구",
@@ -2311,8 +2221,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 234.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "01.12 (월)09:00 마감",
       "isSingle": false,
