@@ -10,34 +10,65 @@ async function getCurrentRound(browser) {
   try {
     console.log('🔍 현재 활성화된 회차 확인 중...\n');
 
-    // betman 프로토 승부식 페이지 접속 (gmTs 없이 → 자동으로 최신 회차로 리다이렉트됨)
+    // betman 프로토 승부식 페이지 접속
     await page.goto('https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101', {
-      waitUntil: 'domcontentloaded',
-      timeout: 30000,
+      waitUntil: 'networkidle2',
+      timeout: 60000,
     });
 
-    // 리다이렉트 대기
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    // JavaScript 실행 대기
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
-    // 리다이렉트된 URL에서 gmTs 추출
+    // 1차: URL에서 gmTs 추출
     const currentUrl = page.url();
-    console.log(`📍 리다이렉트된 URL: ${currentUrl}\n`);
+    console.log(`📍 현재 URL: ${currentUrl}\n`);
 
-    const urlMatch = currentUrl.match(/gmTs=(\d+)/);
+    let urlMatch = currentUrl.match(/gmTs=(\d+)/);
+
+    // 2차: URL에 없으면 페이지 내 select 옵션이나 hidden input에서 찾기
+    if (!urlMatch) {
+      console.log('🔍 페이지 내에서 회차 검색 중...\n');
+      const roundFromPage = await page.evaluate(() => {
+        // select 옵션에서 선택된 회차
+        const select = document.querySelector('select[name="gmTs"], select.gmTs, #gmTs');
+        if (select && select.value) return select.value;
+
+        // hidden input에서 회차
+        const hidden = document.querySelector('input[name="gmTs"]');
+        if (hidden && hidden.value) return hidden.value;
+
+        // URL 파라미터에서 (JavaScript로 변경된 경우)
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('gmTs')) return params.get('gmTs');
+
+        // 페이지 내 텍스트에서 6자리 회차 패턴 찾기
+        const bodyText = document.body.innerText;
+        const match = bodyText.match(/(\d{6})회/);
+        if (match) return match[1];
+
+        return null;
+      });
+
+      if (roundFromPage) {
+        console.log(`✅ 페이지에서 감지된 회차: ${roundFromPage}\n`);
+        await page.close();
+        return roundFromPage;
+      }
+    }
 
     await page.close();
 
     if (urlMatch) {
       const currentRound = urlMatch[1];
-      console.log(`✅ 자동 감지된 현재 회차: ${currentRound}\n`);
+      console.log(`✅ URL에서 감지된 회차: ${currentRound}\n`);
       return currentRound;
     } else {
-      console.log('⚠️ URL에서 회차를 찾을 수 없습니다.\n');
+      console.log('⚠️ 회차를 찾을 수 없습니다.\n');
       return null;
     }
   } catch (error) {
     console.error('❌ 현재 회차 확인 실패:', error.message);
-    if (page) await page.close();
+    try { await page.close(); } catch (e) {}
     return null;
   }
 }
