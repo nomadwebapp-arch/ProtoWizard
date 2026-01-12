@@ -454,7 +454,7 @@ function isLastMatchFinished(finishedMatches, lastMatchNumber) {
 if (import.meta.url === `file://${process.argv[1]}`) {
   (async () => {
     try {
-      // 1. current-round.json에서 현재 회차 읽기
+      // 1. current-round.json에서 저장된 회차 읽기
       let currentRoundData;
       try {
         currentRoundData = JSON.parse(fs.readFileSync('./current-round.json', 'utf-8'));
@@ -464,35 +464,41 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
       }
 
-      let roundNumber = currentRoundData.roundNumber;
-      console.log(`📌 현재 설정된 회차: ${roundNumber}\n`);
+      let savedRound = currentRoundData.roundNumber;
+      console.log(`📌 저장된 회차: ${savedRound}\n`);
 
-      // 2. 현재 회차 데이터 가져오기
-      let data = await fetchBetmanData(roundNumber);
+      // 2. 베트맨에서 현재 활성 회차 직접 확인 (핵심!)
+      console.log('🔍 베트맨에서 현재 활성 회차 확인 중...\n');
+      const browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      });
+      const activeRound = await getCurrentRound(browser);
+      await browser.close();
 
-      // 3. 마지막 경기가 종료되었는지 체크 (회차 전환 조건)
-      if (isLastMatchFinished(data.finishedMatches, data.lastMatchNumber)) {
-        console.log(`\n🔄 마지막 경기가 종료되었습니다! 다음 회차로 전환합니다...\n`);
+      let roundNumber = savedRound;
 
-        // 4. 다음 회차로 전환
-        const nextRound = getNextRound(roundNumber);
-        console.log(`📌 새로운 회차: ${nextRound}\n`);
+      // 3. 활성 회차가 저장된 회차와 다르면 전환
+      if (activeRound && activeRound !== savedRound) {
+        console.log(`\n🔄 회차 변경 감지! ${savedRound} → ${activeRound}\n`);
+        roundNumber = activeRound;
 
-        // 5. current-round.json 업데이트
-        currentRoundData.roundNumber = nextRound;
+        // current-round.json 업데이트
+        currentRoundData.roundNumber = activeRound;
         fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
         console.log(`✅ current-round.json 업데이트 완료!\n`);
-
-        // 6. 다음 회차 데이터 가져오기
-        data = await fetchBetmanData(nextRound);
-        roundNumber = nextRound;
+      } else if (activeRound) {
+        console.log(`✅ 회차 유지: ${roundNumber} (베트맨 활성 회차와 동일)\n`);
       } else {
-        console.log(`\n✅ 현재 회차 유지: ${roundNumber}\n`);
+        console.log(`⚠️ 활성 회차 감지 실패, 저장된 회차 사용: ${roundNumber}\n`);
       }
+
+      // 4. 해당 회차 데이터 가져오기
+      let data = await fetchBetmanData(roundNumber);
 
       console.log(`\n✨ 완료! 총 ${data.matches.length}개 경기`);
 
-      // 7. JSON 파일로 저장
+      // 5. JSON 파일로 저장
       fs.writeFileSync('./betman-data.json', JSON.stringify(data, null, 2));
       console.log('💾 betman-data.json 저장 완료!');
 
