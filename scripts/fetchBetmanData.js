@@ -10,8 +10,8 @@ async function getCurrentRound(browser) {
   try {
     console.log('🔍 현재 활성화된 회차 확인 중...\n');
 
-    // betman 프로토 승부식 페이지 접속
-    await page.goto('https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101', {
+    // betman 프로토 승부식 페이지 접속 (frameType 포함)
+    await page.goto('https://www.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?frameType=typeA&gmId=G101', {
       waitUntil: 'networkidle2',
       timeout: 60000,
     });
@@ -25,26 +25,39 @@ async function getCurrentRound(browser) {
 
     let urlMatch = currentUrl.match(/gmTs=(\d+)/);
 
-    // 2차: URL에 없으면 페이지 내 select 옵션이나 hidden input에서 찾기
+    // 2차: 페이지 내 다양한 위치에서 회차 찾기
     if (!urlMatch) {
       console.log('🔍 페이지 내에서 회차 검색 중...\n');
       const roundFromPage = await page.evaluate(() => {
-        // select 옵션에서 선택된 회차
-        const select = document.querySelector('select[name="gmTs"], select.gmTs, #gmTs');
-        if (select && select.value) return select.value;
+        // 회차 선택 드롭다운
+        const selects = document.querySelectorAll('select');
+        for (const select of selects) {
+          const selectedOption = select.options[select.selectedIndex];
+          if (selectedOption && /^\d{6}$/.test(selectedOption.value)) {
+            return selectedOption.value;
+          }
+          if (selectedOption && /^\d{6}$/.test(selectedOption.text.trim())) {
+            return selectedOption.text.trim();
+          }
+        }
 
-        // hidden input에서 회차
-        const hidden = document.querySelector('input[name="gmTs"]');
-        if (hidden && hidden.value) return hidden.value;
+        // hidden input
+        const hiddens = document.querySelectorAll('input[type="hidden"]');
+        for (const h of hiddens) {
+          if (/^\d{6}$/.test(h.value)) return h.value;
+        }
 
-        // URL 파라미터에서 (JavaScript로 변경된 경우)
+        // URL 파라미터
         const params = new URLSearchParams(window.location.search);
         if (params.get('gmTs')) return params.get('gmTs');
 
-        // 페이지 내 텍스트에서 6자리 회차 패턴 찾기
-        const bodyText = document.body.innerText;
-        const match = bodyText.match(/(\d{6})회/);
-        if (match) return match[1];
+        // 페이지 HTML에서 gmTs 파라미터 찾기
+        const htmlMatch = document.body.innerHTML.match(/gmTs[=:]["']?(\d{6})/);
+        if (htmlMatch) return htmlMatch[1];
+
+        // 회차 텍스트 찾기
+        const textMatch = document.body.innerText.match(/(\d{6})회/);
+        if (textMatch) return textMatch[1];
 
         return null;
       });
