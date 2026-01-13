@@ -178,9 +178,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3.4,
-        "away": 2.01
+        "home": 2.6,
+        "draw": 3.35,
+        "away": 2.08
       },
       "deadlineText": "01.13 (화)23:00 마감",
       "isSingle": true,
@@ -382,9 +382,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.95,
-        "draw": 3.1,
-        "away": 2
+        "home": 3.05,
+        "draw": 3.05,
+        "away": 1.97
       },
       "deadlineText": "01.13 (화)23:00 마감",
       "isSingle": true,
@@ -549,9 +549,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.29,
-        "draw": 3,
-        "away": 2.55
+        "home": 2.4,
+        "draw": 2.95,
+        "away": 2.45
       },
       "deadlineText": "01.13 (화)23:00 마감",
       "isSingle": false,
@@ -568,9 +568,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.45,
-        "draw": 3.75,
-        "away": 1.49
+        "home": 4.8,
+        "draw": 3.6,
+        "away": 1.48
       },
       "deadlineText": "01.13 (화)23:00 마감",
       "isSingle": false,
@@ -642,9 +642,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
-        "draw": 3.05,
-        "away": 1.93
+        "home": 3.1,
+        "draw": 2.95,
+        "away": 2
       },
       "deadlineText": "01.13 (화)23:00 마감",
       "isSingle": false,
@@ -790,9 +790,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.61,
-        "draw": 3.7,
-        "away": 3.7
+        "home": 1.66,
+        "draw": 3.5,
+        "away": 3.65
       },
       "deadlineText": "01.13 (화)23:00 마감",
       "isSingle": false,
@@ -917,8 +917,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.03,
-        "away": 5.6
+        "home": 1.06,
+        "away": 4.85
       },
       "deadlineText": "01.14 (수)10:00 마감",
       "isSingle": false,
@@ -1095,7 +1095,7 @@
       "homeTeam": "뉴올펠리",
       "awayTeam": "덴버너게",
       "handicapValue": null,
-      "underOverValue": "U/O 236.5",
+      "underOverValue": "U/O 234.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1103,7 +1103,7 @@
       "deadlineText": "01.14 (수)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 155,
