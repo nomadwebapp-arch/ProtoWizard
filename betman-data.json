@@ -2,154 +2,6 @@
   "roundNumber": "260006",
   "matches": [
     {
-      "gameNumber": 87,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "이란",
-      "awayTeam": "레바논",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.15,
-        "draw": 5.9,
-        "away": 8.1
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 88,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "이란",
-      "awayTeam": "레바논",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.53,
-        "draw": 3.45,
-        "away": 4.55
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 89,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "이란",
-      "awayTeam": "레바논",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.09,
-        "away": 1.49
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 90,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "이란",
-      "awayTeam": "레바논",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 91,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "우즈베키",
-      "awayTeam": "한국",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.4,
-        "draw": 2.45,
-        "away": 2.17
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 92,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "우즈베키",
-      "awayTeam": "한국",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.51,
-        "draw": 3.5,
-        "away": 4.65
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 93,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "우즈베키",
-      "awayTeam": "한국",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.47,
-        "away": 2.13
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 94,
-      "league": "01.13 (화)20:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "우즈베키",
-      "awayTeam": "한국",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "01.13 (화)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 95,
       "league": "01.13 (화)23:00 마감",
       "sportText": "축구",
@@ -919,9 +771,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.75,
-        "draw": 3.35,
-        "away": 2
+        "home": 2.85,
+        "draw": 3.4,
+        "away": 1.93
       },
       "deadlineText": "01.13 (화)23:00 마감",
       "isSingle": false,
