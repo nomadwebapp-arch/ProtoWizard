@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.47,
-        "away": 2.13
+        "home": 1.38,
+        "away": 2.35
       },
       "deadlineText": "01.14 (수)19:00 마감",
       "isSingle": true,
@@ -29,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.07,
-        "away": 3.4
+        "home": 1.89,
+        "away": 3.9
       },
       "deadlineText": "01.14 (수)19:00 마감",
       "isSingle": true,
@@ -44,7 +44,7 @@
       "matchType": "handicap",
       "homeTeam": "KT소닉붐",
       "awayTeam": "부산KCC",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
         "home": 1.75,
@@ -371,8 +371,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
-        "away": 1.6
+        "home": 1.83,
+        "away": 1.66
       },
       "deadlineText": "01.14 (수)19:00 마감",
       "isSingle": true,
@@ -425,9 +425,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 2.95,
-        "away": 1.96
+        "home": 3.3,
+        "draw": 2.85,
+        "away": 1.97
       },
       "deadlineText": "01.14 (수)20:30 마감",
       "isSingle": true,
@@ -592,9 +592,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.95,
-        "draw": 3.35,
-        "away": 1.64
+        "home": 4.1,
+        "draw": 3.15,
+        "away": 1.66
       },
       "deadlineText": "01.14 (수)23:00 마감",
       "isSingle": true,
@@ -611,8 +611,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.4,
-        "away": 2.3
+        "home": 1.44,
+        "away": 2.2
       },
       "deadlineText": "01.14 (수)23:00 마감",
       "isSingle": true,
@@ -779,8 +779,8 @@
       "underOverValue": null,
       "odds": {
         "home": 3.35,
-        "draw": 3.75,
-        "away": 1.67
+        "draw": 3.55,
+        "away": 1.72
       },
       "deadlineText": "01.14 (수)23:00 마감",
       "isSingle": true,
@@ -1130,9 +1130,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.85,
-        "draw": 4,
-        "away": 1.53
+        "home": 4.05,
+        "draw": 4.1,
+        "away": 1.49
       },
       "deadlineText": "01.14 (수)23:00 마감",
       "isSingle": true,
@@ -1500,9 +1500,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
-        "draw": 3.2,
-        "away": 2.22
+        "home": 2.65,
+        "draw": 3.05,
+        "away": 2.19
       },
       "deadlineText": "01.14 (수)23:00 마감",
       "isSingle": false,
@@ -1629,9 +1629,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.9,
-        "draw": 3.1,
-        "away": 2.02
+        "home": 3.1,
+        "draw": 3,
+        "away": 1.97
       },
       "deadlineText": "01.14 (수)23:00 마감",
       "isSingle": true,
