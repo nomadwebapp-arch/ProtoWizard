@@ -2,80 +2,6 @@
   "roundNumber": "260008",
   "matches": [
     {
-      "gameNumber": 22,
-      "league": "01.16 (금)20:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "일본",
-      "awayTeam": "요르단",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.18,
-        "draw": 4.55,
-        "away": 10.5
-      },
-      "deadlineText": "01.16 (금)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 23,
-      "league": "01.16 (금)20:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "일본",
-      "awayTeam": "요르단",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.57,
-        "draw": 3.6,
-        "away": 4.05
-      },
-      "deadlineText": "01.16 (금)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 24,
-      "league": "01.16 (금)20:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "일본",
-      "awayTeam": "요르단",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.94,
-        "away": 1.58
-      },
-      "deadlineText": "01.16 (금)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 25,
-      "league": "01.16 (금)20:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "일본",
-      "awayTeam": "요르단",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.16 (금)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 26,
       "league": "01.16 (금)23:00 마감",
       "sportText": "축구",
@@ -586,9 +512,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
+        "home": 2.7,
         "draw": 3.85,
-        "away": 1.69
+        "away": 1.88
       },
       "deadlineText": "01.16 (금)23:00 마감",
       "isSingle": true,
