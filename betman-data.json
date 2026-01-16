@@ -2,80 +2,6 @@
   "roundNumber": "260008",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "01.16 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "멜버시티",
-      "awayTeam": "오클FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.37,
-        "draw": 3,
-        "away": 2.45
-      },
-      "deadlineText": "01.16 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "01.16 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "멜버시티",
-      "awayTeam": "오클FC",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.8,
-        "draw": 3.7,
-        "away": 1.46
-      },
-      "deadlineText": "01.16 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "01.16 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "멜버시티",
-      "awayTeam": "오클FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.65,
-        "away": 1.84
-      },
-      "deadlineText": "01.16 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "01.16 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "멜버시티",
-      "awayTeam": "오클FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.16 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "01.16 (금)19:00 마감",
       "sportText": "농구",
@@ -85,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.03,
-        "away": 5.6
+        "home": 1.06,
+        "away": 4.85
       },
       "deadlineText": "01.16 (금)19:00 마감",
       "isSingle": true,
@@ -104,7 +30,7 @@
       "underOverValue": null,
       "odds": {
         "home": 1.21,
-        "away": 10
+        "away": 8
       },
       "deadlineText": "01.16 (금)19:00 마감",
       "isSingle": true,
@@ -190,16 +116,16 @@
       "matchType": "handicap",
       "homeTeam": "KB손보",
       "awayTeam": "대한항공",
-      "handicapValue": "H +1.5",
+      "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.35,
-        "away": 2.45
+        "home": 2.45,
+        "away": 1.35
       },
       "deadlineText": "01.16 (금)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 12,
@@ -875,9 +801,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
-        "draw": 3.2,
-        "away": 1.81
+        "home": 3.4,
+        "draw": 3.05,
+        "away": 1.85
       },
       "deadlineText": "01.16 (금)23:00 마감",
       "isSingle": true,
