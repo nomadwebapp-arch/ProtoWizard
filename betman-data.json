@@ -2,80 +2,6 @@
   "roundNumber": "260008",
   "matches": [
     {
-      "gameNumber": 90,
-      "league": "01.17 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "웨스원더",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.97,
-        "draw": 3.5,
-        "away": 2.7
-      },
-      "deadlineText": "01.17 (토)15:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 91,
-      "league": "01.17 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "웨스원더",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.65,
-        "draw": 3.7,
-        "away": 1.62
-      },
-      "deadlineText": "01.17 (토)15:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 92,
-      "league": "01.17 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "웨스원더",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.66,
-        "away": 1.83
-      },
-      "deadlineText": "01.17 (토)15:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 93,
-      "league": "01.17 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "웨스원더",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.17 (토)15:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 94,
       "league": "01.17 (토)16:00 마감",
       "sportText": "축구",
@@ -123,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.82,
-        "away": 1.67
+        "home": 1.88,
+        "away": 1.62
       },
       "deadlineText": "01.17 (토)16:00 마감",
       "isSingle": false,
@@ -177,8 +103,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.55,
-        "away": 2.2
+        "home": 3.65,
+        "away": 2.25
       },
       "deadlineText": "01.17 (토)16:00 마감",
       "isSingle": true,
@@ -691,9 +617,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.05,
+        "home": 3.2,
         "draw": 3.5,
-        "away": 1.82
+        "away": 1.77
       },
       "deadlineText": "01.17 (토)21:30 마감",
       "isSingle": true,
@@ -785,8 +711,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.07,
-        "draw": 6.6,
-        "away": 13
+        "draw": 7.1,
+        "away": 11.5
       },
       "deadlineText": "01.17 (토)22:00 마감",
       "isSingle": true,
@@ -822,9 +748,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.89,
-        "draw": 3.7,
-        "away": 2.75
+        "home": 2,
+        "draw": 3.8,
+        "away": 2.5
       },
       "deadlineText": "01.17 (토)22:00 마감",
       "isSingle": true,
@@ -3925,6 +3851,582 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 302,
+      "league": "01.17 (토)23:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "댈러매버",
+      "awayTeam": "유타재즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.44,
+        "away": 2.2
+      },
+      "deadlineText": "01.17 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 303,
+      "league": "01.17 (토)23:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "댈러매버",
+      "awayTeam": "유타재즈",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.17 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 304,
+      "league": "01.17 (토)23:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "댈러매버",
+      "awayTeam": "유타재즈",
+      "handicapValue": null,
+      "underOverValue": "U/O 241.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "01.17 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 305,
+      "league": "01.17 (토)23:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "댈러매버",
+      "awayTeam": "유타재즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.17 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 306,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "애틀호크",
+      "awayTeam": "보스셀틱",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.18,
+        "away": 1.45
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 307,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "애틀호크",
+      "awayTeam": "보스셀틱",
+      "handicapValue": "H +3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 308,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "애틀호크",
+      "awayTeam": "보스셀틱",
+      "handicapValue": null,
+      "underOverValue": "U/O 229.5",
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 309,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "애틀호크",
+      "awayTeam": "보스셀틱",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 310,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "디트피스",
+      "awayTeam": "인디페이",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.04,
+        "away": 5.32
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 311,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "디트피스",
+      "awayTeam": "인디페이",
+      "handicapValue": "H -11.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 312,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "디트피스",
+      "awayTeam": "인디페이",
+      "handicapValue": null,
+      "underOverValue": "U/O 226.5",
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 313,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "디트피스",
+      "awayTeam": "인디페이",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 314,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "뉴욕닉스",
+      "awayTeam": "피닉선즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.43,
+        "away": 2.22
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 315,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "뉴욕닉스",
+      "awayTeam": "피닉선즈",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 316,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "뉴욕닉스",
+      "awayTeam": "피닉선즈",
+      "handicapValue": null,
+      "underOverValue": "U/O 224.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 317,
+      "league": "01.18 (일)09:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "뉴욕닉스",
+      "awayTeam": "피닉선즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 318,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "마이히트",
+      "awayTeam": "오클썬더",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 3.39,
+        "away": 1.17
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 319,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "마이히트",
+      "awayTeam": "오클썬더",
+      "handicapValue": "H +7.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 320,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "마이히트",
+      "awayTeam": "오클썬더",
+      "handicapValue": null,
+      "underOverValue": "U/O 235.5",
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 321,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "마이히트",
+      "awayTeam": "오클썬더",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 322,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.29,
+        "away": 2.67
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 323,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": "H -5.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 324,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": null,
+      "underOverValue": "U/O 228.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 325,
+      "league": "01.18 (일)10:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 326,
+      "league": "01.18 (일)10:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "골든워리",
+      "awayTeam": "샬럿호네",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.21,
+        "away": 3.1
+      },
+      "deadlineText": "01.18 (일)10:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 327,
+      "league": "01.18 (일)10:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "골든워리",
+      "awayTeam": "샬럿호네",
+      "handicapValue": "H -6.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.69,
+        "away": 1.79
+      },
+      "deadlineText": "01.18 (일)10:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 328,
+      "league": "01.18 (일)10:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "골든워리",
+      "awayTeam": "샬럿호네",
+      "handicapValue": null,
+      "underOverValue": "U/O 233.5",
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "01.18 (일)10:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 329,
+      "league": "01.18 (일)10:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "골든워리",
+      "awayTeam": "샬럿호네",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)10:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 330,
+      "league": "01.18 (일)11:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "덴버너게",
+      "awayTeam": "워싱위저",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.03,
+        "away": 5.6
+      },
+      "deadlineText": "01.18 (일)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 331,
+      "league": "01.18 (일)11:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "덴버너게",
+      "awayTeam": "워싱위저",
+      "handicapValue": "H -11.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "01.18 (일)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 332,
+      "league": "01.18 (일)11:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "덴버너게",
+      "awayTeam": "워싱위저",
+      "handicapValue": null,
+      "underOverValue": "U/O 233.5",
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "01.18 (일)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 333,
+      "league": "01.18 (일)11:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "덴버너게",
+      "awayTeam": "워싱위저",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 334,
       "league": "01.18 (일)12:00 마감",
       "sportText": "축구",
@@ -3995,6 +4497,78 @@
       },
       "deadlineText": "01.18 (일)12:00 마감",
       "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 338,
+      "league": "01.18 (일)12:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "포틀트레",
+      "awayTeam": "LA레이커",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.53,
+        "away": 2.02
+      },
+      "deadlineText": "01.18 (일)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 339,
+      "league": "01.18 (일)12:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "포틀트레",
+      "awayTeam": "LA레이커",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 340,
+      "league": "01.18 (일)12:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "포틀트레",
+      "awayTeam": "LA레이커",
+      "handicapValue": null,
+      "underOverValue": "U/O 224.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "01.18 (일)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 341,
+      "league": "01.18 (일)12:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "포틀트레",
+      "awayTeam": "LA레이커",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "01.18 (일)12:00 마감",
+      "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
