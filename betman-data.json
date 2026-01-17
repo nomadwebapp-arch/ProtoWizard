@@ -2,242 +2,6 @@
   "roundNumber": "260008",
   "matches": [
     {
-      "gameNumber": 94,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "센트매리",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.85,
-        "draw": 3.15,
-        "away": 2.02
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 95,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "센트매리",
-      "awayTeam": "맥아서FC",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.64,
-        "draw": 3.4,
-        "away": 3.85
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 96,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "센트매리",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.88,
-        "away": 1.62
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 97,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "센트매리",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 98,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "우리은행",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.11,
-        "away": 1.48
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 99,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "우리은행",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.65,
-        "away": 2.25
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 100,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "우리은행",
-      "awayTeam": "하나은행",
-      "handicapValue": "H +2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 101,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "우리은행",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": "U/O 123.5",
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 102,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "우리은행",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 103,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "페퍼저축",
-      "awayTeam": "도로공사",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.97,
-        "away": 1.23
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 104,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "페퍼저축",
-      "awayTeam": "도로공사",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.13,
-        "away": 1.47
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 105,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "페퍼저축",
-      "awayTeam": "도로공사",
-      "handicapValue": null,
-      "underOverValue": "U/O 178.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 106,
-      "league": "01.17 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "페퍼저축",
-      "awayTeam": "도로공사",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.17 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 107,
       "league": "01.17 (토)17:35 마감",
       "sportText": "축구",
@@ -247,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.6,
-        "draw": 3.4,
-        "away": 2.07
+        "home": 3.05,
+        "draw": 3.3,
+        "away": 1.88
       },
       "deadlineText": "01.17 (토)17:35 마감",
       "isSingle": false,
@@ -266,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.56,
-        "draw": 3.8,
-        "away": 3.85
+        "home": 1.68,
+        "draw": 3.65,
+        "away": 3.4
       },
       "deadlineText": "01.17 (토)17:35 마감",
       "isSingle": false,
@@ -2453,9 +2217,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.05,
-        "draw": 2.7,
-        "away": 2.15
+        "home": 2.75,
+        "draw": 2.65,
+        "away": 2.37
       },
       "deadlineText": "01.17 (토)23:00 마감",
       "isSingle": true,
@@ -2472,9 +2236,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.56,
+        "home": 1.48,
         "draw": 3.3,
-        "away": 4.55
+        "away": 5.4
       },
       "deadlineText": "01.17 (토)23:00 마감",
       "isSingle": true,
