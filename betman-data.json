@@ -29,7 +29,7 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.86,
+        "home": 1.92,
         "away": 4.3
       },
       "deadlineText": "01.17 (토)14:00 마감",
@@ -375,8 +375,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 123.5",
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.77,
+        "away": 1.71
       },
       "deadlineText": "01.17 (토)16:00 마감",
       "isSingle": true,
@@ -1929,9 +1929,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.65,
-        "draw": 3.35,
-        "away": 2.05
+        "home": 2.55,
+        "draw": 3.4,
+        "away": 2.1
       },
       "deadlineText": "01.17 (토)23:00 마감",
       "isSingle": false,
@@ -2689,9 +2689,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
-        "draw": 2.75,
-        "away": 2.08
+        "home": 3.05,
+        "draw": 2.7,
+        "away": 2.15
       },
       "deadlineText": "01.17 (토)23:00 마감",
       "isSingle": true,
