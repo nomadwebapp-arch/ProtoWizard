@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.43,
-        "away": 2.22
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "01.18 (일)09:30 마감",
       "isSingle": false,
@@ -170,16 +170,16 @@
       "matchType": "handicap",
       "homeTeam": "뉴욕닉스",
       "awayTeam": "피닉선즈",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.84,
+        "away": 1.65
       },
       "deadlineText": "01.18 (일)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 316,
@@ -189,7 +189,7 @@
       "homeTeam": "뉴욕닉스",
       "awayTeam": "피닉선즈",
       "handicapValue": null,
-      "underOverValue": "U/O 224.5",
+      "underOverValue": "U/O 225.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -197,7 +197,7 @@
       "deadlineText": "01.18 (일)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 317,
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.39,
-        "away": 1.17
+        "home": 5.08,
+        "away": 1.05
       },
       "deadlineText": "01.18 (일)10:00 마감",
       "isSingle": false,
@@ -242,7 +242,7 @@
       "matchType": "handicap",
       "homeTeam": "마이히트",
       "awayTeam": "오클썬더",
-      "handicapValue": "H +9.5",
+      "handicapValue": "H +10.5",
       "underOverValue": null,
       "odds": {
         "home": 1.76,
@@ -443,8 +443,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.03,
-        "away": 5.6
+        "home": 1.05,
+        "away": 5.08
       },
       "deadlineText": "01.18 (일)11:00 마감",
       "isSingle": false,
@@ -477,7 +477,7 @@
       "homeTeam": "덴버너게",
       "awayTeam": "워싱위저",
       "handicapValue": null,
-      "underOverValue": "U/O 233.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -485,7 +485,7 @@
       "deadlineText": "01.18 (일)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 333,
