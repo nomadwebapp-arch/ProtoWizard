@@ -2,168 +2,6 @@
   "roundNumber": "260008",
   "matches": [
     {
-      "gameNumber": 342,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.23,
-        "away": 2.97
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 343,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.63,
-        "away": 5.4
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 344,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": "H -6.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 345,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": "U/O 126.5",
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 346,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 347,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "우리카드",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.72,
-        "away": 1.28
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 348,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "우리카드",
-      "awayTeam": "현대캐피",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.97,
-        "away": 1.56
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 349,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "우리카드",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": "U/O 181.5",
-      "odds": {
-        "home": 1.85,
-        "away": 1.64
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 350,
-      "league": "01.18 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "우리카드",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.18 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 351,
       "league": "01.18 (일)15:00 마감",
       "sportText": "축구",
@@ -247,8 +85,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "01.18 (일)16:00 마감",
       "isSingle": true,
@@ -283,8 +121,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 184.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "01.18 (일)16:00 마감",
       "isSingle": true,
@@ -1764,9 +1602,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.05,
-        "draw": 2.75,
-        "away": 2.12
+        "home": 3.15,
+        "draw": 2.65,
+        "away": 2.14
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
