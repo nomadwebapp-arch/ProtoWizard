@@ -2,228 +2,6 @@
   "roundNumber": "260008",
   "matches": [
     {
-      "gameNumber": 367,
-      "league": "01.18 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "헤타페",
-      "awayTeam": "발렌시아",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.39,
-        "draw": 2.4,
-        "away": 3.05
-      },
-      "deadlineText": "01.18 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 368,
-      "league": "01.18 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "헤타페",
-      "awayTeam": "발렌시아",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 5.9,
-        "draw": 3.35,
-        "away": 1.44
-      },
-      "deadlineText": "01.18 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 369,
-      "league": "01.18 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "헤타페",
-      "awayTeam": "발렌시아",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.24,
-        "away": 2.92
-      },
-      "deadlineText": "01.18 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 370,
-      "league": "01.18 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "헤타페",
-      "awayTeam": "발렌시아",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "01.18 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 371,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "폴렌담",
-      "awayTeam": "위트레흐",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.7,
-        "draw": 3.35,
-        "away": 1.68
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 372,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "폴렌담",
-      "awayTeam": "위트레흐",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.96,
-        "draw": 3.25,
-        "away": 2.9
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 373,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "폴렌담",
-      "awayTeam": "위트레흐",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.91,
-        "away": 1.6
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 374,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "폴렌담",
-      "awayTeam": "위트레흐",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 375,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "헤라클레",
-      "awayTeam": "트벤테",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 5.2,
-        "draw": 3.9,
-        "away": 1.4
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 376,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "헤라클레",
-      "awayTeam": "트벤테",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.4,
-        "draw": 3.3,
-        "away": 2.26
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 377,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "헤라클레",
-      "awayTeam": "트벤테",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.2,
-        "away": 1.44
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 378,
-      "league": "01.18 (일)22:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "헤라클레",
-      "awayTeam": "트벤테",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.18 (일)22:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 379,
       "league": "01.18 (일)23:00 마감",
       "sportText": "축구",
@@ -511,9 +289,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.53,
-        "draw": 3.45,
-        "away": 4.55
+        "home": 1.42,
+        "draw": 3.75,
+        "away": 5.2
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -530,9 +308,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "draw": 3.1,
-        "away": 2.23
+        "home": 2.45,
+        "draw": 3.05,
+        "away": 2.34
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -549,9 +327,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.85,
-        "draw": 4.3,
-        "away": 1.38
+        "home": 4.6,
+        "draw": 4,
+        "away": 1.44
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -568,8 +346,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.84,
-        "away": 1.65
+        "home": 1.97,
+        "away": 1.56
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -826,9 +604,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.65,
-        "draw": 2.9,
-        "away": 2.27
+        "home": 2.5,
+        "draw": 2.8,
+        "away": 2.47
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -845,9 +623,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.45,
-        "draw": 3.6,
-        "away": 5.1
+        "home": 1.41,
+        "draw": 3.7,
+        "away": 5.5
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -1473,9 +1251,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.78,
-        "draw": 3.3,
-        "away": 3.35
+        "home": 1.73,
+        "draw": 3.45,
+        "away": 3.4
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -1492,9 +1270,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 3.7,
-        "away": 1.72
+        "home": 3.1,
+        "draw": 3.6,
+        "away": 1.78
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -1658,9 +1436,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.24,
-        "draw": 3.55,
-        "away": 2.3
+        "home": 2.3,
+        "draw": 3.5,
+        "away": 2.26
       },
       "deadlineText": "01.18 (일)23:00 마감",
       "isSingle": true,
@@ -1747,7 +1525,7 @@
       "homeTeam": "시카불스",
       "awayTeam": "브루네츠",
       "handicapValue": null,
-      "underOverValue": "U/O 222.5",
+      "underOverValue": "U/O 221.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1755,7 +1533,7 @@
       "deadlineText": "01.19 (월)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 462,
@@ -1857,8 +1635,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.49,
-        "away": 2.09
+        "home": 1.58,
+        "away": 1.94
       },
       "deadlineText": "01.19 (월)10:00 마감",
       "isSingle": false,
@@ -1872,7 +1650,7 @@
       "matchType": "handicap",
       "homeTeam": "덴버너게",
       "awayTeam": "샬럿호네",
-      "handicapValue": "H -2.5",
+      "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
         "home": 1.68,
@@ -1881,7 +1659,7 @@
       "deadlineText": "01.19 (월)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 469,
@@ -2001,8 +1779,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "01.19 (월)11:30 마감",
       "isSingle": true,
@@ -2019,8 +1797,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.8,
-        "away": 1.68
+        "home": 1.84,
+        "away": 1.65
       },
       "deadlineText": "01.19 (월)11:30 마감",
       "isSingle": true,
