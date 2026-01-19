@@ -30,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 5,
-        "draw": 3.6,
-        "away": 1.46
+        "home": 4.85,
+        "draw": 3.45,
+        "away": 1.5
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -138,7 +138,7 @@
       "homeTeam": "애틀호크",
       "awayTeam": "밀워벅스",
       "handicapValue": null,
-      "underOverValue": "U/O 233.5",
+      "underOverValue": "U/O 232.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -146,7 +146,7 @@
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 14,
@@ -341,9 +341,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "draw": 3.6,
-        "away": 3.35
+        "home": 1.67,
+        "draw": 3.55,
+        "away": 3.55
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -472,9 +472,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 10.5,
-        "draw": 6,
-        "away": 1.11
+        "home": 9.6,
+        "draw": 5.5,
+        "away": 1.14
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -599,8 +599,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.07,
-        "away": 4.65
+        "home": 1.1,
+        "away": 4.16
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": false,
@@ -959,8 +959,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.22,
-        "away": 3.03
+        "home": 1.26,
+        "away": 2.81
       },
       "deadlineText": "01.20 (화)12:00 마감",
       "isSingle": true,
