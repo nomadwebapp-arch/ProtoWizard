@@ -29,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.4,
-        "away": 7.1
+        "home": 1.38,
+        "away": 6.4
       },
       "deadlineText": "01.19 (월)19:00 마감",
       "isSingle": true,
@@ -63,7 +63,7 @@
       "homeTeam": "KB스타즈",
       "awayTeam": "삼성생명",
       "handicapValue": null,
-      "underOverValue": "U/O 133.5",
+      "underOverValue": "U/O 134.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -71,7 +71,7 @@
       "deadlineText": "01.19 (월)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 5,
@@ -101,9 +101,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.33,
-        "draw": 2.75,
-        "away": 2.7
+        "home": 2.34,
+        "draw": 2.65,
+        "away": 2.8
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -120,9 +120,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.2,
-        "draw": 3.75,
-        "away": 1.42
+        "home": 5,
+        "draw": 3.6,
+        "away": 1.46
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -139,9 +139,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 15,
-        "draw": 7.4,
-        "away": 1.04
+        "home": 12,
+        "draw": 6.9,
+        "away": 1.07
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -338,9 +338,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
-        "draw": 2.7,
-        "away": 2.55
+        "home": 2.54,
+        "draw": 2.6,
+        "away": 2.6
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -357,9 +357,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.5,
-        "draw": 3.9,
-        "away": 1.38
+        "home": 5.2,
+        "draw": 3.75,
+        "away": 1.42
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -376,9 +376,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 15.5,
-        "draw": 7.9,
-        "away": 1.03
+        "home": 12,
+        "draw": 7.4,
+        "away": 1.06
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -450,9 +450,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.9,
-        "draw": 3.6,
-        "away": 1.85
+        "home": 2.95,
+        "draw": 3.4,
+        "away": 1.89
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -524,9 +524,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.06,
-        "draw": 2.95,
-        "away": 2.95
+        "home": 2.09,
+        "draw": 2.85,
+        "away": 3
       },
       "deadlineText": "01.19 (월)23:00 마감",
       "isSingle": true,
@@ -543,8 +543,8 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.15,
-        "draw": 3.45,
+        "home": 4.4,
+        "draw": 3.3,
         "away": 1.58
       },
       "deadlineText": "01.19 (월)23:00 마감",
@@ -1121,9 +1121,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.94,
-        "draw": 2.8,
-        "away": 3.45
+        "home": 1.85,
+        "draw": 2.75,
+        "away": 3.85
       },
       "deadlineText": "01.20 (화)20:30 마감",
       "isSingle": true,
@@ -1140,9 +1140,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.2,
-        "draw": 3.35,
-        "away": 1.6
+        "home": 4,
+        "draw": 3.3,
+        "away": 1.64
       },
       "deadlineText": "01.20 (화)20:30 마감",
       "isSingle": true,
