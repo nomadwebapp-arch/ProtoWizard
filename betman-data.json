@@ -117,7 +117,7 @@
       "homeTeam": "브루네츠",
       "awayTeam": "피닉선즈",
       "handicapValue": null,
-      "underOverValue": "U/O 219.5",
+      "underOverValue": "U/O 217.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -125,7 +125,7 @@
       "deadlineText": "01.20 (화)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 53,
@@ -191,8 +191,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 225.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "01.20 (화)10:00 마감",
       "isSingle": false,
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.26,
-        "away": 2.81
+        "home": 1.31,
+        "away": 2.59
       },
       "deadlineText": "01.20 (화)12:00 마감",
       "isSingle": true,
@@ -242,16 +242,16 @@
       "matchType": "handicap",
       "homeTeam": "골든워리",
       "awayTeam": "마이히트",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.20 (화)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 60,
