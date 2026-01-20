@@ -2,150 +2,6 @@
   "roundNumber": "260009",
   "matches": [
     {
-      "gameNumber": 62,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "한국전력",
-      "awayTeam": "대한항공",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 63,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "한국전력",
-      "awayTeam": "대한항공",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.34,
-        "away": 2.48
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 64,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "한국전력",
-      "awayTeam": "대한항공",
-      "handicapValue": null,
-      "underOverValue": "U/O 186.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 65,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "한국전력",
-      "awayTeam": "대한항공",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 66,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.28,
-        "away": 2.72
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 67,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.53,
-        "away": 2.02
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 68,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": "U/O 179.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 69,
-      "league": "01.20 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 70,
       "league": "01.20 (화)20:30 마감",
       "sportText": "축구",
@@ -229,9 +85,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.17,
-        "draw": 2.6,
-        "away": 3.15
+        "home": 2.13,
+        "draw": 2.5,
+        "away": 3.4
       },
       "deadlineText": "01.20 (화)23:00 마감",
       "isSingle": true,
@@ -248,9 +104,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.1,
-        "draw": 3.45,
-        "away": 1.48
+        "home": 4.85,
+        "draw": 3.3,
+        "away": 1.53
       },
       "deadlineText": "01.20 (화)23:00 마감",
       "isSingle": true,
