@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.47,
-        "away": 2.13
+        "home": 1.55,
+        "away": 1.98
       },
       "deadlineText": "01.21 (수)10:00 마감",
       "isSingle": false,
@@ -98,16 +98,16 @@
       "matchType": "handicap",
       "homeTeam": "시카불스",
       "awayTeam": "LA클리퍼",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.21 (수)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 167,
