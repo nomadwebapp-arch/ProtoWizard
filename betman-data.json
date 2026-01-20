@@ -2,294 +2,6 @@
   "roundNumber": "260009",
   "matches": [
     {
-      "gameNumber": 46,
-      "league": "01.20 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "필라76s",
-      "awayTeam": "인디페이",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.27,
-        "away": 2.76
-      },
-      "deadlineText": "01.20 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 47,
-      "league": "01.20 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "필라76s",
-      "awayTeam": "인디페이",
-      "handicapValue": "H -5.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.68,
-        "away": 1.8
-      },
-      "deadlineText": "01.20 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 48,
-      "league": "01.20 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "필라76s",
-      "awayTeam": "인디페이",
-      "handicapValue": null,
-      "underOverValue": "U/O 228.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "01.20 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 49,
-      "league": "01.20 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "필라76s",
-      "awayTeam": "인디페이",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 50,
-      "league": "01.20 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "브루네츠",
-      "awayTeam": "피닉선즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.31,
-        "away": 1.18
-      },
-      "deadlineText": "01.20 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 51,
-      "league": "01.20 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "브루네츠",
-      "awayTeam": "피닉선즈",
-      "handicapValue": "H +8.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 52,
-      "league": "01.20 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "브루네츠",
-      "awayTeam": "피닉선즈",
-      "handicapValue": null,
-      "underOverValue": "U/O 217.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.20 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 53,
-      "league": "01.20 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "브루네츠",
-      "awayTeam": "피닉선즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 54,
-      "league": "01.20 (화)10:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "디트피스",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.46,
-        "away": 2.15
-      },
-      "deadlineText": "01.20 (화)10:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 55,
-      "league": "01.20 (화)10:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "디트피스",
-      "awayTeam": "보스셀틱",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "01.20 (화)10:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 56,
-      "league": "01.20 (화)10:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "디트피스",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": "U/O 225.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "01.20 (화)10:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 57,
-      "league": "01.20 (화)10:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "디트피스",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)10:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 58,
-      "league": "01.20 (화)12:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "골든워리",
-      "awayTeam": "마이히트",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.31,
-        "away": 2.59
-      },
-      "deadlineText": "01.20 (화)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 59,
-      "league": "01.20 (화)12:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "골든워리",
-      "awayTeam": "마이히트",
-      "handicapValue": "H -5.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 60,
-      "league": "01.20 (화)12:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "골든워리",
-      "awayTeam": "마이히트",
-      "handicapValue": null,
-      "underOverValue": "U/O 239.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "01.20 (화)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 61,
-      "league": "01.20 (화)12:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "골든워리",
-      "awayTeam": "마이히트",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.20 (화)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 62,
       "league": "01.20 (화)19:00 마감",
       "sportText": "배구",
@@ -481,8 +193,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.36,
-        "away": 2.41
+        "home": 1.4,
+        "away": 2.3
       },
       "deadlineText": "01.20 (화)20:30 마감",
       "isSingle": true,
@@ -591,9 +303,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.75,
-        "draw": 3.8,
-        "away": 1.45
+        "home": 4.9,
+        "draw": 4,
+        "away": 1.41
       },
       "deadlineText": "01.20 (화)23:00 마감",
       "isSingle": true,
@@ -610,9 +322,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.28,
-        "draw": 3.35,
-        "away": 2.35
+        "home": 2.5,
+        "draw": 3.3,
+        "away": 2.18
       },
       "deadlineText": "01.20 (화)23:00 마감",
       "isSingle": true,
@@ -629,9 +341,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.44,
-        "draw": 4.25,
-        "away": 4.25
+        "home": 1.48,
+        "draw": 4.2,
+        "away": 4
       },
       "deadlineText": "01.20 (화)23:00 마감",
       "isSingle": true,
