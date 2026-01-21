@@ -100,7 +100,7 @@ async function fetchBetmanData(roundNumber = null) {
       '--disable-offline-load-stale-cache',
       '--disk-cache-size=0',
     ],
-    // userDataDir 제거 - 캐시 문제 해결
+    userDataDir: './puppeteer-data',
   });
 
   try {
@@ -513,6 +513,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       const browser = await puppeteer.launch({
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        userDataDir: './puppeteer-data',
       });
 
       const detectedRound = await getCurrentRound(browser);
