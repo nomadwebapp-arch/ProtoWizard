@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.06,
-        "away": 4.85
+        "home": 1.08,
+        "away": 4.47
       },
       "deadlineText": "01.22 (목)09:30 마감",
       "isSingle": false,
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.57,
-        "away": 1.15
+        "home": 3.03,
+        "away": 1.22
       },
       "deadlineText": "01.22 (목)10:00 마감",
       "isSingle": false,
@@ -314,7 +314,7 @@
       "matchType": "handicap",
       "homeTeam": "뉴올펠리",
       "awayTeam": "디트피스",
-      "handicapValue": "H +9.5",
+      "handicapValue": "H +6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.76,
@@ -323,7 +323,7 @@
       "deadlineText": "01.22 (목)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 120,
@@ -333,7 +333,7 @@
       "homeTeam": "뉴올펠리",
       "awayTeam": "디트피스",
       "handicapValue": null,
-      "underOverValue": "U/O 233.5",
+      "underOverValue": "U/O 228.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -341,7 +341,7 @@
       "deadlineText": "01.22 (목)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 121,

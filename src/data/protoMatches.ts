@@ -83,8 +83,8 @@ export const protoMatches: Match[] = [
     awayTeam: '인디페이',
     matchType: 'normal',
     odds: {
-      home: 1.06,
-      away: 4.85,
+      home: 1.08,
+      away: 4.47,
     },
     deadline: new Date('2026-01-22T00:30:00.000Z'),
     status: 'open',
@@ -295,8 +295,8 @@ export const protoMatches: Match[] = [
     awayTeam: '디트피스',
     matchType: 'normal',
     odds: {
-      home: 3.57,
-      away: 1.15,
+      home: 3.03,
+      away: 1.22,
     },
     deadline: new Date('2026-01-22T01:00:00.000Z'),
     status: 'open',
@@ -311,7 +311,8 @@ export const protoMatches: Match[] = [
     homeTeam: '뉴올펠리',
     awayTeam: '디트피스',
     matchType: 'handicap',
-    handicapValue: 'H +9.5',
+    handicapValue: 'H +6.5',
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
@@ -329,7 +330,8 @@ export const protoMatches: Match[] = [
     homeTeam: '뉴올펠리',
     awayTeam: '디트피스',
     matchType: 'underover',
-    underOverValue: 'U/O 233.5',
+    underOverValue: 'U/O 228.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
