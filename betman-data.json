@@ -3088,43 +3088,43 @@
     },
     {
       "gameNumber": 169,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "휴스로케",
-      "awayTeam": "샌안스퍼",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.42,
         "away": 2.25
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 170,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "휴스로케",
-      "awayTeam": "샌안스퍼",
+      "awayTeam": "점수",
       "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 1.7,
         "away": 1.78
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 171,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "휴스로케",
@@ -3135,14 +3135,14 @@
         "home": 1.78,
         "away": 1.7
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 172,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "휴스로케",
@@ -3153,50 +3153,50 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 173,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "유타재즈",
-      "awayTeam": "미네울브",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 4.47,
         "away": 1.08
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 174,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "유타재즈",
-      "awayTeam": "미네울브",
+      "awayTeam": "점수",
       "handicapValue": "H +12.5",
       "underOverValue": null,
       "odds": {
         "home": 1.7,
         "away": 1.78
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 175,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "유타재즈",
@@ -3207,14 +3207,14 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 176,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "유타재즈",
@@ -3225,7 +3225,7 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
