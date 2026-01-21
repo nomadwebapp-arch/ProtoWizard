@@ -3232,43 +3232,43 @@
     },
     {
       "gameNumber": 177,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "덴버너게",
-      "awayTeam": "LA레이커",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 2.03,
         "away": 1.52
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 178,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "덴버너게",
-      "awayTeam": "LA레이커",
+      "awayTeam": "점수",
       "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
         "home": 1.8,
         "away": 1.68
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 179,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "덴버너게",
@@ -3279,14 +3279,14 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 180,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "덴버너게",
@@ -3297,50 +3297,50 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 181,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "골든워리",
-      "awayTeam": "토론랩터",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.5,
         "away": 2.07
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 182,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "골든워리",
-      "awayTeam": "토론랩터",
+      "awayTeam": "점수",
       "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 1.75,
         "away": 1.73
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 183,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "골든워리",
@@ -3351,14 +3351,14 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 184,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "골든워리",
@@ -3369,50 +3369,50 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 185,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "새크킹스",
-      "awayTeam": "마이히트",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.95,
         "away": 1.57
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 186,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "새크킹스",
-      "awayTeam": "마이히트",
+      "awayTeam": "점수",
       "handicapValue": "H +3.5",
       "underOverValue": null,
       "odds": {
         "home": 1.71,
         "away": 1.77
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 187,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "새크킹스",
@@ -3423,14 +3423,14 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 188,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "새크킹스",
@@ -3441,7 +3441,7 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
