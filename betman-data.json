@@ -242,7 +242,7 @@
       "matchType": "handicap",
       "homeTeam": "댈러매버",
       "awayTeam": "골든워리",
-      "handicapValue": "H +4.5",
+      "handicapValue": "H +5.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -251,7 +251,7 @@
       "deadlineText": "01.23 (금)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 254,
@@ -549,7 +549,7 @@
       "homeTeam": "포틀트레",
       "awayTeam": "마이히트",
       "handicapValue": null,
-      "underOverValue": "U/O 239.5",
+      "underOverValue": "U/O 237.5",
       "odds": {
         "home": 1.73,
         "away": 1.75

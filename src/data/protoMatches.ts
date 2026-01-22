@@ -242,7 +242,8 @@ export const protoMatches: Match[] = [
     homeTeam: '댈러매버',
     awayTeam: '골든워리',
     matchType: 'handicap',
-    handicapValue: 'H +4.5',
+    handicapValue: 'H +5.5',
+    isConditionChanged: true,
     odds: {
       home: 1.74,
       away: 1.74,
@@ -545,7 +546,7 @@ export const protoMatches: Match[] = [
     homeTeam: '포틀트레',
     awayTeam: '마이히트',
     matchType: 'underover',
-    underOverValue: 'U/O 239.5',
+    underOverValue: 'U/O 237.5',
     isSingle: true,
     isConditionChanged: true,
     odds: {
