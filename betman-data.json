@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.27,
-        "away": 1.41
+        "home": 2.45,
+        "away": 1.35
       },
       "deadlineText": "01.22 (목)19:00 마감",
       "isSingle": true,
@@ -44,16 +44,16 @@
       "matchType": "handicap",
       "homeTeam": "울산모비",
       "awayTeam": "서울SK",
-      "handicapValue": "H +3.5",
+      "handicapValue": "H +4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.22 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 133,
@@ -101,8 +101,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.57,
-        "away": 1.95
+        "home": 1.63,
+        "away": 1.87
       },
       "deadlineText": "01.22 (목)19:00 마감",
       "isSingle": true,
@@ -119,8 +119,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.17,
-        "away": 2.95
+        "home": 2.33,
+        "away": 2.8
       },
       "deadlineText": "01.22 (목)19:00 마감",
       "isSingle": true,
@@ -134,16 +134,16 @@
       "matchType": "handicap",
       "homeTeam": "서울삼성",
       "awayTeam": "한국가스",
-      "handicapValue": "H -2.5",
+      "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.22 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 138,
