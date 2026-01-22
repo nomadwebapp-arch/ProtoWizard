@@ -263,8 +263,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.39,
-        "away": 2.33
+        "home": 1.31,
+        "away": 2.59
       },
       "deadlineText": "01.22 (목)19:00 마감",
       "isSingle": true,
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 182.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "01.22 (목)19:00 마감",
       "isSingle": true,
@@ -539,9 +539,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.4,
+        "home": 2.11,
         "draw": 3.15,
-        "away": 2.33
+        "away": 2.7
       },
       "deadlineText": "01.22 (목)23:00 마감",
       "isSingle": true,
@@ -555,17 +555,17 @@
       "matchType": "handicap",
       "homeTeam": "PAOK",
       "awayTeam": "베티스",
-      "handicapValue": "H +1.0",
+      "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.45,
-        "draw": 3.85,
-        "away": 4.7
+        "home": 4.1,
+        "draw": 3.75,
+        "away": 1.53
       },
       "deadlineText": "01.22 (목)23:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 161,
@@ -574,17 +574,17 @@
       "matchType": "handicap",
       "homeTeam": "PAOK",
       "awayTeam": "베티스",
-      "handicapValue": "H +2.0",
+      "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.08,
-        "draw": 6.7,
-        "away": 11.5
+        "home": 9.2,
+        "draw": 6.2,
+        "away": 1.12
       },
       "deadlineText": "01.22 (목)23:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 162,
@@ -929,9 +929,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.48,
+        "home": 1.52,
         "draw": 3.7,
-        "away": 4.6
+        "away": 4.25
       },
       "deadlineText": "01.22 (목)23:00 마감",
       "isSingle": true,
@@ -948,9 +948,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
+        "home": 2.8,
         "draw": 3.25,
-        "away": 2.2
+        "away": 2.01
       },
       "deadlineText": "01.22 (목)23:00 마감",
       "isSingle": true,
@@ -967,9 +967,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.65,
+        "home": 5.6,
         "draw": 4.1,
-        "away": 1.42
+        "away": 1.35
       },
       "deadlineText": "01.22 (목)23:00 마감",
       "isSingle": true,
@@ -986,8 +986,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.97,
-        "away": 1.56
+        "home": 1.88,
+        "away": 1.62
       },
       "deadlineText": "01.22 (목)23:00 마감",
       "isSingle": true,
