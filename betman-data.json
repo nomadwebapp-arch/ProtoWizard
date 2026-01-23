@@ -4755,43 +4755,43 @@
     },
     {
       "gameNumber": 260,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "유타재즈",
-      "awayTeam": "샌안스퍼",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 5.08,
         "away": 1.05
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 261,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "유타재즈",
-      "awayTeam": "샌안스퍼",
+      "awayTeam": "점수",
       "handicapValue": "H +13.5",
       "underOverValue": null,
       "odds": {
         "home": 1.69,
         "away": 1.79
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 262,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "유타재즈",
@@ -4802,14 +4802,14 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 263,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "유타재즈",
@@ -4820,50 +4820,50 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 264,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "LA클리퍼",
-      "awayTeam": "LA레이커",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.59,
         "away": 1.92
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 265,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "LA클리퍼",
-      "awayTeam": "LA레이커",
+      "awayTeam": "점수",
       "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
         "home": 1.79,
         "away": 1.69
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 266,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "LA클리퍼",
@@ -4874,14 +4874,14 @@
         "home": 1.75,
         "away": 1.73
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 267,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "LA클리퍼",
@@ -4892,50 +4892,50 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 268,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "포틀트레",
-      "awayTeam": "마이히트",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.53,
         "away": 2.02
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 269,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "포틀트레",
-      "awayTeam": "마이히트",
+      "awayTeam": "점수",
       "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 270,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "포틀트레",
@@ -4946,14 +4946,14 @@
         "home": 1.73,
         "away": 1.75
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 271,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "포틀트레",
@@ -4964,7 +4964,7 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
