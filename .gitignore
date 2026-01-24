@@ -30,3 +30,17 @@ matches.json
 downloads/
 *.pdf
 puppeteer-data/
+.puppeteer-data/
+
+# Debug files
+debug-*.png
+debug-*.html
+wisetoto-*.html
+wisetoto-*.png
+wisetoto-*.json
+briefings.json
+daily-pick-data.json
+full-briefing.json
+
+# Environment
+.env
