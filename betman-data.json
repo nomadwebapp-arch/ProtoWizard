@@ -45,15 +45,15 @@
       "homeTeam": "올랜매직",
       "awayTeam": "클리캐벌",
       "handicapValue": null,
-      "underOverValue": "U/O 229.5",
+      "underOverValue": "U/O 227.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.25 (일)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 300,
