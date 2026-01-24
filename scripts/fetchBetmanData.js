@@ -494,6 +494,36 @@ function isLastMatchFinished(finishedMatches, lastMatchNumber) {
   return finishedMatches.some(m => m.gameNumber === lastMatchNumber);
 }
 
+/**
+ * 경기 마감일이 모두 지났는지 확인
+ * @param {Array} matches - 경기 목록
+ * @returns {boolean} 모든 경기가 마감됐으면 true
+ */
+function isAllMatchesExpired(matches) {
+  if (!matches || matches.length === 0) return true;
+
+  const now = new Date();
+  const koreaOffset = 9 * 60 * 60 * 1000; // KST = UTC + 9
+  const nowKST = new Date(now.getTime() + koreaOffset);
+
+  // deadlineText 파싱: "01.25 (일)09:00 마감" → Date
+  for (const match of matches) {
+    const deadlineMatch = match.deadlineText?.match(/(\d{2})\.(\d{2}).*?(\d{2}):(\d{2})/);
+    if (deadlineMatch) {
+      const [, month, day, hour, minute] = deadlineMatch;
+      const year = nowKST.getFullYear();
+      const deadline = new Date(year, parseInt(month) - 1, parseInt(day), parseInt(hour), parseInt(minute));
+
+      // 마감 전인 경기가 하나라도 있으면 false
+      if (deadline > nowKST) {
+        return false;
+      }
+    }
+  }
+
+  return true; // 모든 경기 마감됨
+}
+
 // 실행
 if (import.meta.url === `file://${process.argv[1]}`) {
   (async () => {
@@ -508,16 +538,20 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         currentRoundData = { roundNumber: '260001' };
       }
 
-      // 2. 베트맨에서 현재 활성 회차 감지 (URL 리다이렉트 이용)
+      // 2. 베트맨에서 현재 활성 회차 감지 시도
       console.log('🔍 베트맨에서 현재 활성 회차 확인 중...\n');
-      const browser = await puppeteer.launch({
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        userDataDir: './puppeteer-data',
-      });
-
-      const detectedRound = await getCurrentRound(browser);
-      await browser.close();
+      let detectedRound = null;
+      try {
+        const browser = await puppeteer.launch({
+          headless: true,
+          args: ['--no-sandbox', '--disable-setuid-sandbox'],
+          userDataDir: './puppeteer-data',
+        });
+        detectedRound = await getCurrentRound(browser);
+        await browser.close();
+      } catch (error) {
+        console.log(`⚠️ 회차 감지 중 오류: ${error.message}\n`);
+      }
 
       // 3. 사용할 회차 결정
       let roundNumber;
@@ -536,13 +570,35 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       // 4. 해당 회차 데이터 가져오기
       let data = await fetchBetmanData(roundNumber);
 
-      // 5. current-round.json 업데이트
+      // 5. 🆕 경기 마감일 체크 - 모두 지났으면 다음 회차 시도
+      if (isAllMatchesExpired(data.matches)) {
+        const nextRound = getNextRound(roundNumber);
+        console.log(`\n⏰ 현재 회차(${roundNumber}) 경기가 모두 마감됨!`);
+        console.log(`🔄 다음 회차(${nextRound}) 시도 중...\n`);
+
+        try {
+          const nextData = await fetchBetmanData(nextRound);
+
+          // 다음 회차에 경기가 있으면 사용
+          if (nextData.matches && nextData.matches.length > 0) {
+            data = nextData;
+            roundNumber = nextRound;
+            console.log(`✅ 다음 회차(${nextRound}) 전환 성공! ${nextData.matches.length}개 경기\n`);
+          } else {
+            console.log(`⚠️ 다음 회차(${nextRound})에 경기 없음, 현재 회차 유지\n`);
+          }
+        } catch (error) {
+          console.log(`⚠️ 다음 회차 조회 실패: ${error.message}\n`);
+        }
+      }
+
+      // 6. current-round.json 업데이트
       currentRoundData.roundNumber = roundNumber;
       fs.writeFileSync('./current-round.json', JSON.stringify(currentRoundData, null, 2));
 
       console.log(`\n✨ 완료! 총 ${data.matches.length}개 경기`);
 
-      // 6. JSON 파일로 저장
+      // 7. JSON 파일로 저장
       fs.writeFileSync('./betman-data.json', JSON.stringify(data, null, 2));
       console.log('💾 betman-data.json 저장 완료!');
 
