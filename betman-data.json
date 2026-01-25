@@ -263,13 +263,13 @@
       "handicapValue": null,
       "underOverValue": "U/O 227.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.26 (월)10:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 472,
