@@ -2,80 +2,6 @@
   "roundNumber": "260011",
   "matches": [
     {
-      "gameNumber": 337,
-      "league": "01.25 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "텔스타",
-      "awayTeam": "알크마르",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.9,
-        "draw": 3.3,
-        "away": 1.94
-      },
-      "deadlineText": "01.25 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 338,
-      "league": "01.25 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "텔스타",
-      "awayTeam": "알크마르",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.65,
-        "draw": 3.3,
-        "away": 3.95
-      },
-      "deadlineText": "01.25 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 339,
-      "league": "01.25 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "텔스타",
-      "awayTeam": "알크마르",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.45,
-        "away": 2.18
-      },
-      "deadlineText": "01.25 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 340,
-      "league": "01.25 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "텔스타",
-      "awayTeam": "알크마르",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.25 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 341,
       "league": "01.25 (일)20:30 마감",
       "sportText": "축구",
@@ -252,9 +178,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.88,
-        "draw": 3.15,
-        "away": 3.2
+        "home": 2.04,
+        "draw": 3.1,
+        "away": 2.85
       },
       "deadlineText": "01.25 (일)22:00 마감",
       "isSingle": true,
@@ -271,9 +197,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.75,
+        "home": 4.05,
         "draw": 3.5,
-        "away": 1.64
+        "away": 1.59
       },
       "deadlineText": "01.25 (일)22:00 마감",
       "isSingle": true,
