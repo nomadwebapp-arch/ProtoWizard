@@ -2,186 +2,6 @@
   "roundNumber": "260011",
   "matches": [
     {
-      "gameNumber": 327,
-      "league": "01.25 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "하나은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.48,
-        "away": 1.34
-      },
-      "deadlineText": "01.25 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 328,
-      "league": "01.25 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "하나은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.15,
-        "away": 1.98
-      },
-      "deadlineText": "01.25 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 329,
-      "league": "01.25 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "하나은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": "H +4.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.73,
-        "away": 1.75
-      },
-      "deadlineText": "01.25 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 330,
-      "league": "01.25 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "하나은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": "U/O 130.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "01.25 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 331,
-      "league": "01.25 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "하나은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.25 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 332,
-      "league": "01.25 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울삼성",
-      "awayTeam": "고양소노",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.84,
-        "away": 1.65
-      },
-      "deadlineText": "01.25 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 333,
-      "league": "01.25 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울삼성",
-      "awayTeam": "고양소노",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.8,
-        "away": 2.47
-      },
-      "deadlineText": "01.25 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 334,
-      "league": "01.25 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "서울삼성",
-      "awayTeam": "고양소노",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "01.25 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 335,
-      "league": "01.25 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "서울삼성",
-      "awayTeam": "고양소노",
-      "handicapValue": null,
-      "underOverValue": "U/O 160.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "01.25 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 336,
-      "league": "01.25 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "서울삼성",
-      "awayTeam": "고양소노",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.25 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 323,
       "league": "01.25 (일)17:00 마감",
       "sportText": "축구",
@@ -1286,8 +1106,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.7,
-        "draw": 3.8,
-        "away": 3.2
+        "draw": 4.05,
+        "away": 3.05
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1304,9 +1124,9 @@
       "handicapValue": "H -3.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
+        "home": 2.7,
         "draw": 4.1,
-        "away": 1.9
+        "away": 1.82
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1507,9 +1327,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
+        "home": 3.65,
         "draw": 3.45,
-        "away": 1.74
+        "away": 1.67
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": false,
@@ -1526,8 +1346,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.02,
-        "away": 1.53
+        "home": 1.88,
+        "away": 1.62
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": false,
