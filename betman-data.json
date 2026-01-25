@@ -2,80 +2,6 @@
   "roundNumber": "260011",
   "matches": [
     {
-      "gameNumber": 341,
-      "league": "01.25 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "사수올로",
-      "awayTeam": "크레모네",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.81,
-        "draw": 3,
-        "away": 3.6
-      },
-      "deadlineText": "01.25 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 342,
-      "league": "01.25 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "사수올로",
-      "awayTeam": "크레모네",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.95,
-        "draw": 3.1,
-        "away": 1.7
-      },
-      "deadlineText": "01.25 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 343,
-      "league": "01.25 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "사수올로",
-      "awayTeam": "크레모네",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.63,
-        "away": 1.87
-      },
-      "deadlineText": "01.25 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 344,
-      "league": "01.25 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "사수올로",
-      "awayTeam": "크레모네",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.25 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 345,
       "league": "01.25 (일)21:00 마감",
       "sportText": "축구",
@@ -1883,9 +1809,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.95,
-        "draw": 3.55,
-        "away": 1.59
+        "home": 4.25,
+        "draw": 3.85,
+        "away": 1.5
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
