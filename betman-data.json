@@ -2,80 +2,6 @@
   "roundNumber": "260011",
   "matches": [
     {
-      "gameNumber": 345,
-      "league": "01.25 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "포츠머스",
-      "awayTeam": "사우샘프",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.2,
-        "draw": 2.95,
-        "away": 1.96
-      },
-      "deadlineText": "01.25 (일)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 346,
-      "league": "01.25 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "포츠머스",
-      "awayTeam": "사우샘프",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.65,
-        "draw": 3.4,
-        "away": 3.8
-      },
-      "deadlineText": "01.25 (일)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 347,
-      "league": "01.25 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "포츠머스",
-      "awayTeam": "사우샘프",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "01.25 (일)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 348,
-      "league": "01.25 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "포츠머스",
-      "awayTeam": "사우샘프",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.25 (일)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 349,
       "league": "01.25 (일)22:00 마감",
       "sportText": "축구",
@@ -104,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.04,
+        "home": 1.88,
         "draw": 3.1,
-        "away": 2.85
+        "away": 3.25
       },
       "deadlineText": "01.25 (일)22:00 마감",
       "isSingle": true,
@@ -123,9 +49,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.05,
-        "draw": 3.5,
-        "away": 1.59
+        "home": 3.15,
+        "draw": 3.45,
+        "away": 1.8
       },
       "deadlineText": "01.25 (일)22:00 마감",
       "isSingle": true,
@@ -363,9 +289,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
-        "draw": 3.25,
-        "away": 1.86
+        "home": 3.1,
+        "draw": 3.45,
+        "away": 1.82
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -456,9 +382,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.81,
-        "draw": 3.35,
-        "away": 3.2
+        "home": 1.94,
+        "draw": 3.25,
+        "away": 2.95
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -475,9 +401,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.25,
-        "draw": 3.5,
-        "away": 1.76
+        "home": 3.65,
+        "draw": 3.45,
+        "away": 1.67
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -771,9 +697,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.65,
+        "home": 2.8,
         "draw": 3.45,
-        "away": 2.02
+        "away": 1.94
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -790,9 +716,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.58,
-        "draw": 3.8,
-        "away": 3.75
+        "home": 1.63,
+        "draw": 3.7,
+        "away": 3.6
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -809,9 +735,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.15,
-        "draw": 5.9,
-        "away": 8.1
+        "home": 1.19,
+        "draw": 5.5,
+        "away": 7.1
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1160,9 +1086,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
-        "draw": 2.9,
-        "away": 2.39
+        "home": 2.65,
+        "draw": 2.75,
+        "away": 2.37
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1234,9 +1160,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.15,
-        "draw": 3.5,
-        "away": 1.57
+        "home": 4.4,
+        "draw": 3.6,
+        "away": 1.52
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1272,8 +1198,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.98,
-        "away": 1.55
+        "home": 1.91,
+        "away": 1.6
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1568,9 +1494,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.86,
-        "draw": 2.8,
-        "away": 3.75
+        "home": 1.85,
+        "draw": 2.7,
+        "away": 3.95
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1642,9 +1568,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.86,
-        "draw": 3.05,
-        "away": 3.35
+        "home": 1.92,
+        "draw": 2.95,
+        "away": 3.3
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1661,9 +1587,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.6,
-        "draw": 3.3,
-        "away": 1.72
+        "home": 4,
+        "draw": 3.25,
+        "away": 1.65
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -1716,8 +1642,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.39,
-        "draw": 2.9,
+        "home": 2.46,
+        "draw": 2.8,
         "away": 2.5
       },
       "deadlineText": "01.25 (일)23:00 마감",
@@ -1865,8 +1791,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.65,
-        "draw": 2.85,
-        "away": 2.3
+        "draw": 2.75,
+        "away": 2.37
       },
       "deadlineText": "01.25 (일)23:00 마감",
       "isSingle": true,
@@ -2298,8 +2224,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.55,
-        "away": 1.98
+        "home": 1.41,
+        "away": 2.27
       },
       "deadlineText": "01.26 (월)10:00 마감",
       "isSingle": true,
@@ -2313,16 +2239,16 @@
       "matchType": "handicap",
       "homeTeam": "피닉선즈",
       "awayTeam": "마이히트",
-      "handicapValue": "H -2.5",
+      "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.8,
+        "away": 1.68
       },
       "deadlineText": "01.26 (월)10:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 471,
