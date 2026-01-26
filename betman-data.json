@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.22,
-        "away": 3.03
+        "home": 1.08,
+        "away": 4.47
       },
       "deadlineText": "01.27 (화)11:30 마감",
       "isSingle": true,
@@ -314,16 +314,16 @@
       "matchType": "handicap",
       "homeTeam": "미네울브",
       "awayTeam": "골든워리",
-      "handicapValue": "H -7.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.7,
+        "away": 1.78
       },
       "deadlineText": "01.27 (화)11:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 61,
@@ -333,7 +333,7 @@
       "homeTeam": "미네울브",
       "awayTeam": "골든워리",
       "handicapValue": null,
-      "underOverValue": "U/O 232.5",
+      "underOverValue": "U/O 228.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
