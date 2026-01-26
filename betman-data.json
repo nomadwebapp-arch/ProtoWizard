@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.2,
-        "away": 3.16
+        "home": 1.15,
+        "away": 3.57
       },
       "deadlineText": "01.27 (화)10:00 마감",
       "isSingle": false,
@@ -98,7 +98,7 @@
       "matchType": "handicap",
       "homeTeam": "보스셀틱",
       "awayTeam": "포틀트레",
-      "handicapValue": "H -7.5",
+      "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
         "home": 1.78,
@@ -191,8 +191,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 235.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.82,
+        "away": 1.67
       },
       "deadlineText": "01.27 (화)10:00 마감",
       "isSingle": false,
