@@ -30,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.42,
-        "draw": 3.6,
-        "away": 5.5
+        "home": 1.45,
+        "draw": 3.5,
+        "away": 5.3
       },
       "deadlineText": "01.26 (월)23:00 마감",
       "isSingle": true,
@@ -142,8 +142,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2,
-        "away": 1.54
+        "home": 2.07,
+        "away": 1.5
       },
       "deadlineText": "01.26 (월)23:00 마감",
       "isSingle": false,
@@ -197,9 +197,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.85,
-        "draw": 3.55,
-        "away": 1.48
+        "home": 4.75,
+        "draw": 3.45,
+        "away": 1.51
       },
       "deadlineText": "01.26 (월)23:00 마감",
       "isSingle": true,
@@ -398,7 +398,7 @@
       "homeTeam": "샬럿호네",
       "awayTeam": "필라76s",
       "handicapValue": null,
-      "underOverValue": "U/O 226.5",
+      "underOverValue": "U/O 227.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -406,7 +406,7 @@
       "deadlineText": "01.26 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 38,
@@ -454,8 +454,8 @@
       "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "away": 1.77
+        "home": 1.66,
+        "away": 1.83
       },
       "deadlineText": "01.26 (월)23:00 마감",
       "isSingle": false,
@@ -526,8 +526,8 @@
       "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.7,
+        "away": 1.78
       },
       "deadlineText": "01.27 (화)09:00 마감",
       "isSingle": false,
