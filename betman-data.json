@@ -2,96 +2,6 @@
   "roundNumber": "260012",
   "matches": [
     {
-      "gameNumber": 63,
-      "league": "01.27 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "고양소노",
-      "awayTeam": "울산모비",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.63,
-        "away": 1.87
-      },
-      "deadlineText": "01.27 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 64,
-      "league": "01.27 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "고양소노",
-      "awayTeam": "울산모비",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.55,
-        "away": 2.75
-      },
-      "deadlineText": "01.27 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 65,
-      "league": "01.27 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "고양소노",
-      "awayTeam": "울산모비",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.27 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 66,
-      "league": "01.27 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "고양소노",
-      "awayTeam": "울산모비",
-      "handicapValue": null,
-      "underOverValue": "U/O 154.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "01.27 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 67,
-      "league": "01.27 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "고양소노",
-      "awayTeam": "울산모비",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.27 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 68,
       "league": "01.27 (화)23:00 마감",
       "sportText": "축구",
@@ -101,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.95,
+        "home": 3.1,
         "draw": 3.45,
-        "away": 1.87
+        "away": 1.82
       },
       "deadlineText": "01.27 (화)23:00 마감",
       "isSingle": true,
@@ -213,9 +123,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.92,
-        "draw": 3.3,
-        "away": 2.95
+        "home": 1.98,
+        "draw": 3.2,
+        "away": 2.9
       },
       "deadlineText": "01.27 (화)23:00 마감",
       "isSingle": true,
