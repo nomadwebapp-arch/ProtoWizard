@@ -763,8 +763,8 @@ export const protoMatches: Match[] = [
     underOverValue: 'U/O 213.5',
     isSingle: true,
     odds: {
-      home: 1.73,
-      away: 1.75,
+      home: 1.7,
+      away: 1.78,
     },
     deadline: new Date('2026-01-28T02:00:00.000Z'),
     status: 'open',
