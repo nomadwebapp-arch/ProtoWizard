@@ -29,7 +29,7 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.38,
+        "home": 2.47,
         "away": 2.8
       },
       "deadlineText": "01.27 (화)19:00 마감",
@@ -63,7 +63,7 @@
       "homeTeam": "고양소노",
       "awayTeam": "울산모비",
       "handicapValue": null,
-      "underOverValue": "U/O 153.5",
+      "underOverValue": "U/O 154.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -71,7 +71,7 @@
       "deadlineText": "01.27 (화)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 67,

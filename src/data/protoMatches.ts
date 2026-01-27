@@ -32,7 +32,7 @@ export const protoMatches: Match[] = [
     matchType: 'normal',
     isSingle: true,
     odds: {
-      home: 2.38,
+      home: 2.47,
       away: 2.8,
     },
     deadline: new Date('2026-01-27T10:00:00.000Z'),
@@ -67,8 +67,9 @@ export const protoMatches: Match[] = [
     homeTeam: '고양소노',
     awayTeam: '울산모비',
     matchType: 'underover',
-    underOverValue: 'U/O 153.5',
+    underOverValue: 'U/O 154.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
