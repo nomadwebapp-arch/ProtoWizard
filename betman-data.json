@@ -161,8 +161,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.71,
-        "away": 1.77
+        "home": 1.65,
+        "away": 1.84
       },
       "deadlineText": "01.27 (화)23:00 마감",
       "isSingle": true,
@@ -271,8 +271,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.39,
-        "away": 1.17
+        "home": 3.1,
+        "away": 1.21
       },
       "deadlineText": "01.28 (수)09:00 마감",
       "isSingle": false,
@@ -305,7 +305,7 @@
       "homeTeam": "워싱위저",
       "awayTeam": "포틀트레",
       "handicapValue": null,
-      "underOverValue": "U/O 234.5",
+      "underOverValue": "U/O 233.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -313,7 +313,7 @@
       "deadlineText": "01.28 (수)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 85,

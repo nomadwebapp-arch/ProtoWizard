@@ -170,8 +170,8 @@ export const protoMatches: Match[] = [
     underOverValue: 'U/O 2.5',
     isSingle: true,
     odds: {
-      home: 1.71,
-      away: 1.77,
+      home: 1.65,
+      away: 1.84,
     },
     deadline: new Date('2026-01-27T14:00:00.000Z'),
     status: 'open',
@@ -281,8 +281,8 @@ export const protoMatches: Match[] = [
     awayTeam: '포틀트레',
     matchType: 'normal',
     odds: {
-      home: 3.39,
-      away: 1.17,
+      home: 3.1,
+      away: 1.21,
     },
     deadline: new Date('2026-01-28T00:00:00.000Z'),
     status: 'open',
@@ -315,7 +315,8 @@ export const protoMatches: Match[] = [
     homeTeam: '워싱위저',
     awayTeam: '포틀트레',
     matchType: 'underover',
-    underOverValue: 'U/O 234.5',
+    underOverValue: 'U/O 233.5',
+    isConditionChanged: true,
     odds: {
       home: 1.74,
       away: 1.74,
