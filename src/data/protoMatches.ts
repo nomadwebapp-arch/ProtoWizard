@@ -13,8 +13,8 @@ export const protoMatches: Match[] = [
     awayTeam: '포틀트레',
     matchType: 'normal',
     odds: {
-      home: 3.1,
-      away: 1.21,
+      home: 2.86,
+      away: 1.25,
     },
     deadline: new Date('2026-01-28T00:00:00.000Z'),
     status: 'open',
@@ -31,8 +31,8 @@ export const protoMatches: Match[] = [
     matchType: 'handicap',
     handicapValue: 'H +7.5',
     odds: {
-      home: 1.76,
-      away: 1.72,
+      home: 1.71,
+      away: 1.77,
     },
     deadline: new Date('2026-01-28T00:00:00.000Z'),
     status: 'open',
