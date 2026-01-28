@@ -119,8 +119,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 6,
-        "away": 1.55
+        "home": 5.4,
+        "away": 1.6
       },
       "deadlineText": "01.28 (수)19:00 마감",
       "isSingle": true,
@@ -191,8 +191,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.37,
-        "away": 2.38
+        "home": 1.29,
+        "away": 2.67
       },
       "deadlineText": "01.28 (수)19:10 마감",
       "isSingle": false,
@@ -206,16 +206,16 @@
       "matchType": "handicap",
       "homeTeam": "서울SK",
       "awayTeam": "타이베푸",
-      "handicapValue": "H -4.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.28 (수)19:10 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 13,
@@ -225,7 +225,7 @@
       "homeTeam": "서울SK",
       "awayTeam": "타이베푸",
       "handicapValue": null,
-      "underOverValue": "U/O 173.5",
+      "underOverValue": "U/O 174.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -233,7 +233,7 @@
       "deadlineText": "01.28 (수)19:10 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 14,
@@ -263,9 +263,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.41,
-        "draw": 3.95,
-        "away": 5
+        "home": 1.45,
+        "draw": 4.1,
+        "away": 4.35
       },
       "deadlineText": "01.28 (수)23:00 마감",
       "isSingle": true,
@@ -282,9 +282,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.21,
-        "draw": 3.4,
-        "away": 2.4
+        "home": 2.45,
+        "draw": 3.35,
+        "away": 2.19
       },
       "deadlineText": "01.28 (수)23:00 마감",
       "isSingle": true,
@@ -301,9 +301,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.85,
-        "draw": 4.15,
-        "away": 1.51
+        "home": 4.2,
+        "draw": 4.1,
+        "away": 1.47
       },
       "deadlineText": "01.28 (수)23:00 마감",
       "isSingle": true,
@@ -893,9 +893,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.45,
-        "draw": 4,
-        "away": 4.5
+        "home": 1.49,
+        "draw": 4.05,
+        "away": 4.1
       },
       "deadlineText": "01.28 (수)23:00 마감",
       "isSingle": true,
@@ -931,9 +931,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.15,
-        "draw": 4.2,
-        "away": 1.46
+        "home": 4.45,
+        "draw": 4.45,
+        "away": 1.4
       },
       "deadlineText": "01.28 (수)23:00 마감",
       "isSingle": true,
