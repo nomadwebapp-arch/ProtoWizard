@@ -117,7 +117,7 @@
       "homeTeam": "인디페이",
       "awayTeam": "시카불스",
       "handicapValue": null,
-      "underOverValue": "U/O 237.5",
+      "underOverValue": "U/O 235.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -125,7 +125,7 @@
       "deadlineText": "01.29 (목)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 119,
@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.23,
-        "away": 2.97
+        "home": 1.33,
+        "away": 2.52
       },
       "deadlineText": "01.29 (목)09:30 마감",
       "isSingle": false,
@@ -170,7 +170,7 @@
       "matchType": "handicap",
       "homeTeam": "보스셀틱",
       "awayTeam": "애틀호크",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -179,7 +179,7 @@
       "deadlineText": "01.29 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 122,
@@ -261,7 +261,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "올랜매직",
       "handicapValue": null,
-      "underOverValue": "U/O 229.5",
+      "underOverValue": "U/O 231.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.66,
-        "away": 1.83
+        "home": 1.43,
+        "away": 2.22
       },
       "deadlineText": "01.29 (목)09:30 마감",
       "isSingle": false,
@@ -314,16 +314,16 @@
       "matchType": "handicap",
       "homeTeam": "토론랩터",
       "awayTeam": "뉴욕닉스",
-      "handicapValue": "H -1.5",
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.29 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 130,
@@ -333,7 +333,7 @@
       "homeTeam": "토론랩터",
       "awayTeam": "뉴욕닉스",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 218.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -341,7 +341,7 @@
       "deadlineText": "01.29 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 131,
@@ -477,7 +477,7 @@
       "homeTeam": "댈러매버",
       "awayTeam": "미네울브",
       "handicapValue": null,
-      "underOverValue": "U/O 232.5",
+      "underOverValue": "U/O 228.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -515,8 +515,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.02,
-        "away": 1.11
+        "home": 3.24,
+        "away": 1.19
       },
       "deadlineText": "01.29 (목)11:00 마감",
       "isSingle": false,
@@ -530,16 +530,16 @@
       "matchType": "handicap",
       "homeTeam": "유타재즈",
       "awayTeam": "골든워리",
-      "handicapValue": "H +9.5",
+      "handicapValue": "H +8.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.69,
+        "away": 1.79
       },
       "deadlineText": "01.29 (목)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 142,
@@ -2249,9 +2249,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.21,
+        "home": 1.25,
         "draw": 4.7,
-        "away": 8.1
+        "away": 6.7
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -2268,9 +2268,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "draw": 3.5,
-        "away": 3.35
+        "home": 1.75,
+        "draw": 3.95,
+        "away": 2.95
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -2288,8 +2288,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.75,
-        "draw": 3.7,
-        "away": 1.89
+        "draw": 4,
+        "away": 1.82
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
