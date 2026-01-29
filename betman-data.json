@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.95,
+        "away": 1.57
       },
       "deadlineText": "01.30 (금)10:00 마감",
       "isSingle": false,
@@ -170,16 +170,16 @@
       "matchType": "handicap",
       "homeTeam": "시카불스",
       "awayTeam": "마이히트",
-      "handicapValue": "H -1.5",
+      "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.84,
-        "away": 1.65
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "01.30 (금)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 265,
@@ -189,7 +189,7 @@
       "homeTeam": "시카불스",
       "awayTeam": "마이히트",
       "handicapValue": null,
-      "underOverValue": "U/O 240.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -443,8 +443,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.41,
-        "away": 1.36
+        "home": 2.33,
+        "away": 1.39
       },
       "deadlineText": "01.30 (금)11:00 마감",
       "isSingle": false,
