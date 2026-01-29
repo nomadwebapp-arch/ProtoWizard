@@ -2,240 +2,6 @@
   "roundNumber": "260013",
   "matches": [
     {
-      "gameNumber": 148,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "안양정관",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.24,
-        "away": 2.92
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 149,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "안양정관",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.64,
-        "away": 4.95
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 150,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "안양정관",
-      "awayTeam": "서울삼성",
-      "handicapValue": "H -6.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 151,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "안양정관",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": "U/O 154.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 152,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "안양정관",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 153,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "한국전력",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.3,
-        "away": 1.4
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 154,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "한국전력",
-      "awayTeam": "현대캐피",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 155,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "한국전력",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": "U/O 184.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 156,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "한국전력",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 157,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2,
-        "away": 1.54
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 158,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.58,
-        "away": 1.94
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 159,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": null,
-      "underOverValue": "U/O 185.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 160,
-      "league": "01.29 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.29 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 161,
       "league": "01.29 (목)23:00 마감",
       "sportText": "축구",
@@ -914,9 +680,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 5.4,
-        "draw": 3.8,
-        "away": 1.4
+        "home": 5.6,
+        "draw": 4,
+        "away": 1.36
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -933,9 +699,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.45,
+        "home": 2.75,
         "draw": 3.25,
-        "away": 2.24
+        "away": 2.03
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -952,9 +718,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.49,
-        "draw": 4.05,
-        "away": 4.1
+        "home": 1.58,
+        "draw": 3.95,
+        "away": 3.6
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -1601,9 +1367,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.25,
-        "draw": 4.7,
-        "away": 6.7
+        "home": 1.17,
+        "draw": 5.5,
+        "away": 8
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -1620,9 +1386,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.63,
-        "draw": 4,
-        "away": 3.35
+        "home": 1.5,
+        "draw": 4.15,
+        "away": 3.9
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -1639,9 +1405,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
+        "home": 2.3,
         "draw": 3.95,
-        "away": 1.96
+        "away": 2.11
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
@@ -1824,9 +1590,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.96,
-        "draw": 3.2,
-        "away": 2.95
+        "home": 2.02,
+        "draw": 3.15,
+        "away": 2.85
       },
       "deadlineText": "01.29 (목)23:00 마감",
       "isSingle": true,
