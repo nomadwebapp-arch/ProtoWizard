@@ -199,8 +199,8 @@ export const protoMatches: Match[] = [
     handicapValue: 'H +1.5',
     isSingle: true,
     odds: {
-      home: 1.53,
-      away: 2.02,
+      home: 1.58,
+      away: 1.94,
     },
     deadline: new Date('2026-01-29T10:00:00.000Z'),
     status: 'open',
@@ -218,8 +218,8 @@ export const protoMatches: Match[] = [
     underOverValue: 'U/O 185.5',
     isSingle: true,
     odds: {
-      home: 1.74,
-      away: 1.74,
+      home: 1.79,
+      away: 1.69,
     },
     deadline: new Date('2026-01-29T10:00:00.000Z'),
     status: 'open',
@@ -350,9 +350,9 @@ export const protoMatches: Match[] = [
     matchType: 'normal',
     isSingle: true,
     odds: {
-      home: 1.76,
+      home: 1.81,
       draw: 3.2,
-      away: 3.55,
+      away: 3.35,
     },
     deadline: new Date('2026-01-29T14:00:00.000Z'),
     status: 'open',
