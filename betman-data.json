@@ -30,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.66,
-        "draw": 3.3,
-        "away": 3.9
+        "home": 1.69,
+        "draw": 3.1,
+        "away": 4
       },
       "deadlineText": "01.30 (금)23:00 마감",
       "isSingle": false,
