@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
-        "draw": 3.3,
-        "away": 1.78
+        "home": 3.45,
+        "draw": 3.15,
+        "away": 1.8
       },
       "deadlineText": "01.30 (금)23:00 마감",
       "isSingle": false,
@@ -290,9 +290,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.6,
-        "draw": 3.85,
-        "away": 1.6
+        "home": 3.55,
+        "draw": 3.6,
+        "away": 1.66
       },
       "deadlineText": "01.30 (금)23:00 마감",
       "isSingle": false,
@@ -363,9 +363,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.9,
-        "draw": 3,
-        "away": 3.3
+        "home": 1.93,
+        "draw": 2.9,
+        "away": 3.35
       },
       "deadlineText": "01.30 (금)23:00 마감",
       "isSingle": false,
@@ -382,9 +382,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.75,
-        "draw": 3.3,
-        "away": 1.69
+        "home": 4.2,
+        "draw": 3.1,
+        "away": 1.66
       },
       "deadlineText": "01.30 (금)23:00 마감",
       "isSingle": false,
@@ -905,7 +905,7 @@
       "homeTeam": "피닉선즈",
       "awayTeam": "클리캐벌",
       "handicapValue": null,
-      "underOverValue": "U/O 224.5",
+      "underOverValue": "U/O 223.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -913,7 +913,7 @@
       "deadlineText": "01.31 (토)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 77,
@@ -977,7 +977,7 @@
       "homeTeam": "덴버너게",
       "awayTeam": "LA클리퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 211.5",
+      "underOverValue": "U/O 210.5",
       "odds": {
         "home": 1.73,
         "away": 1.75
@@ -985,7 +985,7 @@
       "deadlineText": "01.31 (토)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 81,
