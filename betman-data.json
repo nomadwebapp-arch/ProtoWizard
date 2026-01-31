@@ -2,80 +2,6 @@
   "roundNumber": "260014",
   "matches": [
     {
-      "gameNumber": 131,
-      "league": "01.31 (토)19:45 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "퍼스글로",
-      "awayTeam": "오클FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.35,
-        "draw": 3.25,
-        "away": 1.8
-      },
-      "deadlineText": "01.31 (토)19:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 132,
-      "league": "01.31 (토)19:45 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "퍼스글로",
-      "awayTeam": "오클FC",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.73,
-        "draw": 3.45,
-        "away": 3.4
-      },
-      "deadlineText": "01.31 (토)19:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 133,
-      "league": "01.31 (토)19:45 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "퍼스글로",
-      "awayTeam": "오클FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.82,
-        "away": 1.67
-      },
-      "deadlineText": "01.31 (토)19:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 134,
-      "league": "01.31 (토)19:45 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "퍼스글로",
-      "awayTeam": "오클FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "01.31 (토)19:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 135,
       "league": "01.31 (토)21:30 마감",
       "sportText": "축구",
@@ -791,8 +717,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.53,
-        "away": 2.02
+        "home": 1.41,
+        "away": 2.27
       },
       "deadlineText": "01.31 (토)23:00 마감",
       "isSingle": true,
@@ -1512,9 +1438,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "draw": 3.25,
-        "away": 3.7
+        "home": 1.72,
+        "draw": 3.1,
+        "away": 3.85
       },
       "deadlineText": "01.31 (토)23:00 마감",
       "isSingle": true,
@@ -1606,8 +1532,8 @@
       "underOverValue": null,
       "odds": {
         "home": 5.7,
-        "draw": 3.55,
-        "away": 1.42
+        "draw": 3.8,
+        "away": 1.38
       },
       "deadlineText": "01.31 (토)23:00 마감",
       "isSingle": true,
@@ -3207,7 +3133,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "시카불스",
       "handicapValue": null,
-      "underOverValue": "U/O 237.5",
+      "underOverValue": "U/O 236.5",
       "odds": {
         "home": 1.7,
         "away": 1.78
@@ -3215,7 +3141,7 @@
       "deadlineText": "02.01 (일)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 305,
