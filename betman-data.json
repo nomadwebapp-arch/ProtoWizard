@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.11,
-        "away": 4.02
+        "home": 1.28,
+        "away": 2.72
       },
       "deadlineText": "02.01 (일)09:30 마감",
       "isSingle": false,
@@ -98,7 +98,7 @@
       "matchType": "handicap",
       "homeTeam": "필라76s",
       "awayTeam": "뉴올펠리",
-      "handicapValue": "H -9.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -107,7 +107,7 @@
       "deadlineText": "02.01 (일)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 300,
@@ -189,7 +189,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "시카불스",
       "handicapValue": null,
-      "underOverValue": "U/O 236.5",
+      "underOverValue": "U/O 232.5",
       "odds": {
         "home": 1.7,
         "away": 1.78
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.31,
-        "away": 1.18
+        "home": 4.31,
+        "away": 1.09
       },
       "deadlineText": "02.01 (일)10:00 마감",
       "isSingle": false,
@@ -242,7 +242,7 @@
       "matchType": "handicap",
       "homeTeam": "멤피그리",
       "awayTeam": "미네울브",
-      "handicapValue": "H +7.5",
+      "handicapValue": "H +9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -251,7 +251,7 @@
       "deadlineText": "02.01 (일)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 308,
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.07,
-        "away": 4.65
+        "home": 1.1,
+        "away": 4.16
       },
       "deadlineText": "02.01 (일)10:30 마감",
       "isSingle": true,

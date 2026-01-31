@@ -83,8 +83,8 @@ export const protoMatches: Match[] = [
     awayTeam: '뉴올펠리',
     matchType: 'normal',
     odds: {
-      home: 1.11,
-      away: 4.02,
+      home: 1.28,
+      away: 2.72,
     },
     deadline: new Date('2026-02-01T00:30:00.000Z'),
     status: 'open',
@@ -99,7 +99,8 @@ export const protoMatches: Match[] = [
     homeTeam: '필라76s',
     awayTeam: '뉴올펠리',
     matchType: 'handicap',
-    handicapValue: 'H -9.5',
+    handicapValue: 'H -5.5',
+    isConditionChanged: true,
     odds: {
       home: 1.73,
       away: 1.75,
@@ -188,7 +189,7 @@ export const protoMatches: Match[] = [
     homeTeam: '마이히트',
     awayTeam: '시카불스',
     matchType: 'underover',
-    underOverValue: 'U/O 236.5',
+    underOverValue: 'U/O 232.5',
     isConditionChanged: true,
     odds: {
       home: 1.7,
@@ -225,8 +226,8 @@ export const protoMatches: Match[] = [
     awayTeam: '미네울브',
     matchType: 'normal',
     odds: {
-      home: 3.31,
-      away: 1.18,
+      home: 4.31,
+      away: 1.09,
     },
     deadline: new Date('2026-02-01T01:00:00.000Z'),
     status: 'open',
@@ -241,7 +242,8 @@ export const protoMatches: Match[] = [
     homeTeam: '멤피그리',
     awayTeam: '미네울브',
     matchType: 'handicap',
-    handicapValue: 'H +7.5',
+    handicapValue: 'H +9.5',
+    isConditionChanged: true,
     odds: {
       home: 1.73,
       away: 1.75,
@@ -296,8 +298,8 @@ export const protoMatches: Match[] = [
     matchType: 'normal',
     isSingle: true,
     odds: {
-      home: 1.07,
-      away: 4.65,
+      home: 1.1,
+      away: 4.16,
     },
     deadline: new Date('2026-02-01T01:30:00.000Z'),
     status: 'open',
