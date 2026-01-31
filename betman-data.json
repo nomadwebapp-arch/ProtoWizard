@@ -2,78 +2,6 @@
   "roundNumber": "260014",
   "matches": [
     {
-      "gameNumber": 86,
-      "league": "01.31 (토)12:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "골든워리",
-      "awayTeam": "디트피스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.55,
-        "away": 1.98
-      },
-      "deadlineText": "01.31 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 87,
-      "league": "01.31 (토)12:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "골든워리",
-      "awayTeam": "디트피스",
-      "handicapValue": "H -2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.31 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 88,
-      "league": "01.31 (토)12:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "골든워리",
-      "awayTeam": "디트피스",
-      "handicapValue": null,
-      "underOverValue": "U/O 225.5",
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "01.31 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 89,
-      "league": "01.31 (토)12:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "골든워리",
-      "awayTeam": "디트피스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "01.31 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 90,
       "league": "01.31 (토)14:00 마감",
       "sportText": "농구",
@@ -281,8 +209,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 7.2,
-        "away": 1.45
+        "home": 6.6,
+        "away": 1.41
       },
       "deadlineText": "01.31 (토)14:00 마감",
       "isSingle": true,
@@ -299,8 +227,8 @@
       "handicapValue": "H +8.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "01.31 (토)14:00 마감",
       "isSingle": true,
@@ -371,8 +299,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "01.31 (토)14:00 마감",
       "isSingle": true,
@@ -517,8 +445,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.33,
-        "away": 3
+        "home": 2.4,
+        "away": 3.05
       },
       "deadlineText": "01.31 (토)16:00 마감",
       "isSingle": true,
@@ -607,8 +535,8 @@
       "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.51,
-        "away": 2.05
+        "home": 1.57,
+        "away": 1.95
       },
       "deadlineText": "01.31 (토)16:00 마감",
       "isSingle": true,
@@ -625,8 +553,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 176.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.69,
+        "away": 1.79
       },
       "deadlineText": "01.31 (토)16:00 마감",
       "isSingle": true,
@@ -3161,8 +3089,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.88,
-        "away": 1.62
+        "home": 1.7,
+        "away": 1.78
       },
       "deadlineText": "01.31 (토)23:00 마감",
       "isSingle": true,
