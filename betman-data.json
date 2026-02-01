@@ -2,96 +2,6 @@
   "roundNumber": "260014",
   "matches": [
     {
-      "gameNumber": 341,
-      "league": "02.01 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "고양소노",
-      "awayTeam": "한국가스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.41,
-        "away": 2.27
-      },
-      "deadlineText": "02.01 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 342,
-      "league": "02.01 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "고양소노",
-      "awayTeam": "한국가스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.96,
-        "away": 3.75
-      },
-      "deadlineText": "02.01 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 343,
-      "league": "02.01 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "고양소노",
-      "awayTeam": "한국가스",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "02.01 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 344,
-      "league": "02.01 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "고양소노",
-      "awayTeam": "한국가스",
-      "handicapValue": null,
-      "underOverValue": "U/O 155.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "02.01 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 345,
-      "league": "02.01 (일)16:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "고양소노",
-      "awayTeam": "한국가스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.01 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 346,
       "league": "02.01 (일)20:15 마감",
       "sportText": "축구",
@@ -1140,8 +1050,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.07,
-        "away": 1.5
+        "home": 1.77,
+        "away": 1.71
       },
       "deadlineText": "02.01 (일)23:00 마감",
       "isSingle": false,
@@ -2567,7 +2477,7 @@
       "matchType": "handicap",
       "homeTeam": "뉴욕닉스",
       "awayTeam": "LA레이커",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -2576,7 +2486,7 @@
       "deadlineText": "02.02 (월)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 481,
