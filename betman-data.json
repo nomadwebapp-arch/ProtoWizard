@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.32,
-        "away": 2.55
+        "home": 1.57,
+        "away": 1.95
       },
       "deadlineText": "02.02 (월)11:00 마감",
       "isSingle": false,
@@ -170,7 +170,7 @@
       "matchType": "handicap",
       "homeTeam": "샌안스퍼",
       "awayTeam": "올랜매직",
-      "handicapValue": "H -5.5",
+      "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
         "home": 1.77,
@@ -179,7 +179,7 @@
       "deadlineText": "02.02 (월)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 461,
@@ -189,7 +189,7 @@
       "homeTeam": "샌안스퍼",
       "awayTeam": "올랜매직",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 223.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -197,7 +197,7 @@
       "deadlineText": "02.02 (월)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 462,
