@@ -2,80 +2,6 @@
   "roundNumber": "260014",
   "matches": [
     {
-      "gameNumber": 328,
-      "league": "02.01 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "센트매리",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.4,
-        "draw": 3.55,
-        "away": 1.53
-      },
-      "deadlineText": "02.01 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 329,
-      "league": "02.01 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "센트매리",
-      "awayTeam": "멜버빅토",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.24,
-        "draw": 3.25,
-        "away": 2.45
-      },
-      "deadlineText": "02.01 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 330,
-      "league": "02.01 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "센트매리",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.94,
-        "away": 1.58
-      },
-      "deadlineText": "02.01 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 331,
-      "league": "02.01 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "센트매리",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.01 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 332,
       "league": "02.01 (일)16:00 마감",
       "sportText": "농구",
@@ -708,8 +634,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.91,
-        "away": 1.6
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "02.01 (일)22:30 마감",
       "isSingle": false,
@@ -1061,8 +987,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.63,
+        "away": 1.87
       },
       "deadlineText": "02.01 (일)23:00 마감",
       "isSingle": true,
@@ -1097,9 +1023,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
+        "home": 1.92,
         "draw": 3.3,
-        "away": 3.6
+        "away": 2.95
       },
       "deadlineText": "02.01 (일)23:00 마감",
       "isSingle": false,
@@ -1116,9 +1042,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.1,
+        "home": 3.55,
         "draw": 3.55,
-        "away": 1.79
+        "away": 1.67
       },
       "deadlineText": "02.01 (일)23:00 마감",
       "isSingle": false,
@@ -2419,78 +2345,6 @@
       "isConditionChanged": false
     },
     {
-      "gameNumber": 459,
-      "league": "02.01 (일)23:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "샌안스퍼",
-      "awayTeam": "올랜매직",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.32,
-        "away": 2.55
-      },
-      "deadlineText": "02.01 (일)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 460,
-      "league": "02.01 (일)23:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "샌안스퍼",
-      "awayTeam": "올랜매직",
-      "handicapValue": "H -5.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "02.01 (일)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 461,
-      "league": "02.01 (일)23:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "샌안스퍼",
-      "awayTeam": "올랜매직",
-      "handicapValue": null,
-      "underOverValue": "U/O 225.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.01 (일)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 462,
-      "league": "02.01 (일)23:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "샌안스퍼",
-      "awayTeam": "올랜매직",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.01 (일)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 463,
       "league": "02.01 (일)23:00 마감",
       "sportText": "농구",
@@ -2774,6 +2628,78 @@
         "away": 1.74
       },
       "deadlineText": "02.01 (일)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 459,
+      "league": "02.02 (월)09:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "올랜매직",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.32,
+        "away": 2.55
+      },
+      "deadlineText": "02.02 (월)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 460,
+      "league": "02.02 (월)09:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "올랜매직",
+      "handicapValue": "H -5.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "02.02 (월)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 461,
+      "league": "02.02 (월)09:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "올랜매직",
+      "handicapValue": null,
+      "underOverValue": "U/O 225.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "02.02 (월)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 462,
+      "league": "02.02 (월)09:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "올랜매직",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.02 (월)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
