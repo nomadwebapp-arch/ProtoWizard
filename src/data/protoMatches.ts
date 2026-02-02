@@ -206,8 +206,8 @@ export const protoMatches: Match[] = [
     matchType: 'normal',
     isSingle: true,
     odds: {
-      home: 2.3,
-      draw: 2.8,
+      home: 2.37,
+      draw: 2.7,
       away: 2.7,
     },
     deadline: new Date('2026-02-02T14:00:00.000Z'),
@@ -301,8 +301,8 @@ export const protoMatches: Match[] = [
     awayTeam: '뉴올펠리',
     matchType: 'normal',
     odds: {
-      home: 1.17,
-      away: 3.39,
+      home: 1.21,
+      away: 3.1,
     },
     deadline: new Date('2026-02-02T14:00:00.000Z'),
     status: 'open',
