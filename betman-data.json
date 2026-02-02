@@ -324,7 +324,7 @@
       "homeTeam": "샬럿호네",
       "awayTeam": "뉴올펠리",
       "handicapValue": null,
-      "underOverValue": "U/O 234.5",
+      "underOverValue": "U/O 233.5",
       "odds": {
         "home": 1.73,
         "away": 1.75
@@ -332,7 +332,7 @@
       "deadlineText": "02.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 37,
