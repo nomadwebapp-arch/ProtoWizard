@@ -33,11 +33,20 @@ const getKSTFromUTC = (date: Date) => {
   };
 };
 
+// Monetag Direct Link 광고 설정
+const AD_DIRECT_LINK = 'https://otieu.com/4/10556510';
+const AD_FREQUENCY = 5; // 5번마다 광고
+
 function App() {
   const [combination, setCombination] = useState<Combination | null>(null);
   const [showShareModal, setShowShareModal] = useState(false);
   const [showMatchesModal, setShowMatchesModal] = useState(false);
   const combinationRef = useRef<HTMLDivElement>(null);
+
+  // 광고 관련 state
+  const [generateCount, setGenerateCount] = useState(0);
+  const [showAdModal, setShowAdModal] = useState(false);
+  const pendingGenerateRef = useRef(false);
 
   // Filter options state
   const [targetOdds, setTargetOdds] = useState(0);
@@ -69,7 +78,8 @@ function App() {
 
   const [selectedDates, setSelectedDates] = useState<string[]>([]);
 
-  const handleGenerate = () => {
+  // 실제 조합 생성 로직
+  const actualGenerate = () => {
     // 완전 랜덤 모드 체크
     const isFullRandom = targetOdds === 0 && matchCount === 0;
     const actualMatchCount = isFullRandom ? Math.floor(Math.random() * 9) + 2 : (matchCount || 3);
@@ -112,6 +122,33 @@ function App() {
     }
 
     setCombination(result.combination!);
+  };
+
+  const handleGenerate = () => {
+    const newCount = generateCount + 1;
+    setGenerateCount(newCount);
+
+    // N번마다 광고 모달 표시
+    if (newCount % AD_FREQUENCY === 0) {
+      pendingGenerateRef.current = true;
+      setShowAdModal(true);
+      return;
+    }
+
+    actualGenerate();
+  };
+
+  // 광고 확인 후 계속하기
+  const handleAdContinue = () => {
+    // 광고 링크 열기 (새 탭)
+    window.open(AD_DIRECT_LINK, '_blank');
+    setShowAdModal(false);
+
+    // 조합 생성 진행
+    if (pendingGenerateRef.current) {
+      pendingGenerateRef.current = false;
+      actualGenerate();
+    }
   };
 
   const handleReset = () => {
@@ -1085,6 +1122,91 @@ function App() {
           <br />
           또한 배팅 결과와 관련해서는 아무런 책임이 없음을 다시 한번 안내드립니다.
         </div>
+
+        {/* Ad Modal - 5번마다 표시 */}
+        {showAdModal && (
+          <div
+            style={{
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'rgba(0, 0, 0, 0.9)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              zIndex: 2000,
+            }}
+          >
+            <div
+              style={{
+                background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
+                padding: '32px',
+                borderRadius: '16px',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                maxWidth: '360px',
+                width: '90%',
+                textAlign: 'center',
+              }}
+            >
+              <div style={{ fontSize: '3rem', marginBottom: '16px' }}>🎰</div>
+              <h3 style={{
+                color: '#fff',
+                fontSize: '1.3rem',
+                marginBottom: '12px',
+                fontWeight: '600',
+              }}>
+                조합 생성 중...
+              </h3>
+              <p style={{
+                color: '#888',
+                fontSize: '0.9rem',
+                marginBottom: '24px',
+                lineHeight: '1.5',
+              }}>
+                계속하려면 아래 버튼을 눌러주세요
+              </p>
+              <button
+                onClick={handleAdContinue}
+                style={{
+                  width: '100%',
+                  padding: '16px 24px',
+                  background: 'linear-gradient(135deg, #4a9eff 0%, #2563eb 100%)',
+                  border: 'none',
+                  borderRadius: '12px',
+                  color: '#fff',
+                  fontSize: '1.1rem',
+                  fontWeight: '700',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '8px',
+                  transition: 'transform 0.2s, box-shadow 0.2s',
+                  boxShadow: '0 4px 15px rgba(74, 158, 255, 0.3)',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'scale(1.02)';
+                  e.currentTarget.style.boxShadow = '0 6px 20px rgba(74, 158, 255, 0.4)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'scale(1)';
+                  e.currentTarget.style.boxShadow = '0 4px 15px rgba(74, 158, 255, 0.3)';
+                }}
+              >
+                ▶️ 계속하기
+              </button>
+              <p style={{
+                color: '#555',
+                fontSize: '0.75rem',
+                marginTop: '16px',
+              }}>
+                서비스 운영을 위한 광고입니다
+              </p>
+            </div>
+          </div>
+        )}
       </main>
 
       {/* Vercel Analytics */}
