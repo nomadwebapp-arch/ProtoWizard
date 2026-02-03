@@ -2,150 +2,6 @@
   "roundNumber": "260015",
   "matches": [
     {
-      "gameNumber": 38,
-      "league": "02.03 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "인디페이",
-      "awayTeam": "휴스로케",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.72,
-        "away": 1.28
-      },
-      "deadlineText": "02.03 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 39,
-      "league": "02.03 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "인디페이",
-      "awayTeam": "휴스로케",
-      "handicapValue": "H +6.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "02.03 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 40,
-      "league": "02.03 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "인디페이",
-      "awayTeam": "휴스로케",
-      "handicapValue": null,
-      "underOverValue": "U/O 219.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.03 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 41,
-      "league": "02.03 (화)09:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "인디페이",
-      "awayTeam": "휴스로케",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.03 (화)09:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 42,
-      "league": "02.03 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "멤피그리",
-      "awayTeam": "미네울브",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.92,
-        "away": 1.24
-      },
-      "deadlineText": "02.03 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 43,
-      "league": "02.03 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "멤피그리",
-      "awayTeam": "미네울브",
-      "handicapValue": "H +7.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.03 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 44,
-      "league": "02.03 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "멤피그리",
-      "awayTeam": "미네울브",
-      "handicapValue": null,
-      "underOverValue": "U/O 231.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.03 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 45,
-      "league": "02.03 (화)09:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "멤피그리",
-      "awayTeam": "미네울브",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.03 (화)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 46,
       "league": "02.03 (화)12:00 마감",
       "sportText": "농구",
@@ -173,13 +29,13 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.66,
-        "away": 1.83
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "02.03 (화)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 48,
@@ -245,8 +101,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "away": 5
+        "home": 1.74,
+        "away": 4.75
       },
       "deadlineText": "02.03 (화)19:00 마감",
       "isSingle": true,
@@ -263,8 +119,8 @@
       "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "away": 1.77
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.03 (화)19:00 마감",
       "isSingle": true,
