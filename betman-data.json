@@ -170,7 +170,7 @@
       "matchType": "handicap",
       "homeTeam": "휴스로케",
       "awayTeam": "보스셀틱",
-      "handicapValue": "H -5.5",
+      "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.79,
@@ -179,7 +179,7 @@
       "deadlineText": "02.05 (목)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 77,
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.08,
-        "away": 4.47
+        "home": 1.11,
+        "away": 4.02
       },
       "deadlineText": "02.05 (목)11:30 마감",
       "isSingle": false,
@@ -477,7 +477,7 @@
       "homeTeam": "LA클리퍼",
       "awayTeam": "클리캐벌",
       "handicapValue": null,
-      "underOverValue": "U/O 224.5",
+      "underOverValue": "U/O 223.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -485,7 +485,7 @@
       "deadlineText": "02.05 (목)12:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 94,
