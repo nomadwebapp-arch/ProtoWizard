@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.18,
-        "away": 1.45
+        "home": 1.76,
+        "away": 1.72
       },
       "deadlineText": "02.04 (수)21:10 마감",
       "isSingle": false,
@@ -26,16 +26,16 @@
       "matchType": "handicap",
       "homeTeam": "홍콩이스",
       "awayTeam": "우츠노미",
-      "handicapValue": "H +3.5",
+      "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.66,
+        "away": 1.83
       },
       "deadlineText": "02.04 (수)21:10 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 29,
@@ -176,9 +176,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.1,
-        "draw": 3.45,
-        "away": 1.59
+        "home": 4,
+        "draw": 3.3,
+        "away": 1.64
       },
       "deadlineText": "02.04 (수)23:00 마감",
       "isSingle": true,
@@ -490,9 +490,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.38,
-        "draw": 2.8,
-        "away": 2.6
+        "home": 2.5,
+        "draw": 2.7,
+        "away": 2.55
       },
       "deadlineText": "02.04 (수)23:00 마감",
       "isSingle": true,
@@ -583,9 +583,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.81,
-        "draw": 3.35,
-        "away": 3.2
+        "home": 1.73,
+        "draw": 3.45,
+        "away": 3.4
       },
       "deadlineText": "02.04 (수)23:00 마감",
       "isSingle": true,
@@ -602,9 +602,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.05,
-        "draw": 3.65,
-        "away": 1.78
+        "home": 2.95,
+        "draw": 3.5,
+        "away": 1.86
       },
       "deadlineText": "02.04 (수)23:00 마감",
       "isSingle": true,
@@ -639,8 +639,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.94,
-        "away": 1.58
+        "home": 2.02,
+        "away": 1.53
       },
       "deadlineText": "02.04 (수)23:00 마감",
       "isSingle": true,
@@ -675,9 +675,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.61,
-        "draw": 3.65,
-        "away": 3.75
+        "home": 1.56,
+        "draw": 3.75,
+        "away": 3.9
       },
       "deadlineText": "02.04 (수)23:00 마감",
       "isSingle": true,
@@ -694,9 +694,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.75,
-        "draw": 3.4,
-        "away": 1.98
+        "home": 2.7,
+        "draw": 3.3,
+        "away": 2.04
       },
       "deadlineText": "02.04 (수)23:00 마감",
       "isSingle": true,
@@ -1475,9 +1475,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.31,
-        "draw": 3.2,
-        "away": 2.4
+        "home": 2.25,
+        "draw": 3,
+        "away": 2.6
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
