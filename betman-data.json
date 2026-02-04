@@ -2,78 +2,6 @@
   "roundNumber": "260016",
   "matches": [
     {
-      "gameNumber": 23,
-      "league": "02.04 (수)19:40 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "류큐골든",
-      "awayTeam": "타오위파",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.44,
-        "away": 2.2
-      },
-      "deadlineText": "02.04 (수)19:40 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 24,
-      "league": "02.04 (수)19:40 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "류큐골든",
-      "awayTeam": "타오위파",
-      "handicapValue": "H -4.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.84,
-        "away": 1.65
-      },
-      "deadlineText": "02.04 (수)19:40 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 25,
-      "league": "02.04 (수)19:40 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "류큐골든",
-      "awayTeam": "타오위파",
-      "handicapValue": null,
-      "underOverValue": "U/O 169.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "02.04 (수)19:40 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 26,
-      "league": "02.04 (수)19:40 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "류큐골든",
-      "awayTeam": "타오위파",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.04 (수)19:40 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 27,
       "league": "02.04 (수)21:10 마감",
       "sportText": "농구",
@@ -1143,7 +1071,7 @@
       "homeTeam": "샌안스퍼",
       "awayTeam": "오클썬더",
       "handicapValue": null,
-      "underOverValue": "U/O 226.5",
+      "underOverValue": "U/O 225.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1151,7 +1079,7 @@
       "deadlineText": "02.05 (목)11:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 86,
