@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.07,
-        "away": 4.65
+        "home": 1.13,
+        "away": 3.78
       },
       "deadlineText": "02.06 (금)09:00 마감",
       "isSingle": false,
@@ -98,7 +98,7 @@
       "matchType": "handicap",
       "homeTeam": "올랜매직",
       "awayTeam": "브루네츠",
-      "handicapValue": "H -10.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -107,7 +107,7 @@
       "deadlineText": "02.06 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 122,
@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.12,
-        "away": 3.9
+        "home": 1.16,
+        "away": 3.48
       },
       "deadlineText": "02.06 (금)09:30 마감",
       "isSingle": false,
@@ -189,7 +189,7 @@
       "homeTeam": "애틀호크",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 242.5",
+      "underOverValue": "U/O 245.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.14,
-        "away": 3.67
+        "home": 1.18,
+        "away": 3.31
       },
       "deadlineText": "02.06 (금)09:30 마감",
       "isSingle": false,
@@ -242,16 +242,16 @@
       "matchType": "handicap",
       "homeTeam": "토론랩터",
       "awayTeam": "시카불스",
-      "handicapValue": "H -8.5",
+      "handicapValue": "H -7.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.06 (금)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 130,
@@ -317,8 +317,8 @@
       "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.06 (금)10:00 마감",
       "isSingle": false,
@@ -371,8 +371,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.81,
-        "away": 1.26
+        "home": 3.48,
+        "away": 1.16
       },
       "deadlineText": "02.06 (금)10:30 마감",
       "isSingle": false,
@@ -386,11 +386,11 @@
       "matchType": "handicap",
       "homeTeam": "댈러매버",
       "awayTeam": "샌안스퍼",
-      "handicapValue": "H +6.5",
+      "handicapValue": "H +8.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.8,
-        "away": 1.68
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.06 (금)10:30 마감",
       "isSingle": false,
@@ -405,10 +405,10 @@
       "homeTeam": "댈러매버",
       "awayTeam": "샌안스퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 227.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.06 (금)10:30 마감",
       "isSingle": false,
@@ -443,8 +443,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.22,
-        "away": 3.03
+        "home": 1.26,
+        "away": 2.81
       },
       "deadlineText": "02.06 (금)12:00 마감",
       "isSingle": true,
@@ -461,8 +461,8 @@
       "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "away": 1.77
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "02.06 (금)12:00 마감",
       "isSingle": true,
@@ -477,7 +477,7 @@
       "homeTeam": "피닉선즈",
       "awayTeam": "골든워리",
       "handicapValue": null,
-      "underOverValue": "U/O 217.5",
+      "underOverValue": "U/O 216.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -485,7 +485,7 @@
       "deadlineText": "02.06 (금)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 143,
@@ -549,7 +549,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "필라76s",
       "handicapValue": null,
-      "underOverValue": "U/O 232.5",
+      "underOverValue": "U/O 234.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -557,7 +557,7 @@
       "deadlineText": "02.06 (금)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 147,
