@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.31,
-        "draw": 3.1,
-        "away": 2.45
+        "home": 2.36,
+        "draw": 2.95,
+        "away": 2.5
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -49,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.07,
-        "away": 1.5
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -159,9 +159,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.65,
-        "draw": 2.8,
-        "away": 2.34
+        "home": 2.7,
+        "draw": 2.75,
+        "away": 2.33
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -178,9 +178,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.52,
-        "draw": 3.4,
-        "away": 4.75
+        "home": 1.54,
+        "draw": 3.35,
+        "away": 4.65
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -252,9 +252,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.4,
-        "draw": 3.6,
-        "away": 1.52
+        "home": 4.3,
+        "draw": 3.5,
+        "away": 1.55
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -271,8 +271,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.95,
-        "away": 1.57
+        "home": 2.03,
+        "away": 1.52
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -682,7 +682,7 @@
       "matchType": "handicap",
       "homeTeam": "댈러매버",
       "awayTeam": "샌안스퍼",
-      "handicapValue": "H +5.5",
+      "handicapValue": "H +6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.8,
@@ -691,7 +691,7 @@
       "deadlineText": "02.06 (금)10:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 138,
@@ -701,7 +701,7 @@
       "homeTeam": "댈러매버",
       "awayTeam": "샌안스퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 227.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -709,7 +709,7 @@
       "deadlineText": "02.06 (금)10:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 139,
@@ -775,13 +775,13 @@
       "handicapValue": null,
       "underOverValue": "U/O 217.5",
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "02.06 (금)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 143,
