@@ -29,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 5.1,
-        "away": 1.61
+        "home": 4.75,
+        "away": 1.6
       },
       "deadlineText": "02.05 (목)19:00 마감",
       "isSingle": true,
@@ -44,16 +44,16 @@
       "matchType": "handicap",
       "homeTeam": "서울삼성",
       "awayTeam": "창원LG",
-      "handicapValue": "H +6.5",
+      "handicapValue": "H +7.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "02.05 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 98,
@@ -63,7 +63,7 @@
       "homeTeam": "서울삼성",
       "awayTeam": "창원LG",
       "handicapValue": null,
-      "underOverValue": "U/O 155.5",
+      "underOverValue": "U/O 154.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -71,7 +71,7 @@
       "deadlineText": "02.05 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 99,
@@ -120,9 +120,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.65,
-        "draw": 3.95,
-        "away": 1.44
+        "home": 4.55,
+        "draw": 3.75,
+        "away": 1.48
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -175,9 +175,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.95,
-        "draw": 3.2,
-        "away": 1.96
+        "home": 3.15,
+        "draw": 3.1,
+        "away": 1.91
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -541,8 +541,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.07,
-        "away": 4.65
+        "home": 1.12,
+        "away": 3.9
       },
       "deadlineText": "02.06 (금)09:30 마감",
       "isSingle": false,
@@ -556,7 +556,7 @@
       "matchType": "handicap",
       "homeTeam": "애틀호크",
       "awayTeam": "유타재즈",
-      "handicapValue": "H -10.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.79,
@@ -565,7 +565,7 @@
       "deadlineText": "02.06 (금)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 126,
