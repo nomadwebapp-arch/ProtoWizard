@@ -2,96 +2,6 @@
   "roundNumber": "260016",
   "matches": [
     {
-      "gameNumber": 95,
-      "league": "02.05 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울삼성",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.03,
-        "away": 1.22
-      },
-      "deadlineText": "02.05 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 96,
-      "league": "02.05 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울삼성",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.75,
-        "away": 1.6
-      },
-      "deadlineText": "02.05 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 97,
-      "league": "02.05 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "서울삼성",
-      "awayTeam": "창원LG",
-      "handicapValue": "H +7.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "02.05 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 98,
-      "league": "02.05 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "서울삼성",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": "U/O 154.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.05 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 99,
-      "league": "02.05 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "서울삼성",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.05 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 100,
       "league": "02.05 (목)23:00 마감",
       "sportText": "축구",
@@ -647,7 +557,7 @@
       "homeTeam": "토론랩터",
       "awayTeam": "시카불스",
       "handicapValue": null,
-      "underOverValue": "U/O 227.5",
+      "underOverValue": "U/O 226.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -655,7 +565,7 @@
       "deadlineText": "02.06 (금)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 131,
@@ -863,7 +773,7 @@
       "homeTeam": "피닉선즈",
       "awayTeam": "골든워리",
       "handicapValue": null,
-      "underOverValue": "U/O 218.5",
+      "underOverValue": "U/O 217.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -871,7 +781,7 @@
       "deadlineText": "02.06 (금)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 143,
