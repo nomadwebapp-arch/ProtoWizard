@@ -47,13 +47,13 @@
       "handicapValue": "H +7.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.8,
+        "away": 1.68
       },
       "deadlineText": "02.05 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 98,
@@ -194,9 +194,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "draw": 3.3,
-        "away": 3.7
+        "home": 1.72,
+        "draw": 3.25,
+        "away": 3.65
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
@@ -268,9 +268,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.49,
-        "draw": 3.5,
-        "away": 4.85
+        "home": 1.52,
+        "draw": 3.4,
+        "away": 4.75
       },
       "deadlineText": "02.05 (목)23:00 마감",
       "isSingle": true,
