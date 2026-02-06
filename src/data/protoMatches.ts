@@ -573,8 +573,8 @@ export const protoMatches: Match[] = [
     awayTeam: '마이히트',
     matchType: 'normal',
     odds: {
-      home: 1.2,
-      away: 3.16,
+      home: 1.24,
+      away: 2.92,
     },
     deadline: new Date('2026-02-07T00:30:00.000Z'),
     status: 'open',
@@ -677,7 +677,8 @@ export const protoMatches: Match[] = [
     homeTeam: '디트피스',
     awayTeam: '뉴욕닉스',
     matchType: 'underover',
-    underOverValue: 'U/O 225.5',
+    underOverValue: 'U/O 222.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,

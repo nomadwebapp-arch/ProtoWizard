@@ -567,8 +567,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.2,
-        "away": 3.16
+        "home": 1.24,
+        "away": 2.92
       },
       "deadlineText": "02.07 (토)09:30 마감",
       "isSingle": false,
@@ -673,7 +673,7 @@
       "homeTeam": "디트피스",
       "awayTeam": "뉴욕닉스",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 222.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -681,7 +681,7 @@
       "deadlineText": "02.07 (토)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 76,
