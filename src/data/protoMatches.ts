@@ -3071,8 +3071,8 @@ export const protoMatches: Match[] = [
     awayTeam: '휴스로케',
     matchType: 'normal',
     odds: {
-      home: 1.43,
-      away: 2.22,
+      home: 1.47,
+      away: 2.13,
     },
     deadline: new Date('2026-02-07T14:00:00.000Z'),
     status: 'open',
@@ -3142,8 +3142,8 @@ export const protoMatches: Match[] = [
     awayTeam: '댈러매버',
     matchType: 'normal',
     odds: {
-      home: 1.07,
-      away: 4.65,
+      home: 1.1,
+      away: 4.16,
     },
     deadline: new Date('2026-02-07T14:00:00.000Z'),
     status: 'open',
@@ -3212,8 +3212,8 @@ export const protoMatches: Match[] = [
     awayTeam: '유타재즈',
     matchType: 'normal',
     odds: {
-      home: 1.12,
-      away: 3.9,
+      home: 1.15,
+      away: 3.57,
     },
     deadline: new Date('2026-02-08T00:00:00.000Z'),
     status: 'open',
