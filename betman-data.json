@@ -2,80 +2,6 @@
   "roundNumber": "260017",
   "matches": [
     {
-      "gameNumber": 158,
-      "league": "02.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "웨스원더",
-      "awayTeam": "멜버시티",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.16,
-        "draw": 3.1,
-        "away": 2.65
-      },
-      "deadlineText": "02.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 159,
-      "league": "02.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "웨스원더",
-      "awayTeam": "멜버시티",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.4,
-        "draw": 3.65,
-        "away": 1.51
-      },
-      "deadlineText": "02.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 160,
-      "league": "02.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "웨스원더",
-      "awayTeam": "멜버시티",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.73,
-        "away": 1.75
-      },
-      "deadlineText": "02.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 161,
-      "league": "02.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "웨스원더",
-      "awayTeam": "멜버시티",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 162,
       "league": "02.07 (토)21:30 마감",
       "sportText": "축구",
@@ -660,9 +586,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.9,
-        "draw": 3.6,
-        "away": 1.59
+        "home": 4.05,
+        "draw": 3.75,
+        "away": 1.54
       },
       "deadlineText": "02.07 (토)23:00 마감",
       "isSingle": true,
@@ -753,9 +679,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.7,
-        "draw": 3.25,
-        "away": 1.71
+        "home": 3.9,
+        "draw": 3.3,
+        "away": 1.66
       },
       "deadlineText": "02.07 (토)23:00 마감",
       "isSingle": true,
@@ -772,9 +698,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.9,
-        "draw": 3.3,
-        "away": 3
+        "home": 1.95,
+        "draw": 3.35,
+        "away": 2.85
       },
       "deadlineText": "02.07 (토)23:00 마감",
       "isSingle": true,
@@ -3138,7 +3064,7 @@
       "matchType": "handicap",
       "homeTeam": "오클썬더",
       "awayTeam": "휴스로케",
-      "handicapValue": "H -4.5",
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 1.78,
@@ -3147,7 +3073,7 @@
       "deadlineText": "02.07 (토)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 332,
