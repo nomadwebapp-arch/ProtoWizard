@@ -7653,11 +7653,11 @@
     },
     {
       "gameNumber": 418,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "normal",
       "homeTeam": "위트레흐",
-      "awayTeam": "페예노르",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
@@ -7665,18 +7665,18 @@
         "draw": 3.3,
         "away": 1.92
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 419,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "handicap",
       "homeTeam": "위트레흐",
-      "awayTeam": "페예노르",
+      "awayTeam": "점수",
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
@@ -7684,14 +7684,14 @@
         "draw": 3.5,
         "away": 3.65
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 420,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "underover",
       "homeTeam": "위트레흐",
@@ -7702,14 +7702,14 @@
         "home": 1.97,
         "away": 1.56
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 421,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "sum",
       "homeTeam": "위트레흐",
@@ -7720,18 +7720,18 @@
         "home": 1.75,
         "away": 1.73
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 422,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "normal",
       "homeTeam": "볼로냐",
-      "awayTeam": "파르마",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
@@ -7739,18 +7739,18 @@
         "draw": 3.45,
         "away": 4.85
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 423,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "handicap",
       "homeTeam": "볼로냐",
-      "awayTeam": "파르마",
+      "awayTeam": "점수",
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
@@ -7758,14 +7758,14 @@
         "draw": 3.1,
         "away": 2.1
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 424,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "underover",
       "homeTeam": "볼로냐",
@@ -7776,14 +7776,14 @@
         "home": 1.7,
         "away": 1.78
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 425,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "sum",
       "homeTeam": "볼로냐",
@@ -7794,18 +7794,18 @@
         "home": 1.75,
         "away": 1.73
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 426,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "normal",
       "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
@@ -7813,18 +7813,18 @@
         "draw": 4.2,
         "away": 8.5
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 427,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "handicap",
       "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
+      "awayTeam": "점수",
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
@@ -7832,18 +7832,18 @@
         "draw": 3.3,
         "away": 3.5
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 428,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "handicap",
       "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
+      "awayTeam": "점수",
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
@@ -7851,32 +7851,32 @@
         "draw": 3.45,
         "away": 1.83
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 429,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "handicap",
       "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
+      "awayTeam": "점수",
       "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 5.08,
         "away": 1.05
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 430,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "underover",
       "homeTeam": "스완지C",
@@ -7887,14 +7887,14 @@
         "home": 1.89,
         "away": 1.61
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 431,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "sum",
       "homeTeam": "스완지C",
@@ -7905,18 +7905,18 @@
         "home": 1.75,
         "away": 1.73
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 432,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "normal",
       "homeTeam": "알라베스",
-      "awayTeam": "헤타페",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
@@ -7924,18 +7924,18 @@
         "draw": 2.45,
         "away": 3.6
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 433,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "handicap",
       "homeTeam": "알라베스",
-      "awayTeam": "헤타페",
+      "awayTeam": "점수",
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
@@ -7943,14 +7943,14 @@
         "draw": 3.05,
         "away": 1.58
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 434,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "underover",
       "homeTeam": "알라베스",
@@ -7961,14 +7961,14 @@
         "home": 1.24,
         "away": 2.92
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 435,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "축구",
       "matchType": "sum",
       "homeTeam": "알라베스",
@@ -7979,7 +7979,7 @@
         "home": 1.78,
         "away": 1.7
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
