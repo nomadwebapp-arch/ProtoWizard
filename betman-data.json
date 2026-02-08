@@ -2,154 +2,6 @@
   "roundNumber": "260017",
   "matches": [
     {
-      "gameNumber": 418,
-      "league": "02.08 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "위트레흐",
-      "awayTeam": "페예노르",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.95,
-        "draw": 3.3,
-        "away": 1.92
-      },
-      "deadlineText": "02.08 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 419,
-      "league": "02.08 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "위트레흐",
-      "awayTeam": "페예노르",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.66,
-        "draw": 3.5,
-        "away": 3.65
-      },
-      "deadlineText": "02.08 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 420,
-      "league": "02.08 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "위트레흐",
-      "awayTeam": "페예노르",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.97,
-        "away": 1.56
-      },
-      "deadlineText": "02.08 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 421,
-      "league": "02.08 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "위트레흐",
-      "awayTeam": "페예노르",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.08 (일)20:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 422,
-      "league": "02.08 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "볼로냐",
-      "awayTeam": "파르마",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.5,
-        "draw": 3.45,
-        "away": 4.85
-      },
-      "deadlineText": "02.08 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 423,
-      "league": "02.08 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "볼로냐",
-      "awayTeam": "파르마",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.75,
-        "draw": 3.1,
-        "away": 2.1
-      },
-      "deadlineText": "02.08 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 424,
-      "league": "02.08 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "볼로냐",
-      "awayTeam": "파르마",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "02.08 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 425,
-      "league": "02.08 (일)20:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "볼로냐",
-      "awayTeam": "파르마",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.08 (일)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 426,
       "league": "02.08 (일)21:01 마감",
       "sportText": "축구",
@@ -197,9 +49,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 3.6,
-        "away": 1.75
+        "home": 3.05,
+        "draw": 3.45,
+        "away": 1.83
       },
       "deadlineText": "02.08 (일)21:01 마감",
       "isSingle": false,
@@ -492,9 +344,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.86,
-        "draw": 3.2,
-        "away": 3.2
+        "home": 1.81,
+        "draw": 3.15,
+        "away": 3.4
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": true,
@@ -659,9 +511,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.75,
-        "draw": 3.5,
-        "away": 1.95
+        "home": 2.85,
+        "draw": 3.3,
+        "away": 1.97
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
@@ -900,9 +752,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4,
-        "draw": 3.75,
-        "away": 1.55
+        "home": 4.25,
+        "draw": 3.85,
+        "away": 1.5
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
@@ -919,9 +771,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.11,
+        "home": 2.2,
         "draw": 3.55,
-        "away": 2.45
+        "away": 2.35
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
@@ -974,8 +826,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 2.85,
+        "home": 3.35,
+        "draw": 2.75,
         "away": 2
       },
       "deadlineText": "02.08 (일)23:00 마감",
@@ -1122,9 +974,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.4,
-        "draw": 3.1,
-        "away": 1.83
+        "home": 3.55,
+        "draw": 3.15,
+        "away": 1.77
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
@@ -1160,8 +1012,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.68,
-        "away": 1.8
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
@@ -1196,9 +1048,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.17,
-        "draw": 3.4,
-        "away": 2.45
+        "home": 2.14,
+        "draw": 3.3,
+        "away": 2.55
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": true,
@@ -1253,8 +1105,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.48,
-        "away": 2.11
+        "home": 1.54,
+        "away": 2
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": true,
