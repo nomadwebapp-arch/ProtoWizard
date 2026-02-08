@@ -925,9 +925,9 @@ export const protoMatches: Match[] = [
     matchType: 'handicap',
     handicapValue: 'H +1.0',
     odds: {
-      home: 2.06,
-      draw: 3.5,
-      away: 2.55,
+      home: 2.11,
+      draw: 3.55,
+      away: 2.45,
     },
     deadline: new Date('2026-02-08T14:00:00.000Z'),
     status: 'open',
