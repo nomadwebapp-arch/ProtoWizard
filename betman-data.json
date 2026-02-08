@@ -2,191 +2,6 @@
   "roundNumber": "260017",
   "matches": [
     {
-      "gameNumber": 426,
-      "league": "02.08 (일)21:01 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.24,
-        "draw": 4.2,
-        "away": 8.5
-      },
-      "deadlineText": "02.08 (일)21:01 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 427,
-      "league": "02.08 (일)21:01 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "draw": 3.3,
-        "away": 3.5
-      },
-      "deadlineText": "02.08 (일)21:01 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 428,
-      "league": "02.08 (일)21:01 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.05,
-        "draw": 3.45,
-        "away": 1.83
-      },
-      "deadlineText": "02.08 (일)21:01 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 429,
-      "league": "02.08 (일)21:01 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 5.08,
-        "away": 1.05
-      },
-      "deadlineText": "02.08 (일)21:01 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 430,
-      "league": "02.08 (일)21:01 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.89,
-        "away": 1.61
-      },
-      "deadlineText": "02.08 (일)21:01 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 431,
-      "league": "02.08 (일)21:01 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "스완지C",
-      "awayTeam": "셰필드웬",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.08 (일)21:01 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 432,
-      "league": "02.08 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "알라베스",
-      "awayTeam": "헤타페",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.13,
-        "draw": 2.5,
-        "away": 3.4
-      },
-      "deadlineText": "02.08 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 433,
-      "league": "02.08 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "알라베스",
-      "awayTeam": "헤타페",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 5.1,
-        "draw": 3.15,
-        "away": 1.54
-      },
-      "deadlineText": "02.08 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 434,
-      "league": "02.08 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "알라베스",
-      "awayTeam": "헤타페",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.21,
-        "away": 3.1
-      },
-      "deadlineText": "02.08 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 435,
-      "league": "02.08 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "알라베스",
-      "awayTeam": "헤타페",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "02.08 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 436,
       "league": "02.08 (일)22:30 마감",
       "sportText": "축구",
@@ -1067,9 +882,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.9,
-        "draw": 3.9,
-        "away": 1.54
+        "home": 3.8,
+        "draw": 3.75,
+        "away": 1.58
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": true,
@@ -1086,9 +901,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 8.1,
-        "draw": 5.9,
-        "away": 1.15
+        "home": 7.5,
+        "draw": 5.5,
+        "away": 1.18
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": true,
@@ -1473,8 +1288,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 215.5",
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.7,
+        "away": 1.78
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": true,
@@ -1509,8 +1324,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 5.08,
-        "away": 1.05
+        "home": 4.47,
+        "away": 1.08
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
@@ -1912,8 +1727,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.14,
-        "away": 3.67
+        "home": 1.17,
+        "away": 3.39
       },
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
@@ -1946,7 +1761,7 @@
       "homeTeam": "미네울브",
       "awayTeam": "LA클리퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 224.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -1954,7 +1769,7 @@
       "deadlineText": "02.08 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 532,
