@@ -9630,43 +9630,43 @@
     },
     {
       "gameNumber": 525,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "토론랩터",
-      "awayTeam": "인디페이",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.13,
         "away": 3.78
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 526,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "토론랩터",
-      "awayTeam": "인디페이",
+      "awayTeam": "점수",
       "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
         "home": 1.75,
         "away": 1.73
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 527,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "토론랩터",
@@ -9677,14 +9677,14 @@
         "home": 1.73,
         "away": 1.75
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 528,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "토론랩터",
@@ -9695,50 +9695,50 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 529,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "미네울브",
-      "awayTeam": "LA클리퍼",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.17,
         "away": 3.39
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 530,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "미네울브",
-      "awayTeam": "LA클리퍼",
+      "awayTeam": "점수",
       "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
         "home": 1.76,
         "away": 1.72
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 531,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "미네울브",
@@ -9749,14 +9749,14 @@
         "home": 1.72,
         "away": 1.76
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": true
     },
     {
       "gameNumber": 532,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "sum",
       "homeTeam": "미네울브",
@@ -9767,7 +9767,7 @@
         "home": 1.74,
         "away": 1.74
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
