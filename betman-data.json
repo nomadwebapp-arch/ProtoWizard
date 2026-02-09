@@ -1126,7 +1126,7 @@
       "homeTeam": "덴버너게",
       "awayTeam": "클리캐벌",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 237.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1134,7 +1134,7 @@
       "deadlineText": "02.10 (화)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 81,
@@ -1198,15 +1198,15 @@
       "homeTeam": "골든워리",
       "awayTeam": "멤피그리",
       "handicapValue": null,
-      "underOverValue": "U/O 226.5",
+      "underOverValue": "U/O 225.5",
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "02.10 (화)12:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 85,
@@ -1270,7 +1270,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "오클썬더",
       "handicapValue": null,
-      "underOverValue": "U/O 219.5",
+      "underOverValue": "U/O 222.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1278,7 +1278,7 @@
       "deadlineText": "02.10 (화)12:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 89,
@@ -1676,9 +1676,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 2.9,
-        "away": 1.98
+        "home": 4,
+        "draw": 3.35,
+        "away": 1.63
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
@@ -1695,9 +1695,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.62,
-        "draw": 3.6,
-        "away": 3.75
+        "home": 1.99,
+        "draw": 3.3,
+        "away": 2.8
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
