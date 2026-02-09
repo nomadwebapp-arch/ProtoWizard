@@ -45,7 +45,7 @@
       "homeTeam": "샬럿호네",
       "awayTeam": "디트피스",
       "handicapValue": null,
-      "underOverValue": "U/O 224.5",
+      "underOverValue": "U/O 222.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -53,7 +53,7 @@
       "deadlineText": "02.10 (화)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 57,
@@ -189,7 +189,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 240.5",
+      "underOverValue": "U/O 237.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.24,
-        "away": 2.92
+        "home": 1.19,
+        "away": 3.24
       },
       "deadlineText": "02.10 (화)10:00 마감",
       "isSingle": false,
@@ -314,7 +314,7 @@
       "matchType": "handicap",
       "homeTeam": "미네울브",
       "awayTeam": "애틀호크",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -323,7 +323,7 @@
       "deadlineText": "02.10 (화)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 72,
@@ -333,7 +333,7 @@
       "homeTeam": "미네울브",
       "awayTeam": "애틀호크",
       "handicapValue": null,
-      "underOverValue": "U/O 238.5",
+      "underOverValue": "U/O 236.5",
       "odds": {
         "home": 1.71,
         "away": 1.77
@@ -341,7 +341,7 @@
       "deadlineText": "02.10 (화)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 73,
@@ -405,15 +405,15 @@
       "homeTeam": "뉴올펠리",
       "awayTeam": "새크킹스",
       "handicapValue": null,
-      "underOverValue": "U/O 234.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
-        "home": 1.66,
-        "away": 1.83
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.10 (화)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 77,
@@ -515,8 +515,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.22,
-        "away": 3.03
+        "home": 1.1,
+        "away": 4.16
       },
       "deadlineText": "02.10 (화)12:00 마감",
       "isSingle": false,
@@ -530,16 +530,16 @@
       "matchType": "handicap",
       "homeTeam": "골든워리",
       "awayTeam": "멤피그리",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.10 (화)12:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 84,
@@ -549,15 +549,15 @@
       "homeTeam": "골든워리",
       "awayTeam": "멤피그리",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 218.5",
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.10 (화)12:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 85,
@@ -602,7 +602,7 @@
       "matchType": "handicap",
       "homeTeam": "LA레이커",
       "awayTeam": "오클썬더",
-      "handicapValue": "H +5.5",
+      "handicapValue": "H +6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.7,
@@ -611,7 +611,7 @@
       "deadlineText": "02.10 (화)12:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 88,
@@ -2132,9 +2132,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.2,
+        "home": 2.38,
         "draw": 2.85,
-        "away": 2.8
+        "away": 2.55
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": false,
@@ -2151,9 +2151,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.65,
-        "draw": 3.5,
-        "away": 1.51
+        "home": 5,
+        "draw": 3.8,
+        "away": 1.43
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": false,
