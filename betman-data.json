@@ -2,154 +2,6 @@
   "roundNumber": "260018",
   "matches": [
     {
-      "gameNumber": 19,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "U알와흐",
-      "awayTeam": "알아흘사",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3,
-        "draw": 3.1,
-        "away": 1.97
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 20,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "U알와흐",
-      "awayTeam": "알아흘사",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.7,
-        "draw": 3.45,
-        "away": 3.5
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 21,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "U알와흐",
-      "awayTeam": "알아흘사",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.13,
-        "away": 1.47
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 22,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "U알와흐",
-      "awayTeam": "알아흘사",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 23,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "나사프",
-      "awayTeam": "알쇼르타",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.26,
-        "draw": 3.05,
-        "away": 2.55
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 24,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "나사프",
-      "awayTeam": "알쇼르타",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.3,
-        "draw": 3.8,
-        "away": 1.5
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 25,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "나사프",
-      "awayTeam": "알쇼르타",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.94,
-        "away": 1.58
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 26,
-      "league": "02.09 (월)22:45 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "나사프",
-      "awayTeam": "알쇼르타",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.09 (월)22:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 27,
       "league": "02.09 (월)23:00 마감",
       "sportText": "축구",
@@ -252,9 +104,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.82,
-        "draw": 3.5,
-        "away": 3.05
+        "home": 1.77,
+        "draw": 3.55,
+        "away": 3.15
       },
       "deadlineText": "02.09 (월)23:00 마감",
       "isSingle": true,
@@ -768,8 +620,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 224.5",
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.10 (화)09:30 마감",
       "isSingle": false,
@@ -838,7 +690,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 245.5",
+      "underOverValue": "U/O 243.5",
       "odds": {
         "home": 1.67,
         "away": 1.82
@@ -846,7 +698,7 @@
       "deadlineText": "02.10 (화)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 65,
@@ -1200,13 +1052,13 @@
       "handicapValue": null,
       "underOverValue": "U/O 225.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "02.10 (화)12:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 85,
