@@ -45,7 +45,7 @@
       "homeTeam": "뉴욕닉스",
       "awayTeam": "인디페이",
       "handicapValue": null,
-      "underOverValue": "U/O 224.5",
+      "underOverValue": "U/O 225.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -53,7 +53,7 @@
       "deadlineText": "02.11 (수)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 190,
@@ -117,7 +117,7 @@
       "homeTeam": "휴스로케",
       "awayTeam": "LA클리퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 211.5",
+      "underOverValue": "U/O 214.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -125,7 +125,7 @@
       "deadlineText": "02.11 (수)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 194,
@@ -170,7 +170,7 @@
       "matchType": "handicap",
       "homeTeam": "피닉선즈",
       "awayTeam": "댈러매버",
-      "handicapValue": "H -7.5",
+      "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
         "home": 1.72,
@@ -179,7 +179,7 @@
       "deadlineText": "02.11 (수)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 197,
@@ -189,7 +189,7 @@
       "homeTeam": "피닉선즈",
       "awayTeam": "댈러매버",
       "handicapValue": null,
-      "underOverValue": "U/O 226.5",
+      "underOverValue": "U/O 227.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -197,7 +197,7 @@
       "deadlineText": "02.11 (수)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 198,
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.39,
-        "away": 1.17
+        "home": 5.92,
+        "away": 1.02
       },
       "deadlineText": "02.11 (수)12:30 마감",
       "isSingle": true,
@@ -242,16 +242,16 @@
       "matchType": "handicap",
       "homeTeam": "LA레이커",
       "awayTeam": "샌안스퍼",
-      "handicapValue": "H +8.5",
+      "handicapValue": "H +12.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.11 (수)12:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 201,
@@ -261,7 +261,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "샌안스퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 229.5",
+      "underOverValue": "U/O 223.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -269,7 +269,7 @@
       "deadlineText": "02.11 (수)12:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 202,
