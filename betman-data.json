@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.55,
-        "draw": 3.4,
-        "away": 4.45
+        "home": 1.49,
+        "draw": 3.65,
+        "away": 4.6
       },
       "deadlineText": "02.10 (화)19:00 마감",
       "isSingle": true,
@@ -30,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3.15,
-        "away": 2.11
+        "home": 2.65,
+        "draw": 3.1,
+        "away": 2.16
       },
       "deadlineText": "02.10 (화)19:00 마감",
       "isSingle": true,
@@ -267,8 +267,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.5,
-        "away": 2.07
+        "home": 1.46,
+        "away": 2.15
       },
       "deadlineText": "02.10 (화)19:00 마감",
       "isSingle": true,
@@ -285,8 +285,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 181.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.10 (화)19:00 마감",
       "isSingle": true,
@@ -339,8 +339,8 @@
       "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.52,
-        "away": 2.03
+        "home": 1.57,
+        "away": 1.95
       },
       "deadlineText": "02.10 (화)19:00 마감",
       "isSingle": true,
@@ -467,9 +467,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.75,
-        "draw": 3.2,
-        "away": 2.06
+        "home": 2.8,
+        "draw": 3.3,
+        "away": 1.99
       },
       "deadlineText": "02.10 (화)21:15 마감",
       "isSingle": true,
@@ -486,9 +486,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.57,
-        "draw": 3.7,
-        "away": 3.9
+        "home": 1.63,
+        "draw": 3.65,
+        "away": 3.65
       },
       "deadlineText": "02.10 (화)21:15 마감",
       "isSingle": true,
@@ -541,9 +541,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.93,
+        "home": 1.86,
         "draw": 2.85,
-        "away": 3.4
+        "away": 3.65
       },
       "deadlineText": "02.10 (화)22:45 마감",
       "isSingle": false,
@@ -560,9 +560,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.95,
+        "home": 3.35,
         "draw": 3.25,
-        "away": 1.66
+        "away": 1.8
       },
       "deadlineText": "02.10 (화)22:45 마감",
       "isSingle": false,
@@ -708,9 +708,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.99,
+        "home": 2.04,
         "draw": 3.3,
-        "away": 2.8
+        "away": 2.7
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
@@ -1338,9 +1338,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.81,
-        "draw": 3.05,
-        "away": 3.55
+        "home": 1.69,
+        "draw": 3.15,
+        "away": 3.95
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": false,
@@ -1357,9 +1357,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.5,
-        "draw": 3.25,
-        "away": 1.76
+        "home": 3.3,
+        "draw": 3.2,
+        "away": 1.83
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": false,
@@ -1505,9 +1505,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.01,
-        "draw": 3.4,
-        "away": 2.7
+        "home": 2.08,
+        "draw": 3.35,
+        "away": 2.6
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
