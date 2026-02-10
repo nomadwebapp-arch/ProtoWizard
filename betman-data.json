@@ -104,9 +104,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.75,
+        "home": 2.85,
         "draw": 3.2,
-        "away": 2.06
+        "away": 2
       },
       "deadlineText": "02.10 (화)19:00 마감",
       "isSingle": true,
@@ -211,7 +211,7 @@
       "homeTeam": "한국가스",
       "awayTeam": "창원LG",
       "handicapValue": null,
-      "underOverValue": "U/O 153.5",
+      "underOverValue": "U/O 152.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -219,7 +219,7 @@
       "deadlineText": "02.10 (화)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 106,
@@ -393,9 +393,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
+        "home": 2,
         "draw": 3.1,
-        "away": 3.15
+        "away": 2.95
       },
       "deadlineText": "02.10 (화)21:15 마감",
       "isSingle": true,
@@ -412,9 +412,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
+        "home": 3.65,
         "draw": 3.5,
-        "away": 1.73
+        "away": 1.66
       },
       "deadlineText": "02.10 (화)21:15 마감",
       "isSingle": true,
@@ -1023,9 +1023,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.6,
-        "draw": 3.1,
-        "away": 2.2
+        "home": 2.85,
+        "draw": 3.05,
+        "away": 2.07
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
@@ -1042,9 +1042,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.5,
-        "draw": 3.7,
-        "away": 4.45
+        "home": 1.59,
+        "draw": 3.65,
+        "away": 3.85
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
@@ -1061,9 +1061,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.1,
-        "draw": 6.3,
-        "away": 10.5
+        "home": 1.16,
+        "draw": 5.9,
+        "away": 7.6
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
@@ -1080,8 +1080,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.83,
-        "away": 1.66
+        "home": 1.91,
+        "away": 1.6
       },
       "deadlineText": "02.10 (화)23:00 마감",
       "isSingle": true,
