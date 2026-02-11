@@ -2,1007 +2,6 @@
   "roundNumber": "260019",
   "matches": [
     {
-      "gameNumber": 51,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "세파한SC",
-      "awayTeam": "Q알아흘",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.12,
-        "draw": 2.8,
-        "away": 3
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 52,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "세파한SC",
-      "awayTeam": "Q알아흘",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.2,
-        "draw": 3.35,
-        "away": 1.6
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 53,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "세파한SC",
-      "awayTeam": "Q알아흘",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.54,
-        "away": 2
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 54,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "세파한SC",
-      "awayTeam": "Q알아흘",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 55,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "고어헤드",
-      "awayTeam": "헤이렌베",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.31,
-        "draw": 3.2,
-        "away": 2.4
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 56,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "고어헤드",
-      "awayTeam": "헤이렌베",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.7,
-        "draw": 3.7,
-        "away": 1.47
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 57,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "고어헤드",
-      "awayTeam": "헤이렌베",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.15,
-        "away": 1.46
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 58,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "고어헤드",
-      "awayTeam": "헤이렌베",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 59,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "A빌라",
-      "awayTeam": "브라이턴",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.69,
-        "draw": 3.5,
-        "away": 3.5
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 60,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "A빌라",
-      "awayTeam": "브라이턴",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.2,
-        "draw": 3.35,
-        "away": 1.81
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 61,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "A빌라",
-      "awayTeam": "브라이턴",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 6.5,
-        "draw": 4.65,
-        "away": 1.26
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 62,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "A빌라",
-      "awayTeam": "브라이턴",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.15,
-        "away": 1.46
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 63,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "A빌라",
-      "awayTeam": "브라이턴",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 64,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "크리스털",
-      "awayTeam": "번리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.42,
-        "draw": 3.55,
-        "away": 5.7
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 65,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "크리스털",
-      "awayTeam": "번리",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.36,
-        "draw": 2.95,
-        "away": 2.5
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 66,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "크리스털",
-      "awayTeam": "번리",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.45,
-        "draw": 3.8,
-        "away": 1.48
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 67,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "크리스털",
-      "awayTeam": "번리",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 68,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "크리스털",
-      "awayTeam": "번리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 69,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "맨체스C",
-      "awayTeam": "풀럼",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.23,
-        "draw": 4.9,
-        "away": 6.9
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 70,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "맨체스C",
-      "awayTeam": "풀럼",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.79,
-        "draw": 3.7,
-        "away": 3
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 71,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "맨체스C",
-      "awayTeam": "풀럼",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.05,
-        "draw": 3.65,
-        "away": 1.78
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 72,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "맨체스C",
-      "awayTeam": "풀럼",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.65,
-        "away": 1.07
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 73,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "맨체스C",
-      "awayTeam": "풀럼",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.55,
-        "away": 1.98
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 74,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "맨체스C",
-      "awayTeam": "풀럼",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 75,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "노팅엄포",
-      "awayTeam": "울버햄프",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.55,
-        "draw": 3.3,
-        "away": 4.65
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 76,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "노팅엄포",
-      "awayTeam": "울버햄프",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.75,
-        "draw": 3,
-        "away": 2.15
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 77,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "노팅엄포",
-      "awayTeam": "울버햄프",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 5.4,
-        "draw": 4.15,
-        "away": 1.36
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 78,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "노팅엄포",
-      "awayTeam": "울버햄프",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.67,
-        "away": 1.82
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 79,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "노팅엄포",
-      "awayTeam": "울버햄프",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 80,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "찰턴",
-      "awayTeam": "스토크C",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.46,
-        "draw": 2.75,
-        "away": 2.55
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 81,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "찰턴",
-      "awayTeam": "스토크C",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 6,
-        "draw": 3.7,
-        "away": 1.38
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 82,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "찰턴",
-      "awayTeam": "스토크C",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.47,
-        "away": 2.13
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 83,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "찰턴",
-      "awayTeam": "스토크C",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 84,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "바이뮌헨",
-      "awayTeam": "라이프치",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.21,
-        "draw": 5.2,
-        "away": 6.9
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 85,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "바이뮌헨",
-      "awayTeam": "라이프치",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.59,
-        "draw": 3.95,
-        "away": 3.55
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 86,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "바이뮌헨",
-      "awayTeam": "라이프치",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 2.03,
-        "away": 1.52
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 87,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "바이뮌헨",
-      "awayTeam": "라이프치",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 88,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "빌바오",
-      "awayTeam": "소시에다",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.09,
-        "draw": 2.8,
-        "away": 3.05
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 89,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "빌바오",
-      "awayTeam": "소시에다",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.65,
-        "draw": 3.3,
-        "away": 1.55
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 90,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "빌바오",
-      "awayTeam": "소시에다",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.58,
-        "away": 1.94
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 91,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "빌바오",
-      "awayTeam": "소시에다",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 92,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "네이메헌",
-      "awayTeam": "위트레흐",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.53,
-        "draw": 3.55,
-        "away": 4.4
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 93,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "네이메헌",
-      "awayTeam": "위트레흐",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.65,
-        "draw": 3.4,
-        "away": 2.04
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 94,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "네이메헌",
-      "awayTeam": "위트레흐",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.11,
-        "away": 1.48
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 95,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "네이메헌",
-      "awayTeam": "위트레흐",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 96,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "볼로냐",
-      "awayTeam": "라치오",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.03,
-        "draw": 2.75,
-        "away": 3.25
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 97,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "볼로냐",
-      "awayTeam": "라치오",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.1,
-        "draw": 3.25,
-        "away": 1.64
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 98,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "볼로냐",
-      "awayTeam": "라치오",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.43,
-        "away": 2.22
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 99,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "볼로냐",
-      "awayTeam": "라치오",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 100,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "선덜랜드",
-      "awayTeam": "리버풀",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.3,
-        "draw": 3.4,
-        "away": 1.57
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 101,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "선덜랜드",
-      "awayTeam": "리버풀",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.01,
-        "draw": 3.25,
-        "away": 2.8
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 102,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "선덜랜드",
-      "awayTeam": "리버풀",
-      "handicapValue": "H +2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.32,
-        "draw": 4.5,
-        "away": 5.5
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 103,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "선덜랜드",
-      "awayTeam": "리버풀",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.91,
-        "away": 1.6
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 104,
-      "league": "02.11 (수)23:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "선덜랜드",
-      "awayTeam": "리버풀",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.11 (수)23:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 105,
       "league": "02.12 (목)09:00 마감",
       "sportText": "농구",
@@ -2039,9 +1038,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.53,
-        "draw": 3.5,
-        "away": 4.5
+        "home": 1.57,
+        "draw": 3.45,
+        "away": 4.25
       },
       "deadlineText": "02.12 (목)19:00 마감",
       "isSingle": false,
@@ -2081,6 +1080,96 @@
       },
       "deadlineText": "02.12 (목)19:00 마감",
       "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 165,
+      "league": "02.12 (목)19:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "울산모비",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.47,
+        "away": 2.13
+      },
+      "deadlineText": "02.12 (목)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 166,
+      "league": "02.12 (목)19:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "울산모비",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.08,
+        "away": 3.45
+      },
+      "deadlineText": "02.12 (목)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 167,
+      "league": "02.12 (목)19:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "울산모비",
+      "awayTeam": "서울삼성",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.79,
+        "away": 1.69
+      },
+      "deadlineText": "02.12 (목)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 168,
+      "league": "02.12 (목)19:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "울산모비",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": "U/O 159.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.12 (목)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 169,
+      "league": "02.12 (목)19:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "울산모비",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.12 (목)19:00 마감",
+      "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
