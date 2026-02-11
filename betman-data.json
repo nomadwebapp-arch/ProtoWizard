@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.28,
-        "away": 2.72
+        "home": 1.56,
+        "away": 1.97
       },
       "deadlineText": "02.12 (목)09:00 마감",
       "isSingle": false,
@@ -26,16 +26,16 @@
       "matchType": "handicap",
       "homeTeam": "샬럿호네",
       "awayTeam": "애틀호크",
-      "handicapValue": "H -5.5",
+      "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.12 (목)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 107,
@@ -98,7 +98,7 @@
       "matchType": "handicap",
       "homeTeam": "클리캐벌",
       "awayTeam": "워싱위저",
-      "handicapValue": "H -18.5",
+      "handicapValue": "H -17.5",
       "underOverValue": null,
       "odds": {
         "home": 1.75,
@@ -107,7 +107,7 @@
       "deadlineText": "02.12 (목)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 111,
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.41,
-        "away": 2.27
+        "home": 1.32,
+        "away": 2.55
       },
       "deadlineText": "02.12 (목)09:30 마감",
       "isSingle": false,
@@ -314,16 +314,16 @@
       "matchType": "handicap",
       "homeTeam": "브루네츠",
       "awayTeam": "인디페이",
-      "handicapValue": "H -4.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.12 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 123,
@@ -371,8 +371,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.61,
-        "away": 1.89
+        "home": 2.02,
+        "away": 1.53
       },
       "deadlineText": "02.12 (목)09:30 마감",
       "isSingle": false,
@@ -386,16 +386,16 @@
       "matchType": "handicap",
       "homeTeam": "필라76s",
       "awayTeam": "뉴욕닉스",
-      "handicapValue": "H -1.5",
+      "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "away": 1.77
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.12 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 127,
@@ -621,7 +621,7 @@
       "homeTeam": "미네울브",
       "awayTeam": "포틀트레",
       "handicapValue": null,
-      "underOverValue": "U/O 239.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -629,7 +629,7 @@
       "deadlineText": "02.12 (목)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 140,
@@ -765,10 +765,10 @@
       "homeTeam": "피닉선즈",
       "awayTeam": "오클썬더",
       "handicapValue": null,
-      "underOverValue": "U/O 217.5",
+      "underOverValue": "U/O 216.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "02.12 (목)11:00 마감",
       "isSingle": false,
@@ -803,8 +803,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.25,
-        "away": 2.86
+        "home": 1.31,
+        "away": 2.59
       },
       "deadlineText": "02.12 (목)11:00 마감",
       "isSingle": false,
@@ -839,13 +839,13 @@
       "handicapValue": null,
       "underOverValue": "U/O 231.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.7,
+        "away": 1.78
       },
       "deadlineText": "02.12 (목)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 152,
@@ -875,8 +875,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.01,
-        "away": 6.28
+        "home": 1.03,
+        "away": 5.6
       },
       "deadlineText": "02.12 (목)11:00 마감",
       "isSingle": true,
@@ -909,7 +909,7 @@
       "homeTeam": "덴버너게",
       "awayTeam": "멤피그리",
       "handicapValue": null,
-      "underOverValue": "U/O 236.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -917,7 +917,7 @@
       "deadlineText": "02.12 (목)11:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 156,
