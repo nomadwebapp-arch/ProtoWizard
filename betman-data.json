@@ -2,170 +2,6 @@
   "roundNumber": "260019",
   "matches": [
     {
-      "gameNumber": 161,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "포항스틸",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.75,
-        "draw": 2.95,
-        "away": 2.17
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 162,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "포항스틸",
-      "awayTeam": "G오사카",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.57,
-        "draw": 3.45,
-        "away": 4.25
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 163,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "포항스틸",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.58,
-        "away": 1.94
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 164,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "포항스틸",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 165,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "울산모비",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.47,
-        "away": 2.13
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 166,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "울산모비",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.08,
-        "away": 3.45
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 167,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "울산모비",
-      "awayTeam": "서울삼성",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 168,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "울산모비",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": "U/O 161.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 169,
-      "league": "02.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "울산모비",
-      "awayTeam": "서울삼성",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 170,
       "league": "02.12 (목)21:15 마감",
       "sportText": "축구",
@@ -249,9 +85,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.55,
+        "home": 4.95,
         "draw": 3.4,
-        "away": 1.54
+        "away": 1.5
       },
       "deadlineText": "02.12 (목)23:00 마감",
       "isSingle": true,
@@ -268,8 +104,8 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.11,
-        "draw": 3.15,
+        "home": 2.15,
+        "draw": 3.05,
         "away": 2.7
       },
       "deadlineText": "02.12 (목)23:00 마감",
@@ -287,9 +123,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.33,
-        "draw": 4.45,
-        "away": 5.4
+        "home": 1.37,
+        "draw": 4.3,
+        "away": 5
       },
       "deadlineText": "02.12 (목)23:00 마감",
       "isSingle": true,
@@ -306,8 +142,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.82,
+        "away": 1.67
       },
       "deadlineText": "02.12 (목)23:00 마감",
       "isSingle": true,
@@ -342,9 +178,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3.6,
-        "away": 1.94
+        "home": 2.75,
+        "draw": 3.75,
+        "away": 1.88
       },
       "deadlineText": "02.12 (목)23:00 마감",
       "isSingle": true,
@@ -450,7 +286,7 @@
       "homeTeam": "오클썬더",
       "awayTeam": "밀워벅스",
       "handicapValue": null,
-      "underOverValue": "U/O 216.5",
+      "underOverValue": "U/O 217.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -458,7 +294,7 @@
       "deadlineText": "02.13 (금)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 186,
