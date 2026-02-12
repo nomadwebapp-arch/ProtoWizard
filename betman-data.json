@@ -137,7 +137,7 @@
       "homeTeam": "울산모비",
       "awayTeam": "서울삼성",
       "handicapValue": null,
-      "underOverValue": "U/O 159.5",
+      "underOverValue": "U/O 160.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -145,7 +145,7 @@
       "deadlineText": "02.12 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 169,
@@ -405,8 +405,224 @@
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
+    },
+    {
+      "gameNumber": 183,
+      "league": "02.13 (금)09:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "오클썬더",
+      "awayTeam": "밀워벅스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.04,
+        "away": 5.32
+      },
+      "deadlineText": "02.13 (금)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 184,
+      "league": "02.13 (금)09:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "오클썬더",
+      "awayTeam": "밀워벅스",
+      "handicapValue": "H -11.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "02.13 (금)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 185,
+      "league": "02.13 (금)09:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "오클썬더",
+      "awayTeam": "밀워벅스",
+      "handicapValue": null,
+      "underOverValue": "U/O 216.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.13 (금)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 186,
+      "league": "02.13 (금)09:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "오클썬더",
+      "awayTeam": "밀워벅스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.13 (금)09:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 187,
+      "league": "02.13 (금)11:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "유타재즈",
+      "awayTeam": "포틀트레",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 3.39,
+        "away": 1.17
+      },
+      "deadlineText": "02.13 (금)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 188,
+      "league": "02.13 (금)11:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "유타재즈",
+      "awayTeam": "포틀트레",
+      "handicapValue": "H +7.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.8,
+        "away": 1.68
+      },
+      "deadlineText": "02.13 (금)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 189,
+      "league": "02.13 (금)11:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "유타재즈",
+      "awayTeam": "포틀트레",
+      "handicapValue": null,
+      "underOverValue": "U/O 238.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.13 (금)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 190,
+      "league": "02.13 (금)11:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "유타재즈",
+      "awayTeam": "포틀트레",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.13 (금)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 191,
+      "league": "02.13 (금)12:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "LA레이커",
+      "awayTeam": "댈러매버",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.22,
+        "away": 3.03
+      },
+      "deadlineText": "02.13 (금)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 192,
+      "league": "02.13 (금)12:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "LA레이커",
+      "awayTeam": "댈러매버",
+      "handicapValue": "H -6.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.69,
+        "away": 1.79
+      },
+      "deadlineText": "02.13 (금)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 193,
+      "league": "02.13 (금)12:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "LA레이커",
+      "awayTeam": "댈러매버",
+      "handicapValue": null,
+      "underOverValue": "U/O 233.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.13 (금)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 194,
+      "league": "02.13 (금)12:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "LA레이커",
+      "awayTeam": "댈러매버",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.13 (금)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
     }
   ],
   "finishedMatches": [],
-  "lastMatchNumber": 182
+  "lastMatchNumber": 194
 }
