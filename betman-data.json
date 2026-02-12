@@ -2,80 +2,6 @@
   "roundNumber": "260019",
   "matches": [
     {
-      "gameNumber": 170,
-      "league": "02.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "방콕유나",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.39,
-        "draw": 3.05,
-        "away": 2.4
-      },
-      "deadlineText": "02.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 171,
-      "league": "02.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "방콕유나",
-      "awayTeam": "맥아서FC",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.75,
-        "draw": 3.8,
-        "away": 1.45
-      },
-      "deadlineText": "02.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 172,
-      "league": "02.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "방콕유나",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.97,
-        "away": 1.56
-      },
-      "deadlineText": "02.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 173,
-      "league": "02.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "방콕유나",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 174,
       "league": "02.12 (목)23:00 마감",
       "sportText": "축구",
@@ -123,9 +49,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.37,
-        "draw": 4.3,
-        "away": 5
+        "home": 1.39,
+        "draw": 4.15,
+        "away": 4.95
       },
       "deadlineText": "02.12 (목)23:00 마감",
       "isSingle": true,
@@ -324,8 +250,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.39,
-        "away": 1.17
+        "home": 3.1,
+        "away": 1.21
       },
       "deadlineText": "02.13 (금)11:00 마감",
       "isSingle": false,
