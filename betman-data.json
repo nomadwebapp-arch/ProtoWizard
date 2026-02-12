@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.04,
-        "away": 5.32
+        "home": 1.07,
+        "away": 4.65
       },
       "deadlineText": "02.13 (금)09:30 마감",
       "isSingle": false,
@@ -45,7 +45,7 @@
       "homeTeam": "오클썬더",
       "awayTeam": "밀워벅스",
       "handicapValue": null,
-      "underOverValue": "U/O 217.5",
+      "underOverValue": "U/O 216.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -117,7 +117,7 @@
       "homeTeam": "유타재즈",
       "awayTeam": "포틀트레",
       "handicapValue": null,
-      "underOverValue": "U/O 238.5",
+      "underOverValue": "U/O 237.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -125,7 +125,7 @@
       "deadlineText": "02.13 (금)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 190,
@@ -189,7 +189,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "댈러매버",
       "handicapValue": null,
-      "underOverValue": "U/O 233.5",
+      "underOverValue": "U/O 237.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -197,7 +197,7 @@
       "deadlineText": "02.13 (금)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 194,
