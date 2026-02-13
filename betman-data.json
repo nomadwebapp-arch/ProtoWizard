@@ -2,150 +2,6 @@
   "roundNumber": "260019",
   "matches": [
     {
-      "gameNumber": 183,
-      "league": "02.13 (금)09:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "오클썬더",
-      "awayTeam": "밀워벅스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.07,
-        "away": 4.65
-      },
-      "deadlineText": "02.13 (금)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 184,
-      "league": "02.13 (금)09:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "오클썬더",
-      "awayTeam": "밀워벅스",
-      "handicapValue": "H -11.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "02.13 (금)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 185,
-      "league": "02.13 (금)09:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "오클썬더",
-      "awayTeam": "밀워벅스",
-      "handicapValue": null,
-      "underOverValue": "U/O 216.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.13 (금)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 186,
-      "league": "02.13 (금)09:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "오클썬더",
-      "awayTeam": "밀워벅스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.13 (금)09:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 187,
-      "league": "02.13 (금)11:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "유타재즈",
-      "awayTeam": "포틀트레",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.1,
-        "away": 1.21
-      },
-      "deadlineText": "02.13 (금)11:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 188,
-      "league": "02.13 (금)11:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "유타재즈",
-      "awayTeam": "포틀트레",
-      "handicapValue": "H +7.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "02.13 (금)11:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 189,
-      "league": "02.13 (금)11:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "유타재즈",
-      "awayTeam": "포틀트레",
-      "handicapValue": null,
-      "underOverValue": "U/O 237.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.13 (금)11:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 190,
-      "league": "02.13 (금)11:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "유타재즈",
-      "awayTeam": "포틀트레",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.13 (금)11:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 191,
       "league": "02.13 (금)12:00 마감",
       "sportText": "농구",
@@ -155,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.22,
-        "away": 3.03
+        "home": 1.26,
+        "away": 2.81
       },
       "deadlineText": "02.13 (금)12:00 마감",
       "isSingle": true,
@@ -170,11 +26,11 @@
       "matchType": "handicap",
       "homeTeam": "LA레이커",
       "awayTeam": "댈러매버",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -7.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "02.13 (금)12:00 마감",
       "isSingle": true,
