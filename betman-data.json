@@ -2,80 +2,6 @@
   "roundNumber": "260020",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "02.13 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "웨스원더",
-      "awayTeam": "웰링피닉",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.53,
-        "draw": 3.8,
-        "away": 4.05
-      },
-      "deadlineText": "02.13 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "02.13 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "웨스원더",
-      "awayTeam": "웰링피닉",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.65,
-        "draw": 3.35,
-        "away": 2.05
-      },
-      "deadlineText": "02.13 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "02.13 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "웨스원더",
-      "awayTeam": "웰링피닉",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.45,
-        "away": 2.18
-      },
-      "deadlineText": "02.13 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "02.13 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "웨스원더",
-      "awayTeam": "웰링피닉",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.13 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "02.13 (금)19:00 마감",
       "sportText": "축구",
@@ -85,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.44,
+        "home": 1.5,
         "draw": 3.55,
-        "away": 5.4
+        "away": 4.65
       },
       "deadlineText": "02.13 (금)19:00 마감",
       "isSingle": true,
@@ -104,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.4,
+        "home": 2.65,
         "draw": 3.15,
-        "away": 2.33
+        "away": 2.14
       },
       "deadlineText": "02.13 (금)19:00 마감",
       "isSingle": true,
@@ -267,7 +193,7 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.25,
+        "home": 2.33,
         "away": 3.15
       },
       "deadlineText": "02.13 (금)19:00 마감",
