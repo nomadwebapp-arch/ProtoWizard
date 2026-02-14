@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
+        "home": 2.95,
         "draw": 3.35,
-        "away": 2.02
+        "away": 1.9
       },
       "deadlineText": "02.15 (일)13:00 마감",
       "isSingle": true,
@@ -30,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.58,
-        "draw": 3.75,
-        "away": 3.8
+        "home": 1.63,
+        "draw": 3.7,
+        "away": 3.6
       },
       "deadlineText": "02.15 (일)13:00 마감",
       "isSingle": true,
@@ -298,6 +298,258 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 284,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "서울SK",
+      "awayTeam": "안양정관",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 285,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "서울SK",
+      "awayTeam": "안양정관",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.5,
+        "away": 2.65
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 286,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "서울SK",
+      "awayTeam": "안양정관",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.84,
+        "away": 1.65
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 287,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "서울SK",
+      "awayTeam": "안양정관",
+      "handicapValue": null,
+      "underOverValue": "U/O 151.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 288,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "서울SK",
+      "awayTeam": "안양정관",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 289,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "부산KCC",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.48,
+        "away": 2.11
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 290,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "부산KCC",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.1,
+        "away": 3.4
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 291,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "부산KCC",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.68,
+        "away": 1.8
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 292,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "부산KCC",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": "U/O 172.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 293,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "부산KCC",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 294,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "우리카드",
+      "awayTeam": "OK저축",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.68,
+        "away": 1.8
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 295,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "우리카드",
+      "awayTeam": "OK저축",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 2.45,
+        "away": 1.35
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 296,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "우리카드",
+      "awayTeam": "OK저축",
+      "handicapValue": null,
+      "underOverValue": "U/O 185.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 297,
+      "league": "02.15 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "우리카드",
+      "awayTeam": "OK저축",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 298,
       "league": "02.15 (일)15:00 마감",
       "sportText": "축구",
@@ -441,6 +693,258 @@
         "away": 1.73
       },
       "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 306,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "우리은행",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.88,
+        "away": 1.62
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 307,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "우리은행",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.9,
+        "away": 2.39
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 308,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "우리은행",
+      "awayTeam": "삼성생명",
+      "handicapValue": "H +1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 309,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "우리은행",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": "U/O 122.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 310,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "우리은행",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 311,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "IBK기업",
+      "awayTeam": "페퍼저축",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.32,
+        "away": 2.55
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 312,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "IBK기업",
+      "awayTeam": "페퍼저축",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.58,
+        "away": 1.94
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 313,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "IBK기업",
+      "awayTeam": "페퍼저축",
+      "handicapValue": null,
+      "underOverValue": "U/O 179.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 314,
+      "league": "02.15 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "IBK기업",
+      "awayTeam": "페퍼저축",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 315,
+      "league": "02.15 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "한국가스",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.52,
+        "away": 2.03
+      },
+      "deadlineText": "02.15 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 316,
+      "league": "02.15 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "한국가스",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.16,
+        "away": 3.25
+      },
+      "deadlineText": "02.15 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 317,
+      "league": "02.15 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "한국가스",
+      "awayTeam": "서울삼성",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.73,
+        "away": 1.75
+      },
+      "deadlineText": "02.15 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 318,
+      "league": "02.15 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "한국가스",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": "U/O 162.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "02.15 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 319,
+      "league": "02.15 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "한국가스",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.15 (일)16:30 마감",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
@@ -659,9 +1163,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.61,
+        "home": 1.67,
         "draw": 3.45,
-        "away": 3.95
+        "away": 3.65
       },
       "deadlineText": "02.15 (일)21:00 마감",
       "isSingle": true,
