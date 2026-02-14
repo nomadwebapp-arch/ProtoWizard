@@ -2,228 +2,6 @@
   "roundNumber": "260020",
   "matches": [
     {
-      "gameNumber": 112,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "멜버빅토",
-      "awayTeam": "브리로어",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.55,
-        "draw": 3.5,
-        "away": 4.3
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 113,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "멜버빅토",
-      "awayTeam": "브리로어",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.55,
-        "draw": 3.35,
-        "away": 2.12
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 114,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "멜버빅토",
-      "awayTeam": "브리로어",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.88,
-        "away": 1.62
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 115,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "멜버빅토",
-      "awayTeam": "브리로어",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 116,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "가시마",
-      "awayTeam": "요코마리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.56,
-        "draw": 3.6,
-        "away": 4.1
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 117,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "가시마",
-      "awayTeam": "요코마리",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.95,
-        "draw": 3.25,
-        "away": 1.94
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 118,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "가시마",
-      "awayTeam": "요코마리",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.92,
-        "away": 1.59
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 119,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "가시마",
-      "awayTeam": "요코마리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 120,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "우라와",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.24,
-        "draw": 2.9,
-        "away": 2.7
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 121,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "우라와",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.35,
-        "draw": 3.65,
-        "away": 1.52
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 122,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "우라와",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 123,
-      "league": "02.14 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "우라와",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.14 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 124,
       "league": "02.14 (토)16:00 마감",
       "sportText": "농구",
@@ -341,8 +119,8 @@
       "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 2.18,
-        "away": 1.45
+        "home": 2.09,
+        "away": 1.49
       },
       "deadlineText": "02.14 (토)16:00 마감",
       "isSingle": true,
@@ -359,8 +137,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 173.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.14 (토)16:00 마감",
       "isSingle": true,
@@ -395,8 +173,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.29,
-        "away": 2.67
+        "home": 1.54,
+        "away": 2
       },
       "deadlineText": "02.14 (토)16:30 마감",
       "isSingle": true,
@@ -413,8 +191,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 4.6
+        "home": 2.15,
+        "away": 3
       },
       "deadlineText": "02.14 (토)16:30 마감",
       "isSingle": true,
@@ -428,16 +206,16 @@
       "matchType": "handicap",
       "homeTeam": "창원LG",
       "awayTeam": "원주DB",
-      "handicapValue": "H -5.5",
+      "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.14 (토)16:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 136,
