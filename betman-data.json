@@ -2,258 +2,6 @@
   "roundNumber": "260020",
   "matches": [
     {
-      "gameNumber": 124,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.03,
-        "away": 5.6
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 125,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.21,
-        "away": 9.6
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 126,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "신한은행",
-      "handicapValue": "H -11.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 127,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": "U/O 138.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 128,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 129,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "흥국생명",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.1,
-        "away": 4.16
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 130,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "흥국생명",
-      "awayTeam": "대전정관",
-      "handicapValue": "H -2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.09,
-        "away": 1.49
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 131,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "흥국생명",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": "U/O 173.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 132,
-      "league": "02.14 (토)16:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "흥국생명",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.14 (토)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 133,
-      "league": "02.14 (토)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "창원LG",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.54,
-        "away": 2
-      },
-      "deadlineText": "02.14 (토)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 134,
-      "league": "02.14 (토)16:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "창원LG",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.15,
-        "away": 3
-      },
-      "deadlineText": "02.14 (토)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 135,
-      "league": "02.14 (토)16:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "창원LG",
-      "awayTeam": "원주DB",
-      "handicapValue": "H -2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.14 (토)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 136,
-      "league": "02.14 (토)16:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "창원LG",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": "U/O 154.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.14 (토)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 137,
-      "league": "02.14 (토)16:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "창원LG",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.14 (토)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 138,
       "league": "02.14 (토)17:35 마감",
       "sportText": "축구",
@@ -411,9 +159,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.57,
-        "draw": 3.4,
-        "away": 4.3
+        "home": 1.52,
+        "draw": 3.5,
+        "away": 4.55
       },
       "deadlineText": "02.14 (토)23:00 마감",
       "isSingle": true,
@@ -430,9 +178,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3.2,
-        "away": 2.08
+        "home": 2.55,
+        "draw": 3.15,
+        "away": 2.2
       },
       "deadlineText": "02.14 (토)23:00 마감",
       "isSingle": true,
@@ -449,8 +197,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.8,
-        "away": 1.68
+        "home": 1.87,
+        "away": 1.63
       },
       "deadlineText": "02.14 (토)23:00 마감",
       "isSingle": true,
@@ -1967,9 +1715,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.1,
-        "draw": 3.4,
-        "away": 1.83
+        "home": 2.95,
+        "draw": 3.35,
+        "away": 1.9
       },
       "deadlineText": "02.14 (토)23:00 마감",
       "isSingle": false,
@@ -1986,9 +1734,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
+        "home": 1.65,
         "draw": 3.55,
-        "away": 3.3
+        "away": 3.65
       },
       "deadlineText": "02.14 (토)23:00 마감",
       "isSingle": false,
@@ -2005,8 +1753,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.09,
-        "away": 1.49
+        "home": 1.95,
+        "away": 1.57
       },
       "deadlineText": "02.14 (토)23:00 마감",
       "isSingle": false,
