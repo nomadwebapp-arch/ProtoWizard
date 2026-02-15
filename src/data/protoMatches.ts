@@ -496,8 +496,8 @@ export const protoMatches: Match[] = [
     isSingle: true,
     odds: {
       home: 2.8,
-      draw: 2.75,
-      away: 2.26,
+      draw: 2.65,
+      away: 2.34,
     },
     deadline: new Date('2026-02-15T14:00:00.000Z'),
     status: 'open',
