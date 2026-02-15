@@ -2,80 +2,6 @@
   "roundNumber": "260020",
   "matches": [
     {
-      "gameNumber": 298,
-      "league": "02.15 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "후쿠오카",
-      "awayTeam": "C오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.36,
-        "draw": 3.1,
-        "away": 2.4
-      },
-      "deadlineText": "02.15 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 299,
-      "league": "02.15 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "후쿠오카",
-      "awayTeam": "C오사카",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.9,
-        "draw": 3.85,
-        "away": 1.43
-      },
-      "deadlineText": "02.15 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 300,
-      "league": "02.15 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "후쿠오카",
-      "awayTeam": "C오사카",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.69,
-        "away": 1.79
-      },
-      "deadlineText": "02.15 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 301,
-      "league": "02.15 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "후쿠오카",
-      "awayTeam": "C오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.15 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 302,
       "league": "02.15 (일)16:00 마감",
       "sportText": "축구",
@@ -85,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.02,
+        "home": 2.12,
         "draw": 3.05,
-        "away": 2.95
+        "away": 2.75
       },
       "deadlineText": "02.15 (일)16:00 마감",
       "isSingle": true,
@@ -104,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.95,
-        "draw": 3.5,
-        "away": 1.6
+        "home": 4.75,
+        "draw": 3.45,
+        "away": 1.51
       },
       "deadlineText": "02.15 (일)16:00 마감",
       "isSingle": true,
@@ -177,8 +103,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.9,
-        "away": 2.39
+        "home": 3.05,
+        "away": 2.34
       },
       "deadlineText": "02.15 (일)16:00 마감",
       "isSingle": true,
@@ -285,8 +211,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 179.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.15 (일)16:00 마감",
       "isSingle": true,
