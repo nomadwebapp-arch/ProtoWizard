@@ -2,154 +2,6 @@
   "roundNumber": "260020",
   "matches": [
     {
-      "gameNumber": 330,
-      "league": "02.15 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "버밍엄C",
-      "awayTeam": "리즈U",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.85,
-        "draw": 3.2,
-        "away": 2
-      },
-      "deadlineText": "02.15 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 331,
-      "league": "02.15 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "버밍엄C",
-      "awayTeam": "리즈U",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.67,
-        "draw": 3.45,
-        "away": 3.65
-      },
-      "deadlineText": "02.15 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 332,
-      "league": "02.15 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "버밍엄C",
-      "awayTeam": "리즈U",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.84,
-        "away": 1.65
-      },
-      "deadlineText": "02.15 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 333,
-      "league": "02.15 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "버밍엄C",
-      "awayTeam": "리즈U",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.15 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 334,
-      "league": "02.15 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "오비에도",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.4,
-        "draw": 2.9,
-        "away": 1.91
-      },
-      "deadlineText": "02.15 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 335,
-      "league": "02.15 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "오비에도",
-      "awayTeam": "빌바오",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.67,
-        "draw": 3.15,
-        "away": 4.05
-      },
-      "deadlineText": "02.15 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 336,
-      "league": "02.15 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "오비에도",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.48,
-        "away": 2.11
-      },
-      "deadlineText": "02.15 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 337,
-      "league": "02.15 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "오비에도",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.15 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 338,
       "league": "02.15 (일)22:30 마감",
       "sportText": "축구",
@@ -178,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.24,
-        "draw": 3.45,
-        "away": 2.35
+        "home": 2.45,
+        "draw": 3.3,
+        "away": 2.21
       },
       "deadlineText": "02.15 (일)22:30 마감",
       "isSingle": false,
@@ -252,9 +104,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.28,
-        "draw": 3.35,
-        "away": 2.35
+        "home": 2.35,
+        "draw": 3.25,
+        "away": 2.33
       },
       "deadlineText": "02.15 (일)22:30 마감",
       "isSingle": false,
@@ -604,8 +456,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.95,
-        "draw": 2.9,
-        "away": 2.09
+        "draw": 2.75,
+        "away": 2.17
       },
       "deadlineText": "02.15 (일)23:00 마감",
       "isSingle": false,
@@ -734,8 +586,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.92,
-        "away": 1.59
+        "home": 2,
+        "away": 1.54
       },
       "deadlineText": "02.15 (일)23:00 마감",
       "isSingle": true,
@@ -1455,9 +1307,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "draw": 3,
-        "away": 2.29
+        "home": 2.65,
+        "draw": 2.95,
+        "away": 2.24
       },
       "deadlineText": "02.15 (일)23:00 마감",
       "isSingle": true,
@@ -1474,9 +1326,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.47,
-        "draw": 3.7,
-        "away": 4.7
+        "home": 1.5,
+        "draw": 3.55,
+        "away": 4.65
       },
       "deadlineText": "02.15 (일)23:00 마감",
       "isSingle": true,
