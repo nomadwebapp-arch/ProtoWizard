@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.95,
-        "draw": 3.35,
-        "away": 1.9
+        "home": 3.3,
+        "draw": 3.45,
+        "away": 1.75
       },
       "deadlineText": "02.15 (일)13:00 마감",
       "isSingle": true,
@@ -30,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.63,
-        "draw": 3.7,
-        "away": 3.6
+        "home": 1.79,
+        "draw": 3.55,
+        "away": 3.1
       },
       "deadlineText": "02.15 (일)13:00 마감",
       "isSingle": true,
@@ -123,8 +123,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.67,
-        "away": 1.82
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "02.15 (일)14:00 마감",
       "isSingle": true,
@@ -159,9 +159,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.97,
-        "draw": 3.1,
-        "away": 3
+        "home": 2.04,
+        "draw": 3.05,
+        "away": 2.9
       },
       "deadlineText": "02.15 (일)14:00 마감",
       "isSingle": false,
@@ -325,8 +325,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
-        "away": 2.65
+        "home": 2.55,
+        "away": 2.7
       },
       "deadlineText": "02.15 (일)14:00 마감",
       "isSingle": true,
@@ -359,7 +359,7 @@
       "homeTeam": "서울SK",
       "awayTeam": "안양정관",
       "handicapValue": null,
-      "underOverValue": "U/O 151.5",
+      "underOverValue": "U/O 150.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -367,7 +367,7 @@
       "deadlineText": "02.15 (일)14:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 288,
@@ -523,8 +523,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 185.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.15 (일)14:00 마감",
       "isSingle": true,
@@ -797,8 +797,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.32,
-        "away": 2.55
+        "home": 1.28,
+        "away": 2.72
       },
       "deadlineText": "02.15 (일)16:00 마감",
       "isSingle": true,
