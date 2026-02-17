@@ -2,154 +2,6 @@
   "roundNumber": "260021",
   "matches": [
     {
-      "gameNumber": 68,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "FC서울",
-      "awayTeam": "산프히로",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.2,
-        "draw": 3.25,
-        "away": 2.5
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 69,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "FC서울",
-      "awayTeam": "산프히로",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.45,
-        "draw": 3.7,
-        "away": 1.5
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 70,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "FC서울",
-      "awayTeam": "산프히로",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 71,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "FC서울",
-      "awayTeam": "산프히로",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 72,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "마치다",
-      "awayTeam": "청두룽청",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.52,
-        "draw": 3.6,
-        "away": 4.4
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 73,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "마치다",
-      "awayTeam": "청두룽청",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.4,
-        "draw": 3.55,
-        "away": 2.15
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 74,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "마치다",
-      "awayTeam": "청두룽청",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.91,
-        "away": 1.6
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 75,
-      "league": "02.17 (화)19:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "마치다",
-      "awayTeam": "청두룽청",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.17 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 76,
       "league": "02.17 (화)21:15 마감",
       "sportText": "축구",
@@ -937,9 +789,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 3.45,
-        "away": 1.78
+        "home": 3.05,
+        "draw": 3.55,
+        "away": 1.81
       },
       "deadlineText": "02.17 (화)23:00 마감",
       "isSingle": true,
@@ -956,9 +808,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
+        "home": 1.66,
         "draw": 3.55,
-        "away": 3.15
+        "away": 3.6
       },
       "deadlineText": "02.17 (화)23:00 마감",
       "isSingle": true,
