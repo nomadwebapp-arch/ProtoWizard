@@ -2,154 +2,6 @@
   "roundNumber": "260022",
   "matches": [
     {
-      "gameNumber": 29,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "멜버시티",
-      "awayTeam": "강원FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.35,
-        "draw": 3.25,
-        "away": 2.33
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 30,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "멜버시티",
-      "awayTeam": "강원FC",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.4,
-        "draw": 3.75,
-        "away": 5.5
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 31,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "멜버시티",
-      "awayTeam": "강원FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 32,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "멜버시티",
-      "awayTeam": "강원FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 33,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "상하하이",
-      "awayTeam": "울산HDFC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.7,
-        "draw": 3.45,
-        "away": 1.66
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 34,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "상하하이",
-      "awayTeam": "울산HDFC",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.93,
-        "draw": 3.4,
-        "away": 2.85
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 35,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "상하하이",
-      "awayTeam": "울산HDFC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.05,
-        "away": 1.51
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 36,
-      "league": "02.18 (수)19:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "상하하이",
-      "awayTeam": "울산HDFC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.18 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 37,
       "league": "02.18 (수)21:15 마감",
       "sportText": "축구",
@@ -159,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.95,
-        "draw": 4.05,
-        "away": 1.4
+        "home": 6,
+        "draw": 5.5,
+        "away": 1.23
       },
       "deadlineText": "02.18 (수)21:15 마감",
       "isSingle": false,
@@ -178,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.45,
-        "draw": 3.5,
-        "away": 2.13
+        "home": 3.1,
+        "draw": 3.85,
+        "away": 1.72
       },
       "deadlineText": "02.18 (수)21:15 마감",
       "isSingle": false,
@@ -234,8 +86,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.45,
-        "draw": 3.6,
-        "away": 5.1
+        "draw": 3.75,
+        "away": 4.85
       },
       "deadlineText": "02.18 (수)21:15 마감",
       "isSingle": false,
@@ -511,9 +363,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.64,
+        "home": 1.5,
         "draw": 3.8,
-        "away": 3.45
+        "away": 4.3
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": false,
@@ -716,8 +568,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.64,
+        "away": 1.85
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": false,
@@ -771,9 +623,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.5,
-        "draw": 3.25,
-        "away": 1.76
+        "home": 3.55,
+        "draw": 3.4,
+        "away": 1.7
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
@@ -1106,8 +958,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.09,
-        "away": 1.49
+        "home": 1.82,
+        "away": 1.67
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
