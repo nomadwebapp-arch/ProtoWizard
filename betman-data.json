@@ -2,154 +2,6 @@
   "roundNumber": "260022",
   "matches": [
     {
-      "gameNumber": 37,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "탬피로버",
-      "awayTeam": "꽁안하노",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 6,
-        "draw": 5.5,
-        "away": 1.23
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 38,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "탬피로버",
-      "awayTeam": "꽁안하노",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.1,
-        "draw": 3.85,
-        "away": 1.72
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 39,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "탬피로버",
-      "awayTeam": "꽁안하노",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.59,
-        "away": 1.92
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 40,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "탬피로버",
-      "awayTeam": "꽁안하노",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 41,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "페르반둥",
-      "awayTeam": "랏차부리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.45,
-        "draw": 3.75,
-        "away": 4.85
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 42,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "페르반둥",
-      "awayTeam": "랏차부리",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.4,
-        "draw": 3.2,
-        "away": 2.31
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 43,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "페르반둥",
-      "awayTeam": "랏차부리",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.85,
-        "away": 1.64
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 44,
-      "league": "02.18 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "페르반둥",
-      "awayTeam": "랏차부리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.18 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 45,
       "league": "02.18 (수)23:00 마감",
       "sportText": "축구",
@@ -418,9 +270,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.65,
+        "home": 3.9,
         "draw": 3.4,
-        "away": 1.68
+        "away": 1.63
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
@@ -437,9 +289,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.9,
-        "draw": 3.35,
-        "away": 2.95
+        "home": 1.96,
+        "draw": 3.25,
+        "away": 2.9
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
@@ -456,9 +308,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.27,
-        "draw": 4.85,
-        "away": 5.9
+        "home": 1.31,
+        "draw": 4.6,
+        "away": 5.5
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
@@ -549,9 +401,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 9.2,
-        "draw": 5.9,
-        "away": 1.13
+        "home": 8.7,
+        "draw": 5.6,
+        "away": 1.15
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": false,
@@ -642,9 +494,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.86,
-        "draw": 3.55,
-        "away": 2.9
+        "home": 1.92,
+        "draw": 3.45,
+        "away": 2.85
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
@@ -808,9 +660,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.9,
-        "draw": 3.7,
-        "away": 1.57
+        "home": 4.15,
+        "draw": 3.8,
+        "away": 1.52
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
@@ -827,9 +679,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.05,
-        "draw": 3.45,
-        "away": 2.6
+        "home": 2.12,
+        "draw": 3.35,
+        "away": 2.55
       },
       "deadlineText": "02.18 (수)23:00 마감",
       "isSingle": true,
