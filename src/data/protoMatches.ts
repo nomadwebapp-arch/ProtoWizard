@@ -922,9 +922,9 @@ export const protoMatches: Match[] = [
     awayTeam: '코모1907',
     matchType: 'normal',
     odds: {
-      home: 2,
+      home: 1.93,
       draw: 3.1,
-      away: 2.95,
+      away: 3.1,
     },
     deadline: new Date('2026-02-18T14:00:00.000Z'),
     status: 'open',
