@@ -2,80 +2,6 @@
   "roundNumber": "260022",
   "matches": [
     {
-      "gameNumber": 90,
-      "league": "02.19 (목)16:45 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "방콕유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.52,
-        "draw": 3.85,
-        "away": 4.1
-      },
-      "deadlineText": "02.19 (목)16:45 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 91,
-      "league": "02.19 (목)16:45 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "방콕유나",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.55,
-        "draw": 3.35,
-        "away": 2.12
-      },
-      "deadlineText": "02.19 (목)16:45 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 92,
-      "league": "02.19 (목)16:45 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "방콕유나",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.89,
-        "away": 1.61
-      },
-      "deadlineText": "02.19 (목)16:45 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 93,
-      "league": "02.19 (목)16:45 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "방콕유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.19 (목)16:45 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 94,
       "league": "02.19 (목)19:00 마감",
       "sportText": "축구",
@@ -213,8 +139,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 154.5",
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.76,
+        "away": 1.72
       },
       "deadlineText": "02.19 (목)19:00 마감",
       "isSingle": true,
@@ -267,8 +193,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.5,
-        "away": 6.6
+        "home": 1.48,
+        "away": 6.1
       },
       "deadlineText": "02.19 (목)19:00 마감",
       "isSingle": true,
@@ -303,8 +229,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 162.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.19 (목)19:00 마감",
       "isSingle": true,
