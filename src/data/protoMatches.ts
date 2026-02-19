@@ -1702,8 +1702,8 @@ export const protoMatches: Match[] = [
     awayTeam: '애틀호크',
     matchType: 'normal',
     odds: {
-      home: 1.52,
-      away: 2.03,
+      home: 1.57,
+      away: 1.95,
     },
     deadline: new Date('2026-02-20T00:00:00.000Z'),
     status: 'open',
