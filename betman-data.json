@@ -30,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.26,
-        "draw": 3.2,
-        "away": 2.45
+        "home": 2.4,
+        "draw": 3.3,
+        "away": 2.26
       },
       "deadlineText": "02.19 (목)23:00 마감",
       "isSingle": false,
@@ -85,9 +85,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
-        "draw": 3.35,
-        "away": 1.83
+        "home": 3.4,
+        "draw": 3.45,
+        "away": 1.73
       },
       "deadlineText": "02.19 (목)23:00 마감",
       "isSingle": false,
@@ -104,9 +104,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "draw": 3.5,
-        "away": 3.35
+        "home": 1.83,
+        "draw": 3.4,
+        "away": 3.1
       },
       "deadlineText": "02.19 (목)23:00 마감",
       "isSingle": false,
@@ -308,8 +308,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.91,
-        "away": 1.6
+        "home": 1.65,
+        "away": 1.84
       },
       "deadlineText": "02.19 (목)23:00 마감",
       "isSingle": false,
@@ -714,9 +714,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.45,
-        "draw": 3.1,
-        "away": 1.82
+        "home": 3.8,
+        "draw": 3.2,
+        "away": 1.7
       },
       "deadlineText": "02.19 (목)23:00 마감",
       "isSingle": false,
@@ -733,9 +733,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.74,
+        "home": 1.84,
         "draw": 3.3,
-        "away": 3.5
+        "away": 3.15
       },
       "deadlineText": "02.19 (목)23:00 마감",
       "isSingle": false,
@@ -1196,8 +1196,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.91,
-        "away": 1.6
+        "home": 2.07,
+        "away": 1.5
       },
       "deadlineText": "02.19 (목)23:00 마감",
       "isSingle": true,
