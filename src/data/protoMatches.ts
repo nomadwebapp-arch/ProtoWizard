@@ -47,7 +47,8 @@ export const protoMatches: Match[] = [
     homeTeam: '샬럿호네',
     awayTeam: '휴스로케',
     matchType: 'underover',
-    underOverValue: 'U/O 216.5',
+    underOverValue: 'U/O 218.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
@@ -171,8 +172,8 @@ export const protoMatches: Match[] = [
     matchType: 'handicap',
     handicapValue: 'H -2.5',
     odds: {
-      home: 1.72,
-      away: 1.76,
+      home: 1.79,
+      away: 1.69,
     },
     deadline: new Date('2026-02-20T00:00:00.000Z'),
     status: 'open',
@@ -187,7 +188,8 @@ export const protoMatches: Match[] = [
     homeTeam: '필라76s',
     awayTeam: '애틀호크',
     matchType: 'underover',
-    underOverValue: 'U/O 237.5',
+    underOverValue: 'U/O 240.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
@@ -327,7 +329,8 @@ export const protoMatches: Match[] = [
     homeTeam: '뉴욕닉스',
     awayTeam: '디트피스',
     matchType: 'underover',
-    underOverValue: 'U/O 223.5',
+    underOverValue: 'U/O 219.5',
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
@@ -467,7 +470,8 @@ export const protoMatches: Match[] = [
     homeTeam: '샌안스퍼',
     awayTeam: '피닉선즈',
     matchType: 'underover',
-    underOverValue: 'U/O 228.5',
+    underOverValue: 'U/O 230.5',
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,

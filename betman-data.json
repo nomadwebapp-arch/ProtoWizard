@@ -45,7 +45,7 @@
       "homeTeam": "샬럿호네",
       "awayTeam": "휴스로케",
       "handicapValue": null,
-      "underOverValue": "U/O 216.5",
+      "underOverValue": "U/O 218.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -53,7 +53,7 @@
       "deadlineText": "02.20 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 177,
@@ -173,8 +173,8 @@
       "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.20 (금)09:00 마감",
       "isSingle": false,
@@ -189,7 +189,7 @@
       "homeTeam": "필라76s",
       "awayTeam": "애틀호크",
       "handicapValue": null,
-      "underOverValue": "U/O 237.5",
+      "underOverValue": "U/O 240.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -197,7 +197,7 @@
       "deadlineText": "02.20 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 185,
@@ -333,7 +333,7 @@
       "homeTeam": "뉴욕닉스",
       "awayTeam": "디트피스",
       "handicapValue": null,
-      "underOverValue": "U/O 223.5",
+      "underOverValue": "U/O 219.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -341,7 +341,7 @@
       "deadlineText": "02.20 (금)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 193,
@@ -477,7 +477,7 @@
       "homeTeam": "샌안스퍼",
       "awayTeam": "피닉선즈",
       "handicapValue": null,
-      "underOverValue": "U/O 228.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -485,7 +485,7 @@
       "deadlineText": "02.20 (금)10:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 201,
