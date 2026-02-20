@@ -2,80 +2,6 @@
   "roundNumber": "260023",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "02.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "애들유나",
-      "awayTeam": "퍼스글로",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.89,
-        "draw": 3.45,
-        "away": 2.9
-      },
-      "deadlineText": "02.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "02.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "애들유나",
-      "awayTeam": "퍼스글로",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.5,
-        "draw": 3.65,
-        "away": 1.66
-      },
-      "deadlineText": "02.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "02.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "애들유나",
-      "awayTeam": "퍼스글로",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.59,
-        "away": 1.92
-      },
-      "deadlineText": "02.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "02.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "애들유나",
-      "awayTeam": "퍼스글로",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "02.20 (금)19:00 마감",
       "sportText": "농구",
@@ -103,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.48,
-        "away": 6.8
+        "home": 1.45,
+        "away": 6.4
       },
       "deadlineText": "02.20 (금)19:00 마감",
       "isSingle": true,
@@ -211,8 +137,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 179.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "02.20 (금)19:00 마감",
       "isSingle": true,
@@ -283,8 +209,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 179.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "02.20 (금)19:00 마감",
       "isSingle": true,
@@ -1652,9 +1578,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.04,
-        "draw": 2.9,
-        "away": 3.05
+        "home": 1.9,
+        "draw": 2.95,
+        "away": 3.35
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -1671,9 +1597,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.25,
-        "draw": 3.35,
-        "away": 1.59
+        "home": 3.6,
+        "draw": 3.3,
+        "away": 1.72
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -1800,9 +1726,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.45,
-        "draw": 3.1,
-        "away": 2.31
+        "home": 2.85,
+        "draw": 3,
+        "away": 2.09
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -1819,9 +1745,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.45,
-        "draw": 3.75,
-        "away": 4.85
+        "home": 1.55,
+        "draw": 3.65,
+        "away": 4.1
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
