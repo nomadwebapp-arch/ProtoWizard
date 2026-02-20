@@ -45,7 +45,7 @@
       "homeTeam": "샬럿호네",
       "awayTeam": "클리캐벌",
       "handicapValue": null,
-      "underOverValue": "U/O 234.5",
+      "underOverValue": "U/O 229.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -53,7 +53,7 @@
       "deadlineText": "02.21 (토)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 46,
@@ -881,9 +881,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.9,
-        "draw": 2.95,
-        "away": 3.35
+        "home": 1.85,
+        "draw": 3,
+        "away": 3.45
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -1029,9 +1029,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.85,
-        "draw": 3,
-        "away": 2.09
+        "home": 3,
+        "draw": 3.05,
+        "away": 1.99
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -1048,9 +1048,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.55,
-        "draw": 3.65,
-        "away": 4.1
+        "home": 1.61,
+        "draw": 3.55,
+        "away": 3.85
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -1067,8 +1067,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -1168,6 +1168,168 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 107,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "BNK썸",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.56,
+        "away": 1.97
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 108,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "BNK썸",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.27,
+        "away": 3.1
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 109,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "BNK썸",
+      "awayTeam": "삼성생명",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.79,
+        "away": 1.69
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 110,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "BNK썸",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": "U/O 123.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 111,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "BNK썸",
+      "awayTeam": "삼성생명",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 112,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "KB손보",
+      "awayTeam": "우리카드",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.51,
+        "away": 2.05
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 113,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "KB손보",
+      "awayTeam": "우리카드",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 2,
+        "away": 1.54
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 114,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "KB손보",
+      "awayTeam": "우리카드",
+      "handicapValue": null,
+      "underOverValue": "U/O 185.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 115,
+      "league": "02.21 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "KB손보",
+      "awayTeam": "우리카드",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 116,
       "league": "02.21 (토)14:30 마감",
       "sportText": "축구",
@@ -1177,9 +1339,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.65,
+        "home": 4.1,
         "draw": 3.35,
-        "away": 1.54
+        "away": 1.61
       },
       "deadlineText": "02.21 (토)14:30 마감",
       "isSingle": true,
@@ -1196,9 +1358,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.11,
+        "home": 1.97,
         "draw": 3.15,
-        "away": 2.7
+        "away": 2.95
       },
       "deadlineText": "02.21 (토)14:30 마감",
       "isSingle": true,
@@ -1251,9 +1413,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.64,
+        "home": 1.58,
         "draw": 3.45,
-        "away": 3.8
+        "away": 4.15
       },
       "deadlineText": "02.21 (토)15:00 마감",
       "isSingle": true,
@@ -1531,6 +1693,168 @@
       "odds": {
         "home": 1.75,
         "away": 1.73
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 136,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "우리은행",
+      "awayTeam": "KB스타즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.45,
+        "away": 1.35
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 137,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "우리은행",
+      "awayTeam": "KB스타즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 4.35,
+        "away": 1.91
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 138,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "우리은행",
+      "awayTeam": "KB스타즈",
+      "handicapValue": "H +4.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.7,
+        "away": 1.78
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 139,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "우리은행",
+      "awayTeam": "KB스타즈",
+      "handicapValue": null,
+      "underOverValue": "U/O 133.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 140,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "우리은행",
+      "awayTeam": "KB스타즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 141,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.33,
+        "away": 2.52
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 142,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 143,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": null,
+      "underOverValue": "U/O 182.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.21 (토)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 144,
+      "league": "02.21 (토)16:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.21 (토)16:00 마감",
       "isSingle": true,
@@ -6158,9 +6482,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.05,
-        "draw": 6.6,
-        "away": 17
+        "home": 1.07,
+        "draw": 6.9,
+        "away": 12
       },
       "deadlineText": "02.22 (일)21:00 마감",
       "isSingle": false,
@@ -6177,9 +6501,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
-        "draw": 3.55,
-        "away": 2.8
+        "home": 1.96,
+        "draw": 3.75,
+        "away": 2.6
       },
       "deadlineText": "02.22 (일)21:00 마감",
       "isSingle": false,
@@ -7012,9 +7336,9 @@
       "handicapValue": "H -3.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 4.1,
-        "away": 1.82
+        "home": 2.6,
+        "draw": 4,
+        "away": 1.89
       },
       "deadlineText": "02.22 (일)23:00 마감",
       "isSingle": true,
@@ -7586,9 +7910,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.8,
-        "draw": 3.15,
-        "away": 3.45
+        "home": 1.83,
+        "draw": 3.25,
+        "away": 3.25
       },
       "deadlineText": "02.22 (일)23:00 마감",
       "isSingle": false,
@@ -8289,9 +8613,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.39,
-        "draw": 3.85,
-        "away": 5.4
+        "home": 1.35,
+        "draw": 4,
+        "away": 5.8
       },
       "deadlineText": "02.23 (월)11:15 마감",
       "isSingle": true,
@@ -8308,9 +8632,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.18,
-        "draw": 3.3,
-        "away": 2.5
+        "home": 2.09,
+        "draw": 3.25,
+        "away": 2.65
       },
       "deadlineText": "02.23 (월)11:15 마감",
       "isSingle": true,
