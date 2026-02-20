@@ -2,240 +2,6 @@
   "roundNumber": "260023",
   "matches": [
     {
-      "gameNumber": 5,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "하나은행",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.15,
-        "away": 3.57
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 6,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "하나은행",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.43,
-        "away": 6.1
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 7,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "하나은행",
-      "awayTeam": "신한은행",
-      "handicapValue": "H -7.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 8,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "하나은행",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": "U/O 128.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 9,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "하나은행",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 10,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "삼성화재",
-      "awayTeam": "한국전력",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.48,
-        "away": 1.16
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 11,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "삼성화재",
-      "awayTeam": "한국전력",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.22,
-        "away": 1.43
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 12,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "삼성화재",
-      "awayTeam": "한국전력",
-      "handicapValue": null,
-      "underOverValue": "U/O 179.5",
-      "odds": {
-        "home": 1.85,
-        "away": 1.64
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 13,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "삼성화재",
-      "awayTeam": "한국전력",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 14,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "도로공사",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.39,
-        "away": 2.33
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 15,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "도로공사",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.64,
-        "away": 1.85
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 16,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "도로공사",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": "U/O 179.5",
-      "odds": {
-        "home": 1.92,
-        "away": 1.59
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 17,
-      "league": "02.20 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "도로공사",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.20 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 18,
       "league": "02.20 (금)23:00 마감",
       "sportText": "축구",
@@ -246,8 +12,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.11,
-        "draw": 3.15,
-        "away": 2.7
+        "draw": 2.95,
+        "away": 2.85
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": false,
@@ -264,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.1,
-        "draw": 3.65,
-        "away": 1.55
+        "home": 4.05,
+        "draw": 3.45,
+        "away": 1.6
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": false,
@@ -319,9 +85,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
-        "draw": 3.2,
-        "away": 3.05
+        "home": 1.92,
+        "draw": 3,
+        "away": 3.25
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": true,
@@ -339,8 +105,8 @@
       "underOverValue": null,
       "odds": {
         "home": 3.65,
-        "draw": 3.5,
-        "away": 1.66
+        "draw": 3.3,
+        "away": 1.71
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": true,
@@ -412,9 +178,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.61,
-        "draw": 3.15,
-        "away": 4.45
+        "home": 1.56,
+        "draw": 3.2,
+        "away": 4.8
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": false,
@@ -431,9 +197,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3,
-        "draw": 3.05,
-        "away": 1.99
+        "home": 2.95,
+        "draw": 2.95,
+        "away": 2.06
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": false,
@@ -486,9 +252,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
-        "draw": 3.3,
-        "away": 1.78
+        "home": 3.4,
+        "draw": 3.4,
+        "away": 1.74
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": true,
@@ -505,9 +271,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "draw": 3.45,
-        "away": 3.25
+        "home": 1.83,
+        "draw": 3.35,
+        "away": 3.15
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": true,
@@ -634,9 +400,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.54,
-        "draw": 3.35,
-        "away": 4.65
+        "home": 1.5,
+        "draw": 3.45,
+        "away": 4.85
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": true,
@@ -653,9 +419,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3.15,
-        "away": 2.11
+        "home": 2.75,
+        "draw": 3.05,
+        "away": 2.12
       },
       "deadlineText": "02.20 (금)23:00 마감",
       "isSingle": true,
@@ -1616,8 +1382,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.52,
-        "away": 2.03
+        "home": 1.69,
+        "away": 1.79
       },
       "deadlineText": "02.21 (토)14:00 마감",
       "isSingle": false,
@@ -2874,8 +2640,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.88,
-        "draw": 3.35,
-        "away": 3
+        "draw": 3.1,
+        "away": 3.25
       },
       "deadlineText": "02.21 (토)23:00 마감",
       "isSingle": true,
