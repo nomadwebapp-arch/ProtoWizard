@@ -3009,7 +3009,7 @@
       "homeTeam": "피닉선즈",
       "awayTeam": "올랜매직",
       "handicapValue": null,
-      "underOverValue": "U/O 221.5",
+      "underOverValue": "U/O 219.5",
       "odds": {
         "home": 1.71,
         "away": 1.77
@@ -3017,7 +3017,7 @@
       "deadlineText": "02.21 (토)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 312,
