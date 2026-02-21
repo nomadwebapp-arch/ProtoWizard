@@ -2,80 +2,6 @@
   "roundNumber": "260023",
   "matches": [
     {
-      "gameNumber": 145,
-      "league": "02.21 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "멜버시티",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.4,
-        "draw": 3.1,
-        "away": 2.36
-      },
-      "deadlineText": "02.21 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 146,
-      "league": "02.21 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "멜버시티",
-      "awayTeam": "멜버빅토",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.43,
-        "draw": 3.85,
-        "away": 4.9
-      },
-      "deadlineText": "02.21 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 147,
-      "league": "02.21 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "멜버시티",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "02.21 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 148,
-      "league": "02.21 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "멜버시티",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.21 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 149,
       "league": "02.21 (토)21:30 마감",
       "sportText": "축구",
@@ -3430,7 +3356,7 @@
       "matchType": "handicap",
       "homeTeam": "마이히트",
       "awayTeam": "멤피그리",
-      "handicapValue": "H -8.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -3439,7 +3365,7 @@
       "deadlineText": "02.22 (일)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 331,
@@ -3724,9 +3650,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.9,
-        "draw": 3.6,
-        "away": 1.59
+        "home": 3.7,
+        "draw": 3.55,
+        "away": 1.64
       },
       "deadlineText": "02.22 (일)10:30 마감",
       "isSingle": true,
@@ -3779,9 +3705,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.28,
-        "draw": 3.25,
-        "away": 2.4
+        "home": 2.18,
+        "draw": 3.2,
+        "away": 2.55
       },
       "deadlineText": "02.22 (일)10:30 마감",
       "isSingle": true,
@@ -3798,9 +3724,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.5,
-        "draw": 3.9,
-        "away": 1.46
+        "home": 4.25,
+        "draw": 3.85,
+        "away": 1.5
       },
       "deadlineText": "02.22 (일)10:30 마감",
       "isSingle": true,
