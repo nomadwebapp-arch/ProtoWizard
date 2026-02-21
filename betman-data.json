@@ -231,9 +231,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.54,
-        "draw": 3.6,
-        "away": 4.25
+        "home": 1.37,
+        "draw": 4,
+        "away": 5.5
       },
       "deadlineText": "02.22 (일)09:30 마감",
       "isSingle": true,
@@ -250,9 +250,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "draw": 3.35,
-        "away": 2.12
+        "home": 2.06,
+        "draw": 3.5,
+        "away": 2.55
       },
       "deadlineText": "02.22 (일)09:30 마감",
       "isSingle": true,
@@ -269,8 +269,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.09,
-        "away": 1.49
+        "home": 2.38,
+        "away": 1.37
       },
       "deadlineText": "02.22 (일)09:30 마감",
       "isSingle": true,
@@ -743,9 +743,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.55,
-        "draw": 3.7,
-        "away": 4.05
+        "home": 1.45,
+        "draw": 4,
+        "away": 4.5
       },
       "deadlineText": "02.22 (일)10:30 마감",
       "isSingle": true,
@@ -762,9 +762,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "draw": 3.4,
-        "away": 2.1
+        "home": 2.28,
+        "draw": 3.35,
+        "away": 2.35
       },
       "deadlineText": "02.22 (일)10:30 마감",
       "isSingle": true,
@@ -889,9 +889,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.94,
-        "draw": 3.45,
-        "away": 2.8
+        "home": 1.74,
+        "draw": 3.5,
+        "away": 3.3
       },
       "deadlineText": "02.22 (일)11:30 마감",
       "isSingle": true,
@@ -908,9 +908,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.5,
-        "draw": 3.7,
-        "away": 1.65
+        "home": 2.95,
+        "draw": 3.85,
+        "away": 1.77
       },
       "deadlineText": "02.22 (일)11:30 마감",
       "isSingle": true,
@@ -927,9 +927,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 7.3,
-        "draw": 5.6,
-        "away": 1.18
+        "home": 5.7,
+        "draw": 5,
+        "away": 1.27
       },
       "deadlineText": "02.22 (일)11:30 마감",
       "isSingle": true,
@@ -1075,9 +1075,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.13,
-        "draw": 3.4,
-        "away": 2.5
+        "home": 2.19,
+        "draw": 3.45,
+        "away": 2.4
       },
       "deadlineText": "02.22 (일)12:30 마감",
       "isSingle": true,
@@ -1130,9 +1130,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.76,
-        "draw": 3.6,
-        "away": 3.15
+        "home": 1.59,
+        "draw": 3.65,
+        "away": 3.85
       },
       "deadlineText": "02.22 (일)12:30 마감",
       "isSingle": true,
@@ -1149,9 +1149,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3,
-        "draw": 3.65,
-        "away": 1.8
+        "home": 2.65,
+        "draw": 3.6,
+        "away": 1.97
       },
       "deadlineText": "02.22 (일)12:30 마감",
       "isSingle": true,
@@ -1426,9 +1426,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.83,
-        "draw": 3.05,
-        "away": 3.45
+        "home": 1.95,
+        "draw": 3.1,
+        "away": 3.05
       },
       "deadlineText": "02.22 (일)14:00 마감",
       "isSingle": false,
@@ -1445,9 +1445,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.55,
-        "draw": 3.3,
-        "away": 1.73
+        "home": 3.8,
+        "draw": 3.35,
+        "away": 1.66
       },
       "deadlineText": "02.22 (일)14:00 마감",
       "isSingle": false,
@@ -1561,6 +1561,168 @@
       },
       "deadlineText": "02.22 (일)14:00 마감",
       "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 398,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "BNK썸",
+      "awayTeam": "신한은행",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.45,
+        "away": 2.18
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 399,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "BNK썸",
+      "awayTeam": "신한은행",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.14,
+        "away": 3.7
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 400,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "BNK썸",
+      "awayTeam": "신한은행",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.8,
+        "away": 1.68
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 401,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "BNK썸",
+      "awayTeam": "신한은행",
+      "handicapValue": null,
+      "underOverValue": "U/O 125.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 402,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "BNK썸",
+      "awayTeam": "신한은행",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 403,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "대한항공",
+      "awayTeam": "현대캐피",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 404,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "대한항공",
+      "awayTeam": "현대캐피",
+      "handicapValue": "H +1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.33,
+        "away": 2.52
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 405,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "대한항공",
+      "awayTeam": "현대캐피",
+      "handicapValue": null,
+      "underOverValue": "U/O 187.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 406,
+      "league": "02.22 (일)14:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "대한항공",
+      "awayTeam": "현대캐피",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.22 (일)14:00 마감",
+      "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
@@ -1775,6 +1937,78 @@
       "matchType": "sum",
       "homeTeam": "뉴캐제츠",
       "awayTeam": "맥아서FC",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.22 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 419,
+      "league": "02.22 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "대전정관",
+      "awayTeam": "흥국생명",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 4.47,
+        "away": 1.08
+      },
+      "deadlineText": "02.22 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 420,
+      "league": "02.22 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "대전정관",
+      "awayTeam": "흥국생명",
+      "handicapValue": "H +2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.56,
+        "away": 1.97
+      },
+      "deadlineText": "02.22 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 421,
+      "league": "02.22 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "대전정관",
+      "awayTeam": "흥국생명",
+      "handicapValue": null,
+      "underOverValue": "U/O 172.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.22 (일)16:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 422,
+      "league": "02.22 (일)16:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "대전정관",
+      "awayTeam": "흥국생명",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
