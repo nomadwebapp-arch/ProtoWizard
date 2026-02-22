@@ -2,78 +2,6 @@
   "roundNumber": "260023",
   "matches": [
     {
-      "gameNumber": 566,
-      "league": "02.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "LA레이커",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.82,
-        "away": 1.67
-      },
-      "deadlineText": "02.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 567,
-      "league": "02.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "LA레이커",
-      "awayTeam": "보스셀틱",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "02.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 568,
-      "league": "02.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "LA레이커",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": "U/O 228.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 569,
-      "league": "02.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "LA레이커",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 570,
       "league": "02.23 (월)09:00 마감",
       "sportText": "축구",
@@ -191,7 +119,7 @@
       "homeTeam": "미네울브",
       "awayTeam": "필라76s",
       "handicapValue": null,
-      "underOverValue": "U/O 237.5",
+      "underOverValue": "U/O 239.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -199,7 +127,7 @@
       "deadlineText": "02.23 (월)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 577,
