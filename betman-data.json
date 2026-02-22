@@ -2,538 +2,6 @@
   "roundNumber": "260023",
   "matches": [
     {
-      "gameNumber": 378,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "미토",
-      "awayTeam": "제프유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.02,
-        "draw": 2.85,
-        "away": 3.15
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 379,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "미토",
-      "awayTeam": "제프유나",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.15,
-        "draw": 3.45,
-        "away": 1.58
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 380,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "미토",
-      "awayTeam": "제프유나",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.48,
-        "away": 2.11
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 381,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "미토",
-      "awayTeam": "제프유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 382,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "교토상가",
-      "awayTeam": "후쿠오카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.91,
-        "draw": 2.9,
-        "away": 3.4
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 383,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "교토상가",
-      "awayTeam": "후쿠오카",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.9,
-        "draw": 3.25,
-        "away": 1.67
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 384,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "교토상가",
-      "awayTeam": "후쿠오카",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.47,
-        "away": 2.13
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 385,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "교토상가",
-      "awayTeam": "후쿠오카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 386,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "오카야마",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.65,
-        "draw": 2.95,
-        "away": 2.24
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 387,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "오카야마",
-      "awayTeam": "G오사카",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.49,
-        "draw": 3.5,
-        "away": 4.85
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 388,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "오카야마",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.59,
-        "away": 1.92
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 389,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "오카야마",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 390,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "요코FC",
-      "awayTeam": "도치기시",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.95,
-        "draw": 3.1,
-        "away": 3.05
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 391,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "요코FC",
-      "awayTeam": "도치기시",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.8,
-        "draw": 3.35,
-        "away": 1.66
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 392,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "요코FC",
-      "awayTeam": "도치기시",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.58,
-        "away": 1.94
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 393,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "요코FC",
-      "awayTeam": "도치기시",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 394,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "도쿠시마",
-      "awayTeam": "도야마",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.46,
-        "draw": 3.7,
-        "away": 4.8
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 395,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "도쿠시마",
-      "awayTeam": "도야마",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.6,
-        "draw": 3.3,
-        "away": 2.1
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 396,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "도쿠시마",
-      "awayTeam": "도야마",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 397,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "도쿠시마",
-      "awayTeam": "도야마",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 398,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.52,
-        "away": 2.03
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 399,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.14,
-        "away": 3.7
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 400,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 401,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": "U/O 125.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 402,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "BNK썸",
-      "awayTeam": "신한은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 403,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "대한항공",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 404,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "대한항공",
-      "awayTeam": "현대캐피",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.33,
-        "away": 2.52
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 405,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "대한항공",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": "U/O 187.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 406,
-      "league": "02.22 (일)14:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "대한항공",
-      "awayTeam": "현대캐피",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.22 (일)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 407,
       "league": "02.22 (일)15:00 마감",
       "sportText": "축구",
@@ -543,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.85,
-        "draw": 3.5,
-        "away": 1.62
+        "home": 3.55,
+        "draw": 3.65,
+        "away": 1.65
       },
       "deadlineText": "02.22 (일)15:00 마감",
       "isSingle": true,
@@ -617,9 +85,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
+        "home": 3.05,
         "draw": 3.45,
-        "away": 1.74
+        "away": 1.83
       },
       "deadlineText": "02.22 (일)15:00 마감",
       "isSingle": true,
@@ -636,9 +104,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.8,
+        "home": 1.68,
         "draw": 3.5,
-        "away": 3.1
+        "away": 3.55
       },
       "deadlineText": "02.22 (일)15:00 마감",
       "isSingle": true,
@@ -3836,8 +3304,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.33,
-        "away": 2.52
+        "home": 1.47,
+        "away": 2.13
       },
       "deadlineText": "02.23 (월)11:00 마감",
       "isSingle": true,
@@ -3851,7 +3319,7 @@
       "matchType": "handicap",
       "homeTeam": "LA클리퍼",
       "awayTeam": "올랜매직",
-      "handicapValue": "H -5.5",
+      "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
         "home": 1.77,
@@ -3860,7 +3328,7 @@
       "deadlineText": "02.23 (월)11:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 588,
