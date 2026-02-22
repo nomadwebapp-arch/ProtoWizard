@@ -83,9 +83,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.26,
+        "home": 2.06,
         "draw": 3.2,
-        "away": 2.45
+        "away": 2.75
       },
       "deadlineText": "02.23 (월)09:00 마감",
       "isSingle": true,
@@ -102,9 +102,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.5,
-        "draw": 3.85,
-        "away": 1.47
+        "home": 3.85,
+        "draw": 3.8,
+        "away": 1.56
       },
       "deadlineText": "02.23 (월)09:00 마감",
       "isSingle": true,
@@ -229,8 +229,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.85,
-        "away": 1.06
+        "home": 4.31,
+        "away": 1.09
       },
       "deadlineText": "02.23 (월)10:00 마감",
       "isSingle": false,
@@ -337,8 +337,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 223.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "02.23 (월)10:00 마감",
       "isSingle": false,
@@ -373,8 +373,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.47,
-        "away": 2.13
+        "home": 1.58,
+        "away": 1.94
       },
       "deadlineText": "02.23 (월)11:00 마감",
       "isSingle": true,
@@ -388,7 +388,7 @@
       "matchType": "handicap",
       "homeTeam": "LA클리퍼",
       "awayTeam": "올랜매직",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
         "home": 1.77,
@@ -409,8 +409,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 216.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.23 (월)11:00 마감",
       "isSingle": true,
@@ -445,9 +445,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.35,
-        "draw": 4,
-        "away": 5.8
+        "home": 1.27,
+        "draw": 4.55,
+        "away": 6.4
       },
       "deadlineText": "02.23 (월)11:15 마감",
       "isSingle": true,
@@ -464,9 +464,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.09,
-        "draw": 3.25,
-        "away": 2.65
+        "home": 1.92,
+        "draw": 3.3,
+        "away": 2.95
       },
       "deadlineText": "02.23 (월)11:15 마감",
       "isSingle": true,
@@ -483,8 +483,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.15,
-        "away": 1.46
+        "home": 2.25,
+        "away": 1.42
       },
       "deadlineText": "02.23 (월)11:15 마감",
       "isSingle": true,
