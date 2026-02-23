@@ -85,8 +85,8 @@ export const protoMatches: Match[] = [
     matchType: 'normal',
     isSingle: true,
     odds: {
-      home: 1.42,
-      away: 2.25,
+      home: 1.5,
+      away: 2.07,
     },
     deadline: new Date('2026-02-24T01:00:00.000Z'),
     status: 'open',
@@ -101,8 +101,9 @@ export const protoMatches: Match[] = [
     homeTeam: '멤피그리',
     awayTeam: '새크킹스',
     matchType: 'handicap',
-    handicapValue: 'H -4.5',
+    handicapValue: 'H -3.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.79,
       away: 1.69,
@@ -195,8 +196,9 @@ export const protoMatches: Match[] = [
     homeTeam: '휴스로케',
     awayTeam: '유타재즈',
     matchType: 'underover',
-    underOverValue: 'U/O 227.5',
+    underOverValue: 'U/O 229.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.73,
       away: 1.75,
