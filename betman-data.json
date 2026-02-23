@@ -542,7 +542,7 @@
       "matchType": "handicap",
       "homeTeam": "휴스로케",
       "awayTeam": "유타재즈",
-      "handicapValue": "H -15.5",
+      "handicapValue": "H -14.5",
       "underOverValue": null,
       "odds": {
         "home": 1.76,
@@ -551,7 +551,7 @@
       "deadlineText": "02.24 (화)11:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 36,
