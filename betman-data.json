@@ -2,96 +2,6 @@
   "roundNumber": "260024",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "02.23 (월)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.3,
-        "away": 2.63
-      },
-      "deadlineText": "02.23 (월)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "02.23 (월)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.77,
-        "away": 4.25
-      },
-      "deadlineText": "02.23 (월)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "02.23 (월)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "하나은행",
-      "handicapValue": "H -5.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "02.23 (월)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "02.23 (월)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": "U/O 135.5",
-      "odds": {
-        "home": 1.73,
-        "away": 1.75
-      },
-      "deadlineText": "02.23 (월)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 5,
-      "league": "02.23 (월)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "KB스타즈",
-      "awayTeam": "하나은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.23 (월)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 6,
       "league": "02.23 (월)23:00 마감",
       "sportText": "축구",
@@ -287,9 +197,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.5,
-        "draw": 3.35,
-        "away": 1.73
+        "home": 3.7,
+        "draw": 3.3,
+        "away": 1.7
       },
       "deadlineText": "02.23 (월)23:00 마감",
       "isSingle": true,
@@ -307,8 +217,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.83,
-        "draw": 3.25,
-        "away": 3.25
+        "draw": 3.15,
+        "away": 3.35
       },
       "deadlineText": "02.23 (월)23:00 마감",
       "isSingle": true,
@@ -325,9 +235,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.24,
-        "draw": 5,
-        "away": 6.4
+        "home": 1.28,
+        "draw": 4.6,
+        "away": 6.1
       },
       "deadlineText": "02.23 (월)23:00 마감",
       "isSingle": true,
@@ -344,8 +254,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.92,
-        "away": 1.59
+        "home": 2,
+        "away": 1.54
       },
       "deadlineText": "02.23 (월)23:00 마감",
       "isSingle": true,
@@ -507,7 +417,7 @@
       "homeTeam": "디트피스",
       "awayTeam": "샌안스퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 228.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -515,7 +425,7 @@
       "deadlineText": "02.24 (화)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 29,
@@ -617,8 +527,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.01,
-        "away": 6.28
+        "home": 1.04,
+        "away": 5.32
       },
       "deadlineText": "02.24 (화)11:30 마감",
       "isSingle": true,
