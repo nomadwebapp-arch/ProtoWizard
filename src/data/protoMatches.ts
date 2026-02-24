@@ -260,7 +260,8 @@ export const protoMatches: Match[] = [
     homeTeam: '토론랩터',
     awayTeam: '오클썬더',
     matchType: 'underover',
-    underOverValue: 'U/O 219.5',
+    underOverValue: 'U/O 218.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
@@ -312,7 +313,8 @@ export const protoMatches: Match[] = [
     homeTeam: '클리캐벌',
     awayTeam: '뉴욕닉스',
     matchType: 'handicap',
-    handicapValue: 'H -2.5',
+    handicapValue: 'H -3.5',
+    isConditionChanged: true,
     odds: {
       home: 1.71,
       away: 1.77,
@@ -400,7 +402,8 @@ export const protoMatches: Match[] = [
     homeTeam: '시카불스',
     awayTeam: '샬럿호네',
     matchType: 'underover',
-    underOverValue: 'U/O 230.5',
+    underOverValue: 'U/O 232.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
@@ -540,7 +543,8 @@ export const protoMatches: Match[] = [
     homeTeam: '뉴올펠리',
     awayTeam: '골든워리',
     matchType: 'underover',
-    underOverValue: 'U/O 225.5',
+    underOverValue: 'U/O 227.5',
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
@@ -610,7 +614,8 @@ export const protoMatches: Match[] = [
     homeTeam: '피닉선즈',
     awayTeam: '보스셀틱',
     matchType: 'underover',
-    underOverValue: 'U/O 210.5',
+    underOverValue: 'U/O 208.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
