@@ -2,150 +2,6 @@
   "roundNumber": "260024",
   "matches": [
     {
-      "gameNumber": 38,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "KB손보",
-      "awayTeam": "삼성화재",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.12,
-        "away": 3.9
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 39,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "KB손보",
-      "awayTeam": "삼성화재",
-      "handicapValue": "H -2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.94,
-        "away": 1.58
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 40,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "KB손보",
-      "awayTeam": "삼성화재",
-      "handicapValue": null,
-      "underOverValue": "U/O 173.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 41,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "KB손보",
-      "awayTeam": "삼성화재",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 42,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "현대건설",
-      "awayTeam": "도로공사",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.57,
-        "away": 1.95
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 43,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "현대건설",
-      "awayTeam": "도로공사",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.02,
-        "away": 1.53
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 44,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "현대건설",
-      "awayTeam": "도로공사",
-      "handicapValue": null,
-      "underOverValue": "U/O 185.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 45,
-      "league": "02.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "현대건설",
-      "awayTeam": "도로공사",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 46,
       "league": "02.24 (화)23:00 마감",
       "sportText": "축구",
@@ -730,8 +586,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.49,
-        "away": 2.09
+        "home": 1.62,
+        "away": 1.88
       },
       "deadlineText": "02.24 (화)23:00 마감",
       "isSingle": false,
@@ -1189,7 +1045,7 @@
       "homeTeam": "인디페이",
       "awayTeam": "필라76s",
       "handicapValue": null,
-      "underOverValue": "U/O 236.5",
+      "underOverValue": "U/O 233.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1197,7 +1053,7 @@
       "deadlineText": "02.25 (수)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 103,
