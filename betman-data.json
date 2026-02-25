@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.96,
-        "draw": 3.2,
-        "away": 2.95
+        "home": 2.02,
+        "draw": 3.1,
+        "away": 2.9
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": true,
@@ -68,8 +68,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2,
-        "away": 1.54
+        "home": 2.07,
+        "away": 1.5
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": true,
@@ -123,9 +123,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.8,
-        "draw": 3.65,
-        "away": 1.47
+        "home": 4.95,
+        "draw": 3.45,
+        "away": 1.49
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": false,
@@ -216,9 +216,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.35,
-        "draw": 3.6,
-        "away": 2.18
+        "home": 2.4,
+        "draw": 3.5,
+        "away": 2.17
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": false,
@@ -327,8 +327,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.94,
-        "away": 1.58
+        "home": 2.02,
+        "away": 1.53
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": false,
@@ -912,7 +912,7 @@
       "homeTeam": "멤피그리",
       "awayTeam": "골든워리",
       "handicapValue": null,
-      "underOverValue": "U/O 228.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
         "home": 1.73,
         "away": 1.75
@@ -920,7 +920,7 @@
       "deadlineText": "02.26 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 68,
