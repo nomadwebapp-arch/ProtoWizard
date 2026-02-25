@@ -2,240 +2,6 @@
   "roundNumber": "260025",
   "matches": [
     {
-      "gameNumber": 5,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "우리은행",
-      "awayTeam": "BNK썸",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.55,
-        "away": 1.98
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 6,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "우리은행",
-      "awayTeam": "BNK썸",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.35,
-        "away": 3.55
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 7,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "우리은행",
-      "awayTeam": "BNK썸",
-      "handicapValue": "H -2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 8,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "우리은행",
-      "awayTeam": "BNK썸",
-      "handicapValue": null,
-      "underOverValue": "U/O 122.5",
-      "odds": {
-        "home": 1.73,
-        "away": 1.75
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 9,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "우리은행",
-      "awayTeam": "BNK썸",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 10,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "우리카드",
-      "awayTeam": "OK저축",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.39,
-        "away": 2.33
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 11,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "우리카드",
-      "awayTeam": "OK저축",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 12,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "우리카드",
-      "awayTeam": "OK저축",
-      "handicapValue": null,
-      "underOverValue": "U/O 185.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 13,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "우리카드",
-      "awayTeam": "OK저축",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 14,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "IBK기업",
-      "awayTeam": "페퍼저축",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.82,
-        "away": 1.67
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 15,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "IBK기업",
-      "awayTeam": "페퍼저축",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.37,
-        "away": 2.38
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 16,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "IBK기업",
-      "awayTeam": "페퍼저축",
-      "handicapValue": null,
-      "underOverValue": "U/O 185.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 17,
-      "league": "02.25 (수)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "IBK기업",
-      "awayTeam": "페퍼저축",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.25 (수)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 18,
       "league": "02.25 (수)23:00 마감",
       "sportText": "축구",
@@ -338,8 +104,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.25,
-        "draw": 3,
+        "home": 2.31,
+        "draw": 2.9,
         "away": 2.6
       },
       "deadlineText": "02.25 (수)23:00 마감",
@@ -413,8 +179,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.13,
-        "draw": 5.4,
-        "away": 11
+        "draw": 5.8,
+        "away": 9.5
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": false,
@@ -523,9 +289,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.25,
-        "draw": 3.15,
-        "away": 2.5
+        "home": 2.31,
+        "draw": 3.1,
+        "away": 2.45
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": false,
@@ -616,8 +382,8 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 3.1,
+        "home": 3.3,
+        "draw": 3,
         "away": 1.9
       },
       "deadlineText": "02.25 (수)23:00 마감",
@@ -709,9 +475,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.35,
-        "draw": 3.85,
-        "away": 2.09
+        "home": 2.4,
+        "draw": 3.65,
+        "away": 2.12
       },
       "deadlineText": "02.25 (수)23:00 마감",
       "isSingle": true,
