@@ -8,7 +8,7 @@
       "matchType": "handicap",
       "homeTeam": "괌M",
       "awayTeam": "호주M",
-      "handicapValue": "H +48.5",
+      "handicapValue": "H +50.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -27,7 +27,7 @@
       "homeTeam": "괌M",
       "awayTeam": "호주M",
       "handicapValue": null,
-      "underOverValue": "U/O 170.5",
+      "underOverValue": "U/O 167.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -35,7 +35,7 @@
       "deadlineText": "02.26 (목)18:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 89,
@@ -101,8 +101,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 184.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.26 (목)19:00 마감",
       "isSingle": true,
@@ -173,8 +173,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 184.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "02.26 (목)19:00 마감",
       "isSingle": true,
@@ -243,7 +243,7 @@
       "homeTeam": "일본M",
       "awayTeam": "중국M",
       "handicapValue": null,
-      "underOverValue": "U/O 165.5",
+      "underOverValue": "U/O 162.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -251,7 +251,7 @@
       "deadlineText": "02.26 (목)19:05 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 101,
@@ -852,9 +852,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 9,
-        "draw": 5.5,
-        "away": 1.15
+        "home": 8.1,
+        "draw": 5.2,
+        "away": 1.18
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1019,9 +1019,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.92,
-        "draw": 3.5,
-        "away": 2.8
+        "home": 1.84,
+        "draw": 3.65,
+        "away": 2.9
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1038,9 +1038,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
-        "draw": 3.95,
-        "away": 1.69
+        "home": 2.95,
+        "draw": 3.9,
+        "away": 1.76
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1463,9 +1463,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.95,
-        "draw": 3.15,
-        "away": 3
+        "home": 2,
+        "draw": 3.2,
+        "away": 2.85
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1575,9 +1575,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.8,
-        "draw": 3.15,
-        "away": 2.05
+        "home": 2.7,
+        "draw": 3.1,
+        "away": 2.13
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1687,9 +1687,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.65,
-        "draw": 3.85,
-        "away": 1.59
+        "home": 3.95,
+        "draw": 3.9,
+        "away": 1.53
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1743,8 +1743,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.42,
-        "draw": 3.7,
-        "away": 5.3
+        "draw": 3.9,
+        "away": 4.95
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1761,9 +1761,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.31,
+        "home": 2.35,
         "draw": 3.2,
-        "away": 2.4
+        "away": 2.35
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1826,6 +1826,78 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 186,
+      "league": "02.27 (금)08:10 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "자메이M",
+      "awayTeam": "바하마M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.15,
+        "away": 1.46
+      },
+      "deadlineText": "02.27 (금)08:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 187,
+      "league": "02.27 (금)08:10 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "자메이M",
+      "awayTeam": "바하마M",
+      "handicapValue": "H +3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.27 (금)08:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 188,
+      "league": "02.27 (금)08:10 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "자메이M",
+      "awayTeam": "바하마M",
+      "handicapValue": null,
+      "underOverValue": "U/O 173.5",
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "02.27 (금)08:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 189,
+      "league": "02.27 (금)08:10 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "자메이M",
+      "awayTeam": "바하마M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.27 (금)08:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 190,
       "league": "02.27 (금)09:00 마감",
       "sportText": "농구",
@@ -1869,7 +1941,7 @@
       "homeTeam": "인디페이",
       "awayTeam": "샬럿호네",
       "handicapValue": null,
-      "underOverValue": "U/O 231.5",
+      "underOverValue": "U/O 229.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1877,7 +1949,7 @@
       "deadlineText": "02.27 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 193,
@@ -1965,6 +2037,78 @@
         "away": 1.74
       },
       "deadlineText": "02.27 (금)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 198,
+      "league": "02.27 (금)09:10 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "푸에르M",
+      "awayTeam": "캐나다M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 5.08,
+        "away": 1.05
+      },
+      "deadlineText": "02.27 (금)09:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 199,
+      "league": "02.27 (금)09:10 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "푸에르M",
+      "awayTeam": "캐나다M",
+      "handicapValue": "H +11.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.27 (금)09:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 200,
+      "league": "02.27 (금)09:10 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "푸에르M",
+      "awayTeam": "캐나다M",
+      "handicapValue": null,
+      "underOverValue": "U/O 172.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "02.27 (금)09:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 201,
+      "league": "02.27 (금)09:10 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "푸에르M",
+      "awayTeam": "캐나다M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.27 (금)09:10 마감",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
@@ -2258,6 +2402,78 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 218,
+      "league": "02.27 (금)10:10 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "니카라M",
+      "awayTeam": "멕시코M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 6.28,
+        "away": 1.01
+      },
+      "deadlineText": "02.27 (금)10:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 219,
+      "league": "02.27 (금)10:10 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "니카라M",
+      "awayTeam": "멕시코M",
+      "handicapValue": "H +16.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "02.27 (금)10:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 220,
+      "league": "02.27 (금)10:10 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "니카라M",
+      "awayTeam": "멕시코M",
+      "handicapValue": null,
+      "underOverValue": "U/O 162.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "02.27 (금)10:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 221,
+      "league": "02.27 (금)10:10 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "니카라M",
+      "awayTeam": "멕시코M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.27 (금)10:10 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 222,
       "league": "02.27 (금)10:30 마감",
       "sportText": "농구",
@@ -2544,8 +2760,80 @@
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
+    },
+    {
+      "gameNumber": 238,
+      "league": "02.27 (금)12:10 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "미국M",
+      "awayTeam": "도미공M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.01,
+        "away": 6.28
+      },
+      "deadlineText": "02.27 (금)12:10 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 239,
+      "league": "02.27 (금)12:10 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "미국M",
+      "awayTeam": "도미공M",
+      "handicapValue": "H -16.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.27 (금)12:10 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 240,
+      "league": "02.27 (금)12:10 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "미국M",
+      "awayTeam": "도미공M",
+      "handicapValue": null,
+      "underOverValue": "U/O 178.5",
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "02.27 (금)12:10 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 241,
+      "league": "02.27 (금)12:10 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "미국M",
+      "awayTeam": "도미공M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.27 (금)12:10 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
     }
   ],
   "finishedMatches": [],
-  "lastMatchNumber": 237
+  "lastMatchNumber": 241
 }
