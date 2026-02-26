@@ -2,78 +2,6 @@
   "roundNumber": "260025",
   "matches": [
     {
-      "gameNumber": 83,
-      "league": "02.26 (목)12:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "덴버너게",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.46,
-        "away": 2.15
-      },
-      "deadlineText": "02.26 (목)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 84,
-      "league": "02.26 (목)12:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "덴버너게",
-      "awayTeam": "보스셀틱",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.69,
-        "away": 1.79
-      },
-      "deadlineText": "02.26 (목)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 85,
-      "league": "02.26 (목)12:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "덴버너게",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": "U/O 229.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.26 (목)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 86,
-      "league": "02.26 (목)12:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "덴버너게",
-      "awayTeam": "보스셀틱",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "02.26 (목)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 87,
       "league": "02.26 (목)18:00 마감",
       "sportText": "농구",
@@ -1350,9 +1278,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.05,
-        "draw": 6.6,
-        "away": 17
+        "home": 1.08,
+        "draw": 6.5,
+        "away": 12
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1369,9 +1297,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.9,
+        "home": 2.1,
         "draw": 3.5,
-        "away": 2.85
+        "away": 2.5
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1388,9 +1316,9 @@
       "handicapValue": "H -3.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.3,
+        "home": 3.6,
         "draw": 4.15,
-        "away": 1.62
+        "away": 1.55
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1425,8 +1353,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.64,
-        "away": 1.85
+        "home": 1.54,
+        "away": 2
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
