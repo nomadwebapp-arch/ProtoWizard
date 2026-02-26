@@ -8,7 +8,7 @@
       "matchType": "handicap",
       "homeTeam": "괌M",
       "awayTeam": "호주M",
-      "handicapValue": "H +43.5",
+      "handicapValue": "H +48.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -17,7 +17,7 @@
       "deadlineText": "02.26 (목)18:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 88,
@@ -209,8 +209,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.56,
-        "away": 1.97
+        "home": 1.33,
+        "away": 2.52
       },
       "deadlineText": "02.26 (목)19:05 마감",
       "isSingle": false,
@@ -224,7 +224,7 @@
       "matchType": "handicap",
       "homeTeam": "일본M",
       "awayTeam": "중국M",
-      "handicapValue": "H -2.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
         "home": 1.76,
@@ -233,7 +233,7 @@
       "deadlineText": "02.26 (목)19:05 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 100,
@@ -518,9 +518,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "draw": 3.2,
-        "away": 3.6
+        "home": 1.79,
+        "draw": 3.15,
+        "away": 3.5
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -573,9 +573,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.19,
-        "draw": 4.75,
-        "away": 8.9
+        "home": 1.22,
+        "draw": 4.7,
+        "away": 7.7
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -592,9 +592,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
+        "home": 1.73,
         "draw": 3.45,
-        "away": 3.5
+        "away": 3.4
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1649,9 +1649,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.32,
-        "draw": 3.95,
-        "away": 6.6
+        "home": 1.35,
+        "draw": 4,
+        "away": 5.8
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
@@ -1668,9 +1668,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.15,
-        "draw": 3.2,
-        "away": 2.6
+        "home": 2.25,
+        "draw": 3.15,
+        "away": 2.5
       },
       "deadlineText": "02.26 (목)23:00 마감",
       "isSingle": true,
