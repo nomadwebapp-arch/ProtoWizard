@@ -1896,8 +1896,8 @@ export const protoMatches: Match[] = [
     awayTeam: '파나마M',
     matchType: 'normal',
     odds: {
-      home: 2.86,
-      away: 1.25,
+      home: 4.65,
+      away: 1.07,
     },
     deadline: new Date('2026-02-28T01:10:00.000Z'),
     status: 'open',
@@ -1912,7 +1912,7 @@ export const protoMatches: Match[] = [
     homeTeam: '쿠바M',
     awayTeam: '파나마M',
     matchType: 'handicap',
-    handicapValue: 'H +6.5',
+    handicapValue: 'H +10.5',
     isConditionChanged: true,
     odds: {
       home: 1.74,

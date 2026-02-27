@@ -1899,8 +1899,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.86,
-        "away": 1.25
+        "home": 4.65,
+        "away": 1.07
       },
       "deadlineText": "02.28 (토)10:10 마감",
       "isSingle": false,
@@ -1914,7 +1914,7 @@
       "matchType": "handicap",
       "homeTeam": "쿠바M",
       "awayTeam": "파나마M",
-      "handicapValue": "H +6.5",
+      "handicapValue": "H +10.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
