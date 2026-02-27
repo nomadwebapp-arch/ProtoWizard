@@ -703,9 +703,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.33,
-        "draw": 3.25,
-        "away": 2.35
+        "home": 2.65,
+        "draw": 3.05,
+        "away": 2.19
       },
       "deadlineText": "02.28 (토)14:00 마감",
       "isSingle": false,
@@ -965,6 +965,150 @@
       "odds": {
         "home": 1.76,
         "away": 1.72
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 170,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "우리카드",
+      "awayTeam": "KB손보",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.51,
+        "away": 2.05
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 171,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "우리카드",
+      "awayTeam": "KB손보",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 2,
+        "away": 1.54
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 172,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "우리카드",
+      "awayTeam": "KB손보",
+      "handicapValue": null,
+      "underOverValue": "U/O 186.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 173,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "우리카드",
+      "awayTeam": "KB손보",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 174,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "normal",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.1,
+        "away": 4.16
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 175,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "handicap",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 2.09,
+        "away": 1.49
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 176,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "underover",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": null,
+      "underOverValue": "U/O 175.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "02.28 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 177,
+      "league": "02.28 (토)14:00 마감",
+      "sportText": "배구",
+      "matchType": "sum",
+      "homeTeam": "현대건설",
+      "awayTeam": "IBK기업",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "02.28 (토)14:00 마감",
       "isSingle": true,
