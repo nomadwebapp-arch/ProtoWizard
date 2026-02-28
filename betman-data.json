@@ -347,8 +347,8 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.02,
-        "draw": 3.05,
+        "home": 1.96,
+        "draw": 3.2,
         "away": 2.95
       },
       "deadlineText": "02.28 (토)23:00 마감",
@@ -737,8 +737,8 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.18,
-        "draw": 3.2,
+        "home": 2.12,
+        "draw": 3.35,
         "away": 2.55
       },
       "deadlineText": "02.28 (토)23:00 마감",
