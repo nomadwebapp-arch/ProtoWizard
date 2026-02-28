@@ -2,174 +2,6 @@
   "roundNumber": "260026",
   "matches": [
     {
-      "gameNumber": 178,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "센트매리",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.05,
-        "draw": 4,
-        "away": 1.5
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 179,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "센트매리",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.14,
-        "draw": 3.6,
-        "away": 2.4
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 180,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "센트매리",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 181,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "가시와",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.33,
-        "draw": 3.15,
-        "away": 2.4
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 182,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "가시와",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.85,
-        "draw": 3.9,
-        "away": 1.43
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 183,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "가시와",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.65,
-        "away": 1.84
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 184,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "G오사카",
-      "awayTeam": "시미즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.86,
-        "draw": 3.3,
-        "away": 3.1
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 185,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "G오사카",
-      "awayTeam": "시미즈",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.85,
-        "draw": 3.45,
-        "away": 1.63
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 186,
-      "league": "02.28 (토)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "G오사카",
-      "awayTeam": "시미즈",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "02.28 (토)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 187,
       "league": "02.28 (토)16:00 마감",
       "sportText": "축구",
@@ -217,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.87,
-        "away": 1.63
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "02.28 (토)16:00 마감",
       "isSingle": true,
@@ -328,9 +160,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.6,
-        "draw": 3.4,
-        "away": 1.69
+        "home": 3.5,
+        "draw": 3.35,
+        "away": 1.73
       },
       "deadlineText": "02.28 (토)16:30 마감",
       "isSingle": true,
@@ -383,9 +215,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.4,
+        "home": 2.6,
         "draw": 3.1,
-        "away": 2.36
+        "away": 2.2
       },
       "deadlineText": "02.28 (토)17:00 마감",
       "isSingle": true,
@@ -402,9 +234,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.43,
-        "draw": 3.85,
-        "away": 4.9
+        "home": 1.5,
+        "draw": 3.8,
+        "away": 4.3
       },
       "deadlineText": "02.28 (토)17:00 마감",
       "isSingle": true,
