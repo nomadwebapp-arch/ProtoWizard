@@ -2,60 +2,6 @@
   "roundNumber": "260026",
   "matches": [
     {
-      "gameNumber": 449,
-      "league": "03.01 (일)17:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "대만M",
-      "awayTeam": "중국M",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 5.32,
-        "away": 1.04
-      },
-      "deadlineText": "03.01 (일)17:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 450,
-      "league": "03.01 (일)17:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "대만M",
-      "awayTeam": "중국M",
-      "handicapValue": "H +11.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "03.01 (일)17:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 451,
-      "league": "03.01 (일)17:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "대만M",
-      "awayTeam": "중국M",
-      "handicapValue": null,
-      "underOverValue": "U/O 158.5",
-      "odds": {
-        "home": 1.73,
-        "away": 1.75
-      },
-      "deadlineText": "03.01 (일)17:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 452,
       "league": "03.01 (일)20:15 마감",
       "sportText": "축구",
@@ -2355,8 +2301,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.97,
-        "away": 1.56
+        "home": 1.78,
+        "away": 1.7
       },
       "deadlineText": "03.01 (일)23:00 마감",
       "isSingle": true,
