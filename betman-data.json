@@ -2,62 +2,6 @@
   "roundNumber": "260026",
   "matches": [
     {
-      "gameNumber": 452,
-      "league": "03.01 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "즈볼러",
-      "awayTeam": "아약스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.75,
-        "draw": 3.8,
-        "away": 1.58
-      },
-      "deadlineText": "03.01 (일)20:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 453,
-      "league": "03.01 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "즈볼러",
-      "awayTeam": "아약스",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.89,
-        "draw": 3.6,
-        "away": 2.8
-      },
-      "deadlineText": "03.01 (일)20:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 454,
-      "league": "03.01 (일)20:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "즈볼러",
-      "awayTeam": "아약스",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.51,
-        "away": 2.05
-      },
-      "deadlineText": "03.01 (일)20:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 455,
       "league": "03.01 (일)20:30 마감",
       "sportText": "축구",
@@ -67,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 6.2,
-        "draw": 3.9,
-        "away": 1.34
+        "home": 6.6,
+        "draw": 4.15,
+        "away": 1.3
       },
       "deadlineText": "03.01 (일)20:30 마감",
       "isSingle": true,
@@ -86,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "draw": 3.25,
-        "away": 2.16
+        "home": 2.85,
+        "draw": 3.2,
+        "away": 2
       },
       "deadlineText": "03.01 (일)20:30 마감",
       "isSingle": true,
@@ -105,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.97,
+        "away": 1.56
       },
       "deadlineText": "03.01 (일)20:30 마감",
       "isSingle": true,
@@ -175,7 +119,7 @@
       "homeTeam": "필리핀M",
       "awayTeam": "호주M",
       "handicapValue": null,
-      "underOverValue": "U/O 168.5",
+      "underOverValue": "U/O 166.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -397,7 +341,7 @@
       "homeTeam": "네덜란M",
       "awayTeam": "오스트M",
       "handicapValue": null,
-      "underOverValue": "U/O 153.5",
+      "underOverValue": "U/O 156.5",
       "odds": {
         "home": 1.73,
         "away": 1.75
@@ -405,7 +349,7 @@
       "deadlineText": "03.01 (일)22:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 474,
