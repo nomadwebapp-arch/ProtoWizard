@@ -2,62 +2,6 @@
   "roundNumber": "260026",
   "matches": [
     {
-      "gameNumber": 462,
-      "league": "03.01 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "엘체",
-      "awayTeam": "에스파뇰",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.26,
-        "draw": 2.85,
-        "away": 2.7
-      },
-      "deadlineText": "03.01 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 463,
-      "league": "03.01 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "엘체",
-      "awayTeam": "에스파뇰",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.5,
-        "draw": 3.6,
-        "away": 1.51
-      },
-      "deadlineText": "03.01 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 464,
-      "league": "03.01 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "엘체",
-      "awayTeam": "에스파뇰",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.63,
-        "away": 1.87
-      },
-      "deadlineText": "03.01 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 465,
       "league": "03.01 (일)22:30 마감",
       "sportText": "축구",
@@ -142,8 +86,8 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.95,
-        "draw": 3.8,
+        "home": 3.75,
+        "draw": 4,
         "away": 1.55
       },
       "deadlineText": "03.01 (일)22:30 마감",
@@ -958,9 +902,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.93,
-        "draw": 2.85,
-        "away": 3.4
+        "home": 1.86,
+        "draw": 2.9,
+        "away": 3.55
       },
       "deadlineText": "03.01 (일)23:00 마감",
       "isSingle": true,
@@ -1014,9 +958,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.95,
+        "home": 3.1,
         "draw": 3.1,
-        "away": 2
+        "away": 1.93
       },
       "deadlineText": "03.01 (일)23:00 마감",
       "isSingle": true,
@@ -1310,9 +1254,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
-        "draw": 2.8,
-        "away": 2.47
+        "home": 2.6,
+        "draw": 2.65,
+        "away": 2.5
       },
       "deadlineText": "03.01 (일)23:00 마감",
       "isSingle": true,
@@ -1839,8 +1783,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.18,
-        "draw": 3.2,
+        "home": 2.26,
+        "draw": 3.05,
         "away": 2.55
       },
       "deadlineText": "03.01 (일)23:00 마감",
@@ -2005,9 +1949,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.38,
-        "draw": 2.85,
-        "away": 2.55
+        "home": 2.33,
+        "draw": 2.75,
+        "away": 2.7
       },
       "deadlineText": "03.01 (일)23:00 마감",
       "isSingle": true,
