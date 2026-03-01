@@ -67,8 +67,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.06,
-        "away": 4.85
+        "home": 1.13,
+        "away": 3.78
       },
       "deadlineText": "03.02 (월)09:10 마감",
       "isSingle": false,
@@ -82,16 +82,16 @@
       "matchType": "handicap",
       "homeTeam": "미국M",
       "awayTeam": "멕시코M",
-      "handicapValue": "H -12.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.02 (월)09:10 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 617,
@@ -101,7 +101,7 @@
       "homeTeam": "미국M",
       "awayTeam": "멕시코M",
       "handicapValue": null,
-      "underOverValue": "U/O 176.5",
+      "underOverValue": "U/O 175.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -109,7 +109,7 @@
       "deadlineText": "03.02 (월)09:10 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 618,
@@ -136,7 +136,7 @@
       "matchType": "handicap",
       "homeTeam": "보스셀틱",
       "awayTeam": "필라76s",
-      "handicapValue": "H -8.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.75,
@@ -145,7 +145,7 @@
       "deadlineText": "03.02 (월)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 620,
@@ -157,8 +157,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 222.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "03.02 (월)10:00 마감",
       "isSingle": false,
@@ -227,7 +227,7 @@
       "homeTeam": "댈러매버",
       "awayTeam": "오클썬더",
       "handicapValue": null,
-      "underOverValue": "U/O 232.5",
+      "underOverValue": "U/O 236.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -235,7 +235,7 @@
       "deadlineText": "03.02 (월)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 625,
@@ -281,7 +281,7 @@
       "homeTeam": "니카라M",
       "awayTeam": "도미공M",
       "handicapValue": null,
-      "underOverValue": "U/O 165.5",
+      "underOverValue": "U/O 169.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -289,7 +289,7 @@
       "deadlineText": "03.02 (월)10:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 628,
@@ -463,7 +463,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "새크킹스",
       "handicapValue": null,
-      "underOverValue": "U/O 232.5",
+      "underOverValue": "U/O 235.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -471,7 +471,7 @@
       "deadlineText": "03.02 (월)11:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 638,
