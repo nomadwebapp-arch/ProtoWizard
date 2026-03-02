@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.01,
-        "away": 6.28
+        "home": 1.04,
+        "away": 5.32
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -45,7 +45,7 @@
       "homeTeam": "리투아M",
       "awayTeam": "아이슬M",
       "handicapValue": null,
-      "underOverValue": "U/O 169.5",
+      "underOverValue": "U/O 167.5",
       "odds": {
         "home": 1.71,
         "away": 1.77
@@ -53,7 +53,7 @@
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 23,
@@ -320,8 +320,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.98,
+        "away": 1.55
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -335,11 +335,11 @@
       "matchType": "handicap",
       "homeTeam": "몬테네M",
       "awayTeam": "그리스M",
-      "handicapValue": "H -1.5",
+      "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.84,
-        "away": 1.65
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -949,6 +949,204 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 83,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "아르헨M",
+      "awayTeam": "파나마M",
+      "handicapValue": "H -16.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": true
+    },
+    {
+      "gameNumber": 84,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "아르헨M",
+      "awayTeam": "파나마M",
+      "handicapValue": null,
+      "underOverValue": "U/O 152.5",
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 85,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "아르헨M",
+      "awayTeam": "파나마M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 86,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "브라질M",
+      "awayTeam": "콜롬비M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.01,
+        "away": 6.28
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 87,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "브라질M",
+      "awayTeam": "콜롬비M",
+      "handicapValue": "H -16.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 88,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "브라질M",
+      "awayTeam": "콜롬비M",
+      "handicapValue": null,
+      "underOverValue": "U/O 155.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 89,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "브라질M",
+      "awayTeam": "콜롬비M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 90,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "칠레M",
+      "awayTeam": "베네수M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.65,
+        "away": 1.84
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 91,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "칠레M",
+      "awayTeam": "베네수M",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 92,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "칠레M",
+      "awayTeam": "베네수M",
+      "handicapValue": null,
+      "underOverValue": "U/O 151.5",
+      "odds": {
+        "home": 1.73,
+        "away": 1.75
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 93,
+      "league": "03.02 (월)23:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "칠레M",
+      "awayTeam": "베네수M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.02 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 94,
       "league": "03.03 (화)09:00 마감",
       "sportText": "농구",
@@ -1009,6 +1207,78 @@
       "matchType": "sum",
       "homeTeam": "워싱위저",
       "awayTeam": "휴스로케",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.03 (화)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 98,
+      "league": "03.03 (화)09:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "쿠바M",
+      "awayTeam": "우루과M",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 6.28,
+        "away": 1.01
+      },
+      "deadlineText": "03.03 (화)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 99,
+      "league": "03.03 (화)09:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "쿠바M",
+      "awayTeam": "우루과M",
+      "handicapValue": "H +14.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "03.03 (화)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 100,
+      "league": "03.03 (화)09:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "쿠바M",
+      "awayTeam": "우루과M",
+      "handicapValue": null,
+      "underOverValue": "U/O 156.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.03 (화)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 101,
+      "league": "03.03 (화)09:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "쿠바M",
+      "awayTeam": "우루과M",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
