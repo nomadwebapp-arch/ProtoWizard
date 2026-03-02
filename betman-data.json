@@ -227,9 +227,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.95,
+        "home": 4.2,
         "draw": 3,
-        "away": 1.74
+        "away": 1.69
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -464,8 +464,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.16,
-        "away": 1.1
+        "home": 4.65,
+        "away": 1.07
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -482,13 +482,13 @@
       "handicapValue": "H +12.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 47,
@@ -885,9 +885,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.45,
-        "draw": 3.55,
-        "away": 1.69
+        "home": 3.8,
+        "draw": 3.4,
+        "away": 1.65
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -955,7 +955,7 @@
       "matchType": "handicap",
       "homeTeam": "아르헨M",
       "awayTeam": "파나마M",
-      "handicapValue": "H -16.5",
+      "handicapValue": "H -17.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -1046,7 +1046,7 @@
       "homeTeam": "브라질M",
       "awayTeam": "콜롬비M",
       "handicapValue": null,
-      "underOverValue": "U/O 155.5",
+      "underOverValue": "U/O 157.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1054,7 +1054,7 @@
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 89,
@@ -1084,8 +1084,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.65,
-        "away": 1.84
+        "home": 2.02,
+        "away": 1.53
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -1099,16 +1099,16 @@
       "matchType": "handicap",
       "homeTeam": "칠레M",
       "awayTeam": "베네수M",
-      "handicapValue": "H -1.5",
+      "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 92,
