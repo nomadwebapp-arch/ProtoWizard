@@ -45,7 +45,7 @@
       "homeTeam": "워싱위저",
       "awayTeam": "휴스로케",
       "handicapValue": null,
-      "underOverValue": "U/O 224.5",
+      "underOverValue": "U/O 225.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -53,7 +53,7 @@
       "deadlineText": "03.03 (화)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 97,
@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.24,
-        "away": 1.19
+        "home": 2.03,
+        "away": 1.52
       },
       "deadlineText": "03.03 (화)09:30 마감",
       "isSingle": false,
@@ -170,7 +170,7 @@
       "matchType": "handicap",
       "homeTeam": "밀워벅스",
       "awayTeam": "보스셀틱",
-      "handicapValue": "H +7.5",
+      "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
         "home": 1.76,
@@ -179,7 +179,7 @@
       "deadlineText": "03.03 (화)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 104,
@@ -242,7 +242,7 @@
       "matchType": "handicap",
       "homeTeam": "유타재즈",
       "awayTeam": "덴버너게",
-      "handicapValue": "H +10.5",
+      "handicapValue": "H +11.5",
       "underOverValue": null,
       "odds": {
         "home": 1.78,
@@ -251,7 +251,7 @@
       "deadlineText": "03.03 (화)11:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 108,
