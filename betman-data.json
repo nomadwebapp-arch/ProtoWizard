@@ -320,8 +320,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.5,
-        "away": 2.07
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -335,11 +335,11 @@
       "matchType": "handicap",
       "homeTeam": "몬테네M",
       "awayTeam": "그리스M",
-      "handicapValue": "H -2.5",
+      "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.84,
+        "away": 1.65
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -773,9 +773,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.2,
-        "draw": 3.1,
-        "away": 2.6
+        "home": 2.6,
+        "draw": 3.05,
+        "away": 2.22
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -789,17 +789,17 @@
       "matchType": "handicap",
       "homeTeam": "버밍엄C",
       "awayTeam": "미들즈브",
-      "handicapValue": "H -1.0",
+      "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.35,
-        "draw": 3.7,
-        "away": 1.51
+        "home": 1.46,
+        "draw": 3.75,
+        "away": 4.75
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 75,
@@ -1208,7 +1208,7 @@
       "homeTeam": "골든워리",
       "awayTeam": "LA클리퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 219.5",
+      "underOverValue": "U/O 217.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
