@@ -246,9 +246,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.83,
-        "draw": 3.15,
-        "away": 3.35
+        "home": 1.88,
+        "draw": 3.05,
+        "away": 3.3
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -265,9 +265,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.2,
-        "draw": 5,
-        "away": 7.7
+        "home": 1.24,
+        "draw": 4.6,
+        "away": 7.2
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -479,7 +479,7 @@
       "matchType": "handicap",
       "homeTeam": "스위스M",
       "awayTeam": "보스니M",
-      "handicapValue": "H +10.5",
+      "handicapValue": "H +12.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -680,9 +680,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.6,
-        "draw": 3,
-        "away": 2.25
+        "home": 2.7,
+        "draw": 2.9,
+        "away": 2.23
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -699,9 +699,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.47,
-        "draw": 3.65,
-        "away": 4.8
+        "home": 1.51,
+        "draw": 3.5,
+        "away": 4.65
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -718,9 +718,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.07,
-        "draw": 6.7,
-        "away": 12.5
+        "home": 1.1,
+        "draw": 6.5,
+        "away": 10
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -885,9 +885,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 3.6,
-        "away": 1.75
+        "home": 3.45,
+        "draw": 3.55,
+        "away": 1.69
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": true,
@@ -1243,7 +1243,7 @@
       "matchType": "handicap",
       "homeTeam": "쿠바M",
       "awayTeam": "우루과M",
-      "handicapValue": "H +14.5",
+      "handicapValue": "H +16.5",
       "underOverValue": null,
       "odds": {
         "home": 1.77,
@@ -1252,7 +1252,7 @@
       "deadlineText": "03.03 (화)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 100,
