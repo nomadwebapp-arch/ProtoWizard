@@ -2,78 +2,6 @@
   "roundNumber": "260027",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "03.02 (월)16:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.11,
-        "away": 4.02
-      },
-      "deadlineText": "03.02 (월)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "03.02 (월)16:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": "H -2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.18,
-        "away": 1.45
-      },
-      "deadlineText": "03.02 (월)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "03.02 (월)16:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": "U/O 176.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.02 (월)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "03.02 (월)16:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "대전정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.02 (월)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "03.02 (월)16:30 마감",
       "sportText": "축구",
@@ -466,8 +394,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.5,
+        "away": 2.07
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -481,16 +409,16 @@
       "matchType": "handicap",
       "homeTeam": "몬테네M",
       "awayTeam": "그리스M",
-      "handicapValue": "H +1.5",
+      "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.65,
-        "away": 1.84
+        "home": 1.69,
+        "away": 1.79
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 39,
@@ -682,8 +610,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.07,
-        "away": 4.65
+        "home": 1.14,
+        "away": 3.67
       },
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
@@ -697,7 +625,7 @@
       "matchType": "handicap",
       "homeTeam": "이탈리M",
       "awayTeam": "영국M",
-      "handicapValue": "H -10.5",
+      "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -706,7 +634,7 @@
       "deadlineText": "03.02 (월)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 55,
@@ -1354,7 +1282,7 @@
       "homeTeam": "골든워리",
       "awayTeam": "LA클리퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 220.5",
+      "underOverValue": "U/O 219.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1362,7 +1290,7 @@
       "deadlineText": "03.03 (화)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 113,
