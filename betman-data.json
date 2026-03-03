@@ -26,16 +26,16 @@
       "matchType": "handicap",
       "homeTeam": "샬럿호네",
       "awayTeam": "댈러매버",
-      "handicapValue": "H -11.5",
+      "handicapValue": "H -13.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.04 (수)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 177,
@@ -47,8 +47,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 231.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "03.04 (수)09:00 마감",
       "isSingle": false,
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.01,
-        "away": 6.28
+        "home": 1.03,
+        "away": 5.6
       },
       "deadlineText": "03.04 (수)09:30 마감",
       "isSingle": false,
@@ -443,8 +443,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.16,
-        "away": 1.1
+        "home": 3.78,
+        "away": 1.13
       },
       "deadlineText": "03.04 (수)10:00 마감",
       "isSingle": false,
@@ -477,7 +477,7 @@
       "homeTeam": "시카불스",
       "awayTeam": "오클썬더",
       "handicapValue": null,
-      "underOverValue": "U/O 228.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -485,7 +485,7 @@
       "deadlineText": "03.04 (수)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 202,
@@ -659,8 +659,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.47,
-        "away": 1.08
+        "home": 4.02,
+        "away": 1.11
       },
       "deadlineText": "03.04 (수)13:00 마감",
       "isSingle": true,
