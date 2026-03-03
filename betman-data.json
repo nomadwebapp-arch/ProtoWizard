@@ -1453,7 +1453,7 @@
       "homeTeam": "새크킹스",
       "awayTeam": "피닉선즈",
       "handicapValue": null,
-      "underOverValue": "U/O 226.5",
+      "underOverValue": "U/O 224.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1461,7 +1461,7 @@
       "deadlineText": "03.04 (수)13:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 214,
