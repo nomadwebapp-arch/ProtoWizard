@@ -45,7 +45,7 @@
       "homeTeam": "샬럿호네",
       "awayTeam": "댈러매버",
       "handicapValue": null,
-      "underOverValue": "U/O 231.5",
+      "underOverValue": "U/O 228.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -53,7 +53,7 @@
       "deadlineText": "03.04 (수)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 178,
@@ -530,7 +530,7 @@
       "matchType": "handicap",
       "homeTeam": "미네울브",
       "awayTeam": "멤피그리",
-      "handicapValue": "H -14.5",
+      "handicapValue": "H -13.5",
       "underOverValue": null,
       "odds": {
         "home": 1.76,
@@ -539,7 +539,7 @@
       "deadlineText": "03.04 (수)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 205,

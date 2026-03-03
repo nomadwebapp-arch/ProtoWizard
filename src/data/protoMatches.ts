@@ -48,7 +48,8 @@ export const protoMatches: Match[] = [
     homeTeam: '샬럿호네',
     awayTeam: '댈러매버',
     matchType: 'underover',
-    underOverValue: 'U/O 231.5',
+    underOverValue: 'U/O 228.5',
+    isConditionChanged: true,
     odds: {
       home: 1.72,
       away: 1.76,
@@ -523,7 +524,8 @@ export const protoMatches: Match[] = [
     homeTeam: '미네울브',
     awayTeam: '멤피그리',
     matchType: 'handicap',
-    handicapValue: 'H -14.5',
+    handicapValue: 'H -13.5',
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
