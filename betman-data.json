@@ -104,9 +104,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.9,
-        "draw": 3.65,
-        "away": 1.46
+        "home": 4.75,
+        "draw": 3.6,
+        "away": 1.48
       },
       "deadlineText": "03.03 (화)23:00 마감",
       "isSingle": true,
@@ -698,9 +698,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.6,
-        "draw": 3.9,
-        "away": 3.55
+        "home": 1.54,
+        "draw": 3.85,
+        "away": 3.95
       },
       "deadlineText": "03.03 (화)23:00 마감",
       "isSingle": true,
@@ -1021,7 +1021,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "브루네츠",
       "handicapValue": null,
-      "underOverValue": "U/O 228.5",
+      "underOverValue": "U/O 226.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1029,7 +1029,7 @@
       "deadlineText": "03.04 (수)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 190,
