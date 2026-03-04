@@ -2,80 +2,6 @@
   "roundNumber": "260028",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "03.04 (수)17:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "센트매리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.61,
-        "draw": 3.55,
-        "away": 3.85
-      },
-      "deadlineText": "03.04 (수)17:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "03.04 (수)17:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "센트매리",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.4,
-        "draw": 3.4,
-        "away": 2.21
-      },
-      "deadlineText": "03.04 (수)17:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "03.04 (수)17:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "센트매리",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.13,
-        "away": 1.47
-      },
-      "deadlineText": "03.04 (수)17:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "03.04 (수)17:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "맥아서FC",
-      "awayTeam": "센트매리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.04 (수)17:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "03.04 (수)19:00 마감",
       "sportText": "축구",
@@ -233,8 +159,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.24,
-        "away": 1.19
+        "home": 2.97,
+        "away": 1.23
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
@@ -251,8 +177,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 2.07,
-        "away": 1.5
+        "home": 1.97,
+        "away": 1.56
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
