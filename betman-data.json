@@ -117,7 +117,7 @@
       "homeTeam": "보스셀틱",
       "awayTeam": "샬럿호네",
       "handicapValue": null,
-      "underOverValue": "U/O 213.5",
+      "underOverValue": "U/O 215.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.09,
-        "away": 4.31
+        "home": 1.16,
+        "away": 3.48
       },
       "deadlineText": "03.05 (목)09:30 마감",
       "isSingle": false,
@@ -170,16 +170,16 @@
       "matchType": "handicap",
       "homeTeam": "필라76s",
       "awayTeam": "유타재즈",
-      "handicapValue": "H -9.5",
+      "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.78,
+        "away": 1.7
       },
       "deadlineText": "03.05 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 97,
@@ -189,7 +189,7 @@
       "homeTeam": "필라76s",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 240.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.39,
-        "away": 1.17
+        "home": 4.16,
+        "away": 1.1
       },
       "deadlineText": "03.05 (목)10:00 마감",
       "isSingle": false,
@@ -242,11 +242,11 @@
       "matchType": "handicap",
       "homeTeam": "멤피그리",
       "awayTeam": "포틀트레",
-      "handicapValue": "H +8.5",
+      "handicapValue": "H +9.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.05 (목)10:00 마감",
       "isSingle": false,
@@ -261,7 +261,7 @@
       "homeTeam": "멤피그리",
       "awayTeam": "포틀트레",
       "handicapValue": null,
-      "underOverValue": "U/O 238.5",
+      "underOverValue": "U/O 234.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -269,7 +269,7 @@
       "deadlineText": "03.05 (목)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 102,
@@ -477,7 +477,7 @@
       "homeTeam": "LA클리퍼",
       "awayTeam": "인디페이",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 227.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -485,7 +485,7 @@
       "deadlineText": "03.05 (목)12:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 114,
