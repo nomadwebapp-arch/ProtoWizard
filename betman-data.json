@@ -30,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.64,
+        "home": 1.57,
         "draw": 3.5,
-        "away": 3.75
+        "away": 4.15
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": false,
@@ -85,9 +85,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.75,
-        "draw": 2.95,
-        "away": 2.17
+        "home": 3,
+        "draw": 2.85,
+        "away": 2.09
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
@@ -104,9 +104,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.5,
-        "draw": 3.55,
-        "away": 4.65
+        "home": 1.6,
+        "draw": 3.35,
+        "away": 4.2
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
@@ -159,8 +159,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.97,
-        "away": 1.23
+        "home": 2.72,
+        "away": 1.28
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
@@ -177,8 +177,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.97,
-        "away": 1.56
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
@@ -195,8 +195,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 182.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
@@ -267,8 +267,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 179.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.04 (수)19:00 마감",
       "isSingle": true,
@@ -303,9 +303,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.39,
-        "draw": 3.05,
-        "away": 2.4
+        "home": 2.41,
+        "draw": 2.95,
+        "away": 2.45
       },
       "deadlineText": "03.04 (수)21:15 마감",
       "isSingle": true,
@@ -1631,7 +1631,7 @@
       "homeTeam": "필라76s",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 242.5",
+      "underOverValue": "U/O 240.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1639,7 +1639,7 @@
       "deadlineText": "03.05 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 98,
