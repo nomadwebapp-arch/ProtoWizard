@@ -178,9 +178,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.29,
-        "draw": 4.35,
-        "away": 6.3
+        "home": 1.35,
+        "draw": 4.55,
+        "away": 4.95
       },
       "deadlineText": "03.04 (수)23:00 마감",
       "isSingle": true,
@@ -198,8 +198,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.04,
-        "draw": 3.3,
-        "away": 2.7
+        "draw": 3.9,
+        "away": 2.4
       },
       "deadlineText": "03.04 (수)23:00 마감",
       "isSingle": true,
@@ -216,9 +216,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.55,
-        "draw": 3.9,
-        "away": 1.6
+        "home": 3.85,
+        "draw": 3.8,
+        "away": 1.56
       },
       "deadlineText": "03.04 (수)23:00 마감",
       "isSingle": true,
@@ -1267,7 +1267,7 @@
       "homeTeam": "보스셀틱",
       "awayTeam": "샬럿호네",
       "handicapValue": null,
-      "underOverValue": "U/O 215.5",
+      "underOverValue": "U/O 213.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1275,7 +1275,7 @@
       "deadlineText": "03.05 (목)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 94,
