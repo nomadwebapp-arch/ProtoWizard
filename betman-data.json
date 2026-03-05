@@ -2,80 +2,6 @@
   "roundNumber": "260028",
   "matches": [
     {
-      "gameNumber": 137,
-      "league": "03.05 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "방콕유나",
-      "awayTeam": "탬피로버",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.34,
-        "draw": 4.3,
-        "away": 5.4
-      },
-      "deadlineText": "03.05 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 138,
-      "league": "03.05 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "방콕유나",
-      "awayTeam": "탬피로버",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.04,
-        "draw": 3.4,
-        "away": 2.65
-      },
-      "deadlineText": "03.05 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 139,
-      "league": "03.05 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "방콕유나",
-      "awayTeam": "탬피로버",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.49,
-        "away": 2.09
-      },
-      "deadlineText": "03.05 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 140,
-      "league": "03.05 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "방콕유나",
-      "awayTeam": "탬피로버",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.05 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 141,
       "league": "03.05 (목)23:00 마감",
       "sportText": "축구",
@@ -85,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.07,
+        "home": 2.02,
         "draw": 3.05,
-        "away": 2.85
+        "away": 2.95
       },
       "deadlineText": "03.05 (목)23:00 마감",
       "isSingle": true,
@@ -123,9 +49,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 8.6,
-        "draw": 5.9,
-        "away": 1.14
+        "home": 8.1,
+        "draw": 5.4,
+        "away": 1.17
       },
       "deadlineText": "03.05 (목)23:00 마감",
       "isSingle": true,
@@ -286,7 +212,7 @@
       "homeTeam": "올랜매직",
       "awayTeam": "댈러매버",
       "handicapValue": null,
-      "underOverValue": "U/O 230.5",
+      "underOverValue": "U/O 229.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -294,7 +220,7 @@
       "deadlineText": "03.06 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 153,
@@ -358,7 +284,7 @@
       "homeTeam": "워싱위저",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 244.5",
+      "underOverValue": "U/O 243.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -366,7 +292,7 @@
       "deadlineText": "03.06 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 157,
