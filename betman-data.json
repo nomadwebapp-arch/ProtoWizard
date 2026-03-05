@@ -197,14 +197,14 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.47,
-        "draw": 3.8,
-        "away": 4.55
+        "home": 1.51,
+        "draw": 3.6,
+        "away": 4.5
       },
       "deadlineText": "03.05 (목)23:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 148,
