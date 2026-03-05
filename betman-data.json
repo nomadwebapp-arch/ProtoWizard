@@ -8,16 +8,16 @@
       "matchType": "handicap",
       "homeTeam": "한국",
       "awayTeam": "체코",
-      "handicapValue": "H -5.5",
+      "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.05 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 117,
@@ -207,7 +207,7 @@
       "homeTeam": "원주DB",
       "awayTeam": "부산KCC",
       "handicapValue": null,
-      "underOverValue": "U/O 170.5",
+      "underOverValue": "U/O 171.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -215,7 +215,7 @@
       "deadlineText": "03.05 (목)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 128,
