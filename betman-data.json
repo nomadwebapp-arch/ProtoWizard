@@ -2,80 +2,6 @@
   "roundNumber": "260029",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "03.06 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "애들유나",
-      "awayTeam": "웰링피닉",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.55,
-        "draw": 4.1,
-        "away": 3.65
-      },
-      "deadlineText": "03.06 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "03.06 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "애들유나",
-      "awayTeam": "웰링피닉",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.6,
-        "draw": 3.4,
-        "away": 2.07
-      },
-      "deadlineText": "03.06 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "03.06 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "애들유나",
-      "awayTeam": "웰링피닉",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.58,
-        "away": 1.94
-      },
-      "deadlineText": "03.06 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "03.06 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "애들유나",
-      "awayTeam": "웰링피닉",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.06 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "03.06 (금)19:00 마감",
       "sportText": "야구",
@@ -103,8 +29,8 @@
       "handicapValue": "H +4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.83,
-        "away": 1.66
+        "home": 1.89,
+        "away": 1.61
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -121,8 +47,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 7.5",
       "odds": {
-        "home": 1.94,
-        "away": 1.58
+        "home": 2.02,
+        "away": 1.53
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -211,8 +137,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 148.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -247,8 +173,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.05,
-        "away": 1.51
+        "home": 2.13,
+        "away": 1.47
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -283,8 +209,8 @@
       "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.8,
+        "away": 1.68
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -299,7 +225,7 @@
       "homeTeam": "KT소닉붐",
       "awayTeam": "서울SK",
       "handicapValue": null,
-      "underOverValue": "U/O 155.5",
+      "underOverValue": "U/O 156.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -307,7 +233,7 @@
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 18,
@@ -355,8 +281,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.51,
-        "away": 2.05
+        "home": 1.47,
+        "away": 2.13
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -373,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 182.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -445,8 +371,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 181.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "03.06 (금)19:00 마감",
       "isSingle": true,
@@ -643,8 +569,8 @@
       "handicapValue": "H +4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.82,
+        "away": 1.67
       },
       "deadlineText": "03.06 (금)23:00 마감",
       "isSingle": false,
@@ -1561,8 +1487,8 @@
       "handicapValue": "H +9.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.8,
+        "away": 1.68
       },
       "deadlineText": "03.07 (토)10:00 마감",
       "isSingle": false,
