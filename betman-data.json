@@ -8,16 +8,16 @@
       "matchType": "handicap",
       "homeTeam": "도미니공",
       "awayTeam": "니카라과",
-      "handicapValue": "H -4.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.68,
-        "away": 1.8
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.07 (토)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 76,
@@ -99,7 +99,7 @@
       "homeTeam": "보스셀틱",
       "awayTeam": "댈러매버",
       "handicapValue": null,
-      "underOverValue": "U/O 223.5",
+      "underOverValue": "U/O 225.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -107,7 +107,7 @@
       "deadlineText": "03.07 (토)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 81,
@@ -206,16 +206,16 @@
       "matchType": "handicap",
       "homeTeam": "브라질",
       "awayTeam": "미국",
-      "handicapValue": "H +9.5",
+      "handicapValue": "H +10.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.87,
-        "away": 1.63
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.07 (토)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 87,
@@ -407,8 +407,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.24,
-        "away": 2.92
+        "home": 1.38,
+        "away": 2.35
       },
       "deadlineText": "03.07 (토)11:00 마감",
       "isSingle": false,
@@ -422,7 +422,7 @@
       "matchType": "handicap",
       "homeTeam": "피닉선즈",
       "awayTeam": "뉴올펠리",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -431,7 +431,7 @@
       "deadlineText": "03.07 (토)11:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 99,
@@ -513,7 +513,7 @@
       "homeTeam": "샌안스퍼",
       "awayTeam": "LA클리퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 221.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -521,7 +521,7 @@
       "deadlineText": "03.07 (토)11:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 104,
@@ -1673,8 +1673,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.86,
-        "away": 1.25
+        "home": 2.48,
+        "away": 1.34
       },
       "deadlineText": "03.07 (토)16:00 마감",
       "isSingle": true,
@@ -1691,8 +1691,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 2.09,
-        "away": 1.49
+        "home": 1.88,
+        "away": 1.62
       },
       "deadlineText": "03.07 (토)16:00 마감",
       "isSingle": true,
@@ -4510,9 +4510,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.96,
+        "home": 1.8,
         "draw": 3.25,
-        "away": 2.9
+        "away": 3.35
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
@@ -4529,9 +4529,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.7,
+        "home": 3.15,
         "draw": 3.6,
-        "away": 1.63
+        "away": 1.76
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
