@@ -2,78 +2,6 @@
   "roundNumber": "260029",
   "matches": [
     {
-      "gameNumber": 207,
-      "league": "03.07 (토)19:00 마감",
-      "sportText": "야구",
-      "matchType": "normal",
-      "homeTeam": "일본",
-      "awayTeam": "한국",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.1,
-        "away": 4.16
-      },
-      "deadlineText": "03.07 (토)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 208,
-      "league": "03.07 (토)19:00 마감",
-      "sportText": "야구",
-      "matchType": "handicap",
-      "homeTeam": "일본",
-      "awayTeam": "한국",
-      "handicapValue": "H -4.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.68,
-        "away": 1.8
-      },
-      "deadlineText": "03.07 (토)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 209,
-      "league": "03.07 (토)19:00 마감",
-      "sportText": "야구",
-      "matchType": "underover",
-      "homeTeam": "일본",
-      "awayTeam": "한국",
-      "handicapValue": null,
-      "underOverValue": "U/O 10.5",
-      "odds": {
-        "home": 1.95,
-        "away": 1.57
-      },
-      "deadlineText": "03.07 (토)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 210,
-      "league": "03.07 (토)19:00 마감",
-      "sportText": "야구",
-      "matchType": "sum",
-      "homeTeam": "일본",
-      "awayTeam": "한국",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.59,
-        "away": 1.92
-      },
-      "deadlineText": "03.07 (토)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 211,
       "league": "03.07 (토)21:30 마감",
       "sportText": "축구",
@@ -195,9 +123,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.61,
+        "home": 1.71,
         "draw": 3.05,
-        "away": 4.7
+        "away": 4
       },
       "deadlineText": "03.07 (토)22:00 마감",
       "isSingle": true,
@@ -214,9 +142,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3,
+        "home": 3.4,
         "draw": 3,
-        "away": 2.02
+        "away": 1.87
       },
       "deadlineText": "03.07 (토)22:00 마감",
       "isSingle": true,
@@ -1664,9 +1592,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.1,
+        "home": 3.7,
         "draw": 3.05,
-        "away": 1.95
+        "away": 1.77
       },
       "deadlineText": "03.07 (토)23:00 마감",
       "isSingle": true,
