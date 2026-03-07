@@ -65,9 +65,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.8,
+        "home": 1.9,
         "draw": 3.25,
-        "away": 3.35
+        "away": 3.05
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
@@ -84,9 +84,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
+        "home": 3.75,
         "draw": 3.6,
-        "away": 1.76
+        "away": 1.62
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
@@ -103,8 +103,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2,
-        "away": 1.54
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
@@ -307,8 +307,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 14.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "03.08 (일)10:00 마감",
       "isSingle": false,
@@ -415,8 +415,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.09,
-        "away": 4.31
+        "home": 1.12,
+        "away": 3.9
       },
       "deadlineText": "03.08 (일)10:00 마감",
       "isSingle": false,
@@ -449,7 +449,7 @@
       "homeTeam": "밀워벅스",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 232.5",
       "odds": {
         "home": 1.71,
         "away": 1.77
@@ -655,8 +655,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.01,
-        "away": 6.28
+        "home": 1.04,
+        "away": 5.32
       },
       "deadlineText": "03.08 (일)10:30 마감",
       "isSingle": true,
@@ -848,6 +848,78 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 410,
+      "league": "03.08 (일)12:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "한국",
+      "awayTeam": "대만",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.19,
+        "away": 3.24
+      },
+      "deadlineText": "03.08 (일)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 411,
+      "league": "03.08 (일)12:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "한국",
+      "awayTeam": "대만",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.7,
+        "away": 1.78
+      },
+      "deadlineText": "03.08 (일)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 412,
+      "league": "03.08 (일)12:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "한국",
+      "awayTeam": "대만",
+      "handicapValue": null,
+      "underOverValue": "U/O 9.5",
+      "odds": {
+        "home": 1.83,
+        "away": 1.66
+      },
+      "deadlineText": "03.08 (일)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 413,
+      "league": "03.08 (일)12:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "한국",
+      "awayTeam": "대만",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.55,
+        "away": 1.98
+      },
+      "deadlineText": "03.08 (일)12:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 414,
       "league": "03.08 (일)12:30 마감",
       "sportText": "축구",
@@ -932,9 +1004,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.3,
+        "home": 3.5,
         "draw": 3.7,
-        "away": 1.7
+        "away": 1.65
       },
       "deadlineText": "03.08 (일)12:30 마감",
       "isSingle": true,
@@ -951,9 +1023,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.81,
+        "home": 1.97,
         "draw": 3.6,
-        "away": 3
+        "away": 2.65
       },
       "deadlineText": "03.08 (일)12:30 마감",
       "isSingle": true,
@@ -1388,6 +1460,186 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 443,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "창원LG",
+      "awayTeam": "서울SK",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.42,
+        "away": 2.25
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 444,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "창원LG",
+      "awayTeam": "서울SK",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.97,
+        "away": 3.7
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 445,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "창원LG",
+      "awayTeam": "서울SK",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 446,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "창원LG",
+      "awayTeam": "서울SK",
+      "handicapValue": null,
+      "underOverValue": "U/O 149.5",
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 447,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "창원LG",
+      "awayTeam": "서울SK",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 448,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "울산모비",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.94,
+        "away": 1.58
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 449,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "울산모비",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.95,
+        "away": 2.21
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 450,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "울산모비",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": "H +2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.69,
+        "away": 1.79
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 451,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "울산모비",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": "U/O 154.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 452,
+      "league": "03.08 (일)14:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "울산모비",
+      "awayTeam": "KT소닉붐",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.08 (일)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 453,
       "league": "03.08 (일)14:00 마감",
       "sportText": "배구",
@@ -1469,9 +1721,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.9,
+        "home": 2.02,
         "draw": 3.3,
-        "away": 3
+        "away": 2.75
       },
       "deadlineText": "03.08 (일)15:00 마감",
       "isSingle": true,
@@ -1488,9 +1740,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.5,
+        "home": 4.15,
         "draw": 3.6,
-        "away": 1.67
+        "away": 1.55
       },
       "deadlineText": "03.08 (일)15:00 마감",
       "isSingle": true,
@@ -1507,8 +1759,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.03,
-        "away": 1.52
+        "home": 1.83,
+        "away": 1.66
       },
       "deadlineText": "03.08 (일)15:00 마감",
       "isSingle": true,
@@ -1829,6 +2081,96 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 477,
+      "league": "03.08 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "원주DB",
+      "awayTeam": "한국가스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.23,
+        "away": 2.97
+      },
+      "deadlineText": "03.08 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 478,
+      "league": "03.08 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "원주DB",
+      "awayTeam": "한국가스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.62,
+        "away": 5.5
+      },
+      "deadlineText": "03.08 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 479,
+      "league": "03.08 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "원주DB",
+      "awayTeam": "한국가스",
+      "handicapValue": "H -6.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "03.08 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 480,
+      "league": "03.08 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "원주DB",
+      "awayTeam": "한국가스",
+      "handicapValue": null,
+      "underOverValue": "U/O 157.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.08 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 481,
+      "league": "03.08 (일)16:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "원주DB",
+      "awayTeam": "한국가스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.08 (일)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 482,
       "league": "03.08 (일)18:00 마감",
       "sportText": "축구",
@@ -1899,6 +2241,60 @@
       },
       "deadlineText": "03.08 (일)18:00 마감",
       "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 486,
+      "league": "03.08 (일)19:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "일본",
+      "awayTeam": "호주",
+      "handicapValue": "H -5.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "03.08 (일)19:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 487,
+      "league": "03.08 (일)19:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "일본",
+      "awayTeam": "호주",
+      "handicapValue": null,
+      "underOverValue": "U/O 10.5",
+      "odds": {
+        "home": 1.65,
+        "away": 1.84
+      },
+      "deadlineText": "03.08 (일)19:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 488,
+      "league": "03.08 (일)19:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "일본",
+      "awayTeam": "호주",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.61,
+        "away": 1.89
+      },
+      "deadlineText": "03.08 (일)19:00 마감",
+      "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
@@ -2396,9 +2792,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.17,
-        "draw": 5,
-        "away": 9.3
+        "home": 1.2,
+        "draw": 4.9,
+        "away": 8
       },
       "deadlineText": "03.08 (일)23:00 마감",
       "isSingle": true,
@@ -2415,9 +2811,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.63,
+        "home": 1.73,
         "draw": 3.55,
-        "away": 3.75
+        "away": 3.3
       },
       "deadlineText": "03.08 (일)23:00 마감",
       "isSingle": true,
@@ -2434,9 +2830,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
+        "home": 2.8,
         "draw": 3.65,
-        "away": 2.05
+        "away": 1.88
       },
       "deadlineText": "03.08 (일)23:00 마감",
       "isSingle": true,
@@ -2453,8 +2849,8 @@
       "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
-        "home": 3.57,
-        "away": 1.15
+        "home": 4.31,
+        "away": 1.09
       },
       "deadlineText": "03.08 (일)23:00 마감",
       "isSingle": true,
@@ -2471,8 +2867,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.57,
-        "away": 1.95
+        "home": 1.52,
+        "away": 2.03
       },
       "deadlineText": "03.08 (일)23:00 마감",
       "isSingle": true,
