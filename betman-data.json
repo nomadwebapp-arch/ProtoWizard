@@ -2,206 +2,6 @@
   "roundNumber": "260029",
   "matches": [
     {
-      "gameNumber": 105,
-      "league": "03.07 (토)12:00 마감",
-      "sportText": "야구",
-      "matchType": "normal",
-      "homeTeam": "체코",
-      "awayTeam": "대만",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.47,
-        "away": 1.08
-      },
-      "deadlineText": "03.07 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 106,
-      "league": "03.07 (토)12:00 마감",
-      "sportText": "야구",
-      "matchType": "handicap",
-      "homeTeam": "체코",
-      "awayTeam": "대만",
-      "handicapValue": "H +3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.89,
-        "away": 1.61
-      },
-      "deadlineText": "03.07 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 107,
-      "league": "03.07 (토)12:00 마감",
-      "sportText": "야구",
-      "matchType": "underover",
-      "homeTeam": "체코",
-      "awayTeam": "대만",
-      "handicapValue": null,
-      "underOverValue": "U/O 9.5",
-      "odds": {
-        "home": 1.67,
-        "away": 1.82
-      },
-      "deadlineText": "03.07 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 108,
-      "league": "03.07 (토)12:00 마감",
-      "sportText": "야구",
-      "matchType": "sum",
-      "homeTeam": "체코",
-      "awayTeam": "대만",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.57,
-        "away": 1.95
-      },
-      "deadlineText": "03.07 (토)12:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 109,
-      "league": "03.07 (토)12:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "LA레이커",
-      "awayTeam": "인디페이",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.1,
-        "away": 4.16
-      },
-      "deadlineText": "03.07 (토)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 110,
-      "league": "03.07 (토)12:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "LA레이커",
-      "awayTeam": "인디페이",
-      "handicapValue": "H -9.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.07 (토)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 111,
-      "league": "03.07 (토)12:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "LA레이커",
-      "awayTeam": "인디페이",
-      "handicapValue": null,
-      "underOverValue": "U/O 235.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "03.07 (토)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 112,
-      "league": "03.07 (토)12:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "LA레이커",
-      "awayTeam": "인디페이",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.07 (토)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 113,
-      "league": "03.07 (토)13:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "제프유나",
-      "awayTeam": "가시와",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.1,
-        "draw": 3.35,
-        "away": 1.61
-      },
-      "deadlineText": "03.07 (토)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 114,
-      "league": "03.07 (토)13:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "제프유나",
-      "awayTeam": "가시와",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2,
-        "draw": 3.2,
-        "away": 2.85
-      },
-      "deadlineText": "03.07 (토)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 115,
-      "league": "03.07 (토)13:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "제프유나",
-      "awayTeam": "가시와",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "03.07 (토)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 116,
       "league": "03.07 (토)14:00 마감",
       "sportText": "축구",
@@ -528,9 +328,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.15,
+        "home": 2.3,
         "draw": 3.55,
-        "away": 2.4
+        "away": 2.24
       },
       "deadlineText": "03.07 (토)14:00 마감",
       "isSingle": false,
@@ -1151,8 +951,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.88,
-        "away": 1.62
+        "home": 1.82,
+        "away": 1.67
       },
       "deadlineText": "03.07 (토)16:00 마감",
       "isSingle": true,
@@ -1703,8 +1503,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.02,
-        "away": 5.92
+        "home": 1.08,
+        "away": 4.47
       },
       "deadlineText": "03.07 (토)19:00 마감",
       "isSingle": true,
