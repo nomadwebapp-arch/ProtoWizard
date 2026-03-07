@@ -1249,6 +1249,78 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 281,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "캐나다",
+      "awayTeam": "콜롬비아",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.41,
+        "away": 2.27
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 282,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "캐나다",
+      "awayTeam": "콜롬비아",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.82,
+        "away": 1.67
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 283,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "캐나다",
+      "awayTeam": "콜롬비아",
+      "handicapValue": null,
+      "underOverValue": "U/O 9.5",
+      "odds": {
+        "home": 1.68,
+        "away": 1.8
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 284,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "캐나다",
+      "awayTeam": "콜롬비아",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.52,
+        "away": 2.03
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 285,
       "league": "03.07 (토)23:00 마감",
       "sportText": "축구",
@@ -1301,6 +1373,78 @@
       },
       "deadlineText": "03.07 (토)23:00 마감",
       "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 288,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "네덜란드",
+      "awayTeam": "니카라과",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.22,
+        "away": 3.03
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 289,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "네덜란드",
+      "awayTeam": "니카라과",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.67,
+        "away": 1.82
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 290,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "네덜란드",
+      "awayTeam": "니카라과",
+      "handicapValue": null,
+      "underOverValue": "U/O 9.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 291,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "네덜란드",
+      "awayTeam": "니카라과",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.55,
+        "away": 1.98
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
@@ -1635,6 +1779,78 @@
       },
       "deadlineText": "03.07 (토)23:00 마감",
       "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 310,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "이탈리아",
+      "awayTeam": "브라질",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.08,
+        "away": 4.47
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 311,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "이탈리아",
+      "awayTeam": "브라질",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.67,
+        "away": 1.82
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 312,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "이탈리아",
+      "awayTeam": "브라질",
+      "handicapValue": null,
+      "underOverValue": "U/O 10.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": true
+    },
+    {
+      "gameNumber": 313,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "이탈리아",
+      "awayTeam": "브라질",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.57,
+        "away": 1.95
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
@@ -2039,9 +2255,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
+        "home": 1.6,
         "draw": 3.65,
-        "away": 3.25
+        "away": 3.8
       },
       "deadlineText": "03.07 (토)23:00 마감",
       "isSingle": true,
@@ -2269,6 +2485,78 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 351,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "푸에르토",
+      "awayTeam": "파나마",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.09,
+        "away": 4.31
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 352,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "푸에르토",
+      "awayTeam": "파나마",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 353,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "푸에르토",
+      "awayTeam": "파나마",
+      "handicapValue": null,
+      "underOverValue": "U/O 9.5",
+      "odds": {
+        "home": 1.68,
+        "away": 1.8
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 354,
+      "league": "03.07 (토)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "푸에르토",
+      "awayTeam": "파나마",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.57,
+        "away": 1.95
+      },
+      "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 355,
       "league": "03.07 (토)23:00 마감",
       "sportText": "농구",
@@ -2408,6 +2696,60 @@
         "away": 1.74
       },
       "deadlineText": "03.07 (토)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 364,
+      "league": "03.08 (일)09:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "베네수엘",
+      "awayTeam": "이스라엘",
+      "handicapValue": "H -5.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.73,
+        "away": 1.75
+      },
+      "deadlineText": "03.08 (일)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 365,
+      "league": "03.08 (일)09:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "베네수엘",
+      "awayTeam": "이스라엘",
+      "handicapValue": null,
+      "underOverValue": "U/O 10.5",
+      "odds": {
+        "home": 1.8,
+        "away": 1.68
+      },
+      "deadlineText": "03.08 (일)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 366,
+      "league": "03.08 (일)09:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "베네수엘",
+      "awayTeam": "이스라엘",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.6,
+        "away": 1.91
+      },
+      "deadlineText": "03.08 (일)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
@@ -2633,6 +2975,60 @@
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 379,
+      "league": "03.08 (일)10:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "미국",
+      "awayTeam": "영국",
+      "handicapValue": "H -8.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.6,
+        "away": 1.91
+      },
+      "deadlineText": "03.08 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 380,
+      "league": "03.08 (일)10:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "미국",
+      "awayTeam": "영국",
+      "handicapValue": null,
+      "underOverValue": "U/O 14.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.08 (일)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 381,
+      "league": "03.08 (일)10:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "미국",
+      "awayTeam": "영국",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.64,
+        "away": 1.85
+      },
+      "deadlineText": "03.08 (일)10:00 마감",
+      "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
