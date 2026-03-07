@@ -2,80 +2,6 @@
   "roundNumber": "260029",
   "matches": [
     {
-      "gameNumber": 203,
-      "league": "03.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "시드니FC",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.18,
-        "draw": 3.3,
-        "away": 2.5
-      },
-      "deadlineText": "03.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 204,
-      "league": "03.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "시드니FC",
-      "awayTeam": "멜버빅토",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.15,
-        "draw": 3.85,
-        "away": 1.51
-      },
-      "deadlineText": "03.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 205,
-      "league": "03.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "시드니FC",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.15,
-        "away": 1.46
-      },
-      "deadlineText": "03.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 206,
-      "league": "03.07 (토)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "시드니FC",
-      "awayTeam": "멜버빅토",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.07 (토)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 207,
       "league": "03.07 (토)19:00 마감",
       "sportText": "야구",
@@ -1479,9 +1405,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.45,
-        "draw": 3.2,
-        "away": 2.26
+        "home": 2.65,
+        "draw": 3.3,
+        "away": 2.07
       },
       "deadlineText": "03.07 (토)23:00 마감",
       "isSingle": true,
@@ -2368,9 +2294,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.8,
-        "draw": 3.65,
-        "away": 1.6
+        "home": 4.35,
+        "draw": 3.9,
+        "away": 1.48
       },
       "deadlineText": "03.07 (토)23:00 마감",
       "isSingle": true,
@@ -2387,9 +2313,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.02,
+        "home": 2.24,
         "draw": 3.45,
-        "away": 2.65
+        "away": 2.35
       },
       "deadlineText": "03.07 (토)23:00 마감",
       "isSingle": true,
@@ -2680,9 +2606,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.9,
+        "home": 1.73,
         "draw": 3.5,
-        "away": 2.85
+        "away": 3.35
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
@@ -2699,9 +2625,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
-        "draw": 3.7,
-        "away": 1.74
+        "home": 3,
+        "draw": 3.5,
+        "away": 1.84
       },
       "deadlineText": "03.08 (일)09:30 마감",
       "isSingle": true,
@@ -2992,9 +2918,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.62,
-        "draw": 3.4,
-        "away": 4
+        "home": 1.52,
+        "draw": 3.6,
+        "away": 4.4
       },
       "deadlineText": "03.08 (일)10:30 마감",
       "isSingle": true,
@@ -3011,9 +2937,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.8,
+        "home": 2.4,
         "draw": 3.3,
-        "away": 1.99
+        "away": 2.26
       },
       "deadlineText": "03.08 (일)10:30 마감",
       "isSingle": true,
