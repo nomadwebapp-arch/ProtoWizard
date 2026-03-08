@@ -2,80 +2,6 @@
   "roundNumber": "260029",
   "matches": [
     {
-      "gameNumber": 482,
-      "league": "03.08 (일)18:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "호주W",
-      "awayTeam": "한국W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.57,
-        "draw": 3.25,
-        "away": 4.6
-      },
-      "deadlineText": "03.08 (일)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 483,
-      "league": "03.08 (일)18:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "호주W",
-      "awayTeam": "한국W",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.8,
-        "draw": 3.1,
-        "away": 2.07
-      },
-      "deadlineText": "03.08 (일)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 484,
-      "league": "03.08 (일)18:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "호주W",
-      "awayTeam": "한국W",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.6,
-        "away": 1.91
-      },
-      "deadlineText": "03.08 (일)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 485,
-      "league": "03.08 (일)18:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "호주W",
-      "awayTeam": "한국W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.08 (일)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 486,
       "league": "03.08 (일)19:00 마감",
       "sportText": "야구",
@@ -549,8 +475,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.67,
-        "away": 1.82
+        "home": 1.62,
+        "away": 1.88
       },
       "deadlineText": "03.08 (일)23:00 마감",
       "isSingle": true,
