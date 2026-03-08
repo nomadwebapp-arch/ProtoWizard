@@ -26,7 +26,7 @@
       "matchType": "handicap",
       "homeTeam": "멕시코",
       "awayTeam": "브라질",
-      "handicapValue": "H -4.5",
+      "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.63,
@@ -35,7 +35,7 @@
       "deadlineText": "03.09 (월)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 629,
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.11,
-        "away": 1.48
+        "home": 2.03,
+        "away": 1.52
       },
       "deadlineText": "03.09 (월)10:00 마감",
       "isSingle": false,

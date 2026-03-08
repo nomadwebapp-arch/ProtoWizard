@@ -29,7 +29,8 @@ export const protoMatches: Match[] = [
     homeTeam: '멕시코',
     awayTeam: '브라질',
     matchType: 'handicap',
-    handicapValue: 'H -4.5',
+    handicapValue: 'H -6.5',
+    isConditionChanged: true,
     odds: {
       home: 1.63,
       away: 1.87,
@@ -297,8 +298,8 @@ export const protoMatches: Match[] = [
     awayTeam: '시카불스',
     matchType: 'normal',
     odds: {
-      home: 2.11,
-      away: 1.48,
+      home: 2.03,
+      away: 1.52,
     },
     deadline: new Date('2026-03-09T01:00:00.000Z'),
     status: 'open',
