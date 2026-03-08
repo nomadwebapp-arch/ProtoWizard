@@ -2,60 +2,6 @@
   "roundNumber": "260029",
   "matches": [
     {
-      "gameNumber": 486,
-      "league": "03.08 (일)19:00 마감",
-      "sportText": "야구",
-      "matchType": "handicap",
-      "homeTeam": "일본",
-      "awayTeam": "호주",
-      "handicapValue": "H -5.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.67,
-        "away": 1.82
-      },
-      "deadlineText": "03.08 (일)19:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 487,
-      "league": "03.08 (일)19:00 마감",
-      "sportText": "야구",
-      "matchType": "underover",
-      "homeTeam": "일본",
-      "awayTeam": "호주",
-      "handicapValue": null,
-      "underOverValue": "U/O 11.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.08 (일)19:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 488,
-      "league": "03.08 (일)19:00 마감",
-      "sportText": "야구",
-      "matchType": "sum",
-      "homeTeam": "일본",
-      "awayTeam": "호주",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.61,
-        "away": 1.89
-      },
-      "deadlineText": "03.08 (일)19:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 489,
       "league": "03.08 (일)20:15 마감",
       "sportText": "축구",
