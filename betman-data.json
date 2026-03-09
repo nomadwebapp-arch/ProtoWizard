@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.57,
+        "home": 1.62,
         "draw": 3.4,
-        "away": 4.3
+        "away": 4
       },
       "deadlineText": "03.09 (월)18:00 마감",
       "isSingle": true,
@@ -30,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.65,
-        "draw": 3.25,
-        "away": 2.09
+        "home": 2.85,
+        "draw": 3.2,
+        "away": 2
       },
       "deadlineText": "03.09 (월)18:00 마감",
       "isSingle": true,
@@ -49,9 +49,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.2,
-        "draw": 4.25,
-        "away": 1.36
+        "home": 5.6,
+        "draw": 4.55,
+        "away": 1.31
       },
       "deadlineText": "03.09 (월)18:00 마감",
       "isSingle": true,
@@ -68,8 +68,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.67,
-        "away": 1.82
+        "home": 1.7,
+        "away": 1.78
       },
       "deadlineText": "03.09 (월)18:00 마감",
       "isSingle": true,
@@ -140,8 +140,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 9.5",
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "03.09 (월)19:00 마감",
       "isSingle": true,
@@ -194,8 +194,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 5.7,
-        "away": 1.6
+        "home": 5.2,
+        "away": 1.65
       },
       "deadlineText": "03.09 (월)19:00 마감",
       "isSingle": true,
@@ -230,8 +230,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 155.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.09 (월)19:00 마감",
       "isSingle": true,
@@ -257,6 +257,204 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 15,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "이스라엘",
+      "awayTeam": "도미니공",
+      "handicapValue": "H +6.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 16,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "이스라엘",
+      "awayTeam": "도미니공",
+      "handicapValue": null,
+      "underOverValue": "U/O 12.5",
+      "odds": {
+        "home": 1.66,
+        "away": 1.83
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 17,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "이스라엘",
+      "awayTeam": "도미니공",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.62,
+        "away": 1.88
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 18,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "파나마",
+      "awayTeam": "콜롬비아",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.69,
+        "away": 1.79
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 19,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "파나마",
+      "awayTeam": "콜롬비아",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 2.33,
+        "away": 1.39
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 20,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "파나마",
+      "awayTeam": "콜롬비아",
+      "handicapValue": null,
+      "underOverValue": "U/O 8.5",
+      "odds": {
+        "home": 1.85,
+        "away": 1.64
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 21,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "파나마",
+      "awayTeam": "콜롬비아",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.51,
+        "away": 2.05
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 22,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "영국",
+      "awayTeam": "브라질",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.19,
+        "away": 3.24
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 23,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "영국",
+      "awayTeam": "브라질",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.68,
+        "away": 1.8
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 24,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "영국",
+      "awayTeam": "브라질",
+      "handicapValue": null,
+      "underOverValue": "U/O 10.5",
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 25,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "영국",
+      "awayTeam": "브라질",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.55,
+        "away": 1.98
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 26,
       "league": "03.09 (월)23:00 마감",
       "sportText": "축구",
@@ -266,9 +464,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3.15,
-        "away": 2.11
+        "home": 2.9,
+        "draw": 3,
+        "away": 2.06
       },
       "deadlineText": "03.09 (월)23:00 마감",
       "isSingle": true,
@@ -285,9 +483,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.55,
-        "draw": 3.65,
-        "away": 4.1
+        "home": 1.6,
+        "draw": 3.5,
+        "away": 3.95
       },
       "deadlineText": "03.09 (월)23:00 마감",
       "isSingle": true,
@@ -340,9 +538,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.96,
-        "draw": 2.95,
-        "away": 3.2
+        "home": 2.02,
+        "draw": 2.9,
+        "away": 3.1
       },
       "deadlineText": "03.09 (월)23:00 마감",
       "isSingle": true,
@@ -452,9 +650,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
-        "draw": 3.2,
-        "away": 1.81
+        "home": 3.25,
+        "draw": 3.1,
+        "away": 1.88
       },
       "deadlineText": "03.09 (월)23:00 마감",
       "isSingle": true,
@@ -471,9 +669,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 7.5,
-        "draw": 5.1,
-        "away": 1.2
+        "home": 6.9,
+        "draw": 4.75,
+        "away": 1.24
       },
       "deadlineText": "03.09 (월)23:00 마감",
       "isSingle": true,
@@ -513,6 +711,132 @@
       },
       "deadlineText": "03.09 (월)23:00 마감",
       "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 40,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "푸에르토",
+      "awayTeam": "쿠바",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.18,
+        "away": 3.31
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 41,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "푸에르토",
+      "awayTeam": "쿠바",
+      "handicapValue": "H -2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.67,
+        "away": 1.82
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 42,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "푸에르토",
+      "awayTeam": "쿠바",
+      "handicapValue": null,
+      "underOverValue": "U/O 9.5",
+      "odds": {
+        "home": 1.82,
+        "away": 1.67
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 43,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "푸에르토",
+      "awayTeam": "쿠바",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.55,
+        "away": 1.98
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 44,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "니카라과",
+      "awayTeam": "베네수엘",
+      "handicapValue": "H +5.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.83,
+        "away": 1.66
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 45,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "니카라과",
+      "awayTeam": "베네수엘",
+      "handicapValue": null,
+      "underOverValue": "U/O 10.5",
+      "odds": {
+        "home": 1.69,
+        "away": 1.79
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 46,
+      "league": "03.09 (월)23:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "니카라과",
+      "awayTeam": "베네수엘",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.61,
+        "away": 1.89
+      },
+      "deadlineText": "03.09 (월)23:00 마감",
+      "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
@@ -670,8 +994,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.18,
-        "away": 3.31
+        "home": 1.22,
+        "away": 3.03
       },
       "deadlineText": "03.10 (화)08:30 마감",
       "isSingle": false,
@@ -729,6 +1053,78 @@
       },
       "deadlineText": "03.10 (화)08:30 마감",
       "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 59,
+      "league": "03.10 (화)09:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "미국",
+      "awayTeam": "멕시코",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.12,
+        "away": 3.9
+      },
+      "deadlineText": "03.10 (화)09:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 60,
+      "league": "03.10 (화)09:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "미국",
+      "awayTeam": "멕시코",
+      "handicapValue": "H -3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.10 (화)09:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 61,
+      "league": "03.10 (화)09:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "미국",
+      "awayTeam": "멕시코",
+      "handicapValue": null,
+      "underOverValue": "U/O 11.5",
+      "odds": {
+        "home": 1.7,
+        "away": 1.78
+      },
+      "deadlineText": "03.10 (화)09:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 62,
+      "league": "03.10 (화)09:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "미국",
+      "awayTeam": "멕시코",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.56,
+        "away": 1.97
+      },
+      "deadlineText": "03.10 (화)09:00 마감",
+      "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
