@@ -2,150 +2,6 @@
   "roundNumber": "260030",
   "matches": [
     {
-      "gameNumber": 51,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "브루네츠",
-      "awayTeam": "멤피그리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.83,
-        "away": 1.66
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 52,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "브루네츠",
-      "awayTeam": "멤피그리",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 53,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "브루네츠",
-      "awayTeam": "멤피그리",
-      "handicapValue": null,
-      "underOverValue": "U/O 222.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 54,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "브루네츠",
-      "awayTeam": "멤피그리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 55,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "오클썬더",
-      "awayTeam": "덴버너게",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.32,
-        "away": 2.55
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 56,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "오클썬더",
-      "awayTeam": "덴버너게",
-      "handicapValue": "H -5.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 57,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "오클썬더",
-      "awayTeam": "덴버너게",
-      "handicapValue": null,
-      "underOverValue": "U/O 232.5",
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 58,
-      "league": "03.10 (화)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "오클썬더",
-      "awayTeam": "덴버너게",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.10 (화)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 59,
       "league": "03.10 (화)09:00 마감",
       "sportText": "야구",
@@ -227,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.41,
-        "away": 1.36
+        "home": 2.97,
+        "away": 1.23
       },
       "deadlineText": "03.10 (화)10:00 마감",
       "isSingle": true,
@@ -543,6 +399,60 @@
       },
       "deadlineText": "03.10 (화)19:00 마감",
       "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 82,
+      "league": "03.10 (화)19:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "일본",
+      "awayTeam": "체코",
+      "handicapValue": "H -9.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.69,
+        "away": 1.79
+      },
+      "deadlineText": "03.10 (화)19:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 83,
+      "league": "03.10 (화)19:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "일본",
+      "awayTeam": "체코",
+      "handicapValue": null,
+      "underOverValue": "U/O 12.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.10 (화)19:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 84,
+      "league": "03.10 (화)19:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "일본",
+      "awayTeam": "체코",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.65,
+        "away": 1.84
+      },
+      "deadlineText": "03.10 (화)19:00 마감",
+      "isSingle": false,
       "isHalfTime": false,
       "isConditionChanged": false
     },
