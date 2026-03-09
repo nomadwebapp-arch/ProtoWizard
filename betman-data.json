@@ -122,8 +122,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.92,
-        "away": 1.59
+        "home": 2,
+        "away": 1.54
       },
       "deadlineText": "03.09 (월)19:00 마감",
       "isSingle": true,
@@ -140,8 +140,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 9.5",
       "odds": {
-        "home": 1.65,
-        "away": 1.84
+        "home": 1.7,
+        "away": 1.78
       },
       "deadlineText": "03.09 (월)19:00 마감",
       "isSingle": true,
