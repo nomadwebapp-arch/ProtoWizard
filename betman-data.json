@@ -2,98 +2,6 @@
   "roundNumber": "260030",
   "matches": [
     {
-      "gameNumber": 72,
-      "league": "03.10 (화)18:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "일본W",
-      "awayTeam": "베트남W",
-      "handicapValue": "H -4.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.2,
-        "draw": 4.2,
-        "away": 2.13
-      },
-      "deadlineText": "03.10 (화)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 73,
-      "league": "03.10 (화)18:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "일본W",
-      "awayTeam": "베트남W",
-      "handicapValue": "H -5.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.25,
-        "draw": 5.3,
-        "away": 1.5
-      },
-      "deadlineText": "03.10 (화)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 74,
-      "league": "03.10 (화)18:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "일본W",
-      "awayTeam": "베트남W",
-      "handicapValue": "H -6.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.85,
-        "away": 1.06
-      },
-      "deadlineText": "03.10 (화)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 75,
-      "league": "03.10 (화)18:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "일본W",
-      "awayTeam": "베트남W",
-      "handicapValue": null,
-      "underOverValue": "U/O 4.5",
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "03.10 (화)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 76,
-      "league": "03.10 (화)18:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "일본W",
-      "awayTeam": "베트남W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.10 (화)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 77,
       "league": "03.10 (화)19:00 마감",
       "sportText": "축구",
@@ -412,8 +320,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.45,
-        "away": 2.18
+        "home": 1.5,
+        "away": 2.07
       },
       "deadlineText": "03.10 (화)19:00 마감",
       "isSingle": true,
@@ -430,8 +338,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.84,
-        "away": 1.65
+        "home": 2,
+        "away": 1.54
       },
       "deadlineText": "03.10 (화)19:00 마감",
       "isSingle": true,
@@ -1559,8 +1467,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 230.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
@@ -2154,7 +2062,7 @@
       "homeTeam": "골든워리",
       "awayTeam": "시카불스",
       "handicapValue": null,
-      "underOverValue": "U/O 230.5",
+      "underOverValue": "U/O 229.5",
       "odds": {
         "home": 1.71,
         "away": 1.77
@@ -2162,7 +2070,7 @@
       "deadlineText": "03.11 (수)11:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 202,
