@@ -2,99 +2,6 @@
   "roundNumber": "260030",
   "matches": [
     {
-      "gameNumber": 98,
-      "league": "03.10 (화)21:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "부리람U",
-      "awayTeam": "멜버시티",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.78,
-        "draw": 3.2,
-        "away": 3.45
-      },
-      "deadlineText": "03.10 (화)21:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 99,
-      "league": "03.10 (화)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "부리람U",
-      "awayTeam": "멜버시티",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.4,
-        "draw": 3.1,
-        "away": 1.83
-      },
-      "deadlineText": "03.10 (화)21:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 100,
-      "league": "03.10 (화)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "부리람U",
-      "awayTeam": "멜버시티",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 6.5,
-        "draw": 4.65,
-        "away": 1.26
-      },
-      "deadlineText": "03.10 (화)21:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 101,
-      "league": "03.10 (화)21:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "부리람U",
-      "awayTeam": "멜버시티",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "03.10 (화)21:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 102,
-      "league": "03.10 (화)21:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "부리람U",
-      "awayTeam": "멜버시티",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.10 (화)21:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 103,
       "league": "03.10 (화)23:00 마감",
       "sportText": "축구",
@@ -197,9 +104,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.1,
-        "draw": 3.1,
-        "away": 2.75
+        "home": 2.14,
+        "draw": 2.95,
+        "away": 2.8
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
@@ -271,9 +178,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.86,
-        "draw": 3.1,
-        "away": 3.3
+        "home": 1.82,
+        "draw": 3.05,
+        "away": 3.5
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
@@ -345,9 +252,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.99,
-        "draw": 3,
-        "away": 3.05
+        "home": 2.06,
+        "draw": 2.9,
+        "away": 3
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
@@ -530,9 +437,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "draw": 3.2,
-        "away": 3.5
+        "home": 1.81,
+        "draw": 3.05,
+        "away": 3.55
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
@@ -549,9 +456,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.3,
-        "draw": 3.3,
-        "away": 1.8
+        "home": 3.4,
+        "draw": 3.25,
+        "away": 1.78
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
@@ -568,8 +475,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.8,
+        "away": 1.68
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
@@ -716,9 +623,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.43,
-        "draw": 4.4,
-        "away": 4.25
+        "home": 1.46,
+        "draw": 4.15,
+        "away": 4.2
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": true,
@@ -735,8 +642,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.56,
-        "away": 1.97
+        "home": 1.61,
+        "away": 1.89
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": true,
@@ -828,8 +735,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.57,
-        "away": 1.95
+        "home": 1.62,
+        "away": 1.88
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": true,
@@ -1084,15 +991,15 @@
       "homeTeam": "네덜란드",
       "awayTeam": "이스라엘",
       "handicapValue": null,
-      "underOverValue": "U/O 9.5",
+      "underOverValue": "U/O 8.5",
       "odds": {
-        "home": 1.68,
-        "away": 1.8
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 157,
@@ -1228,7 +1135,7 @@
       "homeTeam": "필라76s",
       "awayTeam": "멤피그리",
       "handicapValue": null,
-      "underOverValue": "U/O 229.5",
+      "underOverValue": "U/O 228.5",
       "odds": {
         "home": 1.73,
         "away": 1.75
@@ -1791,8 +1698,8 @@
       "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.87,
-        "away": 1.63
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.11 (수)10:00 마감",
       "isSingle": false,
