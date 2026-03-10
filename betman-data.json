@@ -2,222 +2,6 @@
   "roundNumber": "260030",
   "matches": [
     {
-      "gameNumber": 166,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "브루네츠",
-      "awayTeam": "디트피스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 6.28,
-        "away": 1.01
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 167,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "브루네츠",
-      "awayTeam": "디트피스",
-      "handicapValue": "H +14.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 168,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "브루네츠",
-      "awayTeam": "디트피스",
-      "handicapValue": null,
-      "underOverValue": "U/O 217.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 169,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "브루네츠",
-      "awayTeam": "디트피스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 170,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "마이히트",
-      "awayTeam": "워싱위저",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.01,
-        "away": 6.28
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 171,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "마이히트",
-      "awayTeam": "워싱위저",
-      "handicapValue": "H -14.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 172,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "마이히트",
-      "awayTeam": "워싱위저",
-      "handicapValue": null,
-      "underOverValue": "U/O 242.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 173,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "마이히트",
-      "awayTeam": "워싱위저",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 174,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "애틀호크",
-      "awayTeam": "댈러매버",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.12,
-        "away": 3.9
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 175,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "애틀호크",
-      "awayTeam": "댈러매버",
-      "handicapValue": "H -9.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 176,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "애틀호크",
-      "awayTeam": "댈러매버",
-      "handicapValue": null,
-      "underOverValue": "U/O 239.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 177,
-      "league": "03.11 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "애틀호크",
-      "awayTeam": "댈러매버",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.11 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 178,
       "league": "03.11 (수)09:00 마감",
       "sportText": "농구",
@@ -261,7 +45,7 @@
       "homeTeam": "휴스로케",
       "awayTeam": "토론랩터",
       "handicapValue": null,
-      "underOverValue": "U/O 217.5",
+      "underOverValue": "U/O 220.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -269,7 +53,7 @@
       "deadlineText": "03.11 (수)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 181,
@@ -933,7 +717,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "미네울브",
       "handicapValue": null,
-      "underOverValue": "U/O 233.5",
+      "underOverValue": "U/O 231.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -941,7 +725,7 @@
       "deadlineText": "03.11 (수)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 219,
