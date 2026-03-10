@@ -193,16 +193,16 @@
       "matchType": "handicap",
       "homeTeam": "일본",
       "awayTeam": "체코",
-      "handicapValue": "H -9.5",
+      "handicapValue": "H -10.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.59,
+        "away": 1.92
       },
       "deadlineText": "03.10 (화)19:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 83,
@@ -212,15 +212,15 @@
       "homeTeam": "일본",
       "awayTeam": "체코",
       "handicapValue": null,
-      "underOverValue": "U/O 12.5",
+      "underOverValue": "U/O 13.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.83,
+        "away": 1.66
       },
       "deadlineText": "03.10 (화)19:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 84,
@@ -430,8 +430,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.78,
-        "away": 1.7
+        "home": 1.84,
+        "away": 1.65
       },
       "deadlineText": "03.10 (화)19:00 마감",
       "isSingle": true,
@@ -1263,9 +1263,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.62,
-        "draw": 3.85,
-        "away": 3.5
+        "home": 1.56,
+        "draw": 4.05,
+        "away": 3.65
       },
       "deadlineText": "03.10 (화)23:00 마감",
       "isSingle": true,
