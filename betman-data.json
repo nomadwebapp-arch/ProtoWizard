@@ -2,78 +2,6 @@
   "roundNumber": "260031",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "03.11 (수)17:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "브라질W",
-      "awayTeam": "벨기에W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.47,
-        "away": 1.08
-      },
-      "deadlineText": "03.11 (수)17:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "03.11 (수)17:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "브라질W",
-      "awayTeam": "벨기에W",
-      "handicapValue": "H +11.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.11 (수)17:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "03.11 (수)17:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "브라질W",
-      "awayTeam": "벨기에W",
-      "handicapValue": null,
-      "underOverValue": "U/O 142.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "03.11 (수)17:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "03.11 (수)17:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "브라질W",
-      "awayTeam": "벨기에W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.11 (수)17:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "03.11 (수)19:00 마감",
       "sportText": "축구",
@@ -102,8 +30,8 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.2,
-        "draw": 3.25,
+        "home": 2.27,
+        "draw": 3.1,
         "away": 2.5
       },
       "deadlineText": "03.11 (수)19:00 마감",
@@ -140,8 +68,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.03,
-        "away": 1.52
+        "home": 2.11,
+        "away": 1.48
       },
       "deadlineText": "03.11 (수)19:00 마감",
       "isSingle": true,
@@ -593,7 +521,7 @@
       "homeTeam": "독일W",
       "awayTeam": "한국W",
       "handicapValue": null,
-      "underOverValue": "U/O 143.5",
+      "underOverValue": "U/O 147.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -601,7 +529,7 @@
       "deadlineText": "03.11 (수)23:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 35,
