@@ -2,171 +2,6 @@
   "roundNumber": "260031",
   "matches": [
     {
-      "gameNumber": 92,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "내슈빌SC",
-      "awayTeam": "인터마이",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.45,
-        "draw": 3.5,
-        "away": 2.13
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 93,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "내슈빌SC",
-      "awayTeam": "인터마이",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.49,
-        "draw": 4,
-        "away": 4.15
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 94,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "내슈빌SC",
-      "awayTeam": "인터마이",
-      "handicapValue": "H +2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.12,
-        "draw": 6.3,
-        "away": 9
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 95,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "내슈빌SC",
-      "awayTeam": "인터마이",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.51,
-        "away": 2.05
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 96,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "내슈빌SC",
-      "awayTeam": "인터마이",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 97,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "올랜매직",
-      "awayTeam": "클리캐벌",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.18,
-        "away": 1.45
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 98,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "올랜매직",
-      "awayTeam": "클리캐벌",
-      "handicapValue": "H +3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 99,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "올랜매직",
-      "awayTeam": "클리캐벌",
-      "handicapValue": null,
-      "underOverValue": "U/O 227.5",
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 100,
-      "league": "03.12 (목)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "올랜매직",
-      "awayTeam": "클리캐벌",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 101,
       "league": "03.12 (목)09:00 마감",
       "sportText": "야구",
@@ -194,8 +29,8 @@
       "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.66,
-        "away": 1.83
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "03.12 (목)09:00 마감",
       "isSingle": true,
@@ -464,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.28,
-        "away": 2.72
+        "home": 1.23,
+        "away": 2.97
       },
       "deadlineText": "03.12 (목)11:00 마감",
       "isSingle": true,
@@ -479,7 +314,7 @@
       "matchType": "handicap",
       "homeTeam": "덴버너게",
       "awayTeam": "휴스로케",
-      "handicapValue": "H -5.5",
+      "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
         "home": 1.7,
@@ -488,7 +323,7 @@
       "deadlineText": "03.12 (목)11:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 124,
