@@ -2,80 +2,6 @@
   "roundNumber": "260031",
   "matches": [
     {
-      "gameNumber": 28,
-      "league": "03.11 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "랏차부리",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.5,
-        "draw": 3.85,
-        "away": 1.47
-      },
-      "deadlineText": "03.11 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 29,
-      "league": "03.11 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "랏차부리",
-      "awayTeam": "G오사카",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.5,
-        "draw": 3.15,
-        "away": 2.25
-      },
-      "deadlineText": "03.11 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 30,
-      "league": "03.11 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "랏차부리",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.98,
-        "away": 1.55
-      },
-      "deadlineText": "03.11 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 31,
-      "league": "03.11 (수)21:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "랏차부리",
-      "awayTeam": "G오사카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.11 (수)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 33,
       "league": "03.11 (수)23:00 마감",
       "sportText": "농구",
@@ -340,8 +266,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 8.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "03.11 (수)23:00 마감",
       "isSingle": false,
@@ -598,8 +524,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.3,
-        "draw": 2.85,
+        "home": 2.37,
+        "draw": 2.75,
         "away": 2.65
       },
       "deadlineText": "03.11 (수)23:00 마감",
@@ -691,9 +617,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.54,
-        "draw": 3.55,
-        "away": 4.3
+        "home": 1.59,
+        "draw": 3.45,
+        "away": 4.1
       },
       "deadlineText": "03.11 (수)23:00 마감",
       "isSingle": false,
@@ -932,9 +858,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "draw": 3.6,
-        "away": 3.3
+        "home": 1.77,
+        "draw": 3.45,
+        "away": 3.25
       },
       "deadlineText": "03.11 (수)23:00 마감",
       "isSingle": true,
@@ -1135,8 +1061,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 8.5",
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.59,
+        "away": 1.92
       },
       "deadlineText": "03.11 (수)23:00 마감",
       "isSingle": false,
@@ -1171,9 +1097,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.4,
-        "draw": 3.45,
-        "away": 2.19
+        "home": 2.45,
+        "draw": 3.5,
+        "away": 2.13
       },
       "deadlineText": "03.12 (목)08:30 마감",
       "isSingle": true,
@@ -1567,16 +1493,16 @@
       "matchType": "handicap",
       "homeTeam": "유타재즈",
       "awayTeam": "뉴욕닉스",
-      "handicapValue": "H +12.5",
+      "handicapValue": "H +13.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.12 (목)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 115,
@@ -1658,7 +1584,7 @@
       "homeTeam": "덴버너게",
       "awayTeam": "휴스로케",
       "handicapValue": null,
-      "underOverValue": "U/O 228.5",
+      "underOverValue": "U/O 231.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1666,7 +1592,7 @@
       "deadlineText": "03.12 (목)11:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 125,
