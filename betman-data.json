@@ -1603,6 +1603,150 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 97,
+      "league": "03.12 (목)08:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "올랜매직",
+      "awayTeam": "클리캐벌",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.18,
+        "away": 1.45
+      },
+      "deadlineText": "03.12 (목)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 98,
+      "league": "03.12 (목)08:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "올랜매직",
+      "awayTeam": "클리캐벌",
+      "handicapValue": "H +3.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.12 (목)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 99,
+      "league": "03.12 (목)08:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "올랜매직",
+      "awayTeam": "클리캐벌",
+      "handicapValue": null,
+      "underOverValue": "U/O 227.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.12 (목)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 100,
+      "league": "03.12 (목)08:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "올랜매직",
+      "awayTeam": "클리캐벌",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 105,
+      "league": "03.12 (목)09:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "뉴올펠리",
+      "awayTeam": "토론랩터",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.84,
+        "away": 1.65
+      },
+      "deadlineText": "03.12 (목)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 106,
+      "league": "03.12 (목)09:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "뉴올펠리",
+      "awayTeam": "토론랩터",
+      "handicapValue": "H +1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.72,
+        "away": 1.76
+      },
+      "deadlineText": "03.12 (목)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 107,
+      "league": "03.12 (목)09:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "뉴올펠리",
+      "awayTeam": "토론랩터",
+      "handicapValue": null,
+      "underOverValue": "U/O 233.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.12 (목)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 108,
+      "league": "03.12 (목)09:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "뉴올펠리",
+      "awayTeam": "토론랩터",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 109,
       "league": "03.12 (목)09:00 마감",
       "sportText": "농구",
@@ -1671,6 +1815,294 @@
       },
       "deadlineText": "03.12 (목)09:00 마감",
       "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 113,
+      "league": "03.12 (목)10:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "유타재즈",
+      "awayTeam": "뉴욕닉스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 5.6,
+        "away": 1.03
+      },
+      "deadlineText": "03.12 (목)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 114,
+      "league": "03.12 (목)10:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "유타재즈",
+      "awayTeam": "뉴욕닉스",
+      "handicapValue": "H +12.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.7,
+        "away": 1.78
+      },
+      "deadlineText": "03.12 (목)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 115,
+      "league": "03.12 (목)10:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "유타재즈",
+      "awayTeam": "뉴욕닉스",
+      "handicapValue": null,
+      "underOverValue": "U/O 230.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.12 (목)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 116,
+      "league": "03.12 (목)10:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "유타재즈",
+      "awayTeam": "뉴욕닉스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 122,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "덴버너게",
+      "awayTeam": "휴스로케",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.28,
+        "away": 2.72
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 123,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "덴버너게",
+      "awayTeam": "휴스로케",
+      "handicapValue": "H -5.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.7,
+        "away": 1.78
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 124,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "덴버너게",
+      "awayTeam": "휴스로케",
+      "handicapValue": null,
+      "underOverValue": "U/O 228.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 125,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "덴버너게",
+      "awayTeam": "휴스로케",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 126,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "새크킹스",
+      "awayTeam": "샬럿호네",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 5.6,
+        "away": 1.03
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 127,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "새크킹스",
+      "awayTeam": "샬럿호네",
+      "handicapValue": "H +12.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.68,
+        "away": 1.8
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 128,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "새크킹스",
+      "awayTeam": "샬럿호네",
+      "handicapValue": null,
+      "underOverValue": "U/O 227.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 129,
+      "league": "03.12 (목)11:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "새크킹스",
+      "awayTeam": "샬럿호네",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)11:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 130,
+      "league": "03.12 (목)11:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "LA클리퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.66,
+        "away": 1.83
+      },
+      "deadlineText": "03.12 (목)11:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 131,
+      "league": "03.12 (목)11:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "LA클리퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.12 (목)11:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 132,
+      "league": "03.12 (목)11:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "LA클리퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": null,
+      "underOverValue": "U/O 226.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.12 (목)11:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 133,
+      "league": "03.12 (목)11:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "LA클리퍼",
+      "awayTeam": "미네울브",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)11:30 마감",
+      "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
