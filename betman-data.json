@@ -117,7 +117,7 @@
       "homeTeam": "벨기에W",
       "awayTeam": "중국W",
       "handicapValue": null,
-      "underOverValue": "U/O 148.5",
+      "underOverValue": "U/O 149.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -125,7 +125,7 @@
       "deadlineText": "03.12 (목)20:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 159,
@@ -226,16 +226,16 @@
       "matchType": "handicap",
       "homeTeam": "한국W",
       "awayTeam": "나이지W",
-      "handicapValue": "H +17.5",
+      "handicapValue": "H +16.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.12 (목)22:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 166,
@@ -1136,9 +1136,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4,
-        "draw": 3.3,
-        "away": 1.64
+        "home": 4.4,
+        "draw": 3.45,
+        "away": 1.55
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
@@ -1155,9 +1155,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2,
-        "draw": 3.5,
-        "away": 2.65
+        "home": 2.08,
+        "draw": 3.45,
+        "away": 2.55
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
