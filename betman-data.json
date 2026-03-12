@@ -29,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.85,
-        "away": 4.1
+        "home": 1.92,
+        "away": 4
       },
       "deadlineText": "03.12 (목)19:00 마감",
       "isSingle": true,
@@ -173,8 +173,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.38,
-        "away": 1.37
+        "home": 2,
+        "away": 1.54
       },
       "deadlineText": "03.12 (목)19:00 마감",
       "isSingle": true,
@@ -191,8 +191,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.78,
-        "away": 1.7
+        "home": 1.58,
+        "away": 1.94
       },
       "deadlineText": "03.12 (목)19:00 마감",
       "isSingle": true,
@@ -260,7 +260,7 @@
       "matchType": "handicap",
       "homeTeam": "호주W",
       "awayTeam": "일본W",
-      "handicapValue": "H -11.5",
+      "handicapValue": "H -12.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -269,7 +269,7 @@
       "deadlineText": "03.12 (목)20:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 154,
@@ -279,7 +279,7 @@
       "homeTeam": "호주W",
       "awayTeam": "일본W",
       "handicapValue": null,
-      "underOverValue": "U/O 150.5",
+      "underOverValue": "U/O 152.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -287,7 +287,7 @@
       "deadlineText": "03.12 (목)20:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 155,
@@ -389,9 +389,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.05,
-        "draw": 3.4,
-        "away": 1.85
+        "home": 2.7,
+        "draw": 3.35,
+        "away": 2.02
       },
       "deadlineText": "03.12 (목)21:15 마감",
       "isSingle": false,
@@ -408,9 +408,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
+        "home": 1.65,
         "draw": 3.55,
-        "away": 3.35
+        "away": 3.65
       },
       "deadlineText": "03.12 (목)21:15 마감",
       "isSingle": false,
@@ -460,7 +460,7 @@
       "matchType": "handicap",
       "homeTeam": "한국W",
       "awayTeam": "나이지W",
-      "handicapValue": "H +22.5",
+      "handicapValue": "H +17.5",
       "underOverValue": null,
       "odds": {
         "home": 1.75,
@@ -479,7 +479,7 @@
       "homeTeam": "한국W",
       "awayTeam": "나이지W",
       "handicapValue": null,
-      "underOverValue": "U/O 144.5",
+      "underOverValue": "U/O 140.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -487,7 +487,7 @@
       "deadlineText": "03.12 (목)22:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 167,
@@ -703,8 +703,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.64,
-        "away": 1.85
+        "home": 1.5,
+        "away": 2.07
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
@@ -1334,8 +1334,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.6,
+        "away": 1.91
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
@@ -1924,7 +1924,7 @@
       "homeTeam": "디트피스",
       "awayTeam": "필라76s",
       "handicapValue": null,
-      "underOverValue": "U/O 222.5",
+      "underOverValue": "U/O 221.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -1932,7 +1932,7 @@
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 245,
