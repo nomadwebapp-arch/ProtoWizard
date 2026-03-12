@@ -2,99 +2,6 @@
   "roundNumber": "260031",
   "matches": [
     {
-      "gameNumber": 134,
-      "league": "03.12 (목)12:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "샌디에FC",
-      "awayTeam": "톨루카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.33,
-        "draw": 3.25,
-        "away": 2.35
-      },
-      "deadlineText": "03.12 (목)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 135,
-      "league": "03.12 (목)12:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "샌디에FC",
-      "awayTeam": "톨루카",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.8,
-        "draw": 4.35,
-        "away": 1.38
-      },
-      "deadlineText": "03.12 (목)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 136,
-      "league": "03.12 (목)12:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "샌디에FC",
-      "awayTeam": "톨루카",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 9.8,
-        "draw": 6.6,
-        "away": 1.1
-      },
-      "deadlineText": "03.12 (목)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 137,
-      "league": "03.12 (목)12:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "샌디에FC",
-      "awayTeam": "톨루카",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.97,
-        "away": 1.56
-      },
-      "deadlineText": "03.12 (목)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 138,
-      "league": "03.12 (목)12:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "샌디에FC",
-      "awayTeam": "톨루카",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.12 (목)12:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 139,
       "league": "03.12 (목)19:00 마감",
       "sportText": "농구",
@@ -858,8 +765,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.88,
-        "away": 1.62
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": true,
