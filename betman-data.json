@@ -2412,7 +2412,7 @@
       "matchType": "handicap",
       "homeTeam": "푸에르W",
       "awayTeam": "미국W",
-      "handicapValue": "H +31.5",
+      "handicapValue": "H +33.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -2421,7 +2421,7 @@
       "deadlineText": "03.13 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 273,

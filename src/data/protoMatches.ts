@@ -2418,7 +2418,8 @@ export const protoMatches: Match[] = [
     homeTeam: '푸에르W',
     awayTeam: '미국W',
     matchType: 'handicap',
-    handicapValue: 'H +31.5',
+    handicapValue: 'H +33.5',
+    isConditionChanged: true,
     odds: {
       home: 1.73,
       away: 1.75,
