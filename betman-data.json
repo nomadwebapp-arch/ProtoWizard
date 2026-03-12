@@ -117,7 +117,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "밀워벅스",
       "handicapValue": null,
-      "underOverValue": "U/O 231.5",
+      "underOverValue": "U/O 235.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -125,7 +125,7 @@
       "deadlineText": "03.13 (금)08:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 261,
@@ -317,7 +317,7 @@
       "matchType": "handicap",
       "homeTeam": "푸에르W",
       "awayTeam": "미국W",
-      "handicapValue": "H +33.5",
+      "handicapValue": "H +56.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -336,7 +336,7 @@
       "homeTeam": "푸에르W",
       "awayTeam": "미국W",
       "handicapValue": null,
-      "underOverValue": "U/O 149.5",
+      "underOverValue": "U/O 154.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -344,7 +344,7 @@
       "deadlineText": "03.13 (금)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 274,
@@ -374,8 +374,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.3,
-        "away": 2.63
+        "home": 1.33,
+        "away": 2.52
       },
       "deadlineText": "03.13 (금)10:00 마감",
       "isSingle": false,
@@ -645,7 +645,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "시카불스",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -653,7 +653,7 @@
       "deadlineText": "03.13 (금)11:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 291,

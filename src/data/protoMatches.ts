@@ -117,7 +117,8 @@ export const protoMatches: Match[] = [
     homeTeam: '마이히트',
     awayTeam: '밀워벅스',
     matchType: 'underover',
-    underOverValue: 'U/O 231.5',
+    underOverValue: 'U/O 235.5',
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
@@ -318,7 +319,7 @@ export const protoMatches: Match[] = [
     homeTeam: '푸에르W',
     awayTeam: '미국W',
     matchType: 'handicap',
-    handicapValue: 'H +33.5',
+    handicapValue: 'H +56.5',
     isConditionChanged: true,
     odds: {
       home: 1.73,
@@ -337,7 +338,8 @@ export const protoMatches: Match[] = [
     homeTeam: '푸에르W',
     awayTeam: '미국W',
     matchType: 'underover',
-    underOverValue: 'U/O 149.5',
+    underOverValue: 'U/O 154.5',
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
@@ -373,8 +375,8 @@ export const protoMatches: Match[] = [
     awayTeam: '덴버너게',
     matchType: 'normal',
     odds: {
-      home: 1.3,
-      away: 2.63,
+      home: 1.33,
+      away: 2.52,
     },
     deadline: new Date('2026-03-13T01:00:00.000Z'),
     status: 'open',
@@ -651,8 +653,9 @@ export const protoMatches: Match[] = [
     homeTeam: 'LA레이커',
     awayTeam: '시카불스',
     matchType: 'underover',
-    underOverValue: 'U/O 235.5',
+    underOverValue: 'U/O 238.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
