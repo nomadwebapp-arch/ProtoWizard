@@ -2,240 +2,6 @@
   "roundNumber": "260031",
   "matches": [
     {
-      "gameNumber": 139,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울SK",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.35,
-        "away": 2.45
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 140,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "서울SK",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.92,
-        "away": 4
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 141,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "서울SK",
-      "awayTeam": "원주DB",
-      "handicapValue": "H -4.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.73,
-        "away": 1.75
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 142,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "서울SK",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": "U/O 160.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 143,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "서울SK",
-      "awayTeam": "원주DB",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 144,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "대한항공",
-      "awayTeam": "KB손보",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.34,
-        "away": 2.48
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 145,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "대한항공",
-      "awayTeam": "KB손보",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 146,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "대한항공",
-      "awayTeam": "KB손보",
-      "handicapValue": null,
-      "underOverValue": "U/O 184.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 147,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "대한항공",
-      "awayTeam": "KB손보",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 148,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "대전정관",
-      "awayTeam": "현대건설",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2,
-        "away": 1.54
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 149,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "대전정관",
-      "awayTeam": "현대건설",
-      "handicapValue": "H +1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.58,
-        "away": 1.94
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 150,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "대전정관",
-      "awayTeam": "현대건설",
-      "handicapValue": null,
-      "underOverValue": "U/O 182.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 151,
-      "league": "03.12 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "대전정관",
-      "awayTeam": "현대건설",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 152,
       "league": "03.12 (목)20:30 마감",
       "sportText": "농구",
@@ -279,7 +45,7 @@
       "homeTeam": "호주W",
       "awayTeam": "일본W",
       "handicapValue": null,
-      "underOverValue": "U/O 152.5",
+      "underOverValue": "U/O 154.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -332,7 +98,7 @@
       "matchType": "handicap",
       "homeTeam": "벨기에W",
       "awayTeam": "중국W",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -7.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -341,7 +107,7 @@
       "deadlineText": "03.12 (목)20:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 158,
@@ -463,13 +229,13 @@
       "handicapValue": "H +17.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "03.12 (목)22:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 166,
@@ -481,13 +247,13 @@
       "handicapValue": null,
       "underOverValue": "U/O 140.5",
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "03.12 (목)22:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 167,
@@ -1260,8 +1026,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 2.15,
-        "away": 1.46
+        "home": 1.91,
+        "away": 1.6
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
