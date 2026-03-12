@@ -2,134 +2,6 @@
   "roundNumber": "260031",
   "matches": [
     {
-      "gameNumber": 160,
-      "league": "03.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "탬피로버",
-      "awayTeam": "방콕유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.7,
-        "draw": 3.35,
-        "away": 2.02
-      },
-      "deadlineText": "03.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 161,
-      "league": "03.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "탬피로버",
-      "awayTeam": "방콕유나",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.65,
-        "draw": 3.55,
-        "away": 3.65
-      },
-      "deadlineText": "03.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 162,
-      "league": "03.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "탬피로버",
-      "awayTeam": "방콕유나",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.11,
-        "away": 1.48
-      },
-      "deadlineText": "03.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 163,
-      "league": "03.12 (목)21:15 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "탬피로버",
-      "awayTeam": "방콕유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)21:15 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 165,
-      "league": "03.12 (목)22:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "한국W",
-      "awayTeam": "나이지W",
-      "handicapValue": "H +16.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 166,
-      "league": "03.12 (목)22:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "한국W",
-      "awayTeam": "나이지W",
-      "handicapValue": null,
-      "underOverValue": "U/O 140.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "03.12 (목)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 167,
-      "league": "03.12 (목)22:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "한국W",
-      "awayTeam": "나이지W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.12 (목)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 168,
       "league": "03.12 (목)23:00 마감",
       "sportText": "축구",
@@ -2125,7 +1997,7 @@
       "homeTeam": "샌안스퍼",
       "awayTeam": "덴버너게",
       "handicapValue": null,
-      "underOverValue": "U/O 236.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -2133,7 +2005,7 @@
       "deadlineText": "03.13 (금)10:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 278,
