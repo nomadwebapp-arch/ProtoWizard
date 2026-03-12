@@ -393,9 +393,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.95,
-        "draw": 3.15,
-        "away": 3
+        "home": 1.72,
+        "draw": 3.25,
+        "away": 3.65
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
@@ -412,9 +412,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.75,
+        "home": 3.1,
         "draw": 3.5,
-        "away": 1.64
+        "away": 1.8
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
@@ -1172,9 +1172,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
+        "home": 4,
         "draw": 3.3,
-        "away": 1.84
+        "away": 1.64
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
@@ -1191,9 +1191,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
+        "home": 2,
         "draw": 3.5,
-        "away": 3.4
+        "away": 2.65
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": false,
@@ -1470,8 +1470,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.87,
-        "away": 1.63
+        "home": 1.62,
+        "away": 1.88
       },
       "deadlineText": "03.12 (목)23:00 마감",
       "isSingle": true,
@@ -1683,6 +1683,366 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 242,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "디트피스",
+      "awayTeam": "필라76s",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.01,
+        "away": 6.28
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 243,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "디트피스",
+      "awayTeam": "필라76s",
+      "handicapValue": "H -14.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 244,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "디트피스",
+      "awayTeam": "필라76s",
+      "handicapValue": null,
+      "underOverValue": "U/O 222.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 245,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "디트피스",
+      "awayTeam": "필라76s",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 246,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "인디페이",
+      "awayTeam": "피닉선즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 3.67,
+        "away": 1.14
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 247,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "인디페이",
+      "awayTeam": "피닉선즈",
+      "handicapValue": "H +8.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 248,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "인디페이",
+      "awayTeam": "피닉선즈",
+      "handicapValue": null,
+      "underOverValue": "U/O 226.5",
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 249,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "인디페이",
+      "awayTeam": "피닉선즈",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 250,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "올랜매직",
+      "awayTeam": "워싱위저",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.01,
+        "away": 6.28
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 251,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "올랜매직",
+      "awayTeam": "워싱위저",
+      "handicapValue": "H -15.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 252,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "올랜매직",
+      "awayTeam": "워싱위저",
+      "handicapValue": null,
+      "underOverValue": "U/O 233.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 253,
+      "league": "03.12 (목)23:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "올랜매직",
+      "awayTeam": "워싱위저",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.12 (목)23:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 254,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "애틀호크",
+      "awayTeam": "브루네츠",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.01,
+        "away": 6.28
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 255,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "애틀호크",
+      "awayTeam": "브루네츠",
+      "handicapValue": "H -14.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 256,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "애틀호크",
+      "awayTeam": "브루네츠",
+      "handicapValue": null,
+      "underOverValue": "U/O 227.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 257,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "애틀호크",
+      "awayTeam": "브루네츠",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 258,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "마이히트",
+      "awayTeam": "밀워벅스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.3,
+        "away": 2.63
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 259,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "마이히트",
+      "awayTeam": "밀워벅스",
+      "handicapValue": "H -5.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.73,
+        "away": 1.75
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 260,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "마이히트",
+      "awayTeam": "밀워벅스",
+      "handicapValue": null,
+      "underOverValue": "U/O 231.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 261,
+      "league": "03.13 (금)08:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "마이히트",
+      "awayTeam": "밀워벅스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.13 (금)08:30 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 262,
       "league": "03.13 (금)09:00 마감",
       "sportText": "축구",
@@ -1771,6 +2131,222 @@
         "away": 1.73
       },
       "deadlineText": "03.13 (금)09:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 267,
+      "league": "03.13 (금)09:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "멤피그리",
+      "awayTeam": "댈러매버",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.3,
+        "away": 1.4
+      },
+      "deadlineText": "03.13 (금)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 268,
+      "league": "03.13 (금)09:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "멤피그리",
+      "awayTeam": "댈러매버",
+      "handicapValue": "H +4.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "03.13 (금)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 269,
+      "league": "03.13 (금)09:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "멤피그리",
+      "awayTeam": "댈러매버",
+      "handicapValue": null,
+      "underOverValue": "U/O 237.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.13 (금)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 270,
+      "league": "03.13 (금)09:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "멤피그리",
+      "awayTeam": "댈러매버",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.13 (금)09:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 275,
+      "league": "03.13 (금)10:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "덴버너게",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.39,
+        "away": 2.33
+      },
+      "deadlineText": "03.13 (금)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 276,
+      "league": "03.13 (금)10:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "덴버너게",
+      "handicapValue": "H -4.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.13 (금)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 277,
+      "league": "03.13 (금)10:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "덴버너게",
+      "handicapValue": null,
+      "underOverValue": "U/O 236.5",
+      "odds": {
+        "home": 1.76,
+        "away": 1.72
+      },
+      "deadlineText": "03.13 (금)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 278,
+      "league": "03.13 (금)10:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "샌안스퍼",
+      "awayTeam": "덴버너게",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.13 (금)10:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 279,
+      "league": "03.13 (금)10:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "오클썬더",
+      "awayTeam": "보스셀틱",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.23,
+        "away": 2.97
+      },
+      "deadlineText": "03.13 (금)10:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 280,
+      "league": "03.13 (금)10:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "오클썬더",
+      "awayTeam": "보스셀틱",
+      "handicapValue": "H -6.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.7,
+        "away": 1.78
+      },
+      "deadlineText": "03.13 (금)10:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 281,
+      "league": "03.13 (금)10:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "오클썬더",
+      "awayTeam": "보스셀틱",
+      "handicapValue": null,
+      "underOverValue": "U/O 217.5",
+      "odds": {
+        "home": 1.77,
+        "away": 1.71
+      },
+      "deadlineText": "03.13 (금)10:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 282,
+      "league": "03.13 (금)10:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "오클썬더",
+      "awayTeam": "보스셀틱",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.13 (금)10:30 마감",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
@@ -1867,8 +2443,80 @@
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
+    },
+    {
+      "gameNumber": 288,
+      "league": "03.13 (금)11:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "LA레이커",
+      "awayTeam": "시카불스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.06,
+        "away": 4.85
+      },
+      "deadlineText": "03.13 (금)11:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 289,
+      "league": "03.13 (금)11:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "LA레이커",
+      "awayTeam": "시카불스",
+      "handicapValue": "H -10.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "03.13 (금)11:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 290,
+      "league": "03.13 (금)11:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "LA레이커",
+      "awayTeam": "시카불스",
+      "handicapValue": null,
+      "underOverValue": "U/O 235.5",
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.13 (금)11:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 291,
+      "league": "03.13 (금)11:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "LA레이커",
+      "awayTeam": "시카불스",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.13 (금)11:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
     }
   ],
   "finishedMatches": [],
-  "lastMatchNumber": 287
+  "lastMatchNumber": 291
 }
