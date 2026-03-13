@@ -49,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "03.13 (금)19:00 마감",
       "isSingle": true,
@@ -103,8 +103,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.32,
-        "away": 9.4
+        "home": 1.36,
+        "away": 7.7
       },
       "deadlineText": "03.13 (금)19:00 마감",
       "isSingle": true,
@@ -137,7 +137,7 @@
       "homeTeam": "창원LG",
       "awayTeam": "서울삼성",
       "handicapValue": null,
-      "underOverValue": "U/O 154.5",
+      "underOverValue": "U/O 155.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -145,7 +145,7 @@
       "deadlineText": "03.13 (금)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 12,
@@ -211,8 +211,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 158.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.69,
+        "away": 1.79
       },
       "deadlineText": "03.13 (금)19:00 마감",
       "isSingle": true,
@@ -283,8 +283,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 180.5",
       "odds": {
-        "home": 1.83,
-        "away": 1.66
+        "home": 1.89,
+        "away": 1.61
       },
       "deadlineText": "03.13 (금)19:00 마감",
       "isSingle": true,
@@ -762,15 +762,15 @@
       "homeTeam": "도미니공",
       "awayTeam": "한국",
       "handicapValue": null,
-      "underOverValue": "U/O 9.5",
+      "underOverValue": "U/O 10.5",
       "odds": {
-        "home": 1.98,
-        "away": 1.55
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.13 (금)23:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 47,
@@ -872,8 +872,8 @@
       "handicapValue": "H +12.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.78,
+        "away": 1.7
       },
       "deadlineText": "03.14 (토)08:30 마감",
       "isSingle": false,
@@ -1052,8 +1052,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 9.5",
       "odds": {
-        "home": 1.82,
-        "away": 1.67
+        "home": 1.88,
+        "away": 1.62
       },
       "deadlineText": "03.14 (토)09:00 마감",
       "isSingle": true,
