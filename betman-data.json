@@ -2,248 +2,6 @@
   "roundNumber": "260032",
   "matches": [
     {
-      "gameNumber": 186,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "코번트리",
-      "awayTeam": "사우샘프",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.69,
-        "draw": 3.45,
-        "away": 3.55
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 187,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "코번트리",
-      "awayTeam": "사우샘프",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.3,
-        "draw": 3.3,
-        "away": 1.8
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 188,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "코번트리",
-      "awayTeam": "사우샘프",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.09,
-        "away": 1.49
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 189,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "미들즈브",
-      "awayTeam": "브리스C",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.27,
-        "draw": 4.3,
-        "away": 7
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 190,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "미들즈브",
-      "awayTeam": "브리스C",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.96,
-        "draw": 3.25,
-        "away": 2.9
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 191,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "미들즈브",
-      "awayTeam": "브리스C",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.02,
-        "away": 1.53
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 192,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "옥스퍼드",
-      "awayTeam": "찰턴",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.09,
-        "draw": 2.9,
-        "away": 2.95
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 193,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "옥스퍼드",
-      "awayTeam": "찰턴",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.45,
-        "draw": 3.4,
-        "away": 1.55
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 194,
-      "league": "03.14 (토)21:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "옥스퍼드",
-      "awayTeam": "찰턴",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.5,
-        "away": 2.07
-      },
-      "deadlineText": "03.14 (토)21:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 195,
-      "league": "03.14 (토)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "지로나",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.55,
-        "draw": 2.85,
-        "away": 2.38
-      },
-      "deadlineText": "03.14 (토)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 196,
-      "league": "03.14 (토)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "지로나",
-      "awayTeam": "빌바오",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.42,
-        "draw": 3.75,
-        "away": 5.2
-      },
-      "deadlineText": "03.14 (토)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 197,
-      "league": "03.14 (토)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "지로나",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.61,
-        "away": 1.89
-      },
-      "deadlineText": "03.14 (토)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 198,
-      "league": "03.14 (토)22:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "지로나",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.14 (토)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 199,
       "league": "03.14 (토)23:00 마감",
       "sportText": "축구",
@@ -253,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.41,
-        "draw": 3.7,
+        "home": 1.37,
+        "draw": 4,
         "away": 5.5
       },
       "deadlineText": "03.14 (토)23:00 마감",
@@ -272,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.31,
-        "draw": 3.2,
-        "away": 2.4
+        "home": 2.25,
+        "draw": 3.15,
+        "away": 2.5
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -291,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.89,
-        "away": 1.61
+        "home": 2.18,
+        "away": 1.45
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -420,8 +178,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.41,
-        "draw": 3.9,
+        "home": 1.37,
+        "draw": 4.2,
         "away": 5.1
       },
       "deadlineText": "03.14 (토)23:00 마감",
@@ -624,8 +382,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.34,
-        "draw": 4.2,
+        "home": 1.3,
+        "draw": 4.65,
         "away": 5.6
       },
       "deadlineText": "03.14 (토)23:00 마감",
@@ -997,9 +755,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
-        "draw": 2.9,
-        "away": 2.39
+        "home": 2.6,
+        "draw": 2.8,
+        "away": 2.38
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": false,
@@ -1016,9 +774,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.41,
-        "draw": 3.8,
-        "away": 5.3
+        "home": 1.45,
+        "draw": 3.7,
+        "away": 4.95
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": false,
@@ -1202,9 +960,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3,
-        "draw": 3,
-        "away": 2.02
+        "home": 3.1,
+        "draw": 2.85,
+        "away": 2.04
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -1295,9 +1053,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.44,
-        "draw": 3.25,
-        "away": 6.2
+        "home": 1.4,
+        "draw": 3.5,
+        "away": 6.1
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -1314,9 +1072,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
+        "home": 2.7,
         "draw": 2.9,
-        "away": 2.35
+        "away": 2.23
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -1554,8 +1312,8 @@
       "handicapValue": "H -12.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.65,
+        "away": 1.84
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -1665,8 +1423,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.27,
-        "draw": 3.85,
-        "away": 8.7
+        "draw": 4,
+        "away": 8
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -1683,9 +1441,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.04,
-        "draw": 2.95,
-        "away": 3
+        "home": 2.03,
+        "draw": 3.2,
+        "away": 2.8
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -2564,7 +2322,7 @@
       "matchType": "handicap",
       "homeTeam": "애틀호크",
       "awayTeam": "밀워벅스",
-      "handicapValue": "H -7.5",
+      "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
         "home": 1.69,
@@ -2573,7 +2331,7 @@
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 325,
@@ -2859,9 +2617,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.05,
-        "draw": 3.75,
-        "away": 1.54
+        "home": 4.25,
+        "draw": 3.85,
+        "away": 1.5
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -3263,7 +3021,7 @@
       "homeTeam": "보스셀틱",
       "awayTeam": "워싱위저",
       "handicapValue": null,
-      "underOverValue": "U/O 229.5",
+      "underOverValue": "U/O 230.5",
       "odds": {
         "home": 1.73,
         "away": 1.75
@@ -3271,7 +3029,7 @@
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 364,
@@ -3283,8 +3041,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.83,
-        "draw": 3.45,
+        "home": 1.78,
+        "draw": 3.65,
         "away": 3.05
       },
       "deadlineText": "03.14 (토)23:00 마감",
@@ -3302,9 +3060,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.3,
-        "draw": 3.6,
-        "away": 1.72
+        "home": 3,
+        "draw": 3.65,
+        "away": 1.8
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": true,
@@ -3357,8 +3115,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.05,
-        "draw": 3.55,
+        "home": 2.9,
+        "draw": 3.75,
         "away": 1.81
       },
       "deadlineText": "03.15 (일)08:30 마감",
@@ -3376,9 +3134,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "draw": 3.65,
-        "away": 3.1
+        "home": 1.65,
+        "draw": 3.85,
+        "away": 3.35
       },
       "deadlineText": "03.15 (일)08:30 마감",
       "isSingle": true,
@@ -3505,9 +3263,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.58,
+        "home": 1.63,
         "draw": 3.7,
-        "away": 3.85
+        "away": 3.6
       },
       "deadlineText": "03.15 (일)08:30 마감",
       "isSingle": true,
@@ -3524,9 +3282,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.6,
-        "draw": 3.5,
-        "away": 2.03
+        "home": 2.85,
+        "draw": 3.55,
+        "away": 1.89
       },
       "deadlineText": "03.15 (일)08:30 마감",
       "isSingle": true,
@@ -3613,7 +3371,7 @@
       "homeTeam": "마이히트",
       "awayTeam": "올랜매직",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 236.5",
       "odds": {
         "home": 1.77,
         "away": 1.71
@@ -3621,7 +3379,7 @@
       "deadlineText": "03.15 (일)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 384,
@@ -3925,7 +3683,7 @@
       "homeTeam": "LA레이커",
       "awayTeam": "덴버너게",
       "handicapValue": null,
-      "underOverValue": "U/O 244.5",
+      "underOverValue": "U/O 245.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -3933,7 +3691,7 @@
       "deadlineText": "03.15 (일)09:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 401,
@@ -4292,7 +4050,7 @@
       "homeTeam": "LA클리퍼",
       "awayTeam": "새크킹스",
       "handicapValue": null,
-      "underOverValue": "U/O 229.5",
+      "underOverValue": "U/O 231.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -4300,7 +4058,7 @@
       "deadlineText": "03.15 (일)11:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 424,
