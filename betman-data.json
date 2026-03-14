@@ -2,80 +2,6 @@
   "roundNumber": "260032",
   "matches": [
     {
-      "gameNumber": 182,
-      "league": "03.14 (토)18:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "한국W",
-      "awayTeam": "우즈벡W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.01,
-        "draw": 8.2,
-        "away": 19.5
-      },
-      "deadlineText": "03.14 (토)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 183,
-      "league": "03.14 (토)18:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "한국W",
-      "awayTeam": "우즈벡W",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.55,
-        "draw": 4,
-        "away": 3.75
-      },
-      "deadlineText": "03.14 (토)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 184,
-      "league": "03.14 (토)18:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "한국W",
-      "awayTeam": "우즈벡W",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "03.14 (토)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 185,
-      "league": "03.14 (토)18:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "한국W",
-      "awayTeam": "우즈벡W",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.14 (토)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 186,
       "league": "03.14 (토)21:30 마감",
       "sportText": "축구",
@@ -2274,8 +2200,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
-        "away": 1.6
+        "home": 1.84,
+        "away": 1.65
       },
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": false,
@@ -3264,7 +3190,7 @@
       "matchType": "handicap",
       "homeTeam": "미국W",
       "awayTeam": "이탈리W",
-      "handicapValue": "H -25.5",
+      "handicapValue": "H -27.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -3273,7 +3199,7 @@
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 360,
@@ -3283,7 +3209,7 @@
       "homeTeam": "미국W",
       "awayTeam": "이탈리W",
       "handicapValue": null,
-      "underOverValue": "U/O 158.5",
+      "underOverValue": "U/O 148.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -3291,7 +3217,7 @@
       "deadlineText": "03.14 (토)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 361,
@@ -3704,7 +3630,7 @@
       "matchType": "handicap",
       "homeTeam": "스페인W",
       "awayTeam": "푸에르W",
-      "handicapValue": "H -21.5",
+      "handicapValue": "H -24.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -3713,7 +3639,7 @@
       "deadlineText": "03.15 (일)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 385,
@@ -3723,7 +3649,7 @@
       "homeTeam": "스페인W",
       "awayTeam": "푸에르W",
       "handicapValue": null,
-      "underOverValue": "U/O 140.5",
+      "underOverValue": "U/O 135.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -3731,7 +3657,7 @@
       "deadlineText": "03.15 (일)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 386,
@@ -4037,8 +3963,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.88,
-        "away": 1.62
+        "home": 1.82,
+        "away": 1.67
       },
       "deadlineText": "03.15 (일)10:00 마감",
       "isSingle": true,
