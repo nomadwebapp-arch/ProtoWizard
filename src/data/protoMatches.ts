@@ -147,8 +147,8 @@ export const protoMatches: Match[] = [
     awayTeam: '중국W',
     matchType: 'normal',
     odds: {
-      home: 4.65,
-      away: 1.07,
+      home: 4.16,
+      away: 1.1,
     },
     deadline: new Date('2026-03-15T11:30:00.000Z'),
     status: 'open',
@@ -1841,8 +1841,8 @@ export const protoMatches: Match[] = [
     isSingle: true,
     odds: {
       home: 2.02,
-      draw: 3.05,
-      away: 2.95,
+      draw: 2.9,
+      away: 3.1,
     },
     deadline: new Date('2026-03-15T14:00:00.000Z'),
     status: 'open',
