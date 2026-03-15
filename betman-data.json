@@ -1085,8 +1085,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.1,
-        "away": 4.16
+        "home": 1.14,
+        "away": 3.67
       },
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
@@ -1100,7 +1100,7 @@
       "matchType": "handicap",
       "homeTeam": "캐나다W",
       "awayTeam": "일본W",
-      "handicapValue": "H -9.5",
+      "handicapValue": "H -8.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -1950,9 +1950,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.5,
+        "home": 2.35,
         "draw": 3.25,
-        "away": 2.2
+        "away": 2.33
       },
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": true,
@@ -1969,9 +1969,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.49,
-        "draw": 3.8,
-        "away": 4.4
+        "home": 1.42,
+        "draw": 3.9,
+        "away": 4.95
       },
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": true,
@@ -2151,7 +2151,7 @@
       "homeTeam": "클리캐벌",
       "awayTeam": "댈러매버",
       "handicapValue": null,
-      "underOverValue": "U/O 238.5",
+      "underOverValue": "U/O 237.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -2159,7 +2159,7 @@
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 605,
