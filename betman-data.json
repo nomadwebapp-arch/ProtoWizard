@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.84,
-        "away": 1.65
+        "home": 1.78,
+        "away": 1.7
       },
       "deadlineText": "03.16 (월)09:00 마감",
       "isSingle": true,
@@ -47,8 +47,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 9.5",
       "odds": {
-        "home": 1.63,
-        "away": 1.87
+        "home": 1.68,
+        "away": 1.8
       },
       "deadlineText": "03.16 (월)09:00 마감",
       "isSingle": true,
@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.01,
-        "away": 6.28
+        "home": 1.04,
+        "away": 5.32
       },
       "deadlineText": "03.16 (월)09:00 마감",
       "isSingle": true,
@@ -117,7 +117,7 @@
       "homeTeam": "뉴욕닉스",
       "awayTeam": "골든워리",
       "handicapValue": null,
-      "underOverValue": "U/O 217.5",
+      "underOverValue": "U/O 219.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -125,7 +125,7 @@
       "deadlineText": "03.16 (월)09:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 648,
@@ -171,7 +171,7 @@
       "homeTeam": "새크킹스",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 234.5",
+      "underOverValue": "U/O 232.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -179,7 +179,7 @@
       "deadlineText": "03.16 (월)11:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     }
   ],
   "finishedMatches": [],
