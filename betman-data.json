@@ -2,62 +2,6 @@
   "roundNumber": "260032",
   "matches": [
     {
-      "gameNumber": 483,
-      "league": "03.15 (일)17:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "멜버빅토",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.66,
-        "draw": 3.6,
-        "away": 3.55
-      },
-      "deadlineText": "03.15 (일)17:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 484,
-      "league": "03.15 (일)17:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "멜버빅토",
-      "awayTeam": "맥아서FC",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.2,
-        "draw": 3.45,
-        "away": 1.78
-      },
-      "deadlineText": "03.15 (일)17:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 485,
-      "league": "03.15 (일)17:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "멜버빅토",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.5,
-        "away": 2.07
-      },
-      "deadlineText": "03.15 (일)17:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 486,
       "league": "03.15 (일)20:15 마감",
       "sportText": "축구",
@@ -436,8 +380,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.45,
-        "away": 2.18
+        "home": 1.55,
+        "away": 1.98
       },
       "deadlineText": "03.15 (일)22:30 마감",
       "isSingle": true,
@@ -1141,8 +1085,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.07,
-        "away": 4.65
+        "home": 1.1,
+        "away": 4.16
       },
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
@@ -1156,7 +1100,7 @@
       "matchType": "handicap",
       "homeTeam": "캐나다W",
       "awayTeam": "일본W",
-      "handicapValue": "H -10.5",
+      "handicapValue": "H -9.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -1165,7 +1109,7 @@
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 547,
@@ -1916,8 +1860,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 5.6,
-        "away": 1.03
+        "home": 4.47,
+        "away": 1.08
       },
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
@@ -1931,7 +1875,7 @@
       "matchType": "handicap",
       "homeTeam": "튀르키W",
       "awayTeam": "호주W",
-      "handicapValue": "H +12.5",
+      "handicapValue": "H +10.5",
       "underOverValue": null,
       "odds": {
         "home": 1.71,
@@ -1940,7 +1884,7 @@
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 589,
@@ -1967,7 +1911,7 @@
       "matchType": "handicap",
       "homeTeam": "프랑스W",
       "awayTeam": "나이지W",
-      "handicapValue": "H -17.5",
+      "handicapValue": "H -22.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -1976,7 +1920,7 @@
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 592,
@@ -2631,8 +2575,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 6.28,
-        "away": 1.01
+        "home": 4.85,
+        "away": 1.06
       },
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
@@ -2646,7 +2590,7 @@
       "matchType": "handicap",
       "homeTeam": "이탈리W",
       "awayTeam": "스페인W",
-      "handicapValue": "H +12.5",
+      "handicapValue": "H +10.5",
       "underOverValue": null,
       "odds": {
         "home": 1.79,
@@ -2655,7 +2599,7 @@
       "deadlineText": "03.15 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 629,
