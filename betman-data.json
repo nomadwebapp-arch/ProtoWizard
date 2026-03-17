@@ -30,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.2,
-        "draw": 3.75,
-        "away": 1.52
+        "home": 3.95,
+        "draw": 3.65,
+        "away": 1.57
       },
       "deadlineText": "03.17 (화)17:00 마감",
       "isSingle": true,
@@ -49,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.94,
-        "away": 1.58
+        "home": 2.02,
+        "away": 1.53
       },
       "deadlineText": "03.17 (화)17:00 마감",
       "isSingle": true,
@@ -100,16 +100,16 @@
       "matchType": "handicap",
       "homeTeam": "벨기에W",
       "awayTeam": "체코W",
-      "handicapValue": "H -13.5",
+      "handicapValue": "H -14.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.17 (화)17:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 67,
@@ -375,9 +375,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "draw": 3.05,
-        "away": 4
+        "home": 1.76,
+        "draw": 2.95,
+        "away": 3.9
       },
       "deadlineText": "03.17 (화)19:30 마감",
       "isSingle": true,
@@ -468,8 +468,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.04,
-        "away": 5.32
+        "home": 1.07,
+        "away": 4.65
       },
       "deadlineText": "03.17 (화)20:30 마감",
       "isSingle": false,
@@ -684,9 +684,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.43,
-        "draw": 4.3,
-        "away": 4.35
+        "home": 1.45,
+        "draw": 4.35,
+        "away": 4.1
       },
       "deadlineText": "03.17 (화)23:00 마감",
       "isSingle": true,
@@ -943,9 +943,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 7,
-        "draw": 5.8,
-        "away": 1.18
+        "home": 6.3,
+        "draw": 5.6,
+        "away": 1.21
       },
       "deadlineText": "03.17 (화)23:00 마감",
       "isSingle": true,
@@ -1036,9 +1036,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 4.7,
-        "away": 1.57
+        "home": 3.4,
+        "draw": 4.45,
+        "away": 1.55
       },
       "deadlineText": "03.17 (화)23:00 마감",
       "isSingle": true,
@@ -1562,8 +1562,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 8.5",
       "odds": {
-        "home": 1.89,
-        "away": 1.61
+        "home": 1.83,
+        "away": 1.66
       },
       "deadlineText": "03.18 (수)09:00 마감",
       "isSingle": true,
@@ -1979,9 +1979,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.58,
-        "draw": 3.45,
-        "away": 4.15
+        "home": 1.52,
+        "draw": 3.6,
+        "away": 4.4
       },
       "deadlineText": "03.18 (수)12:00 마감",
       "isSingle": true,
@@ -1998,9 +1998,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3.3,
-        "away": 2.04
+        "home": 2.6,
+        "draw": 3.25,
+        "away": 2.13
       },
       "deadlineText": "03.18 (수)12:00 마감",
       "isSingle": true,
@@ -2017,9 +2017,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.4,
-        "draw": 4.55,
-        "away": 1.32
+        "home": 4.8,
+        "draw": 4.45,
+        "away": 1.37
       },
       "deadlineText": "03.18 (수)12:00 마감",
       "isSingle": true,
