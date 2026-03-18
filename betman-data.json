@@ -142,9 +142,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.6,
-        "draw": 4.25,
-        "away": 1.54
+        "home": 3.55,
+        "draw": 4.1,
+        "away": 1.57
       },
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": true,
@@ -216,9 +216,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
-        "draw": 3.4,
-        "away": 1.75
+        "home": 3.3,
+        "draw": 3.3,
+        "away": 1.8
       },
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": false,
@@ -290,9 +290,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.66,
+        "home": 1.6,
         "draw": 3.7,
-        "away": 3.45
+        "away": 3.75
       },
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": true,
@@ -458,8 +458,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.4,
-        "draw": 3.35,
-        "away": 2.23
+        "draw": 3.5,
+        "away": 2.17
       },
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": true,
@@ -476,9 +476,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.48,
-        "draw": 3.85,
-        "away": 4.4
+        "home": 1.5,
+        "draw": 3.8,
+        "away": 4.3
       },
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": true,
@@ -495,9 +495,9 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.11,
-        "draw": 6.3,
-        "away": 9.7
+        "home": 1.13,
+        "draw": 6,
+        "away": 9
       },
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": true,
@@ -550,9 +550,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.56,
-        "draw": 3.6,
-        "away": 4.1
+        "home": 1.51,
+        "draw": 3.8,
+        "away": 4.2
       },
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": true,
@@ -677,7 +677,7 @@
       "homeTeam": "보스셀틱",
       "awayTeam": "골든워리",
       "handicapValue": null,
-      "underOverValue": "U/O 215.5",
+      "underOverValue": "U/O 216.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -685,7 +685,7 @@
       "deadlineText": "03.18 (수)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 128,
@@ -821,7 +821,7 @@
       "homeTeam": "인디페이",
       "awayTeam": "포틀트레",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 234.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -829,7 +829,7 @@
       "deadlineText": "03.19 (목)08:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 136,
@@ -946,7 +946,7 @@
       "matchType": "handicap",
       "homeTeam": "미네울브",
       "awayTeam": "유타재즈",
-      "handicapValue": "H -11.5",
+      "handicapValue": "H -12.5",
       "underOverValue": null,
       "odds": {
         "home": 1.7,
@@ -955,7 +955,7 @@
       "deadlineText": "03.19 (목)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 143,
@@ -1037,7 +1037,7 @@
       "homeTeam": "뉴올펠리",
       "awayTeam": "LA클리퍼",
       "handicapValue": null,
-      "underOverValue": "U/O 232.5",
+      "underOverValue": "U/O 234.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1045,7 +1045,7 @@
       "deadlineText": "03.19 (목)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 148,
