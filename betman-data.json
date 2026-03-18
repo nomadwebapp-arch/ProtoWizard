@@ -2,78 +2,6 @@
   "roundNumber": "260034",
   "matches": [
     {
-      "gameNumber": 87,
-      "league": "03.18 (수)20:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "우츠노미",
-      "awayTeam": "뉴타이베",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.26,
-        "away": 2.81
-      },
-      "deadlineText": "03.18 (수)20:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 88,
-      "league": "03.18 (수)20:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "우츠노미",
-      "awayTeam": "뉴타이베",
-      "handicapValue": "H -6.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "03.18 (수)20:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 89,
-      "league": "03.18 (수)20:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "우츠노미",
-      "awayTeam": "뉴타이베",
-      "handicapValue": null,
-      "underOverValue": "U/O 176.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.18 (수)20:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 90,
-      "league": "03.18 (수)20:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "우츠노미",
-      "awayTeam": "뉴타이베",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.18 (수)20:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 91,
       "league": "03.18 (수)23:00 마감",
       "sportText": "축구",
@@ -1219,8 +1147,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.67,
-        "away": 1.14
+        "home": 3.39,
+        "away": 1.17
       },
       "deadlineText": "03.19 (목)09:30 마감",
       "isSingle": false,
