@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 7.3,
-        "draw": 4.1,
+        "home": 6.5,
+        "draw": 4.4,
         "away": 1.28
       },
       "deadlineText": "03.18 (수)18:00 마감",
@@ -30,9 +30,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3,
-        "draw": 3.3,
-        "away": 1.9
+        "home": 2.95,
+        "draw": 3.45,
+        "away": 1.87
       },
       "deadlineText": "03.18 (수)18:00 마감",
       "isSingle": true,
@@ -49,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.94,
-        "away": 1.58
+        "home": 2.02,
+        "away": 1.53
       },
       "deadlineText": "03.18 (수)18:00 마감",
       "isSingle": true,
@@ -601,9 +601,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.38,
+        "home": 2.7,
         "draw": 2.85,
-        "away": 2.55
+        "away": 2.26
       },
       "deadlineText": "03.18 (수)19:00 마감",
       "isSingle": true,
@@ -617,17 +617,17 @@
       "matchType": "handicap",
       "homeTeam": "후쿠오카",
       "awayTeam": "시미즈",
-      "handicapValue": "H -1.0",
+      "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.4,
-        "draw": 3.65,
-        "away": 1.42
+        "home": 1.5,
+        "draw": 3.55,
+        "away": 4.65
       },
       "deadlineText": "03.18 (수)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 35,
@@ -639,8 +639,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.48,
-        "away": 2.11
+        "home": 1.58,
+        "away": 1.94
       },
       "deadlineText": "03.18 (수)19:00 마감",
       "isSingle": true,
