@@ -29,7 +29,7 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.12,
+        "home": 2.08,
         "away": 3.35
       },
       "deadlineText": "03.19 (목)19:00 마감",
@@ -47,8 +47,8 @@
       "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.78,
-        "away": 1.7
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "03.19 (목)19:00 마감",
       "isSingle": true,
@@ -65,8 +65,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 170.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.19 (목)19:00 마감",
       "isSingle": true,
@@ -101,8 +101,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.89,
-        "away": 1.61
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "03.19 (목)19:00 마감",
       "isSingle": true,
@@ -119,8 +119,8 @@
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.46,
-        "away": 2.15
+        "home": 1.41,
+        "away": 2.27
       },
       "deadlineText": "03.19 (목)19:00 마감",
       "isSingle": true,
