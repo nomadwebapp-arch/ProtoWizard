@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.74,
-        "draw": 3.65,
-        "away": 3.2
+        "home": 1.87,
+        "draw": 3.6,
+        "away": 2.85
       },
       "deadlineText": "03.20 (금)17:35 마감",
       "isSingle": true,
@@ -30,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.1,
-        "draw": 3.65,
-        "away": 1.77
+        "home": 3.45,
+        "draw": 3.7,
+        "away": 1.66
       },
       "deadlineText": "03.20 (금)17:35 마감",
       "isSingle": true,
@@ -85,8 +85,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.43,
-        "away": 2.22
+        "home": 1.3,
+        "away": 2.63
       },
       "deadlineText": "03.20 (금)19:00 마감",
       "isSingle": true,
@@ -103,8 +103,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.98,
-        "away": 3.65
+        "home": 1.74,
+        "away": 4.6
       },
       "deadlineText": "03.20 (금)19:00 마감",
       "isSingle": true,
@@ -118,16 +118,16 @@
       "matchType": "handicap",
       "homeTeam": "KT소닉붐",
       "awayTeam": "한국가스",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.20 (금)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 8,
