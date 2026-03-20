@@ -26,7 +26,7 @@
       "matchType": "handicap",
       "homeTeam": "브루네츠",
       "awayTeam": "뉴욕닉스",
-      "handicapValue": "H +16.5",
+      "handicapValue": "H +18.5",
       "underOverValue": null,
       "odds": {
         "home": 1.79,
@@ -35,7 +35,7 @@
       "deadlineText": "03.21 (토)08:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 56,
@@ -47,8 +47,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 216.5",
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.76,
+        "away": 1.72
       },
       "deadlineText": "03.21 (토)08:30 마감",
       "isSingle": false,
@@ -83,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.24,
-        "away": 2.92
+        "home": 1.27,
+        "away": 2.76
       },
       "deadlineText": "03.21 (토)08:30 마감",
       "isSingle": false,
@@ -101,8 +101,8 @@
       "handicapValue": "H -6.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.72,
-        "away": 1.76
+        "home": 1.75,
+        "away": 1.73
       },
       "deadlineText": "03.21 (토)08:30 마감",
       "isSingle": false,
@@ -261,7 +261,7 @@
       "homeTeam": "멤피그리",
       "awayTeam": "보스셀틱",
       "handicapValue": null,
-      "underOverValue": "U/O 229.5",
+      "underOverValue": "U/O 231.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -269,7 +269,7 @@
       "deadlineText": "03.21 (토)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 69,
@@ -299,8 +299,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.47,
-        "away": 2.13
+        "home": 1.53,
+        "away": 2.02
       },
       "deadlineText": "03.21 (토)09:00 마감",
       "isSingle": true,
@@ -314,16 +314,16 @@
       "matchType": "handicap",
       "homeTeam": "미네울브",
       "awayTeam": "포틀트레",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "away": 1.78
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.21 (토)09:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 72,
@@ -656,6 +656,228 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 90,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "normal",
+      "homeTeam": "아키타",
+      "awayTeam": "하치노헤",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.17,
+        "draw": 2.9,
+        "away": 2.8
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 91,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "handicap",
+      "homeTeam": "아키타",
+      "awayTeam": "하치노헤",
+      "handicapValue": "H -1.0",
+      "underOverValue": null,
+      "odds": {
+        "home": 4.65,
+        "draw": 3.5,
+        "away": 1.51
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 92,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "underover",
+      "homeTeam": "아키타",
+      "awayTeam": "하치노헤",
+      "handicapValue": null,
+      "underOverValue": "U/O 2.5",
+      "odds": {
+        "home": 1.53,
+        "away": 2.02
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 93,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "sum",
+      "homeTeam": "아키타",
+      "awayTeam": "하치노헤",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 94,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "normal",
+      "homeTeam": "삿포로",
+      "awayTeam": "고후",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.02,
+        "draw": 3.05,
+        "away": 2.95
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 95,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "handicap",
+      "homeTeam": "삿포로",
+      "awayTeam": "고후",
+      "handicapValue": "H -1.0",
+      "underOverValue": null,
+      "odds": {
+        "home": 4.1,
+        "draw": 3.45,
+        "away": 1.59
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 96,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "underover",
+      "homeTeam": "삿포로",
+      "awayTeam": "고후",
+      "handicapValue": null,
+      "underOverValue": "U/O 2.5",
+      "odds": {
+        "home": 1.65,
+        "away": 1.84
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 97,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "sum",
+      "homeTeam": "삿포로",
+      "awayTeam": "고후",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 98,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "normal",
+      "homeTeam": "이와타",
+      "awayTeam": "RB오미야",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.85,
+        "draw": 3.25,
+        "away": 1.98
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 99,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "handicap",
+      "homeTeam": "이와타",
+      "awayTeam": "RB오미야",
+      "handicapValue": "H +1.0",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.61,
+        "draw": 3.6,
+        "away": 3.8
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 100,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "underover",
+      "homeTeam": "이와타",
+      "awayTeam": "RB오미야",
+      "handicapValue": null,
+      "underOverValue": "U/O 2.5",
+      "odds": {
+        "home": 1.92,
+        "away": 1.59
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 101,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "축구",
+      "matchType": "sum",
+      "homeTeam": "이와타",
+      "awayTeam": "RB오미야",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": false,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 102,
       "league": "03.21 (토)14:00 마감",
       "sportText": "축구",
@@ -971,6 +1193,96 @@
       "isConditionChanged": false
     },
     {
+      "gameNumber": 119,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "고양소노",
+      "awayTeam": "울산모비",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.16,
+        "away": 3.48
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 120,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "고양소노",
+      "awayTeam": "울산모비",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.49,
+        "away": 6.8
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 121,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "고양소노",
+      "awayTeam": "울산모비",
+      "handicapValue": "H -7.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 122,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "고양소노",
+      "awayTeam": "울산모비",
+      "handicapValue": null,
+      "underOverValue": "U/O 159.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 123,
+      "league": "03.21 (토)14:00 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "고양소노",
+      "awayTeam": "울산모비",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "03.21 (토)14:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
       "gameNumber": 124,
       "league": "03.21 (토)14:30 마감",
       "sportText": "축구",
@@ -1260,6 +1572,96 @@
       "odds": {
         "home": 1.76,
         "away": 1.72
+      },
+      "deadlineText": "03.21 (토)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 140,
+      "league": "03.21 (토)16:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "부산KCC",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.22,
+        "away": 3.03
+      },
+      "deadlineText": "03.21 (토)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 141,
+      "league": "03.21 (토)16:30 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "부산KCC",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.61,
+        "away": 5.6
+      },
+      "deadlineText": "03.21 (토)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 142,
+      "league": "03.21 (토)16:30 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "부산KCC",
+      "awayTeam": "서울삼성",
+      "handicapValue": "H -6.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "03.21 (토)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 143,
+      "league": "03.21 (토)16:30 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "부산KCC",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": "U/O 174.5",
+      "odds": {
+        "home": 1.71,
+        "away": 1.77
+      },
+      "deadlineText": "03.21 (토)16:30 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 144,
+      "league": "03.21 (토)16:30 마감",
+      "sportText": "농구",
+      "matchType": "sum",
+      "homeTeam": "부산KCC",
+      "awayTeam": "서울삼성",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.21 (토)16:30 마감",
       "isSingle": true,
