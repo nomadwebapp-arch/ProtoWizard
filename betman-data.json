@@ -2,80 +2,6 @@
   "roundNumber": "260036",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "03.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "웨스원더",
-      "awayTeam": "애들유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.97,
-        "draw": 3.6,
-        "away": 2.65
-      },
-      "deadlineText": "03.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "03.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "웨스원더",
-      "awayTeam": "애들유나",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.45,
-        "draw": 3.95,
-        "away": 1.61
-      },
-      "deadlineText": "03.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "03.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "웨스원더",
-      "awayTeam": "애들유나",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "03.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 4,
-      "league": "03.20 (금)17:35 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "웨스원더",
-      "awayTeam": "애들유나",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.20 (금)17:35 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 5,
       "league": "03.20 (금)19:00 마감",
       "sportText": "농구",
@@ -211,8 +137,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 170.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.69,
+        "away": 1.79
       },
       "deadlineText": "03.20 (금)19:00 마감",
       "isSingle": false,
@@ -247,8 +173,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.68,
-        "away": 1.8
+        "home": 1.98,
+        "away": 1.55
       },
       "deadlineText": "03.20 (금)21:30 마감",
       "isSingle": false,
@@ -262,11 +188,11 @@
       "matchType": "handicap",
       "homeTeam": "알바도쿄",
       "awayTeam": "타오위파",
-      "handicapValue": "H -1.5",
+      "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.78,
-        "away": 1.7
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.20 (금)21:30 마감",
       "isSingle": false,
