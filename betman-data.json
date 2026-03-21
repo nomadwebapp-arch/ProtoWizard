@@ -1734,9 +1734,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.31,
-        "draw": 3.2,
-        "away": 2.4
+        "home": 2.6,
+        "draw": 3.15,
+        "away": 2.17
       },
       "deadlineText": "03.21 (토)23:00 마감",
       "isSingle": true,
@@ -1750,17 +1750,17 @@
       "matchType": "handicap",
       "homeTeam": "토론토FC",
       "awayTeam": "콜럼크루",
-      "handicapValue": "H -1.0",
+      "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.6,
-        "draw": 3.9,
-        "away": 1.45
+        "home": 1.51,
+        "draw": 3.85,
+        "away": 4.15
       },
       "deadlineText": "03.21 (토)23:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 244,
