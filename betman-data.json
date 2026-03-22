@@ -2,210 +2,6 @@
   "roundNumber": "260036",
   "matches": [
     {
-      "gameNumber": 498,
-      "league": "03.22 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "뉴캐슬U",
-      "awayTeam": "선덜랜드",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.53,
-        "draw": 3.4,
-        "away": 4.65
-      },
-      "deadlineText": "03.22 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 499,
-      "league": "03.22 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "뉴캐슬U",
-      "awayTeam": "선덜랜드",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.45,
-        "draw": 3.15,
-        "away": 2.29
-      },
-      "deadlineText": "03.22 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 500,
-      "league": "03.22 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "뉴캐슬U",
-      "awayTeam": "선덜랜드",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.3,
-        "draw": 4.15,
-        "away": 1.45
-      },
-      "deadlineText": "03.22 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 501,
-      "league": "03.22 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "뉴캐슬U",
-      "awayTeam": "선덜랜드",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "03.22 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 502,
-      "league": "03.22 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "뉴캐슬U",
-      "awayTeam": "선덜랜드",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.22 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 503,
-      "league": "03.22 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "바르셀로",
-      "awayTeam": "라요",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.15,
-        "draw": 5.4,
-        "away": 9.3
-      },
-      "deadlineText": "03.22 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 504,
-      "league": "03.22 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "바르셀로",
-      "awayTeam": "라요",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.51,
-        "draw": 4.05,
-        "away": 3.95
-      },
-      "deadlineText": "03.22 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 505,
-      "league": "03.22 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "바르셀로",
-      "awayTeam": "라요",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.3,
-        "draw": 3.75,
-        "away": 2.17
-      },
-      "deadlineText": "03.22 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 506,
-      "league": "03.22 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "바르셀로",
-      "awayTeam": "라요",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.9,
-        "away": 1.12
-      },
-      "deadlineText": "03.22 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 507,
-      "league": "03.22 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "바르셀로",
-      "awayTeam": "라요",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.22 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 508,
-      "league": "03.22 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "바르셀로",
-      "awayTeam": "라요",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.22 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 509,
       "league": "03.22 (일)22:30 마감",
       "sportText": "축구",
@@ -474,8 +270,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.06,
-        "draw": 2.9,
+        "home": 2.12,
+        "draw": 2.8,
         "away": 3
       },
       "deadlineText": "03.22 (일)23:00 마감",
@@ -548,9 +344,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "draw": 3.2,
-        "away": 2.18
+        "home": 2.7,
+        "draw": 3.15,
+        "away": 2.11
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
@@ -808,9 +604,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.97,
-        "draw": 3.3,
-        "away": 2.85
+        "home": 2.03,
+        "draw": 3.2,
+        "away": 2.8
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": true,
@@ -1049,8 +845,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 5.5,
-        "draw": 4.5,
+        "home": 4.8,
+        "draw": 5.1,
         "away": 1.32
       },
       "deadlineText": "03.22 (일)23:00 마감",
@@ -1068,8 +864,8 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.6,
-        "draw": 3.85,
+        "home": 2.4,
+        "draw": 4.4,
         "away": 1.93
       },
       "deadlineText": "03.22 (일)23:00 마감",
@@ -1197,9 +993,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.92,
-        "draw": 3,
-        "away": 3.25
+        "home": 1.9,
+        "draw": 2.85,
+        "away": 3.5
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
@@ -1216,9 +1012,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.8,
-        "draw": 3.35,
-        "away": 1.66
+        "home": 3.65,
+        "draw": 3.3,
+        "away": 1.71
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
@@ -1809,8 +1605,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.02,
-        "draw": 3.1,
-        "away": 2.9
+        "draw": 2.95,
+        "away": 3.05
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": true,
@@ -2142,9 +1938,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.68,
-        "draw": 3.4,
-        "away": 3.65
+        "home": 1.73,
+        "draw": 3.35,
+        "away": 3.5
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
@@ -2381,13 +2177,13 @@
       "handicapValue": null,
       "underOverValue": "U/O 242.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.71,
+        "away": 1.77
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 627,
@@ -2417,8 +2213,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.38,
-        "away": 2.35
+        "home": 1.34,
+        "away": 2.48
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
@@ -2432,7 +2228,7 @@
       "matchType": "handicap",
       "homeTeam": "새크킹스",
       "awayTeam": "브루네츠",
-      "handicapValue": "H -4.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -2441,7 +2237,7 @@
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 630,
