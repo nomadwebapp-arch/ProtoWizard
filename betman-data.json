@@ -2,154 +2,6 @@
   "roundNumber": "260036",
   "matches": [
     {
-      "gameNumber": 385,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "시드니FC",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.98,
-        "draw": 3.65,
-        "away": 2.6
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 386,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "시드니FC",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.45,
-        "draw": 3.95,
-        "away": 1.61
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 387,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "시드니FC",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 388,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "시드니FC",
-      "awayTeam": "뉴캐제츠",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 389,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "시미즈",
-      "awayTeam": "산프히로",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.8,
-        "draw": 3.4,
-        "away": 1.65
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 390,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "시미즈",
-      "awayTeam": "산프히로",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.93,
-        "draw": 3.35,
-        "away": 2.9
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 391,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "시미즈",
-      "awayTeam": "산프히로",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 392,
-      "league": "03.22 (일)13:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "시미즈",
-      "awayTeam": "산프히로",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.22 (일)13:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 393,
       "league": "03.22 (일)14:00 마감",
       "sportText": "축구",
@@ -307,9 +159,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.2,
-        "draw": 3.05,
-        "away": 1.91
+        "home": 3.35,
+        "draw": 3.15,
+        "away": 1.83
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": false,
@@ -326,9 +178,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.66,
-        "draw": 3.35,
-        "away": 3.8
+        "home": 1.75,
+        "draw": 3.3,
+        "away": 3.45
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": false,
@@ -381,8 +233,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.05,
-        "draw": 2.95,
+        "home": 2.9,
+        "draw": 3.1,
         "away": 2.02
       },
       "deadlineText": "03.22 (일)14:00 마감",
@@ -400,8 +252,8 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.6,
-        "draw": 3.4,
+        "home": 1.55,
+        "draw": 3.65,
         "away": 4.1
       },
       "deadlineText": "03.22 (일)14:00 마감",
@@ -455,9 +307,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.51,
-        "draw": 3.35,
-        "away": 4.95
+        "home": 1.38,
+        "draw": 3.7,
+        "away": 6
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -474,9 +326,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "draw": 3,
-        "away": 2.18
+        "home": 2.27,
+        "draw": 2.9,
+        "away": 2.65
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -493,9 +345,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.5,
-        "draw": 4.35,
-        "away": 1.33
+        "home": 4.1,
+        "draw": 4.05,
+        "away": 1.49
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -512,8 +364,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.56,
-        "away": 1.97
+        "home": 1.61,
+        "away": 1.89
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -548,9 +400,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
-        "draw": 3.1,
-        "away": 3.15
+        "home": 1.84,
+        "draw": 3.15,
+        "away": 3.3
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -567,9 +419,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.7,
-        "draw": 3.5,
-        "away": 1.65
+        "home": 3.65,
+        "draw": 3.35,
+        "away": 1.69
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -586,9 +438,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 8.5,
-        "draw": 5.7,
-        "away": 1.15
+        "home": 7.9,
+        "draw": 5.3,
+        "away": 1.18
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -641,9 +493,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.61,
-        "draw": 3.2,
-        "away": 4.35
+        "home": 1.66,
+        "draw": 3.15,
+        "away": 4.1
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -660,9 +512,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3,
-        "draw": 3.1,
-        "away": 1.97
+        "home": 3.4,
+        "draw": 3.05,
+        "away": 1.85
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -753,8 +605,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "03.22 (일)14:00 마감",
       "isSingle": true,
@@ -1027,9 +879,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.9,
-        "draw": 3.25,
-        "away": 1.96
+        "home": 2.75,
+        "draw": 3.3,
+        "away": 2.02
       },
       "deadlineText": "03.22 (일)15:00 마감",
       "isSingle": true,
@@ -1046,9 +898,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.64,
-        "draw": 3.55,
-        "away": 3.7
+        "home": 1.51,
+        "draw": 3.95,
+        "away": 4.05
       },
       "deadlineText": "03.22 (일)15:00 마감",
       "isSingle": true,
@@ -1065,8 +917,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.94,
-        "away": 1.58
+        "home": 1.84,
+        "away": 1.65
       },
       "deadlineText": "03.22 (일)15:00 마감",
       "isSingle": true,
@@ -1194,9 +1046,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.45,
+        "home": 2.7,
         "draw": 3.1,
-        "away": 2.31
+        "away": 2.13
       },
       "deadlineText": "03.22 (일)16:00 마감",
       "isSingle": true,
@@ -1213,8 +1065,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.72,
+        "away": 1.76
       },
       "deadlineText": "03.22 (일)16:00 마감",
       "isSingle": true,
@@ -1267,13 +1119,13 @@
       "handicapValue": "H +6.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "03.22 (일)16:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": true
+      "isConditionChanged": false
     },
     {
       "gameNumber": 454,
@@ -2706,9 +2558,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "draw": 3.35,
-        "away": 3.5
+        "home": 1.6,
+        "draw": 3.65,
+        "away": 3.8
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": true,
@@ -2725,9 +2577,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.1,
+        "home": 2.65,
         "draw": 3.4,
-        "away": 1.83
+        "away": 2.04
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": true,
@@ -3374,9 +3226,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.93,
-        "draw": 3.35,
-        "away": 2.9
+        "home": 1.79,
+        "draw": 3.5,
+        "away": 3.15
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
@@ -3393,9 +3245,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.25,
-        "draw": 3.8,
-        "away": 1.69
+        "home": 3.1,
+        "draw": 3.7,
+        "away": 1.75
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
@@ -3412,8 +3264,8 @@
       "handicapValue": "H -3.5",
       "underOverValue": null,
       "odds": {
-        "home": 6.28,
-        "away": 1.01
+        "home": 5.32,
+        "away": 1.04
       },
       "deadlineText": "03.22 (일)23:00 마감",
       "isSingle": false,
