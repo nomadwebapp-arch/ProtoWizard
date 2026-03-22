@@ -2,78 +2,6 @@
   "roundNumber": "260036",
   "matches": [
     {
-      "gameNumber": 636,
-      "league": "03.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "워싱위저",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.01,
-        "away": 6.28
-      },
-      "deadlineText": "03.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 637,
-      "league": "03.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "워싱위저",
-      "handicapValue": "H -20.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.73,
-        "away": 1.75
-      },
-      "deadlineText": "03.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 638,
-      "league": "03.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "워싱위저",
-      "handicapValue": null,
-      "underOverValue": "U/O 228.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "03.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 639,
-      "league": "03.23 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "워싱위저",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.23 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 640,
       "league": "03.23 (월)09:00 마감",
       "sportText": "농구",
@@ -117,7 +45,7 @@
       "homeTeam": "보스셀틱",
       "awayTeam": "미네울브",
       "handicapValue": null,
-      "underOverValue": "U/O 220.5",
+      "underOverValue": "U/O 222.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -125,7 +53,7 @@
       "deadlineText": "03.23 (월)09:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 643,
@@ -155,8 +83,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
-        "away": 1.6
+        "home": 2.33,
+        "away": 1.39
       },
       "deadlineText": "03.23 (월)10:00 마감",
       "isSingle": true,
@@ -170,16 +98,16 @@
       "matchType": "handicap",
       "homeTeam": "피닉선즈",
       "awayTeam": "토론랩터",
-      "handicapValue": "H +1.5",
+      "handicapValue": "H +4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.78,
-        "away": 1.7
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "03.23 (월)10:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 646,
@@ -191,8 +119,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 221.5",
       "odds": {
-        "home": 1.74,
-        "away": 1.74
+        "home": 1.73,
+        "away": 1.75
       },
       "deadlineText": "03.23 (월)10:00 마감",
       "isSingle": true,
