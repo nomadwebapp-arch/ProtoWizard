@@ -49,8 +49,8 @@ export const protoMatches: Match[] = [
     matchType: 'underover',
     underOverValue: 'U/O 227.5',
     odds: {
-      home: 1.76,
-      away: 1.72,
+      home: 1.79,
+      away: 1.69,
     },
     deadline: new Date('2026-03-23T14:00:00.000Z'),
     status: 'open',
@@ -83,8 +83,8 @@ export const protoMatches: Match[] = [
     awayTeam: '인디페이',
     matchType: 'normal',
     odds: {
-      home: 1.01,
-      away: 6.28,
+      home: 1.04,
+      away: 5.32,
     },
     deadline: new Date('2026-03-23T14:00:00.000Z'),
     status: 'open',
@@ -187,7 +187,8 @@ export const protoMatches: Match[] = [
     homeTeam: '필라76s',
     awayTeam: '오클썬더',
     matchType: 'underover',
-    underOverValue: 'U/O 221.5',
+    underOverValue: 'U/O 223.5',
+    isConditionChanged: true,
     odds: {
       home: 1.74,
       away: 1.74,
