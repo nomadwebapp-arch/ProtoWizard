@@ -153,8 +153,8 @@ export const protoMatches: Match[] = [
     awayTeam: '오클썬더',
     matchType: 'normal',
     odds: {
-      home: 6.28,
-      away: 1.01,
+      home: 5.32,
+      away: 1.04,
     },
     deadline: new Date('2026-03-23T14:00:00.000Z'),
     status: 'open',
@@ -434,8 +434,8 @@ export const protoMatches: Match[] = [
     awayTeam: '토론랩터',
     matchType: 'normal',
     odds: {
-      home: 5.92,
-      away: 1.02,
+      home: 5.08,
+      away: 1.05,
     },
     deadline: new Date('2026-03-24T01:00:00.000Z'),
     status: 'open',
