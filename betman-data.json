@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.11,
-        "away": 1.48
+        "home": 2.3,
+        "away": 1.4
       },
       "deadlineText": "03.23 (월)19:00 마감",
       "isSingle": true,
@@ -29,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.25,
-        "away": 2.16
+        "home": 3.9,
+        "away": 1.94
       },
       "deadlineText": "03.23 (월)19:00 마감",
       "isSingle": true,
@@ -44,7 +44,7 @@
       "matchType": "handicap",
       "homeTeam": "서울삼성",
       "awayTeam": "울산모비",
-      "handicapValue": "H +2.5",
+      "handicapValue": "H +3.5",
       "underOverValue": null,
       "odds": {
         "home": 1.8,
@@ -53,7 +53,7 @@
       "deadlineText": "03.23 (월)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 4,
@@ -63,7 +63,7 @@
       "homeTeam": "서울삼성",
       "awayTeam": "울산모비",
       "handicapValue": null,
-      "underOverValue": "U/O 160.5",
+      "underOverValue": "U/O 162.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -71,7 +71,7 @@
       "deadlineText": "03.23 (월)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 5,
