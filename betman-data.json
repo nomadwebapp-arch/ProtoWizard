@@ -2,168 +2,6 @@
   "roundNumber": "260037",
   "matches": [
     {
-      "gameNumber": 51,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "원주DB",
-      "awayTeam": "안양정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.95,
-        "away": 1.57
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 52,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "원주DB",
-      "awayTeam": "안양정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.95,
-        "away": 2.24
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 53,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "원주DB",
-      "awayTeam": "안양정관",
-      "handicapValue": "H +2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 54,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "원주DB",
-      "awayTeam": "안양정관",
-      "handicapValue": null,
-      "underOverValue": "U/O 152.5",
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 55,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "원주DB",
-      "awayTeam": "안양정관",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 56,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.34,
-        "away": 2.48
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 57,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.78,
-        "away": 1.7
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 58,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": null,
-      "underOverValue": "U/O 184.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 59,
-      "league": "03.24 (화)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "GS칼텍스",
-      "awayTeam": "흥국생명",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.24 (화)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 60,
       "league": "03.24 (화)23:00 마감",
       "sportText": "농구",
@@ -173,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.01,
-        "away": 6.28
+        "home": 1.04,
+        "away": 5.32
       },
       "deadlineText": "03.24 (화)23:00 마감",
       "isSingle": false,
@@ -209,8 +47,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 230.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.8,
+        "away": 1.68
       },
       "deadlineText": "03.24 (화)23:00 마감",
       "isSingle": false,
@@ -407,8 +245,8 @@
       "handicapValue": "H +4.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.83,
+        "away": 1.66
       },
       "deadlineText": "03.25 (수)12:00 마감",
       "isSingle": true,
