@@ -2,78 +2,6 @@
   "roundNumber": "260037",
   "matches": [
     {
-      "gameNumber": 64,
-      "league": "03.25 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "뉴올펠리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.14,
-        "away": 3.67
-      },
-      "deadlineText": "03.25 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 65,
-      "league": "03.25 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "뉴올펠리",
-      "handicapValue": "H -9.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.77,
-        "away": 1.71
-      },
-      "deadlineText": "03.25 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 66,
-      "league": "03.25 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "뉴올펠리",
-      "handicapValue": null,
-      "underOverValue": "U/O 232.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.25 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 67,
-      "league": "03.25 (수)08:30 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "뉴욕닉스",
-      "awayTeam": "뉴올펠리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.25 (수)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 68,
       "league": "03.25 (수)09:00 마감",
       "sportText": "농구",
@@ -98,16 +26,16 @@
       "matchType": "handicap",
       "homeTeam": "클리캐벌",
       "awayTeam": "올랜매직",
-      "handicapValue": "H -9.5",
+      "handicapValue": "H -10.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.71,
-        "away": 1.77
+        "home": 1.76,
+        "away": 1.72
       },
       "deadlineText": "03.25 (수)09:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 70,
@@ -117,7 +45,7 @@
       "homeTeam": "클리캐벌",
       "awayTeam": "올랜매직",
       "handicapValue": null,
-      "underOverValue": "U/O 230.5",
+      "underOverValue": "U/O 231.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -125,7 +53,7 @@
       "deadlineText": "03.25 (수)09:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 71,
