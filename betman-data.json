@@ -2,78 +2,6 @@
   "roundNumber": "260037",
   "matches": [
     {
-      "gameNumber": 60,
-      "league": "03.24 (화)23:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "샬럿호네",
-      "awayTeam": "새크킹스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.04,
-        "away": 5.32
-      },
-      "deadlineText": "03.24 (화)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 61,
-      "league": "03.24 (화)23:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "샬럿호네",
-      "awayTeam": "새크킹스",
-      "handicapValue": "H -16.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.71,
-        "away": 1.77
-      },
-      "deadlineText": "03.24 (화)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 62,
-      "league": "03.24 (화)23:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "샬럿호네",
-      "awayTeam": "새크킹스",
-      "handicapValue": null,
-      "underOverValue": "U/O 230.5",
-      "odds": {
-        "home": 1.8,
-        "away": 1.68
-      },
-      "deadlineText": "03.24 (화)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 63,
-      "league": "03.24 (화)23:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "샬럿호네",
-      "awayTeam": "새크킹스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.24 (화)23:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 64,
       "league": "03.25 (수)08:30 마감",
       "sportText": "농구",
@@ -117,7 +45,7 @@
       "homeTeam": "뉴욕닉스",
       "awayTeam": "뉴올펠리",
       "handicapValue": null,
-      "underOverValue": "U/O 233.5",
+      "underOverValue": "U/O 232.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -227,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.38,
-        "away": 1.37
+        "home": 2.92,
+        "away": 1.24
       },
       "deadlineText": "03.25 (수)12:00 마감",
       "isSingle": true,
@@ -242,16 +170,16 @@
       "matchType": "handicap",
       "homeTeam": "피닉선즈",
       "awayTeam": "덴버너게",
-      "handicapValue": "H +4.5",
+      "handicapValue": "H +6.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.83,
-        "away": 1.66
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.25 (수)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 74,
@@ -261,7 +189,7 @@
       "homeTeam": "피닉선즈",
       "awayTeam": "덴버너게",
       "handicapValue": null,
-      "underOverValue": "U/O 235.5",
+      "underOverValue": "U/O 234.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -269,7 +197,7 @@
       "deadlineText": "03.25 (수)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 75,
