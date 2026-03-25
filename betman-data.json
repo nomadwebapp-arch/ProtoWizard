@@ -2,78 +2,6 @@
   "roundNumber": "260037",
   "matches": [
     {
-      "gameNumber": 68,
-      "league": "03.25 (수)09:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "클리캐벌",
-      "awayTeam": "올랜매직",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.13,
-        "away": 3.78
-      },
-      "deadlineText": "03.25 (수)09:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 69,
-      "league": "03.25 (수)09:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "클리캐벌",
-      "awayTeam": "올랜매직",
-      "handicapValue": "H -10.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.76,
-        "away": 1.72
-      },
-      "deadlineText": "03.25 (수)09:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 70,
-      "league": "03.25 (수)09:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "클리캐벌",
-      "awayTeam": "올랜매직",
-      "handicapValue": null,
-      "underOverValue": "U/O 231.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.25 (수)09:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 71,
-      "league": "03.25 (수)09:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "클리캐벌",
-      "awayTeam": "올랜매직",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.25 (수)09:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 72,
       "league": "03.25 (수)12:00 마감",
       "sportText": "농구",
@@ -83,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.92,
-        "away": 1.24
+        "home": 2.72,
+        "away": 1.28
       },
       "deadlineText": "03.25 (수)12:00 마감",
       "isSingle": true,
