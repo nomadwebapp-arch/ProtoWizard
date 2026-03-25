@@ -63,7 +63,7 @@
       "homeTeam": "서울SK",
       "awayTeam": "고양소노",
       "handicapValue": null,
-      "underOverValue": "U/O 156.5",
+      "underOverValue": "U/O 157.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -71,7 +71,7 @@
       "deadlineText": "03.25 (수)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 5,
@@ -153,7 +153,7 @@
       "homeTeam": "하나은행",
       "awayTeam": "우리은행",
       "handicapValue": null,
-      "underOverValue": "U/O 122.5",
+      "underOverValue": "U/O 123.5",
       "odds": {
         "home": 1.76,
         "away": 1.72
@@ -161,7 +161,7 @@
       "deadlineText": "03.25 (수)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 10,
@@ -227,8 +227,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 186.5",
       "odds": {
-        "home": 1.79,
-        "away": 1.69
+        "home": 1.85,
+        "away": 1.64
       },
       "deadlineText": "03.25 (수)19:00 마감",
       "isSingle": true,

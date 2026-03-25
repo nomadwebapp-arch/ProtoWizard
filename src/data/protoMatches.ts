@@ -67,8 +67,9 @@ export const protoMatches: Match[] = [
     homeTeam: '서울SK',
     awayTeam: '고양소노',
     matchType: 'underover',
-    underOverValue: 'U/O 156.5',
+    underOverValue: 'U/O 157.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
@@ -159,8 +160,9 @@ export const protoMatches: Match[] = [
     homeTeam: '하나은행',
     awayTeam: '우리은행',
     matchType: 'underover',
-    underOverValue: 'U/O 122.5',
+    underOverValue: 'U/O 123.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.76,
       away: 1.72,
@@ -236,8 +238,8 @@ export const protoMatches: Match[] = [
     underOverValue: 'U/O 186.5',
     isSingle: true,
     odds: {
-      home: 1.79,
-      away: 1.69,
+      home: 1.85,
+      away: 1.64,
     },
     deadline: new Date('2026-03-25T10:00:00.000Z'),
     status: 'open',
