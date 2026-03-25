@@ -45,7 +45,7 @@
       "homeTeam": "디트피스",
       "awayTeam": "애틀호크",
       "handicapValue": null,
-      "underOverValue": "U/O 227.5",
+      "underOverValue": "U/O 228.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -53,7 +53,7 @@
       "deadlineText": "03.25 (수)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 18,
