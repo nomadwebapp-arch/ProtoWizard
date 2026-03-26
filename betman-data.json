@@ -2,168 +2,6 @@
   "roundNumber": "260038",
   "matches": [
     {
-      "gameNumber": 69,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "한국가스",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.48,
-        "away": 1.16
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 70,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "한국가스",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 6,
-        "away": 1.55
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 71,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "한국가스",
-      "awayTeam": "창원LG",
-      "handicapValue": "H +7.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 72,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "한국가스",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": "U/O 149.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 73,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "농구",
-      "matchType": "sum",
-      "homeTeam": "한국가스",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 74,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "현대건설",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.43,
-        "away": 2.22
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 75,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "현대건설",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.88,
-        "away": 1.62
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 76,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "현대건설",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": "U/O 179.5",
-      "odds": {
-        "home": 1.92,
-        "away": 1.59
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 77,
-      "league": "03.26 (목)19:00 마감",
-      "sportText": "배구",
-      "matchType": "sum",
-      "homeTeam": "현대건설",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.26 (목)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 78,
       "league": "03.26 (목)21:00 마감",
       "sportText": "축구",
@@ -1310,9 +1148,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.91,
-        "draw": 2.8,
-        "away": 3.55
+        "home": 1.98,
+        "draw": 2.75,
+        "away": 3.4
       },
       "deadlineText": "03.26 (목)23:00 마감",
       "isSingle": true,
@@ -1329,9 +1167,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4,
-        "draw": 3.15,
-        "away": 1.68
+        "home": 4.3,
+        "draw": 3.4,
+        "away": 1.57
       },
       "deadlineText": "03.26 (목)23:00 마감",
       "isSingle": true,
