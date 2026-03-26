@@ -2,117 +2,6 @@
   "roundNumber": "260038",
   "matches": [
     {
-      "gameNumber": 78,
-      "league": "03.26 (목)21:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "베트남",
-      "awayTeam": "방글라데",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.07,
-        "draw": 6.2,
-        "away": 15
-      },
-      "deadlineText": "03.26 (목)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 79,
-      "league": "03.26 (목)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "베트남",
-      "awayTeam": "방글라데",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.35,
-        "draw": 3.9,
-        "away": 6.05
-      },
-      "deadlineText": "03.26 (목)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 80,
-      "league": "03.26 (목)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "베트남",
-      "awayTeam": "방글라데",
-      "handicapValue": "H -2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.93,
-        "draw": 3.65,
-        "away": 2.7
-      },
-      "deadlineText": "03.26 (목)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 81,
-      "league": "03.26 (목)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "베트남",
-      "awayTeam": "방글라데",
-      "handicapValue": "H -3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.24,
-        "away": 1.19
-      },
-      "deadlineText": "03.26 (목)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 82,
-      "league": "03.26 (목)21:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "베트남",
-      "awayTeam": "방글라데",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.54,
-        "away": 2
-      },
-      "deadlineText": "03.26 (목)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 83,
-      "league": "03.26 (목)21:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "베트남",
-      "awayTeam": "방글라데",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.26 (목)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 84,
       "league": "03.26 (목)23:00 마감",
       "sportText": "축구",
@@ -563,8 +452,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.85,
-        "away": 3.1
+        "home": 1.8,
+        "away": 3.2
       },
       "deadlineText": "03.26 (목)23:00 마감",
       "isSingle": false,
@@ -1241,9 +1130,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.7,
-        "draw": 3.5,
-        "away": 3.45
+        "home": 1.6,
+        "draw": 3.7,
+        "away": 3.75
       },
       "deadlineText": "03.26 (목)23:00 마감",
       "isSingle": true,
