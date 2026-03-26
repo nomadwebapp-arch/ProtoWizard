@@ -2,80 +2,6 @@
   "roundNumber": "260038",
   "matches": [
     {
-      "gameNumber": 199,
-      "league": "03.27 (금)08:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "크로아티",
-      "awayTeam": "콜롬비아",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3,
-        "draw": 3.05,
-        "away": 1.99
-      },
-      "deadlineText": "03.27 (금)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 200,
-      "league": "03.27 (금)08:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "크로아티",
-      "awayTeam": "콜롬비아",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.59,
-        "draw": 3.55,
-        "away": 3.95
-      },
-      "deadlineText": "03.27 (금)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 201,
-      "league": "03.27 (금)08:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "크로아티",
-      "awayTeam": "콜롬비아",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.69,
-        "away": 1.79
-      },
-      "deadlineText": "03.27 (금)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 202,
-      "league": "03.27 (금)08:30 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "크로아티",
-      "awayTeam": "콜롬비아",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.27 (금)08:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 203,
       "league": "03.27 (금)09:00 마감",
       "sportText": "축구",
@@ -85,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.02,
-        "draw": 2.95,
-        "away": 3.05
+        "home": 1.9,
+        "draw": 3.05,
+        "away": 3.25
       },
       "deadlineText": "03.27 (금)09:00 마감",
       "isSingle": true,
@@ -377,8 +303,8 @@
       "handicapValue": "H +2.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.85,
-        "draw": 3.9,
+        "home": 4.6,
+        "draw": 4.05,
         "away": 1.43
       },
       "deadlineText": "03.27 (금)12:00 마감",
