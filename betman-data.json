@@ -2,62 +2,6 @@
   "roundNumber": "260039",
   "matches": [
     {
-      "gameNumber": 1,
-      "league": "03.27 (금)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "뉴질랜드",
-      "awayTeam": "핀란드",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.32,
-        "draw": 2.95,
-        "away": 2.55
-      },
-      "deadlineText": "03.27 (금)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 2,
-      "league": "03.27 (금)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "뉴질랜드",
-      "awayTeam": "핀란드",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 5.2,
-        "draw": 3.4,
-        "away": 1.48
-      },
-      "deadlineText": "03.27 (금)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 3,
-      "league": "03.27 (금)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "뉴질랜드",
-      "awayTeam": "핀란드",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.54,
-        "away": 2
-      },
-      "deadlineText": "03.27 (금)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 4,
       "league": "03.27 (금)18:00 마감",
       "sportText": "야구",
@@ -121,8 +65,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 5.5",
       "odds": {
-        "home": 1.58,
-        "away": 1.94
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "03.27 (금)18:00 마감",
       "isSingle": true,
@@ -157,9 +101,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.65,
+        "home": 1.69,
         "draw": 3.2,
-        "away": 4.1
+        "away": 3.85
       },
       "deadlineText": "03.27 (금)18:10 마감",
       "isSingle": true,
@@ -1157,9 +1101,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.25,
-        "draw": 4.05,
-        "away": 8.6
+        "home": 1.21,
+        "draw": 4.4,
+        "away": 9.2
       },
       "deadlineText": "03.27 (금)23:00 마감",
       "isSingle": true,
@@ -1176,9 +1120,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.88,
-        "draw": 3.05,
-        "away": 3.3
+        "home": 1.83,
+        "draw": 3.15,
+        "away": 3.35
       },
       "deadlineText": "03.27 (금)23:00 마감",
       "isSingle": true,
