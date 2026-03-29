@@ -2,62 +2,6 @@
   "roundNumber": "260039",
   "matches": [
     {
-      "gameNumber": 537,
-      "league": "03.29 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "리투아니",
-      "awayTeam": "조지아",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.15,
-        "draw": 3.4,
-        "away": 1.59
-      },
-      "deadlineText": "03.29 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 538,
-      "league": "03.29 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "리투아니",
-      "awayTeam": "조지아",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.08,
-        "draw": 3.2,
-        "away": 2.7
-      },
-      "deadlineText": "03.29 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 539,
-      "league": "03.29 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "리투아니",
-      "awayTeam": "조지아",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.65,
-        "away": 1.84
-      },
-      "deadlineText": "03.29 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 540,
       "league": "03.29 (일)23:00 마감",
       "sportText": "야구",
@@ -391,8 +335,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 8.5",
       "odds": {
-        "home": 1.78,
-        "away": 1.7
+        "home": 1.84,
+        "away": 1.65
       },
       "deadlineText": "03.29 (일)23:00 마감",
       "isSingle": false,
@@ -535,8 +479,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.88,
-        "away": 3.05
+        "home": 1.83,
+        "away": 3.1
       },
       "deadlineText": "03.29 (일)23:00 마감",
       "isSingle": false,
@@ -805,8 +749,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.85,
-        "away": 3.1
+        "home": 1.79,
+        "away": 3.15
       },
       "deadlineText": "03.29 (일)23:00 마감",
       "isSingle": false,
@@ -985,8 +929,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.65,
-        "away": 3.55
+        "home": 1.6,
+        "away": 3.7
       },
       "deadlineText": "03.29 (일)23:00 마감",
       "isSingle": false,
@@ -1276,9 +1220,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.21,
-        "draw": 3.15,
-        "away": 2.55
+        "home": 2.1,
+        "draw": 3.1,
+        "away": 2.75
       },
       "deadlineText": "03.29 (일)23:00 마감",
       "isSingle": true,
@@ -1907,9 +1851,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.34,
-        "draw": 2.85,
-        "away": 2.6
+        "home": 2.44,
+        "draw": 2.9,
+        "away": 2.45
       },
       "deadlineText": "03.30 (월)12:00 마감",
       "isSingle": true,
