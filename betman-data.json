@@ -2,80 +2,6 @@
   "roundNumber": "260040",
   "matches": [
     {
-      "gameNumber": 230,
-      "league": "03.31 (화)21:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "베트남",
-      "awayTeam": "말레이시",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.6,
-        "draw": 3.35,
-        "away": 4.2
-      },
-      "deadlineText": "03.31 (화)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 231,
-      "league": "03.31 (화)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "베트남",
-      "awayTeam": "말레이시",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.85,
-        "draw": 3.2,
-        "away": 2
-      },
-      "deadlineText": "03.31 (화)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 232,
-      "league": "03.31 (화)21:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "베트남",
-      "awayTeam": "말레이시",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "03.31 (화)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 233,
-      "league": "03.31 (화)21:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "베트남",
-      "awayTeam": "말레이시",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "03.31 (화)21:00 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 234,
       "league": "03.31 (화)22:30 마감",
       "sportText": "축구",
@@ -1084,9 +1010,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.44,
-        "draw": 3.8,
-        "away": 4.85
+        "home": 1.39,
+        "draw": 4.05,
+        "away": 5.1
       },
       "deadlineText": "03.31 (화)23:00 마감",
       "isSingle": true,
@@ -1103,9 +1029,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.26,
-        "draw": 3.4,
-        "away": 2.35
+        "home": 2.15,
+        "draw": 3.45,
+        "away": 2.45
       },
       "deadlineText": "03.31 (화)23:00 마감",
       "isSingle": true,
@@ -1122,9 +1048,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.3,
-        "draw": 4.25,
-        "away": 1.44
+        "home": 4.1,
+        "draw": 4.2,
+        "away": 1.47
       },
       "deadlineText": "03.31 (화)23:00 마감",
       "isSingle": true,
@@ -1141,8 +1067,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.98,
-        "away": 1.55
+        "home": 2.07,
+        "away": 1.5
       },
       "deadlineText": "03.31 (화)23:00 마감",
       "isSingle": true,
@@ -3776,8 +3702,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.37,
-        "away": 2.38
+        "home": 1.33,
+        "away": 2.52
       },
       "deadlineText": "04.01 (수)12:00 마감",
       "isSingle": true,
@@ -3791,7 +3717,7 @@
       "matchType": "handicap",
       "homeTeam": "LA클리퍼",
       "awayTeam": "포틀트레",
-      "handicapValue": "H -4.5",
+      "handicapValue": "H -5.5",
       "underOverValue": null,
       "odds": {
         "home": 1.72,
@@ -3800,7 +3726,7 @@
       "deadlineText": "04.01 (수)12:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 438,
