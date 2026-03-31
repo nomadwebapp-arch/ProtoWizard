@@ -280,7 +280,7 @@
       "matchType": "handicap",
       "homeTeam": "브루네츠",
       "awayTeam": "샬럿호네",
-      "handicapValue": "H +15.5",
+      "handicapValue": "H +17.5",
       "underOverValue": null,
       "odds": {
         "home": 1.73,
@@ -289,7 +289,7 @@
       "deadlineText": "04.01 (수)08:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 365,
@@ -987,9 +987,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.1,
-        "draw": 3.05,
-        "away": 1.95
+        "home": 3.3,
+        "draw": 3.15,
+        "away": 1.84
       },
       "deadlineText": "04.01 (수)10:00 마감",
       "isSingle": true,
@@ -1512,9 +1512,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.3,
+        "home": 2.43,
         "draw": 2.85,
-        "away": 2.65
+        "away": 2.5
       },
       "deadlineText": "04.01 (수)12:00 마감",
       "isSingle": true,
@@ -1531,9 +1531,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 5.1,
-        "draw": 3.55,
-        "away": 1.46
+        "home": 5.5,
+        "draw": 3.6,
+        "away": 1.42
       },
       "deadlineText": "04.01 (수)12:00 마감",
       "isSingle": true,
@@ -1647,8 +1647,98 @@
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
+    },
+    {
+      "gameNumber": 440,
+      "league": "04.01 (수)13:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "라쿠텐",
+      "awayTeam": "소프트뱅",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.13,
+        "away": 1.47
+      },
+      "deadlineText": "04.01 (수)13:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 441,
+      "league": "04.01 (수)13:00 마감",
+      "sportText": "야구",
+      "matchType": "normal",
+      "homeTeam": "라쿠텐",
+      "awayTeam": "소프트뱅",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 4,
+        "away": 1.95
+      },
+      "deadlineText": "04.01 (수)13:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 442,
+      "league": "04.01 (수)13:00 마감",
+      "sportText": "야구",
+      "matchType": "handicap",
+      "homeTeam": "라쿠텐",
+      "awayTeam": "소프트뱅",
+      "handicapValue": "H +2.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.28,
+        "away": 2.72
+      },
+      "deadlineText": "04.01 (수)13:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 443,
+      "league": "04.01 (수)13:00 마감",
+      "sportText": "야구",
+      "matchType": "underover",
+      "homeTeam": "라쿠텐",
+      "awayTeam": "소프트뱅",
+      "handicapValue": null,
+      "underOverValue": "U/O 6.5",
+      "odds": {
+        "home": 1.84,
+        "away": 1.65
+      },
+      "deadlineText": "04.01 (수)13:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 444,
+      "league": "04.01 (수)13:00 마감",
+      "sportText": "야구",
+      "matchType": "sum",
+      "homeTeam": "라쿠텐",
+      "awayTeam": "소프트뱅",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.54,
+        "away": 2
+      },
+      "deadlineText": "04.01 (수)13:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
     }
   ],
   "finishedMatches": [],
-  "lastMatchNumber": 439
+  "lastMatchNumber": 444
 }
