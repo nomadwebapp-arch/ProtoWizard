@@ -2,44 +2,6 @@
   "roundNumber": "260042",
   "matches": [
     {
-      "gameNumber": 60,
-      "league": "04.03 (금)20:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "미들즈브",
-      "awayTeam": "밀월",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.58,
-        "draw": 3.5,
-        "away": 4.1
-      },
-      "deadlineText": "04.03 (금)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 61,
-      "league": "04.03 (금)20:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "미들즈브",
-      "awayTeam": "밀월",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.7,
-        "draw": 3.3,
-        "away": 2.04
-      },
-      "deadlineText": "04.03 (금)20:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 62,
       "league": "04.03 (금)23:00 마감",
       "sportText": "축구",
