@@ -49,8 +49,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.46,
-        "away": 2.15
+        "home": 1.49,
+        "away": 2.09
       },
       "deadlineText": "04.03 (금)17:35 마감",
       "isSingle": true,
@@ -85,8 +85,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.8,
-        "away": 2.15
+        "home": 3.65,
+        "away": 2.2
       },
       "deadlineText": "04.03 (금)18:00 마감",
       "isSingle": false,
@@ -139,8 +139,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.1,
-        "away": 2.31
+        "home": 3,
+        "away": 2.37
       },
       "deadlineText": "04.03 (금)18:00 마감",
       "isSingle": false,
@@ -445,8 +445,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 8.5",
       "odds": {
-        "home": 1.82,
-        "away": 1.67
+        "home": 1.88,
+        "away": 1.62
       },
       "deadlineText": "04.03 (금)18:30 마감",
       "isSingle": true,
@@ -573,8 +573,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.11,
-        "away": 1.48
+        "home": 2.03,
+        "away": 1.52
       },
       "deadlineText": "04.03 (금)18:30 마감",
       "isSingle": true,
@@ -591,8 +591,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.15,
-        "away": 1.81
+        "home": 3,
+        "away": 1.87
       },
       "deadlineText": "04.03 (금)18:30 마감",
       "isSingle": true,
@@ -737,8 +737,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.15,
-        "draw": 5.8,
-        "away": 1.9
+        "draw": 5.3,
+        "away": 1.96
       },
       "deadlineText": "04.03 (금)18:30 마감",
       "isSingle": true,
@@ -809,8 +809,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 7.5",
       "odds": {
-        "home": 1.71,
-        "away": 1.77
+        "home": 1.76,
+        "away": 1.72
       },
       "deadlineText": "04.03 (금)18:30 마감",
       "isSingle": true,
