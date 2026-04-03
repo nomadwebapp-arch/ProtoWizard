@@ -2,204 +2,6 @@
   "roundNumber": "260042",
   "matches": [
     {
-      "gameNumber": 49,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "KT소닉붐",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.25,
-        "away": 1.42
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 50,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "KT소닉붐",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.65,
-        "away": 1.98
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 51,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "KT소닉붐",
-      "awayTeam": "창원LG",
-      "handicapValue": "H +3.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 52,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "KT소닉붐",
-      "awayTeam": "창원LG",
-      "handicapValue": null,
-      "underOverValue": "U/O 150.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 53,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "삼성생명",
-      "awayTeam": "우리은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.24,
-        "away": 1.19
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 54,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "삼성생명",
-      "awayTeam": "우리은행",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 6.1,
-        "away": 1.56
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 55,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "삼성생명",
-      "awayTeam": "우리은행",
-      "handicapValue": "H +6.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 56,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "삼성생명",
-      "awayTeam": "우리은행",
-      "handicapValue": null,
-      "underOverValue": "U/O 121.5",
-      "odds": {
-        "home": 1.74,
-        "away": 1.74
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 57,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "normal",
-      "homeTeam": "도로공사",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.63,
-        "away": 1.87
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 58,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "handicap",
-      "homeTeam": "도로공사",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": "H -1.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.35,
-        "away": 1.38
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 59,
-      "league": "04.03 (금)19:00 마감",
-      "sportText": "배구",
-      "matchType": "underover",
-      "homeTeam": "도로공사",
-      "awayTeam": "GS칼텍스",
-      "handicapValue": null,
-      "underOverValue": "U/O 184.5",
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "04.03 (금)19:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 60,
       "league": "04.03 (금)20:30 마감",
       "sportText": "축구",
@@ -1420,7 +1222,7 @@
       "matchType": "handicap",
       "homeTeam": "멤피그리",
       "awayTeam": "토론랩터",
-      "handicapValue": "H +11.5",
+      "handicapValue": "H +12.5",
       "underOverValue": null,
       "odds": {
         "home": 1.74,
@@ -1429,7 +1231,7 @@
       "deadlineText": "04.04 (토)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 127,
@@ -1603,8 +1405,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 7.5",
       "odds": {
-        "home": 1.76,
-        "away": 1.72
+        "home": 1.82,
+        "away": 1.67
       },
       "deadlineText": "04.04 (토)10:38 마감",
       "isSingle": false,
@@ -1729,8 +1531,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.63,
-        "away": 1.3
+        "home": 2.48,
+        "away": 1.34
       },
       "deadlineText": "04.04 (토)11:00 마감",
       "isSingle": true,
@@ -4525,8 +4327,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.08,
-        "draw": 3.15,
+        "home": 2.1,
+        "draw": 3.1,
         "away": 2.75
       },
       "deadlineText": "04.05 (일)09:30 마감",
