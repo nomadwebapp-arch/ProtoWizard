@@ -2,174 +2,6 @@
   "roundNumber": "260042",
   "matches": [
     {
-      "gameNumber": 257,
-      "league": "04.04 (토)20:45 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "맨체스C",
-      "awayTeam": "리버풀",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.59,
-        "draw": 3.6,
-        "away": 3.9
-      },
-      "deadlineText": "04.04 (토)20:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 258,
-      "league": "04.04 (토)20:45 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "맨체스C",
-      "awayTeam": "리버풀",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.65,
-        "draw": 3.45,
-        "away": 2.02
-      },
-      "deadlineText": "04.04 (토)20:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 259,
-      "league": "04.04 (토)20:45 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "맨체스C",
-      "awayTeam": "리버풀",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.49,
-        "away": 2.09
-      },
-      "deadlineText": "04.04 (토)20:45 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 260,
-      "league": "04.04 (토)21:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "소시에다",
-      "awayTeam": "레반테",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.48,
-        "draw": 3.6,
-        "away": 4.8
-      },
-      "deadlineText": "04.04 (토)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 261,
-      "league": "04.04 (토)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "소시에다",
-      "awayTeam": "레반테",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.45,
-        "draw": 3.1,
-        "away": 2.31
-      },
-      "deadlineText": "04.04 (토)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 262,
-      "league": "04.04 (토)21:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "소시에다",
-      "awayTeam": "레반테",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.97,
-        "away": 1.56
-      },
-      "deadlineText": "04.04 (토)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 263,
-      "league": "04.04 (토)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "사수올로",
-      "awayTeam": "칼리아리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.73,
-        "draw": 3.1,
-        "away": 3.8
-      },
-      "deadlineText": "04.04 (토)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 264,
-      "league": "04.04 (토)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "사수올로",
-      "awayTeam": "칼리아리",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.75,
-        "draw": 3.2,
-        "away": 1.71
-      },
-      "deadlineText": "04.04 (토)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 265,
-      "league": "04.04 (토)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "사수올로",
-      "awayTeam": "칼리아리",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.59,
-        "away": 1.92
-      },
-      "deadlineText": "04.04 (토)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 266,
       "league": "04.04 (토)22:30 마감",
       "sportText": "축구",
@@ -180,8 +12,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.32,
-        "draw": 4.25,
-        "away": 5.9
+        "draw": 4.5,
+        "away": 5.5
       },
       "deadlineText": "04.04 (토)22:30 마감",
       "isSingle": true,
@@ -198,9 +30,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.96,
-        "draw": 3.45,
-        "away": 2.75
+        "home": 1.94,
+        "draw": 3.8,
+        "away": 2.6
       },
       "deadlineText": "04.04 (토)22:30 마감",
       "isSingle": true,
@@ -254,8 +86,8 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.8,
-        "draw": 3.7,
+        "home": 2.65,
+        "draw": 4,
         "away": 1.87
       },
       "deadlineText": "04.04 (토)22:30 마감",
@@ -273,8 +105,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.65,
+        "away": 1.84
       },
       "deadlineText": "04.04 (토)22:30 마감",
       "isSingle": true,
@@ -441,8 +273,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.5,
-        "away": 2.07
+        "home": 1.42,
+        "away": 2.25
       },
       "deadlineText": "04.04 (토)22:30 마감",
       "isSingle": true,
@@ -459,9 +291,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.09,
+        "home": 2.18,
         "draw": 3,
-        "away": 2.85
+        "away": 2.7
       },
       "deadlineText": "04.04 (토)22:30 마감",
       "isSingle": true,
@@ -478,9 +310,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.95,
+        "home": 4.6,
         "draw": 3.6,
-        "away": 1.58
+        "away": 1.5
       },
       "deadlineText": "04.04 (토)22:30 마감",
       "isSingle": true,
@@ -982,9 +814,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.76,
-        "draw": 3.55,
-        "away": 3.2
+        "home": 1.7,
+        "draw": 3.5,
+        "away": 3.45
       },
       "deadlineText": "04.04 (토)23:00 마감",
       "isSingle": true,
@@ -1901,9 +1733,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.27,
-        "draw": 4.5,
-        "away": 6.5
+        "home": 1.22,
+        "draw": 5,
+        "away": 7
       },
       "deadlineText": "04.04 (토)23:00 마감",
       "isSingle": true,
@@ -1920,9 +1752,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.79,
-        "draw": 3.55,
-        "away": 3.1
+        "home": 1.68,
+        "draw": 3.85,
+        "away": 3.25
       },
       "deadlineText": "04.04 (토)23:00 마감",
       "isSingle": true,
