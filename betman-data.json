@@ -2,62 +2,6 @@
   "roundNumber": "260042",
   "matches": [
     {
-      "gameNumber": 511,
-      "league": "04.05 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "마치다",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.11,
-        "draw": 2.9,
-        "away": 2.9
-      },
-      "deadlineText": "04.05 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 512,
-      "league": "04.05 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "마치다",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.4,
-        "draw": 3.45,
-        "away": 1.55
-      },
-      "deadlineText": "04.05 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 513,
-      "league": "04.05 (일)15:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "FC도쿄",
-      "awayTeam": "마치다",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.55,
-        "away": 1.98
-      },
-      "deadlineText": "04.05 (일)15:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 514,
       "league": "04.05 (일)16:00 마감",
       "sportText": "축구",
@@ -123,8 +67,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.09,
-        "draw": 2.95,
+        "home": 2.14,
+        "draw": 2.85,
         "away": 2.9
       },
       "deadlineText": "04.05 (일)16:30 마감",
@@ -179,8 +123,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.04,
-        "draw": 2.95,
+        "home": 1.97,
+        "draw": 3.1,
         "away": 3
       },
       "deadlineText": "04.05 (일)16:30 마감",
@@ -255,8 +199,8 @@
       "underOverValue": null,
       "odds": {
         "home": 1.78,
-        "draw": 3.35,
-        "away": 3.3
+        "draw": 3.2,
+        "away": 3.45
       },
       "deadlineText": "04.05 (일)16:30 마감",
       "isSingle": true,
@@ -1110,9 +1054,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.35,
-        "draw": 3.75,
-        "away": 1.5
+        "home": 4.95,
+        "draw": 3.9,
+        "away": 1.42
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -1129,8 +1073,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.88,
-        "away": 1.62
+        "home": 1.69,
+        "away": 1.79
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
