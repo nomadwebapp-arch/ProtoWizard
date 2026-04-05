@@ -2,286 +2,6 @@
   "roundNumber": "260042",
   "matches": [
     {
-      "gameNumber": 533,
-      "league": "04.05 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "헤타페",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.9,
-        "draw": 2.5,
-        "away": 2.39
-      },
-      "deadlineText": "04.05 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 534,
-      "league": "04.05 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "헤타페",
-      "awayTeam": "빌바오",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.42,
-        "draw": 3.45,
-        "away": 5.9
-      },
-      "deadlineText": "04.05 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 535,
-      "league": "04.05 (일)21:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "헤타페",
-      "awayTeam": "빌바오",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.3,
-        "away": 2.63
-      },
-      "deadlineText": "04.05 (일)21:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 536,
-      "league": "04.05 (일)21:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "폴렌담",
-      "awayTeam": "페예노르",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 5.5,
-        "draw": 4.35,
-        "away": 1.33
-      },
-      "deadlineText": "04.05 (일)21:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 537,
-      "league": "04.05 (일)21:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "폴렌담",
-      "awayTeam": "페예노르",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.6,
-        "draw": 3.6,
-        "away": 2
-      },
-      "deadlineText": "04.05 (일)21:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 538,
-      "league": "04.05 (일)21:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "폴렌담",
-      "awayTeam": "페예노르",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.6,
-        "away": 1.91
-      },
-      "deadlineText": "04.05 (일)21:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 539,
-      "league": "04.05 (일)21:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "헤이렌베",
-      "awayTeam": "헤라클레",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.39,
-        "draw": 4.05,
-        "away": 5.1
-      },
-      "deadlineText": "04.05 (일)21:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 540,
-      "league": "04.05 (일)21:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "헤이렌베",
-      "awayTeam": "헤라클레",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.96,
-        "draw": 3.55,
-        "away": 2.7
-      },
-      "deadlineText": "04.05 (일)21:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 541,
-      "league": "04.05 (일)21:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "헤이렌베",
-      "awayTeam": "헤라클레",
-      "handicapValue": null,
-      "underOverValue": "U/O 3.5",
-      "odds": {
-        "home": 1.56,
-        "away": 1.97
-      },
-      "deadlineText": "04.05 (일)21:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 542,
-      "league": "04.05 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "크레모네",
-      "awayTeam": "볼로냐",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 3.25,
-        "draw": 3.1,
-        "away": 1.88
-      },
-      "deadlineText": "04.05 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 543,
-      "league": "04.05 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "크레모네",
-      "awayTeam": "볼로냐",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.64,
-        "draw": 3.35,
-        "away": 3.95
-      },
-      "deadlineText": "04.05 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 544,
-      "league": "04.05 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "크레모네",
-      "awayTeam": "볼로냐",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.68,
-        "away": 1.8
-      },
-      "deadlineText": "04.05 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 545,
-      "league": "04.05 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "앙제SCO",
-      "awayTeam": "리옹",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.55,
-        "draw": 3.3,
-        "away": 1.56
-      },
-      "deadlineText": "04.05 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 546,
-      "league": "04.05 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "앙제SCO",
-      "awayTeam": "리옹",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.18,
-        "draw": 3,
-        "away": 2.7
-      },
-      "deadlineText": "04.05 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 547,
-      "league": "04.05 (일)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "앙제SCO",
-      "awayTeam": "리옹",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.64,
-        "away": 1.85
-      },
-      "deadlineText": "04.05 (일)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 548,
       "league": "04.05 (일)22:30 마감",
       "sportText": "축구",
@@ -403,9 +123,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.27,
-        "draw": 3.1,
-        "away": 2.5
+        "home": 2.32,
+        "draw": 2.95,
+        "away": 2.55
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -422,9 +142,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.75,
-        "draw": 3.75,
-        "away": 1.46
+        "home": 4.35,
+        "draw": 3.65,
+        "away": 1.52
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -459,9 +179,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.3,
-        "draw": 2.85,
-        "away": 2.65
+        "home": 2.26,
+        "draw": 2.75,
+        "away": 2.8
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -646,9 +366,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.3,
-        "draw": 3.5,
-        "away": 1.74
+        "home": 3.2,
+        "draw": 3.45,
+        "away": 1.78
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -977,8 +697,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.53,
-        "away": 4.2
+        "home": 1.49,
+        "away": 4.3
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": false,
@@ -1231,9 +951,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.98,
-        "draw": 3.4,
-        "away": 2.75
+        "home": 1.96,
+        "draw": 3.25,
+        "away": 2.9
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -1250,9 +970,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.6,
-        "draw": 3.75,
-        "away": 1.62
+        "home": 3.55,
+        "draw": 3.55,
+        "away": 1.67
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -1595,8 +1315,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.84,
-        "away": 1.65
+        "home": 1.91,
+        "away": 1.6
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": false,
@@ -1613,8 +1333,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.7,
-        "away": 2.02
+        "home": 2.75,
+        "away": 1.96
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": false,
@@ -1935,7 +1655,7 @@
       "homeTeam": "오클썬더",
       "awayTeam": "유타재즈",
       "handicapValue": null,
-      "underOverValue": "U/O 240.5",
+      "underOverValue": "U/O 238.5",
       "odds": {
         "home": 1.72,
         "away": 1.76
@@ -1943,7 +1663,7 @@
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 639,
