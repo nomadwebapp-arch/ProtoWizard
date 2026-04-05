@@ -1829,7 +1829,7 @@
       "homeTeam": "클리캐벌",
       "awayTeam": "인디페이",
       "handicapValue": null,
-      "underOverValue": "U/O 238.5",
+      "underOverValue": "U/O 240.5",
       "odds": {
         "home": 1.75,
         "away": 1.73
@@ -1837,7 +1837,7 @@
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 630,

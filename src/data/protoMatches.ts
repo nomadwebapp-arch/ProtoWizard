@@ -1837,7 +1837,8 @@ export const protoMatches: Match[] = [
     homeTeam: '클리캐벌',
     awayTeam: '인디페이',
     matchType: 'underover',
-    underOverValue: 'U/O 238.5',
+    underOverValue: 'U/O 240.5',
+    isConditionChanged: true,
     odds: {
       home: 1.75,
       away: 1.73,
