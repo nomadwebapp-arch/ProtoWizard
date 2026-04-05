@@ -2,114 +2,6 @@
   "roundNumber": "260042",
   "matches": [
     {
-      "gameNumber": 639,
-      "league": "04.06 (월)08:20 마감",
-      "sportText": "야구",
-      "matchType": "normal",
-      "homeTeam": "디트타이",
-      "awayTeam": "세인카디",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.62,
-        "away": 1.88
-      },
-      "deadlineText": "04.06 (월)08:20 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 640,
-      "league": "04.06 (월)08:20 마감",
-      "sportText": "야구",
-      "matchType": "normal",
-      "homeTeam": "디트타이",
-      "awayTeam": "세인카디",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.31,
-        "away": 2.4
-      },
-      "deadlineText": "04.06 (월)08:20 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 641,
-      "league": "04.06 (월)08:20 마감",
-      "sportText": "야구",
-      "matchType": "underover",
-      "homeTeam": "디트타이",
-      "awayTeam": "세인카디",
-      "handicapValue": null,
-      "underOverValue": "U/O 8.5",
-      "odds": {
-        "home": 1.63,
-        "away": 1.87
-      },
-      "deadlineText": "04.06 (월)08:20 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 642,
-      "league": "04.06 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "댈러매버",
-      "awayTeam": "LA레이커",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.91,
-        "away": 1.6
-      },
-      "deadlineText": "04.06 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 643,
-      "league": "04.06 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "댈러매버",
-      "awayTeam": "LA레이커",
-      "handicapValue": "H +2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.68,
-        "away": 1.8
-      },
-      "deadlineText": "04.06 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": true
-    },
-    {
-      "gameNumber": 644,
-      "league": "04.06 (월)08:30 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "댈러매버",
-      "awayTeam": "LA레이커",
-      "handicapValue": null,
-      "underOverValue": "U/O 233.5",
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "04.06 (월)08:30 마감",
-      "isSingle": false,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 645,
       "league": "04.06 (월)10:00 마감",
       "sportText": "농구",
@@ -134,7 +26,7 @@
       "matchType": "handicap",
       "homeTeam": "새크킹스",
       "awayTeam": "LA클리퍼",
-      "handicapValue": "H +11.5",
+      "handicapValue": "H +12.5",
       "underOverValue": null,
       "odds": {
         "home": 1.77,
@@ -143,7 +35,7 @@
       "deadlineText": "04.06 (월)10:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 647,
