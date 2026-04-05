@@ -235,9 +235,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 4.35,
-        "draw": 3.2,
-        "away": 1.61
+        "home": 4.55,
+        "draw": 3.3,
+        "away": 1.56
       },
       "deadlineText": "04.05 (일)22:00 마감",
       "isSingle": true,
@@ -254,9 +254,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.09,
-        "draw": 3.05,
-        "away": 2.8
+        "home": 2.18,
+        "draw": 3,
+        "away": 2.7
       },
       "deadlineText": "04.05 (일)22:00 마감",
       "isSingle": true,
@@ -291,9 +291,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.95,
-        "draw": 2.75,
-        "away": 3.5
+        "home": 1.91,
+        "draw": 2.9,
+        "away": 3.4
       },
       "deadlineText": "04.05 (일)22:30 마감",
       "isSingle": true,
@@ -348,8 +348,8 @@
       "underOverValue": null,
       "odds": {
         "home": 2.14,
-        "draw": 2.9,
-        "away": 2.85
+        "draw": 2.8,
+        "away": 2.95
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -571,9 +571,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.65,
-        "draw": 2.95,
-        "away": 2.24
+        "home": 2.7,
+        "draw": 2.85,
+        "away": 2.26
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -627,9 +627,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.88,
-        "draw": 3.35,
-        "away": 3
+        "home": 1.83,
+        "draw": 3.4,
+        "away": 3.1
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -683,9 +683,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.18,
-        "draw": 3.2,
-        "away": 2.55
+        "home": 2.39,
+        "draw": 3.05,
+        "away": 2.4
       },
       "deadlineText": "04.05 (일)23:00 마감",
       "isSingle": true,
@@ -1287,8 +1287,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.26,
-        "draw": 2.8,
+        "home": 2.33,
+        "draw": 2.7,
         "away": 2.75
       },
       "deadlineText": "04.05 (일)23:00 마감",
@@ -2009,8 +2009,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.15,
-        "away": 1.46
+        "home": 1.91,
+        "away": 1.6
       },
       "deadlineText": "04.06 (월)08:30 마감",
       "isSingle": false,
@@ -2024,16 +2024,16 @@
       "matchType": "handicap",
       "homeTeam": "댈러매버",
       "awayTeam": "LA레이커",
-      "handicapValue": "H +3.5",
+      "handicapValue": "H +2.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.68,
+        "away": 1.8
       },
       "deadlineText": "04.06 (월)08:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 644,
