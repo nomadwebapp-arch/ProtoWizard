@@ -11,8 +11,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.1,
-        "away": 4.16
+        "home": 1.13,
+        "away": 3.78
       },
       "deadlineText": "04.06 (월)19:00 마감",
       "isSingle": true,
@@ -29,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.37,
-        "away": 8.3
+        "home": 1.41,
+        "away": 7.1
       },
       "deadlineText": "04.06 (월)19:00 마감",
       "isSingle": true,
@@ -101,8 +101,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.6,
-        "away": 1.91
+        "home": 1.53,
+        "away": 2.02
       },
       "deadlineText": "04.06 (월)19:00 마감",
       "isSingle": true,
@@ -119,8 +119,8 @@
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
-        "home": 2.22,
-        "away": 1.43
+        "home": 2.13,
+        "away": 1.47
       },
       "deadlineText": "04.06 (월)19:00 마감",
       "isSingle": true,
@@ -3145,7 +3145,7 @@
       "homeTeam": "두산",
       "awayTeam": "키움",
       "handicapValue": null,
-      "underOverValue": "U/O 9.5",
+      "underOverValue": "U/O 8.5",
       "odds": {
         "home": 1.85,
         "away": 1.64
@@ -3153,7 +3153,7 @@
       "deadlineText": "04.07 (화)18:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 204,
