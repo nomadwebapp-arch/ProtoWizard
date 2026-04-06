@@ -2,99 +2,6 @@
   "roundNumber": "260043",
   "matches": [
     {
-      "gameNumber": 23,
-      "league": "04.06 (월)22:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "US레체",
-      "awayTeam": "아탈란타",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 4.75,
-        "draw": 3.5,
-        "away": 1.5
-      },
-      "deadlineText": "04.06 (월)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 24,
-      "league": "04.06 (월)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "US레체",
-      "awayTeam": "아탈란타",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.13,
-        "draw": 3.1,
-        "away": 2.7
-      },
-      "deadlineText": "04.06 (월)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 25,
-      "league": "04.06 (월)22:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "US레체",
-      "awayTeam": "아탈란타",
-      "handicapValue": "H +2.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.33,
-        "draw": 4.35,
-        "away": 5.5
-      },
-      "deadlineText": "04.06 (월)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 26,
-      "league": "04.06 (월)22:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "US레체",
-      "awayTeam": "아탈란타",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.69,
-        "away": 1.79
-      },
-      "deadlineText": "04.06 (월)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 27,
-      "league": "04.06 (월)22:00 마감",
-      "sportText": "축구",
-      "matchType": "sum",
-      "homeTeam": "US레체",
-      "awayTeam": "아탈란타",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.75,
-        "away": 1.73
-      },
-      "deadlineText": "04.06 (월)22:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 28,
       "league": "04.06 (월)23:00 마감",
       "sportText": "축구",
@@ -178,9 +85,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.65,
+        "home": 2.55,
         "draw": 3,
-        "away": 2.21
+        "away": 2.29
       },
       "deadlineText": "04.06 (월)23:00 마감",
       "isSingle": true,
@@ -197,9 +104,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.51,
-        "draw": 3.7,
-        "away": 4.35
+        "home": 1.47,
+        "draw": 3.65,
+        "away": 4.8
       },
       "deadlineText": "04.06 (월)23:00 마감",
       "isSingle": true,
@@ -345,9 +252,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "draw": 3.1,
-        "away": 2.23
+        "home": 2.45,
+        "draw": 3.05,
+        "away": 2.34
       },
       "deadlineText": "04.06 (월)23:00 마감",
       "isSingle": true,
@@ -567,9 +474,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3.35,
-        "draw": 3.25,
-        "away": 1.8
+        "home": 3.4,
+        "draw": 3.1,
+        "away": 1.83
       },
       "deadlineText": "04.06 (월)23:00 마감",
       "isSingle": true,
@@ -752,8 +659,8 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.83,
-        "draw": 3.3,
+        "home": 1.88,
+        "draw": 3.15,
         "away": 3.2
       },
       "deadlineText": "04.06 (월)23:00 마감",
@@ -845,9 +752,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 13,
-        "draw": 6.6,
-        "away": 1.07
+        "home": 11,
+        "draw": 6.1,
+        "away": 1.1
       },
       "deadlineText": "04.06 (월)23:00 마감",
       "isSingle": true,
@@ -919,8 +826,8 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.83,
-        "draw": 3.4,
+        "home": 1.88,
+        "draw": 3.25,
         "away": 3.1
       },
       "deadlineText": "04.06 (월)23:00 마감",
@@ -1517,8 +1424,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.77,
-        "away": 1.71
+        "home": 1.83,
+        "away": 1.66
       },
       "deadlineText": "04.06 (월)23:00 마감",
       "isSingle": false,
@@ -1535,8 +1442,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.6,
-        "away": 2.17
+        "home": 2.65,
+        "away": 2.11
       },
       "deadlineText": "04.06 (월)23:00 마감",
       "isSingle": false,
@@ -2055,7 +1962,7 @@
       "homeTeam": "멤피그리",
       "awayTeam": "클리캐벌",
       "handicapValue": null,
-      "underOverValue": "U/O 239.5",
+      "underOverValue": "U/O 237.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -2063,7 +1970,7 @@
       "deadlineText": "04.07 (화)09:00 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 136,
