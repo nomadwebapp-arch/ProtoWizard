@@ -2,96 +2,6 @@
   "roundNumber": "260043",
   "matches": [
     {
-      "gameNumber": 166,
-      "league": "04.07 (화)14:00 마감",
-      "sportText": "야구",
-      "matchType": "normal",
-      "homeTeam": "소프트뱅",
-      "awayTeam": "세이부",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.35,
-        "away": 2.45
-      },
-      "deadlineText": "04.07 (화)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 167,
-      "league": "04.07 (화)14:00 마감",
-      "sportText": "야구",
-      "matchType": "normal",
-      "homeTeam": "소프트뱅",
-      "awayTeam": "세이부",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.97,
-        "away": 3.7
-      },
-      "deadlineText": "04.07 (화)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 168,
-      "league": "04.07 (화)14:00 마감",
-      "sportText": "야구",
-      "matchType": "handicap",
-      "homeTeam": "소프트뱅",
-      "awayTeam": "세이부",
-      "handicapValue": "H -2.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.81,
-        "away": 1.26
-      },
-      "deadlineText": "04.07 (화)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 169,
-      "league": "04.07 (화)14:00 마감",
-      "sportText": "야구",
-      "matchType": "underover",
-      "homeTeam": "소프트뱅",
-      "awayTeam": "세이부",
-      "handicapValue": null,
-      "underOverValue": "U/O 6.5",
-      "odds": {
-        "home": 1.62,
-        "away": 1.88
-      },
-      "deadlineText": "04.07 (화)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 170,
-      "league": "04.07 (화)14:00 마감",
-      "sportText": "야구",
-      "matchType": "sum",
-      "homeTeam": "소프트뱅",
-      "awayTeam": "세이부",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.6,
-        "away": 1.91
-      },
-      "deadlineText": "04.07 (화)14:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 171,
       "league": "04.07 (화)18:00 마감",
       "sportText": "축구",
@@ -1481,8 +1391,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 3.5",
       "odds": {
-        "home": 1.63,
-        "away": 1.87
+        "home": 1.79,
+        "away": 1.69
       },
       "deadlineText": "04.07 (화)23:00 마감",
       "isSingle": true,
@@ -1722,9 +1632,9 @@
       "handicapValue": "H -2.0",
       "underOverValue": null,
       "odds": {
-        "home": 9.5,
-        "draw": 5.8,
-        "away": 1.13
+        "home": 8.2,
+        "draw": 5.6,
+        "away": 1.16
       },
       "deadlineText": "04.08 (수)11:00 마감",
       "isSingle": true,
