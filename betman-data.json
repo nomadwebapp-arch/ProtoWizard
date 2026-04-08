@@ -29,8 +29,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.28,
-        "away": 2.95
+        "home": 2.21,
+        "away": 3
       },
       "deadlineText": "04.08 (수)18:00 마감",
       "isSingle": false,
@@ -155,8 +155,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 5.5",
       "odds": {
-        "home": 1.73,
-        "away": 1.75
+        "home": 1.78,
+        "away": 1.7
       },
       "deadlineText": "04.08 (수)18:00 마감",
       "isSingle": true,
@@ -479,8 +479,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.88,
-        "away": 3.85
+        "home": 1.8,
+        "away": 3.9
       },
       "deadlineText": "04.08 (수)18:00 마감",
       "isSingle": true,
@@ -497,8 +497,8 @@
       "handicapValue": "H -2.5",
       "underOverValue": null,
       "odds": {
-        "home": 2.55,
-        "away": 1.32
+        "home": 2.41,
+        "away": 1.36
       },
       "deadlineText": "04.08 (수)18:00 마감",
       "isSingle": true,
@@ -569,8 +569,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.06,
-        "away": 2.7
+        "home": 2,
+        "away": 2.75
       },
       "deadlineText": "04.08 (수)18:30 마감",
       "isSingle": true,
@@ -605,8 +605,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 8.5",
       "odds": {
-        "home": 1.88,
-        "away": 1.62
+        "home": 1.95,
+        "away": 1.57
       },
       "deadlineText": "04.08 (수)18:30 마감",
       "isSingle": true,
@@ -786,9 +786,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.25,
-        "draw": 6.7,
-        "away": 1.76
+        "home": 2.2,
+        "draw": 6.3,
+        "away": 1.82
       },
       "deadlineText": "04.08 (수)18:30 마감",
       "isSingle": true,
@@ -1076,9 +1076,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.4,
-        "draw": 7,
-        "away": 1.66
+        "home": 2.45,
+        "draw": 6.3,
+        "away": 1.68
       },
       "deadlineText": "04.08 (수)18:30 마감",
       "isSingle": true,
@@ -1149,8 +1149,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.8,
-        "away": 1.97
+        "home": 2.85,
+        "away": 1.9
       },
       "deadlineText": "04.08 (수)18:30 마감",
       "isSingle": true,
