@@ -1440,8 +1440,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.42,
-        "away": 2.25
+        "home": 1.33,
+        "away": 2.52
       },
       "deadlineText": "04.08 (수)19:00 마감",
       "isSingle": true,
@@ -1458,8 +1458,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.97,
-        "away": 3.7
+        "home": 1.89,
+        "away": 3.8
       },
       "deadlineText": "04.08 (수)19:00 마감",
       "isSingle": true,
@@ -1473,7 +1473,7 @@
       "matchType": "handicap",
       "homeTeam": "KT소닉붐",
       "awayTeam": "고양소노",
-      "handicapValue": "H -3.5",
+      "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
         "home": 1.72,
@@ -1482,7 +1482,7 @@
       "deadlineText": "04.08 (수)19:00 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 83,

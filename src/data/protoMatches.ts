@@ -1474,8 +1474,8 @@ export const protoMatches: Match[] = [
     matchType: 'normal',
     isSingle: true,
     odds: {
-      home: 1.42,
-      away: 2.25,
+      home: 1.33,
+      away: 2.52,
     },
     deadline: new Date('2026-04-08T10:00:00.000Z'),
     status: 'open',
@@ -1492,8 +1492,8 @@ export const protoMatches: Match[] = [
     matchType: 'normal',
     isSingle: true,
     odds: {
-      home: 1.97,
-      away: 3.7,
+      home: 1.89,
+      away: 3.8,
     },
     deadline: new Date('2026-04-08T10:00:00.000Z'),
     status: 'open',
@@ -1508,8 +1508,9 @@ export const protoMatches: Match[] = [
     homeTeam: 'KT소닉붐',
     awayTeam: '고양소노',
     matchType: 'handicap',
-    handicapValue: 'H -3.5',
+    handicapValue: 'H -4.5',
     isSingle: true,
+    isConditionChanged: true,
     odds: {
       home: 1.72,
       away: 1.76,
