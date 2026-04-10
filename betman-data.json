@@ -11,9 +11,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3.3,
-        "draw": 3.3,
-        "away": 1.8
+        "home": 3.4,
+        "draw": 3.35,
+        "away": 1.75
       },
       "deadlineText": "04.10 (금)23:00 마감",
       "isSingle": true,
@@ -159,9 +159,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.85,
-        "draw": 3.4,
-        "away": 1.93
+        "home": 2.95,
+        "draw": 3.25,
+        "away": 1.94
       },
       "deadlineText": "04.10 (금)23:00 마감",
       "isSingle": true,
@@ -178,9 +178,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.65,
-        "draw": 3.7,
-        "away": 3.5
+        "home": 1.7,
+        "draw": 3.5,
+        "away": 3.45
       },
       "deadlineText": "04.10 (금)23:00 마감",
       "isSingle": true,
@@ -271,9 +271,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.11,
-        "draw": 2.95,
-        "away": 2.85
+        "home": 2.17,
+        "draw": 2.9,
+        "away": 2.8
       },
       "deadlineText": "04.10 (금)23:00 마감",
       "isSingle": true,
@@ -309,9 +309,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 3,
-        "draw": 3.25,
-        "away": 1.92
+        "home": 2.95,
+        "draw": 3.15,
+        "away": 1.97
       },
       "deadlineText": "04.10 (금)23:00 마감",
       "isSingle": true,
@@ -4476,9 +4476,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.85,
+        "home": 2.45,
         "draw": 2.9,
-        "away": 2.14
+        "away": 2.44
       },
       "deadlineText": "04.11 (토)23:00 마감",
       "isSingle": true,
@@ -4495,9 +4495,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.53,
-        "draw": 3.5,
-        "away": 4.5
+        "home": 1.37,
+        "draw": 4.05,
+        "away": 5.4
       },
       "deadlineText": "04.11 (토)23:00 마감",
       "isSingle": true,
