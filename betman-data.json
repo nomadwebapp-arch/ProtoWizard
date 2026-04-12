@@ -2,302 +2,6 @@
   "roundNumber": "260045",
   "matches": [
     {
-      "gameNumber": 478,
-      "league": "04.12 (일)16:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "가와사키",
-      "awayTeam": "가시마",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.6,
-        "draw": 3.3,
-        "away": 2.1
-      },
-      "deadlineText": "04.12 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 479,
-      "league": "04.12 (일)16:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "가와사키",
-      "awayTeam": "가시마",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.54,
-        "draw": 3.75,
-        "away": 4.05
-      },
-      "deadlineText": "04.12 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 480,
-      "league": "04.12 (일)16:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "가와사키",
-      "awayTeam": "가시마",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.03,
-        "away": 1.52
-      },
-      "deadlineText": "04.12 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 481,
-      "league": "04.12 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "우리은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 5.32,
-        "away": 1.04
-      },
-      "deadlineText": "04.12 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 482,
-      "league": "04.12 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "normal",
-      "homeTeam": "우리은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 11.5,
-        "away": 1.24
-      },
-      "deadlineText": "04.12 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 483,
-      "league": "04.12 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "handicap",
-      "homeTeam": "우리은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": "H +10.5",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.79,
-        "away": 1.69
-      },
-      "deadlineText": "04.12 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 484,
-      "league": "04.12 (일)16:00 마감",
-      "sportText": "농구",
-      "matchType": "underover",
-      "homeTeam": "우리은행",
-      "awayTeam": "KB스타즈",
-      "handicapValue": null,
-      "underOverValue": "U/O 129.5",
-      "odds": {
-        "home": 1.72,
-        "away": 1.76
-      },
-      "deadlineText": "04.12 (일)16:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 485,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "김천상무",
-      "awayTeam": "FC안양",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.02,
-        "draw": 3.05,
-        "away": 2.95
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 486,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "김천상무",
-      "awayTeam": "FC안양",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 4.05,
-        "draw": 3.45,
-        "away": 1.6
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 487,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "김천상무",
-      "awayTeam": "FC안양",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.67,
-        "away": 1.82
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 488,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "성남FC",
-      "awayTeam": "안산그리",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.42,
-        "draw": 3.4,
-        "away": 6.1
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 489,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "성남FC",
-      "awayTeam": "안산그리",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.45,
-        "draw": 2.95,
-        "away": 2.41
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 490,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "성남FC",
-      "awayTeam": "안산그리",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.56,
-        "away": 1.97
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 491,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "충남아산",
-      "awayTeam": "김해FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.55,
-        "draw": 3.35,
-        "away": 4.55
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 492,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "충남아산",
-      "awayTeam": "김해FC",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 2.7,
-        "draw": 3.15,
-        "away": 2.11
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 493,
-      "league": "04.12 (일)16:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "충남아산",
-      "awayTeam": "김해FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.7,
-        "away": 1.78
-      },
-      "deadlineText": "04.12 (일)16:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 494,
       "league": "04.12 (일)18:00 마감",
       "sportText": "축구",
@@ -363,9 +67,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.4,
+        "home": 2.6,
         "draw": 3.2,
-        "away": 2.31
+        "away": 2.15
       },
       "deadlineText": "04.12 (일)19:15 마감",
       "isSingle": true,
@@ -382,9 +86,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.45,
+        "home": 1.51,
         "draw": 3.85,
-        "away": 4.7
+        "away": 4.15
       },
       "deadlineText": "04.12 (일)19:15 마감",
       "isSingle": true,
@@ -1166,9 +870,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.75,
+        "home": 3,
         "draw": 3.45,
-        "away": 1.96
+        "away": 1.85
       },
       "deadlineText": "04.12 (일)23:00 마감",
       "isSingle": true,
@@ -1185,9 +889,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.63,
+        "home": 1.71,
         "draw": 3.75,
-        "away": 3.55
+        "away": 3.2
       },
       "deadlineText": "04.12 (일)23:00 마감",
       "isSingle": true,
