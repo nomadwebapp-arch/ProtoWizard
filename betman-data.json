@@ -2,25 +2,6 @@
   "roundNumber": "260045",
   "matches": [
     {
-      "gameNumber": 503,
-      "league": "04.12 (일)20:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "버밍엄C",
-      "awayTeam": "렉섬",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.93,
-        "draw": 3.15,
-        "away": 3.05
-      },
-      "deadlineText": "04.12 (일)20:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 504,
       "league": "04.12 (일)21:00 마감",
       "sportText": "축구",
@@ -702,9 +683,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 3,
-        "draw": 3.45,
-        "away": 1.85
+        "home": 3.2,
+        "draw": 3.5,
+        "away": 1.77
       },
       "deadlineText": "04.12 (일)23:00 마감",
       "isSingle": true,
@@ -926,9 +907,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.13,
-        "draw": 3.1,
-        "away": 2.7
+        "home": 2.11,
+        "draw": 2.85,
+        "away": 2.95
       },
       "deadlineText": "04.12 (일)23:00 마감",
       "isSingle": true,
@@ -945,9 +926,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.25,
+        "home": 3.95,
         "draw": 3.6,
-        "away": 1.54
+        "away": 1.58
       },
       "deadlineText": "04.12 (일)23:00 마감",
       "isSingle": true,
@@ -964,8 +945,8 @@
       "handicapValue": null,
       "underOverValue": "U/O 2.5",
       "odds": {
-        "home": 1.75,
-        "away": 1.73
+        "home": 1.87,
+        "away": 1.63
       },
       "deadlineText": "04.12 (일)23:00 마감",
       "isSingle": true,
