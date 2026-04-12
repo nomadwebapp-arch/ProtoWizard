@@ -2,118 +2,6 @@
   "roundNumber": "260045",
   "matches": [
     {
-      "gameNumber": 497,
-      "league": "04.12 (일)19:15 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "F시타르",
-      "awayTeam": "브레다",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.6,
-        "draw": 3.2,
-        "away": 2.15
-      },
-      "deadlineText": "04.12 (일)19:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 498,
-      "league": "04.12 (일)19:15 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "F시타르",
-      "awayTeam": "브레다",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.51,
-        "draw": 3.85,
-        "away": 4.15
-      },
-      "deadlineText": "04.12 (일)19:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 499,
-      "league": "04.12 (일)19:15 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "F시타르",
-      "awayTeam": "브레다",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.92,
-        "away": 1.59
-      },
-      "deadlineText": "04.12 (일)19:15 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 500,
-      "league": "04.12 (일)19:30 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "제노아",
-      "awayTeam": "사수올로",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 1.93,
-        "draw": 3,
-        "away": 3.2
-      },
-      "deadlineText": "04.12 (일)19:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 501,
-      "league": "04.12 (일)19:30 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "제노아",
-      "awayTeam": "사수올로",
-      "handicapValue": "H -1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 3.85,
-        "draw": 3.35,
-        "away": 1.65
-      },
-      "deadlineText": "04.12 (일)19:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 502,
-      "league": "04.12 (일)19:30 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "제노아",
-      "awayTeam": "사수올로",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 1.6,
-        "away": 1.91
-      },
-      "deadlineText": "04.12 (일)19:30 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 503,
       "league": "04.12 (일)20:00 마감",
       "sportText": "축구",
@@ -142,9 +30,9 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 2.04,
-        "draw": 3.05,
-        "away": 2.9
+        "home": 2,
+        "draw": 2.95,
+        "away": 3.1
       },
       "deadlineText": "04.12 (일)21:00 마감",
       "isSingle": true,
@@ -161,9 +49,9 @@
       "handicapValue": "H -1.0",
       "underOverValue": null,
       "odds": {
-        "home": 4.1,
-        "draw": 3.5,
-        "away": 1.58
+        "home": 3.9,
+        "draw": 3.45,
+        "away": 1.62
       },
       "deadlineText": "04.12 (일)21:00 마감",
       "isSingle": true,
