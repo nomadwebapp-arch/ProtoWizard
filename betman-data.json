@@ -153,7 +153,7 @@
       "homeTeam": "휴스로케",
       "awayTeam": "멤피그리",
       "handicapValue": null,
-      "underOverValue": "U/O 225.5",
+      "underOverValue": "U/O 228.5",
       "odds": {
         "home": 1.74,
         "away": 1.74
@@ -161,7 +161,7 @@
       "deadlineText": "04.13 (월)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 625,
@@ -350,16 +350,16 @@
       "matchType": "handicap",
       "homeTeam": "LA레이커",
       "awayTeam": "유타재즈",
-      "handicapValue": "H -15.5",
+      "handicapValue": "H -13.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "04.13 (월)09:30 마감",
       "isSingle": false,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 636,
@@ -389,8 +389,8 @@
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
-        "home": 1.26,
-        "away": 2.81
+        "home": 1.4,
+        "away": 2.3
       },
       "deadlineText": "04.13 (월)09:30 마감",
       "isSingle": true,
@@ -404,7 +404,7 @@
       "matchType": "handicap",
       "homeTeam": "LA클리퍼",
       "awayTeam": "골든워리",
-      "handicapValue": "H -6.5",
+      "handicapValue": "H -4.5",
       "underOverValue": null,
       "odds": {
         "home": 1.77,
@@ -413,7 +413,7 @@
       "deadlineText": "04.13 (월)09:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 639,
@@ -458,16 +458,16 @@
       "matchType": "handicap",
       "homeTeam": "포틀트레",
       "awayTeam": "새크킹스",
-      "handicapValue": "H -15.5",
+      "handicapValue": "H -17.5",
       "underOverValue": null,
       "odds": {
-        "home": 1.69,
-        "away": 1.79
+        "home": 1.74,
+        "away": 1.74
       },
       "deadlineText": "04.13 (월)09:30 마감",
       "isSingle": true,
       "isHalfTime": false,
-      "isConditionChanged": false
+      "isConditionChanged": true
     },
     {
       "gameNumber": 642,
@@ -486,8 +486,152 @@
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
+    },
+    {
+      "gameNumber": 643,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "원주DB",
+      "awayTeam": "부산KCC",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.63,
+        "away": 1.87
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 644,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "원주DB",
+      "awayTeam": "부산KCC",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.38,
+        "away": 2.8
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 645,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "원주DB",
+      "awayTeam": "부산KCC",
+      "handicapValue": "H -1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 646,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "원주DB",
+      "awayTeam": "부산KCC",
+      "handicapValue": null,
+      "underOverValue": "U/O 173.5",
+      "odds": {
+        "home": 1.74,
+        "away": 1.74
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 647,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "삼성생명",
+      "awayTeam": "하나은행",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 1.75,
+        "away": 1.73
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 648,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "normal",
+      "homeTeam": "삼성생명",
+      "awayTeam": "하나은행",
+      "handicapValue": null,
+      "underOverValue": null,
+      "odds": {
+        "home": 2.65,
+        "away": 2.6
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 649,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "handicap",
+      "homeTeam": "삼성생명",
+      "awayTeam": "하나은행",
+      "handicapValue": "H +1.5",
+      "underOverValue": null,
+      "odds": {
+        "home": 1.64,
+        "away": 1.85
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
+    },
+    {
+      "gameNumber": 650,
+      "league": "04.13 (월)19:00 마감",
+      "sportText": "농구",
+      "matchType": "underover",
+      "homeTeam": "삼성생명",
+      "awayTeam": "하나은행",
+      "handicapValue": null,
+      "underOverValue": "U/O 129.5",
+      "odds": {
+        "home": 1.73,
+        "away": 1.75
+      },
+      "deadlineText": "04.13 (월)19:00 마감",
+      "isSingle": true,
+      "isHalfTime": false,
+      "isConditionChanged": false
     }
   ],
   "finishedMatches": [],
-  "lastMatchNumber": 642
+  "lastMatchNumber": 650
 }
