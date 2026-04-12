@@ -2,62 +2,6 @@
   "roundNumber": "260045",
   "matches": [
     {
-      "gameNumber": 494,
-      "league": "04.12 (일)18:00 마감",
-      "sportText": "축구",
-      "matchType": "normal",
-      "homeTeam": "퍼스글로",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": null,
-      "odds": {
-        "home": 2.9,
-        "draw": 3.35,
-        "away": 1.93
-      },
-      "deadlineText": "04.12 (일)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 495,
-      "league": "04.12 (일)18:00 마감",
-      "sportText": "축구",
-      "matchType": "handicap",
-      "homeTeam": "퍼스글로",
-      "awayTeam": "맥아서FC",
-      "handicapValue": "H +1.0",
-      "underOverValue": null,
-      "odds": {
-        "home": 1.73,
-        "draw": 3.6,
-        "away": 3.25
-      },
-      "deadlineText": "04.12 (일)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
-      "gameNumber": 496,
-      "league": "04.12 (일)18:00 마감",
-      "sportText": "축구",
-      "matchType": "underover",
-      "homeTeam": "퍼스글로",
-      "awayTeam": "맥아서FC",
-      "handicapValue": null,
-      "underOverValue": "U/O 2.5",
-      "odds": {
-        "home": 2.27,
-        "away": 1.41
-      },
-      "deadlineText": "04.12 (일)18:00 마감",
-      "isSingle": true,
-      "isHalfTime": false,
-      "isConditionChanged": false
-    },
-    {
       "gameNumber": 497,
       "league": "04.12 (일)19:15 마감",
       "sportText": "축구",
@@ -385,9 +329,9 @@
       "handicapValue": "H +1.0",
       "underOverValue": null,
       "odds": {
-        "home": 1.59,
-        "draw": 3.65,
-        "away": 3.85
+        "home": 1.52,
+        "draw": 3.7,
+        "away": 4.25
       },
       "deadlineText": "04.12 (일)22:00 마감",
       "isSingle": true,
