@@ -11778,61 +11778,61 @@
     },
     {
       "gameNumber": 643,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "원주DB",
-      "awayTeam": "부산KCC",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.73,
         "away": 1.75
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 644,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "원주DB",
-      "awayTeam": "부산KCC",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 2.54,
         "away": 2.65
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 645,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "원주DB",
-      "awayTeam": "부산KCC",
+      "awayTeam": "점수",
       "handicapValue": "H -1.5",
       "underOverValue": null,
       "odds": {
         "home": 1.87,
         "away": 1.63
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 646,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "원주DB",
@@ -11843,68 +11843,68 @@
         "home": 1.79,
         "away": 1.69
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 647,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "삼성생명",
-      "awayTeam": "하나은행",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 1.8,
         "away": 1.68
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 648,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "normal",
       "homeTeam": "삼성생명",
-      "awayTeam": "하나은행",
+      "awayTeam": "점수",
       "handicapValue": null,
       "underOverValue": null,
       "odds": {
         "home": 2.75,
         "away": 2.7
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 649,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "handicap",
       "homeTeam": "삼성생명",
-      "awayTeam": "하나은행",
+      "awayTeam": "점수",
       "handicapValue": "H +1.5",
       "underOverValue": null,
       "odds": {
         "home": 1.69,
         "away": 1.79
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
     },
     {
       "gameNumber": 650,
-      "league": "발매마감",
+      "league": "결과발표",
       "sportText": "농구",
       "matchType": "underover",
       "homeTeam": "삼성생명",
@@ -11915,7 +11915,7 @@
         "home": 1.73,
         "away": 1.75
       },
-      "deadlineText": "발매마감",
+      "deadlineText": "결과발표",
       "isSingle": true,
       "isHalfTime": false,
       "isConditionChanged": false
